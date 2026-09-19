@@ -1,0 +1,15 @@
+{
+  "canonical_records": 558,
+  "postgres_records": 558,
+  "postgres_unique_normalized_codes": 558,
+  "postgres_duplicate_normalized_codes": 0,
+  "qdrant_collection": "standardwise_standards_full",
+  "qdrant_vectors": 558,
+  "qdrant_duplicate_point_ids": 0,
+  "stale_pilot_collection_vectors": 50,
+  "bm25_documents": 558,
+  "missing_retrieval_text": 0,
+  "retrieval_text_uses_full_text": 0,
+  "counts_consistent": true,
+  "errors": []
+}

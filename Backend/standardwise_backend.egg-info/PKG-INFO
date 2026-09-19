@@ -10,6 +10,7 @@ Requires-Dist: sqlalchemy[asyncio]<3.0,>=2.0
 Requires-Dist: asyncpg<1.0,>=0.29
 Requires-Dist: alembic<2.0,>=1.13
 Requires-Dist: qdrant-client<2.0,>=1.11
+Requires-Dist: sentence-transformers<4.0,>=3.0
 Requires-Dist: neo4j<6.0,>=5.24
 Provides-Extra: dev
 Requires-Dist: httpx<1.0,>=0.27; extra == "dev"

@@ -1,0 +1,3 @@
+{"query_id": "fc_ambiguous_valve_water_supply", "product": "valve", "description": "for water supply", "reason": "valve function is underspecified"}
+{"query_id": "fc_ambiguous_cement_repair", "product": "cement", "description": "for repair", "reason": "repair condition does not identify cement subtype"}
+{"query_id": "fc_ambiguous_pipe_water_supply", "product": "pipe", "description": "for water supply", "reason": "pipe material and service pressure are underspecified"}

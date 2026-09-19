@@ -1,0 +1,177 @@
+issue_type,source_index,is_code,is_code_norm,title,detail
+possible_merged_record_artifact,3,IS 9142: 1979,IS9142:1979,ARTIFICIAL LIGHTWEIGHT AGGREGATES FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,5,IS 455: 1989,IS455:1989,PORTLAND SLAG CEMENT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,6,IS 1489 (Part 1): 1991,IS1489(PART 1):1991,PORTLAND POZZOLANA CEMENT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,7,IS 1489 (Part 2): 1991,IS1489(PART 2):1991,PORTLAND POZZOLANA CEMENT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,11,IS 8041: 1990,IS8041:1990,RAPID HARDENING PORTLAND CEMENT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,12,IS 8042: 1989,IS8042:1989,WHITE  PORTLAND CEMENT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,15,IS 12269: 1987,IS12269:1987,53 GRADE ORDINARY PORTLAND CEMENT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,32,IS 13990: 1994,IS13990:1994,PRECAST REINFORCED CONCRETE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,33,IS 14143: 1994,IS14143:1994,PREFABRICATED BRICK PANEL AND PARTIALLY,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,35,IS 14241: 1995,IS14241:1995,PRECAST REINFORCED CONCRETE  L–PANEL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,37,IS 1592: 2003,IS1592:2003,ASBESTOS CEMENT PRESSURE PIPES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,40,IS 1626: 1984,IS1626:1984,ASBESTOS CEMENT BUILDING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,41,IS 2096: 1992,IS2096:1992,ASBESTOS CEMENT FLAT SHEETS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,45,IS 9627: 1980,IS9627:1980,ASBESTOS CEMENT PRESSURE PIPES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,49,IS 784: 2001,IS784:2001,PRESTRESSED CONCRETE PIPES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,52,IS 7322: 1985,IS7322:1985,SPECIALS FOR STEEL CYLINDER REINFORCED,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,53,IS 1834: 1984,IS1834:1984,HOT APPLIED SEALING COMPOUNDS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,56,IS 12118 (Part 1): 1987,IS12118(PART 1):1987,TWO-PARTS POLYSULPHIDE BASED,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,59,IS 3068: 1986,IS3068:1986,BROKEN BRICK (BURNT CLAY) COARSE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,61,IS 3182: 1986,IS3182:1986,BROKEN BRICK (BURNT CLAY),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,62,IS 4098: 1983,IS4098:1983,LIME POZZOLANA MIXTURE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,64,IS 10360: 1982,IS10360:1982,LIME-POZZOLANA CONCRETE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,65,IS 10772: 1983,IS10772:1983,QUICK SETTING LIME POZZOLANA MIXTURE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,66,IS 12894: 2002,IS12894:2002,PULVERIZED FUEL ASH-LIME BRICKS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,68,IS 1128: 1974,IS1128:1974,LIMESTONE (SLAB AND  TILES),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,70,IS 3316: 1974,IS3316:1974,STRUCTURAL GRANITE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,72,IS 3622: 1977,IS3622:1977,SANDSTONE (SLABS AND TILES),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,73,IS 6250: 1981,IS6250:1981,ROOFING SLATE TILES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,74,IS 6579: 1981,IS6579:1981,COARSE AGGREGATE FOR WATER BOUND,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,75,IS 9394: 1979,IS9394:1979,STONE LINTELS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,76,IS 14223 (Part 1): 1995,IS14223(PART 1):1995,POLISHED BUILDING STONES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,77,IS 1077: 1992,IS1077:1992,COMMON BURNT CLAY BUILDING BRICKS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,85,IS 6165: 1992,IS6165:1992,DIMENSIONS FOR SPECIAL SHAPES OF CLAY,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,86,IS 13757: 1993,IS13757:1993,BURNT CLAY FLY ASH BUILDING BRICKS,text contains repeated IS-code-like references or parser merge markers
+missing_scope,96,IS 13317: 1992,IS13317:1992,"CLAY ROOFING COUNTRY TILES,",scope is missing
+possible_merged_record_artifact,96,IS 13317: 1992,IS13317:1992,"CLAY ROOFING COUNTRY TILES,",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,97,IS 2095 (Part 1): 1996,IS2095(PART 1):1996,GYPSUM PLASTER BOARDS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,98,IS 2095 (Part 3): 1996,IS2095(PART 3):1996,GYPSUM PLASTER BOARDS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,102,IS 8272: 1984,IS8272:1984,GYPSUM PLASTER FOR USE IN THE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,104,IS 12896: 1990,IS12896:1990,INDIAN TIMBERS FOR DOOR AND,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,107,IS 1326: 1992,IS1326:1992,NON-CONIFEROUS  SAWN TIMBER,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,110,IS 3629: 1986,IS3629:1986,STRUCTURAL TIMBER IN BUILDINGS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,117,IS 10394: 1982,IS10394:1982,WOODEN SLEEPERS FOR  RAILWAY TRACK,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,118,IS 73: 1992,IS73:1992,PAVING BITUMEN,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,119,IS 212: 1983,IS212:1983,CRUDE COAL TAR FOR GENERAL USE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,120,IS 215: 1995,IS215:1995,ROAD TAR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,121,IS 216: 1961,IS216:1961,COAL TAR PITCH,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,122,IS 218: 1983,IS218:1983,CREOSOTE OIL FOR USE AS WOOD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,123,IS 454: 1994,IS454:1994,CUTBACK  BITUMEN FROM WAXY CRUDE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,124,IS 702: 1988,IS702:1988,INDUSTRIAL BITUMEN,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,127,IS 9912: 1981,IS9912:1981,COAL TAR BASED COATING MATERIALS AND,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,129,IS 1542: 1992,IS1542:1992,SAND FOR  PLASTER,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,136,IS 13753: 1993,IS13753:1993,DUST– PRESSED CERAMIC TILES WITH WATER,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,137,IS 13754: 1993,IS13754:1993,DUST – PRESSED CERAMIC TILES WITH,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,138,IS 13755: 1993,IS13755:1993,DUST– PRESSED CERAMIC TILES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,139,IS 13756: 1993,IS13756:1993,DUST – PRESSED CERAMIC TILES WITH LOW,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,142,IS 1195: 2002,IS1195:2002,BITUMEN MASTIC FOR FLOORING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,143,IS 5317: 2002,IS5317:2002,BITUMEN MASTIC FOR  BRIDGE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,144,IS 8374: 1977,IS8374:1977,"BITUMEN MASTIC, ANTI-STATIC AND",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,145,IS 9510: 1980,IS9510:1980,"BITUMEN MASTIC, ACID – RESISTING GRADE",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,147,IS 13026: 1991,IS13026:1991,BITUMEN MASTIC FOR FLOORING FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,148,IS 653: 1992,IS653:1992,LINOLEUM SHEET  AND TILES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,150,IS 3462: 1986,IS3462:1986,UNBACKED FLEXIBLE PVC FLOORING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,151,IS 9197: 1979,IS9197:1979,"EPOXY RESIN, HARDENERS AND EPOXY",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,152,IS 12866: 1989,IS12866:1989,PLASTIC TRANSLUCENT SHEET MADE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,154,IS 809: 1992,IS809:1992,RUBBER FLOORING MATERIALS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,156,IS 1580: 1991,IS1580:1991,BITUMINOUS COMPOUNDS FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,158,IS 3037: 1986,IS3037:1986,BITUMEN MASTIC FOR USE IN,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,159,IS 3384: 1986,IS3384:1986,BITUMEN PRIMER FOR USE IN,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,160,IS 5871: 1987,IS5871:1987,BITUMEN MASTIC FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,163,IS 14695: 1999,IS14695:1999,GLASS FIBRE BASE COAL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,176,IS 2501: 1995,IS2501:1995,SOLID DRAWN COPPER TUBES,text contains repeated IS-code-like references or parser merge markers
+missing_scope,182,IS 1879: 1987,IS1879:1987,MALLEABLE CAST IRON PIPE FITTINGS,scope is missing
+possible_merged_record_artifact,189,IS 8329: 2000,IS8329:2000,CENTRIFUGALLY CAST (SPUN) DUCTILE IRON,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,192,IS 10292: 1988,IS10292:1988,DIMENSIONAL REQUIREMENTS FOR RUBBER,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,195,IS 12987: 1991,IS12987:1991,CAST IRON DETACHABLE JOINTS FOR USE WITH,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,201,IS 4984: 1995,IS4984:1995,HIGH DENSITY POLYETHYLENE PIPES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,202,IS 4985: 2000,IS4985:2000,UNPLASTICIZED PVC PIPES FOR POTABLE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,210,IS 7834 (Part 8): 1987,IS7834(PART 8):1987,- INJECTION MOULDED PVC SOCKET,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,211,IS 8008 (Part 1): 2003,IS8008(PART 1):2003,INJECTION MOULDED HIGH DENSITY,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,217,IS 8008 (Part 7): 2003,IS8008(PART 7):2003,INJECTION MOULDED HIGH DENSITY,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,218,IS 8360 (Part 1): 1977,IS8360(PART 1):1977,FABRICATED HIGH DENSITY,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,220,IS 8360 (Part 3): 1977,IS8360(PART 3):1977,FABRICATED HIGH  DENSITY POLYETHYLENE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,222,IS 10124 (Part 3): 1988,IS10124(PART 3):1988,FABRICATED PVC FITTINGS FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,233,IS 12709: 1994,IS12709:1994,GLASS FIBRE REINFORCED PLASTICS (GRP),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,234,IS 12818: 1992,IS12818:1992,UNPLASTICISED   PVC SCREEN AND CASING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,235,IS 13592: 1992,IS13592:1992,UNPLASTILIZED POLYVINYL CHLORIDE (UPVC),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,237,IS 14402: 1996,IS14402:1996,GLASS FIBRE REINFORCED PLASTICS (GRP),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,238,IS 14735: 1999,IS14735:1999,UNPLASTICIZED POLYVINYL CHLORIDE (UPVC),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,239,IS 1239 (Part 1): 2004,IS1239(PART 1):2004,"STEEL TUBES, TUBULARS ANDOTHER",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,240,IS 3589: 2001,IS3589:2001,SEAMLESS OR ELECTRICALLY WELDED STEEL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,242,IS 5504: 1997,IS5504:1997,SPIRAL WELDED PIPES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,247,IS 771 (Part 2): 1985,IS771(PART 2):1985,GLAZED FIRE – CLAY SANITARY,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,274,IS 3311: 1979,IS3311:1979,WASTE PLUG AND ITS ACCESSORIES FOR SINKS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,291,IS 2373: 1981,IS2373:1981,WATER METERS (BULK TYPE),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,335,IS 14912: 2001,IS14912:2001,DOOR CLOSERS - CONCEALED TYPE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,339,IS 852: 1994,IS852:1994,ANIMAL GLUE FOR GENERAL WOOD-WORKING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,340,IS 1328: 1996,IS1328:1996,VENEERED DECORATIVE PLYWOOD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,341,IS 4990: 1993,IS4990:1993,PLYWOOD FOR CONCRETE SHUTTERING WORK,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,342,IS 5509: 2000,IS5509:2000,FIRE RETARDANT PLYWOOD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,343,IS 5539: 1969,IS5539:1969,PRESERVATIVE TREATED PLYWOOD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,345,IS 10701: 1983,IS10701:1983,STRUCTURAL PLYWOOD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,346,IS 13957: 1994,IS13957:1994,METAL FACED PLYWOOD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,348,IS 1659: 2004,IS1659:2004,BLOCK BOARDS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,356,IS 12823: 1990,IS12823:1990,WOOD PRODUCTS-PRELAMINATED,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,357,IS 14276: 1995,IS14276:1995,CEMENT BONDED PARTICLE BOARDS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,358,IS 14587: 1998,IS14587:1998,PRE-LAMINATED MEDIUM DENSITY FIBRE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,359,IS 14616: 1999,IS14616:1999,LAMINATED  VENEER LUMBER,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,361,IS 14588: 1999,IS14588:1999,BAMBOO MAT-VEENER COMPOSITE FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,362,IS 14842: 2000,IS14842:2000,COIR VENEER BOARD FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,364,IS 15491: 2004,IS15491:2004,MEDIUM DENSITY COIRBOARDS FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,365,IS 1003 (Part 1): 2003,IS1003(PART 1):2003,TIMBER PANELLED AND GLAZED,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,369,IS 2191 (Part 2): 1983,IS2191(PART 2):1983,WOODEN FLUSH DOOR SHUTTERS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,372,IS 4021: 1995,IS4021:1995,"TIMBER DOOR, WINDOW AND VENTILATOR",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,376,IS 1038: 1983,IS1038:1983,"STEEL DOOR, WINDOWS AND VENTILATORS",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,385,IS 14856: 2000,IS14856:2000,GLASS FIBRE REINFORCED PLASTIC (GRP),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,387,IS 432 (Part 1): 1982,IS432(PART 1):1982,MILD STEEL AND MEDIUM  TENSILE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,389,IS 1566: 1982,IS1566:1982,HARD - DRAWN  STEEL WIRE FABRIC FOR CON-,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,398,IS 14268: 1995,IS14268:1995,UNCOATED STRESS RELIEVED  LOW,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,399,IS 1977: 1996,IS1977:1996,LOW TENSILE STRUCTURAL  STEEL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,400,IS 2062: 1999,IS2062:1999,STEEL FOR GENERAL STRUCTURAL PURPOSES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,402,IS 11587: 1986,IS11587:1986,STRUCTURAL WEATHER RESISTANCE STEELS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,403,IS 277: 2003,IS277:2003,GALVANIZED STEEL SHEETS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,405,IS 513: 1994,IS513:1994,COLD ROLLED LOW CARBON STEEL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,406,IS 1079: 1994,IS1079:1994,HOT ROLLED CARBON STEEL SHEETS AND STRIPS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,407,IS 3502: 1994,IS3502:1994,STEEL CHEQUERED PLATES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,411,IS 1149: 1982,IS1149:1982,HIGH  TENSILE STEEL RIVETS BARS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,412,IS 1161: 1998,IS1161:1998,STEEL  TUBES FOR STRUCTURAL PURPOSES.,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,413,IS 4923: 1997,IS4923:1997,HOLLOW STEEL SECTIONS  FOR STRUCTURAL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,425,IS 2678: 1987,IS2678:1987,DIMENSIONS AND  TOLERANCE FOR WROUGHT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,432,IS 811: 1987,IS811:1987,COLD FORMED LIGHT GAUGE STRUCTURAL STEEL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,436,IS 1863: 1979,IS1863:1979,ROLLED  STEEL BULB FLATS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,442,IS 12778: 2004,IS12778:2004,HOT ROLLED PARALLEL FLANGE STEEL SECTION,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,443,IS 814: 2004,IS814:2004,COVERED ELECTRODES FOR MANUAL METAL ARC,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,451,IS 7280: 1974,IS7280:1974,BARE WIRE ELECTRODES FOR SUBMERGED ARC,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,452,IS 8363: 1976,IS8363:1976,BARE WIRE ELECTRODES FOR ELECTROSLAG,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,457,IS 730: 1978,IS730:1978,HOOK BOLTS FOR CORRUGATED SHEET ROOFING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,472,IS 2585: 1968,IS2585:1968,BLACK SQUARE BOLTS AND NUTS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,473,IS 2687: 1991,IS2687:1991,CAP NUTS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,474,IS 2907: 1998,IS2907:1998,NON-FERROUS RIVETS (1.6 TO 10 mm),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,475,IS 2998: 1982,IS2998:1982,COLD FORGED STEEL RIVETS FOR COLD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,476,IS 3063: 1994,IS3063:1994,FASTENERS-SINGLE COIL RECTANGULAR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,477,IS 3121: 1981,IS3121:1981,RIGGING SCREWS AND STRETCHING SCREWS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,478,IS 3468: 1991,IS3468:1991,PIPE NUTS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,479,IS 3757: 1985,IS3757:1985,HIGH STRENGTH STRUCTURAL BOLTS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,485,IS 5624: 1993,IS5624:1993,FOUNDATION BOLTS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,488,IS 6623: 2004,IS6623:2004,HIGH STRENGTH STRUCTURAL NUTS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,489,IS 6639: 1972,IS6639:1972,HEXAGON BOLTS FOR STEEL STRUCTURES,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,490,IS 6649: 1985,IS6649:1985,HARDENED AND TEMPERED WASHERS FOR HIGH,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,495,IS 8033: 1976,IS8033:1976,WASHERS WITH SQUARE HOLE FOR WOOD,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,498,IS 10238: 2001,IS10238:2001,FASTENERS – THREADED STEEL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,499,IS 12427: 2001,IS12427:2001,FASTENERS – THREADED STEEL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,500,IS 278: 1978,IS278:1978,GALVANIZED STEEL BARBED WIRE FOR FENCING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,501,IS 2140: 1978,IS2140:1978,STRANDED GALVANIZED STEEL WIRE FOR,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,503,IS 2721: 1979,IS2721:1979,GALVANIZED STEEL CHAIN  LINK FENCE  FABRIC,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,506,IS 5437: 1994,IS5437:1994,"FIGURED, ROLLED AND WIRED GLASS",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,508,IS 419: 1967,IS419:1967,"PUTTY, FOR USE ON WINDOW FRAMES",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,510,IS 3709: 1966,IS3709:1966,MASTIC CEMENT FOR BEDDING OF,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,514,IS 7509: 1993,IS7509:1993,THERMAL INSULATING CEMENT,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,515,IS 8154: 1993,IS8154:1993,PREORMED CALCIUM SILICATE INSULATION,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,516,IS 8183: 1993,IS8183:1993,BONDED MINERAL WOOL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,517,IS 9428: 1993,IS9428:1993,PREFORMED CALCIUM SILICATE INSULATION,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,518,IS 9742: 1993,IS9742:1993,SPRAYED MINERAL WOOL THERMAL INSULATION,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,519,IS 9743: 1990,IS9743:1990,THERMAL INSULATION FINISHING CEMENTS,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,520,IS 9842: 1994,IS9842:1994,PREFORMED FIBROUS PIPE INSULATION,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,521,IS 11128: 1984,IS11128:1984,SPRAY – APPLIED HYDRATED CALCIUM SILICATE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,523,IS 11308: 1985,IS11308:1985,HYDRAULIC SETTING THERMAL INSULATING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,525,IS 13204: 1991,IS13204:1991,RIGID PHENOLIC FOAM FOR THERMAL,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,527,IS 2046: 1995,IS2046:1995,DECORATIVE THERMOSETTING SYNTHETIC,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,533,IS 14182: 1994,IS14182:1994,SOLVENT CEMENT FOR USE WITH UNPLASTICIZED,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,536,IS 14753: 1999,IS14753:1999,POLYMETHYL METHACRYLATE (PMMA),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,538,IS 1554 (Part 1): 1988,IS1554(PART 1):1988,PVC INSULATED (HEAVY DUTY),text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,539,IS 7098 (Part 1): 1988,IS7098(PART 1):1988,CROSSLINKED POLYETHYLENE,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,540,IS 9968 (Part 1): 1998,IS9968(PART 1):1998,"ELASTOMER INSULATED CABLES,",text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,543,IS 2412: 1975,IS2412:1975,LINK CLIPS FOR ELECTRICAL WIRING,text contains repeated IS-code-like references or parser merge markers
+possible_merged_record_artifact,558,IS 14772: 2000,IS14772:2000,GENERAL REQUIREMENTS FOR ENCLOSURES,text contains repeated IS-code-like references or parser merge markers

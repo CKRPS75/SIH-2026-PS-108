@@ -1,0 +1,5208 @@
+{
+  "method": "bm25",
+  "query_count": 39,
+  "metrics": {
+    "hit_at_1": 30,
+    "hit_at_3": 35,
+    "hit_at_5": 37,
+    "hit_at_10": 38,
+    "candidate_recall_at_5": 0.9487179487179487,
+    "candidate_recall_at_10": 0.9743589743589743,
+    "candidate_recall_at_20": 0.9743589743589743,
+    "mrr": 0.8401709401709402
+  },
+  "latency_ms": {
+    "mean": 65.95966666757774,
+    "median": 46.41859998810105,
+    "p95": 194.7440099931555
+  },
+  "results": [
+    {
+      "query_id": "old39_01",
+      "query": "tiles for lining an irrigation canal",
+      "expected_standard": "IS 3367: 1993",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 3367: 1993",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 23.293911215107357
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 9510: 1980",
+          "title": "BITUMEN MASTIC, ACID \u2013 RESISTING GRADE",
+          "bm25_score": 10.04491223946913
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 2508: 1984",
+          "title": "LOW DENSITY POLYTHYLENE FILMS",
+          "bm25_score": 8.230311193939542
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 2095 (Part 1): 1996",
+          "title": "GYPSUM PLASTER BOARDS",
+          "bm25_score": 7.3742649543446435
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 3461: 1980",
+          "title": "PVC ASBESTOS FLOOR TILES",
+          "bm25_score": 6.721963781574365
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1237: 1980",
+          "title": "CEMENT CONCRETE FLOORING TILES",
+          "bm25_score": 6.504880792502831
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 1130: 1969",
+          "title": "MARBLE  (BLOCKS, SLABS AND TILES)",
+          "bm25_score": 6.481863848777485
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 6.4689504460631335
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 6.386544926640872
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 6.324777110991058
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 6.324777110991058
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 1128: 1974",
+          "title": "LIMESTONE (SLAB AND  TILES)",
+          "bm25_score": 6.257751568795499
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 3622: 1977",
+          "title": "SANDSTONE (SLABS AND TILES)",
+          "bm25_score": 6.2320308245536635
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 13756: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH LOW",
+          "bm25_score": 6.1566959122159615
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 13754: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH",
+          "bm25_score": 6.132302931198972
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 6.126164843585721
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 13755: 1993",
+          "title": "DUST\u2013 PRESSED CERAMIC TILES",
+          "bm25_score": 6.123625493500005
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 6250: 1981",
+          "title": "ROOFING SLATE TILES",
+          "bm25_score": 6.104393478869553
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 6.028832039450211
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 5.980203083601634
+        }
+      ]
+    },
+    {
+      "query_id": "old39_02",
+      "query": "hand made burnt clay tiles for a terrace",
+      "expected_standard": "IS 2690 (Part 2): 1992",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 2690 (Part 2): 1992",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 32.47249546077642
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 24.776270823458763
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 23.9001644106902
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 20.20952768692596
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 3952: 1988",
+          "title": "BURNT CLAY HOLLOW  BRICKS FOR WALLS",
+          "bm25_score": 15.793399656646208
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 15.136704250090926
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 7556: 1988",
+          "title": "BURNT CLAY  JALLIES",
+          "bm25_score": 14.828165840606216
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1077: 1992",
+          "title": "COMMON BURNT CLAY BUILDING BRICKS",
+          "bm25_score": 12.7849862504242
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 13757: 1993",
+          "title": "BURNT CLAY FLY ASH BUILDING BRICKS",
+          "bm25_score": 12.604438947115417
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 5779: 1986",
+          "title": "BURNT CLAY SOLING BRICKS",
+          "bm25_score": 12.592153573738258
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 2180: 1988",
+          "title": "HEAVY DUTY BURNT CLAY BUILDING BRICKS",
+          "bm25_score": 12.536095148529425
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 3182: 1986",
+          "title": "BROKEN BRICK (BURNT CLAY)",
+          "bm25_score": 12.496473903149466
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 2222: 1991",
+          "title": "BURNT CLAY PERFORATED BUILDING BRICKS",
+          "bm25_score": 12.487544133166121
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 2691: 1988",
+          "title": "BURNT CLAY FACING BRICKS",
+          "bm25_score": 12.425808161416198
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 3068: 1986",
+          "title": "BROKEN BRICK (BURNT CLAY) COARSE",
+          "bm25_score": 12.402249315627863
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 3583: 1988",
+          "title": "BURNT CLAY PAVING BRICKS",
+          "bm25_score": 12.384423964922695
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 11.610295470075783
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 11.265911469258754
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 3951 (Part 1): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 11.064014887408662
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 10.951652012374664
+        }
+      ]
+    },
+    {
+      "query_id": "old39_03",
+      "query": "machine made burnt clay tiles for terracing",
+      "expected_standard": "IS 2690 (Part 1): 1993",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 2690 (Part 1): 1993",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 43.22926860612917
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 34.65693755604295
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 24.776270823458763
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 19.505835784377926
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 18.701603269791605
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 3952: 1988",
+          "title": "BURNT CLAY HOLLOW  BRICKS FOR WALLS",
+          "bm25_score": 15.793399656646208
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 14.727111505373323
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 7556: 1988",
+          "title": "BURNT CLAY  JALLIES",
+          "bm25_score": 13.069836786080764
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1077: 1992",
+          "title": "COMMON BURNT CLAY BUILDING BRICKS",
+          "bm25_score": 12.7849862504242
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 13757: 1993",
+          "title": "BURNT CLAY FLY ASH BUILDING BRICKS",
+          "bm25_score": 12.604438947115417
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 5779: 1986",
+          "title": "BURNT CLAY SOLING BRICKS",
+          "bm25_score": 12.592153573738258
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 2180: 1988",
+          "title": "HEAVY DUTY BURNT CLAY BUILDING BRICKS",
+          "bm25_score": 12.536095148529425
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 3182: 1986",
+          "title": "BROKEN BRICK (BURNT CLAY)",
+          "bm25_score": 12.496473903149466
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 2222: 1991",
+          "title": "BURNT CLAY PERFORATED BUILDING BRICKS",
+          "bm25_score": 12.487544133166121
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 2691: 1988",
+          "title": "BURNT CLAY FACING BRICKS",
+          "bm25_score": 12.425808161416198
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 3068: 1986",
+          "title": "BROKEN BRICK (BURNT CLAY) COARSE",
+          "bm25_score": 12.402249315627863
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 3583: 1988",
+          "title": "BURNT CLAY PAVING BRICKS",
+          "bm25_score": 12.384423964922695
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 11.265911469258754
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 3951 (Part 1): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 11.064014887408662
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 10.951652012374664
+        }
+      ]
+    },
+    {
+      "query_id": "old39_04",
+      "query": "hollow clay filler tiles for a roof",
+      "expected_standard": "IS 3951 (Part 1): 1975",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 3951 (Part 1): 1975",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3951 (Part 1): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 24.919498352599
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 24.698589286155226
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 12.776495148148996
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 3952: 1988",
+          "title": "BURNT CLAY HOLLOW  BRICKS FOR WALLS",
+          "bm25_score": 12.496969472066164
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 3115: 1992",
+          "title": "LIME BASED BLOCKS",
+          "bm25_score": 12.098688359590692
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 6250: 1981",
+          "title": "ROOFING SLATE TILES",
+          "bm25_score": 11.873573014311848
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 11.81850619120867
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 11.81850619120867
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 11.610295470075783
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 11.480083348603836
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 10.951652012374664
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 10.780990302036045
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 4891: 1988",
+          "title": "PREFERRED CUT SIZES OF  STRUCTURAL TIMBER",
+          "bm25_score": 10.069538836720442
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 1626: 1984",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 10.060173112001905
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 2185 (Part 2): 1983",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 9.017185080830403
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 110: 1983",
+          "title": "READY MIXED PAINT, BRUSHING, GREY FILLER,",
+          "bm25_score": 8.751518857263802
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 1278: 1972",
+          "title": "FILLER RODS FOR GAS WELDING",
+          "bm25_score": 8.618348862289897
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 2185 (Part 1): 1979",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 8.598194340989387
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 653: 1992",
+          "title": "LINOLEUM SHEET  AND TILES",
+          "bm25_score": 8.37137899433285
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 7280: 1974",
+          "title": "BARE WIRE ELECTRODES FOR SUBMERGED ARC",
+          "bm25_score": 8.36366452751173
+        }
+      ]
+    },
+    {
+      "query_id": "old39_05",
+      "query": "structural hollow clay tiles for flooring",
+      "expected_standard": "IS 3951 (Part 2): 1975",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 3951 (Part 2): 1975",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 22.99421930454071
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 3951 (Part 1): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 18.062619814628345
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 16.422272225200395
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 3952: 1988",
+          "title": "BURNT CLAY HOLLOW  BRICKS FOR WALLS",
+          "bm25_score": 12.496969472066164
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 4923: 1997",
+          "title": "HOLLOW STEEL SECTIONS  FOR STRUCTURAL",
+          "bm25_score": 12.424163209116179
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1237: 1980",
+          "title": "CEMENT CONCRETE FLOORING TILES",
+          "bm25_score": 12.047892893050985
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 11.81850619120867
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 11.81850619120867
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 11.610295470075783
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 11.480083348603836
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 1128: 1974",
+          "title": "LIMESTONE (SLAB AND  TILES)",
+          "bm25_score": 11.390744493674372
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 11.326885256288216
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 10.780990302036045
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 3622: 1977",
+          "title": "SANDSTONE (SLABS AND TILES)",
+          "bm25_score": 10.418679617012092
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 3461: 1980",
+          "title": "PVC ASBESTOS FLOOR TILES",
+          "bm25_score": 9.873766551805069
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 653: 1992",
+          "title": "LINOLEUM SHEET  AND TILES",
+          "bm25_score": 8.898680099978836
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 2185 (Part 1): 1979",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 8.769712794865283
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 4860: 1968",
+          "title": "ACID \u2013 RESISTANT BRICKS",
+          "bm25_score": 8.538323160914059
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 2191 (Part 1): 1983",
+          "title": "WOODEN FLUSH DOOR SHUTTERS",
+          "bm25_score": 8.32697624709856
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 771 (Part 1): 1979",
+          "title": "GLAZED FIRE\u2013CLAY SANITARY",
+          "bm25_score": 8.185193386687148
+        }
+      ]
+    },
+    {
+      "query_id": "old39_06",
+      "query": "clay floor tiles",
+      "expected_standard": "IS 1478: 1992",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 10,
+      "top1_standard": "IS 3951 (Part 2): 1975",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 16.876221612098128
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 3461: 1980",
+          "title": "PVC ASBESTOS FLOOR TILES",
+          "bm25_score": 14.765432870974804
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 653: 1992",
+          "title": "LINOLEUM SHEET  AND TILES",
+          "bm25_score": 11.97966173271762
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 11.632748036890785
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 11.632748036890785
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 11.610295470075783
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 11.480083348603836
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 11.147473557652372
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 3951 (Part 1): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 10.836818356192627
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 10.76393206694036
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 10.565359953415992
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 13753: 1993",
+          "title": "DUST\u2013 PRESSED CERAMIC TILES WITH WATER",
+          "bm25_score": 8.695231629459828
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 1823: 1980",
+          "title": "FLOOR DOOR STOPPERS",
+          "bm25_score": 7.8060683430393745
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 7197: 1974",
+          "title": "DOUBLE ACTION  FLOOR SPRINGS",
+          "bm25_score": 7.512873406032267
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 6315: 1992",
+          "title": "FLOOR SPRINGS (HYDRAULICALLY  REGULATED)",
+          "bm25_score": 7.488415671861654
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 9197: 1979",
+          "title": "EPOXY RESIN, HARDENERS AND EPOXY",
+          "bm25_score": 6.936481718121146
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 6073: 1971",
+          "title": "AUTOCLAVED REINFORCED CELLULAR",
+          "bm25_score": 6.770595729806018
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 1237: 1980",
+          "title": "CEMENT CONCRETE FLOORING TILES",
+          "bm25_score": 6.323544487030681
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 1130: 1969",
+          "title": "MARBLE  (BLOCKS, SLABS AND TILES)",
+          "bm25_score": 6.301752523264202
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 13756: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH LOW",
+          "bm25_score": 6.060198541773098
+        }
+      ]
+    },
+    {
+      "query_id": "old39_07",
+      "query": "Mangalore pattern clay roofing tiles",
+      "expected_standard": "IS 654: 1992",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 654: 1992",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 38.06881207029766
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 16.716664189714837
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 13.831956602724972
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 771 (Part 7): 1981",
+          "title": "GLAZED FIRE CLAY SANITARY",
+          "bm25_score": 11.975604283523092
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 771 (Part 2): 1985",
+          "title": "GLAZED FIRE \u2013 CLAY SANITARY",
+          "bm25_score": 11.800535230505698
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 11.632748036890785
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 11.632748036890785
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 11.147473557652372
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 3622: 1977",
+          "title": "SANDSTONE (SLABS AND TILES)",
+          "bm25_score": 11.077248111239268
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 6250: 1981",
+          "title": "ROOFING SLATE TILES",
+          "bm25_score": 10.94915229886822
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 3951 (Part 1): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 10.836818356192627
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 10.76393206694036
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 10.565359953415992
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 771 (Part 5): 1979",
+          "title": "GLAZED FIRE  CLAY APPLIANCES,",
+          "bm25_score": 10.25473567576139
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 3461: 1980",
+          "title": "PVC ASBESTOS FLOOR TILES",
+          "bm25_score": 6.53938571927986
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 1237: 1980",
+          "title": "CEMENT CONCRETE FLOORING TILES",
+          "bm25_score": 6.323544487030681
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 1130: 1969",
+          "title": "MARBLE  (BLOCKS, SLABS AND TILES)",
+          "bm25_score": 6.301752523264202
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 13756: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH LOW",
+          "bm25_score": 6.060198541773098
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 1128: 1974",
+          "title": "LIMESTONE (SLAB AND  TILES)",
+          "bm25_score": 6.037671488455745
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 13754: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH",
+          "bm25_score": 6.027457390003081
+        }
+      ]
+    },
+    {
+      "query_id": "old39_08",
+      "query": "clay tiles for a roof ridge",
+      "expected_standard": "IS 1464: 1992",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 1464: 1992",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 23.30886008412847
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 17.561286009470663
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 6250: 1981",
+          "title": "ROOFING SLATE TILES",
+          "bm25_score": 11.873573014311848
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 11.81850619120867
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 11.81850619120867
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 11.610295470075783
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 11.480083348603836
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1626: 1984",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 11.213865795082839
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 3951 (Part 1): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 11.064014887408662
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 10.951652012374664
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 10.780990302036045
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 4891: 1988",
+          "title": "PREFERRED CUT SIZES OF  STRUCTURAL TIMBER",
+          "bm25_score": 10.069538836720442
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 653: 1992",
+          "title": "LINOLEUM SHEET  AND TILES",
+          "bm25_score": 8.37137899433285
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 13753: 1993",
+          "title": "DUST\u2013 PRESSED CERAMIC TILES WITH WATER",
+          "bm25_score": 8.119506596295745
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 13754: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH",
+          "bm25_score": 7.593313596183972
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 13755: 1993",
+          "title": "DUST\u2013 PRESSED CERAMIC TILES",
+          "bm25_score": 7.578913443758626
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 6073: 1971",
+          "title": "AUTOCLAVED REINFORCED CELLULAR",
+          "bm25_score": 7.528739559827754
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 7556: 1988",
+          "title": "BURNT CLAY  JALLIES",
+          "bm25_score": 7.5192285399171315
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 13756: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH LOW",
+          "bm25_score": 7.501375769384329
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 771 (Part 1): 1979",
+          "title": "GLAZED FIRE\u2013CLAY SANITARY",
+          "bm25_score": 7.059166252623802
+        }
+      ]
+    },
+    {
+      "query_id": "old39_09",
+      "query": "handmade country roofing tiles",
+      "expected_standard": "IS 13317: 1992",
+      "product": null,
+      "description": null,
+      "family": "tile",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 13317: 1992",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 13317: 1992",
+          "title": "CLAY ROOFING COUNTRY TILES,",
+          "bm25_score": 20.445070126088808
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 11.667058367862118
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 3622: 1977",
+          "title": "SANDSTONE (SLABS AND TILES)",
+          "bm25_score": 11.077248111239268
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 6250: 1981",
+          "title": "ROOFING SLATE TILES",
+          "bm25_score": 10.94915229886822
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 10388: 1982",
+          "title": "CORRUGATED COIR, WOODWOOL,",
+          "bm25_score": 8.681318188245227
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 8.594877172916428
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 6452: 1989",
+          "title": "HIGH ALUMINA CEMENT FOR STRUCTURAL USE",
+          "bm25_score": 6.674636344605613
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 3461: 1980",
+          "title": "PVC ASBESTOS FLOOR TILES",
+          "bm25_score": 6.53938571927986
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1237: 1980",
+          "title": "CEMENT CONCRETE FLOORING TILES",
+          "bm25_score": 6.323544487030681
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1130: 1969",
+          "title": "MARBLE  (BLOCKS, SLABS AND TILES)",
+          "bm25_score": 6.301752523264202
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 1464: 1992",
+          "title": "CLAY RIDGE AND  CEILING TILES",
+          "bm25_score": 6.207133228005029
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 6.1390189566731745
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 6.1390189566731745
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 13756: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH LOW",
+          "bm25_score": 6.060198541773098
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 1128: 1974",
+          "title": "LIMESTONE (SLAB AND  TILES)",
+          "bm25_score": 6.037671488455745
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 13754: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH",
+          "bm25_score": 6.027457390003081
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 13755: 1993",
+          "title": "DUST\u2013 PRESSED CERAMIC TILES",
+          "bm25_score": 6.019190627692717
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 653: 1992",
+          "title": "LINOLEUM SHEET  AND TILES",
+          "bm25_score": 5.927582455725136
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 12583: 1988",
+          "title": "CORRUGATED BITMEN ROOFING SHEETS",
+          "bm25_score": 5.852430478065604
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "bm25_score": 5.792483138167329
+        }
+      ]
+    },
+    {
+      "query_id": "old39_10",
+      "query": "UPVC casing pipe for a borewell",
+      "expected_standard": "IS 12818: 1992",
+      "product": null,
+      "description": null,
+      "family": "pipe_water_drainage",
+      "standard_kind": null,
+      "expected_rank": 4,
+      "top1_standard": "IS 14735: 1999",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 14735: 1999",
+          "title": "UNPLASTICIZED POLYVINYL CHLORIDE (UPVC)",
+          "bm25_score": 12.152478227036212
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 4270: 2001",
+          "title": "STEEL TUBES USED FOR WATER WELLS",
+          "bm25_score": 10.649474908276792
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 13592: 1992",
+          "title": "UNPLASTILIZED POLYVINYL CHLORIDE (UPVC)",
+          "bm25_score": 10.63820953069509
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 12818: 1992",
+          "title": "UNPLASTICISED   PVC SCREEN AND CASING",
+          "bm25_score": 10.580662880862489
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1537: 1976",
+          "title": "VERTICALLY CAST IRON PRESSURE PIPES",
+          "bm25_score": 8.025459661513949
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 4985: 2000",
+          "title": "UNPLASTICIZED PVC PIPES FOR POTABLE",
+          "bm25_score": 6.164600876052832
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 3006: 1979",
+          "title": "CHEMICALLY  RESISTANT GLAZED STONEWARE",
+          "bm25_score": 5.051945797191436
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1626 (Part 1): 1994",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 4.238959244548079
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 651: 1992",
+          "title": "SALT GLAZED STONEWARE PIPES AND FITTINGS",
+          "bm25_score": 4.027433793488536
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 14643: 1999",
+          "title": "UNSINTERED POLYTETRAFLUOROETHYLENE",
+          "bm25_score": 3.893008241007225
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 2104: 1981",
+          "title": ". WATER METER BOXES (DOMESTIC TYPE)",
+          "bm25_score": 3.667961278884005
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 1230: 1979",
+          "title": "CAST IRON RAINWATER PIPES AND FITTINGS",
+          "bm25_score": 3.560766085475724
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 6286: 1971",
+          "title": "SEAMLESS AND WELDED STEEL PIPE FOR",
+          "bm25_score": 3.3525159317790556
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 9842: 1994",
+          "title": "PREFORMED FIBROUS PIPE INSULATION",
+          "bm25_score": 3.3059362552775133
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 12823: 1990",
+          "title": "WOOD PRODUCTS-PRELAMINATED",
+          "bm25_score": 3.273392934264728
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 11307: 1985",
+          "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+          "bm25_score": 3.251704810350517
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 7319: 1974",
+          "title": "PERFORATED CONCRETE PIPES",
+          "bm25_score": 3.249036723734677
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 1626: 1984",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 3.246564775584623
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 5504: 1997",
+          "title": "SPIRAL WELDED PIPES",
+          "bm25_score": 3.2008045584257436
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1879: 1987",
+          "title": "MALLEABLE CAST IRON PIPE FITTINGS",
+          "bm25_score": 3.1964974262891146
+        }
+      ]
+    },
+    {
+      "query_id": "old39_11",
+      "query": "steel casing tube for a water well",
+      "expected_standard": "IS 4270: 2001",
+      "product": null,
+      "description": null,
+      "family": "pipe_water_drainage",
+      "standard_kind": null,
+      "expected_rank": 3,
+      "top1_standard": "IS 12818: 1992",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 12818: 1992",
+          "title": "UNPLASTICISED   PVC SCREEN AND CASING",
+          "bm25_score": 24.182557912215557
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 4985: 2000",
+          "title": "UNPLASTICIZED PVC PIPES FOR POTABLE",
+          "bm25_score": 12.7533792296981
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 4270: 2001",
+          "title": "STEEL TUBES USED FOR WATER WELLS",
+          "bm25_score": 12.143444795833972
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1285: 2002",
+          "title": "WROUGHT ALUMINIUM AND ALUMINIUM ALLOY",
+          "bm25_score": 9.502762297582914
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1239 (Part 1): 2004",
+          "title": "STEEL TUBES, TUBULARS ANDOTHER",
+          "bm25_score": 9.269463241450431
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1537: 1976",
+          "title": "VERTICALLY CAST IRON PRESSURE PIPES",
+          "bm25_score": 9.20888428577864
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 2678: 1987",
+          "title": "DIMENSIONS AND  TOLERANCE FOR WROUGHT",
+          "bm25_score": 8.543984152878169
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 2086: 1993",
+          "title": "CARRIERS AND BASES USED IN REWIRABLE TYPE",
+          "bm25_score": 7.406749742333133
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 7540: 1974",
+          "title": "MORTICE DEAD  LOCKS",
+          "bm25_score": 7.210668876400983
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 14862: 2000",
+          "title": "FIBRE CEMENT FLAT SHEETS",
+          "bm25_score": 6.617877068600446
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 11246: 1992",
+          "title": "GLASS FIBRE REINFORCED POLYESTER",
+          "bm25_score": 6.112346280792907
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 14443: 1997",
+          "title": "POLYCARBONATE SHEETS",
+          "bm25_score": 6.012775287906925
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 14402: 1996",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 5.975152013554691
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 12234: 1988",
+          "title": "PLASTIC  EQUILIBRIUM  FLOAT  VALVES FOR",
+          "bm25_score": 5.8885960152820225
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 2104: 1981",
+          "title": ". WATER METER BOXES (DOMESTIC TYPE)",
+          "bm25_score": 5.87824230359907
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 779: 1994",
+          "title": "WATER METERS (DOMESTIC  TYPE)",
+          "bm25_score": 5.479915099999603
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 2645: 2003",
+          "title": "INTEGRAL CEMENT WATER-PROOFING",
+          "bm25_score": 5.3941881479018035
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 12701: 1996",
+          "title": "ROTATIONAL MOULDED POLYETHYLENE",
+          "bm25_score": 5.393628394644756
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 1580: 1991",
+          "title": "BITUMINOUS COMPOUNDS FOR",
+          "bm25_score": 5.374747694610244
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 13356: 1992",
+          "title": "PRECAST FERROCEMENT WATER TANKS",
+          "bm25_score": 5.001936201278962
+        }
+      ]
+    },
+    {
+      "query_id": "old39_12",
+      "query": "plastic pipe for soil and waste discharge inside a building",
+      "expected_standard": "IS 13592: 1992",
+      "product": null,
+      "description": null,
+      "family": "pipe_water_drainage",
+      "standard_kind": null,
+      "expected_rank": 2,
+      "top1_standard": "IS 14735: 1999",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 14735: 1999",
+          "title": "UNPLASTICIZED POLYVINYL CHLORIDE (UPVC)",
+          "bm25_score": 35.55776468177776
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 13592: 1992",
+          "title": "UNPLASTILIZED POLYVINYL CHLORIDE (UPVC)",
+          "bm25_score": 33.86679207788716
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 1626 (Part 1): 1994",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 18.442036766969203
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 3989: 1984",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON SPIGOT AND",
+          "bm25_score": 16.3928222923155
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 2002: 1979",
+          "title": "SAND CAST IRON SPIGOT AND SOCKET SOIL,",
+          "bm25_score": 16.27437100690957
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 12118 (Part 1): 1987",
+          "title": "TWO-PARTS POLYSULPHIDE BASED",
+          "bm25_score": 11.135665506375446
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 2963: 1979",
+          "title": "COPPER ALLOY WASTE FITTINGS FOR",
+          "bm25_score": 9.310066000573483
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 14856: 2000",
+          "title": "GLASS FIBRE REINFORCED PLASTIC (GRP)",
+          "bm25_score": 8.907974049210601
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 423: 1961",
+          "title": "PLASTIC WOOD FOR JOINERS FILLER",
+          "bm25_score": 8.773918912603293
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 14402: 1996",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 8.555045953147609
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 7231: 1994",
+          "title": "PLASTIC FLUSHING CISTERNS FOR WATER",
+          "bm25_score": 8.373807734138676
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 14182: 1994",
+          "title": "SOLVENT CEMENT FOR USE WITH UNPLASTICIZED",
+          "bm25_score": 8.322769239802113
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 3311: 1979",
+          "title": "WASTE PLUG AND ITS ACCESSORIES FOR SINKS",
+          "bm25_score": 8.022214885632824
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 774: 2004",
+          "title": "FLUSHING CISTERNS FOR WATER-CLOSETS",
+          "bm25_score": 8.019836943900355
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 12234: 1988",
+          "title": "PLASTIC  EQUILIBRIUM  FLOAT  VALVES FOR",
+          "bm25_score": 7.377528913162861
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 9763: 2000",
+          "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
+          "bm25_score": 7.07102206740747
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 1626 (Part 2): 1994",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 7.013167956613616
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 6452: 1989",
+          "title": "HIGH ALUMINA CEMENT FOR STRUCTURAL USE",
+          "bm25_score": 6.969325254603163
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 2547 (Part 1): 1976",
+          "title": "GYPSUM BUILDING PLASTERS",
+          "bm25_score": 6.829133770737118
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 875 (Part 1): 1987",
+          "title": "CODE OF PRACTICE FOR DESIGN  LOADS",
+          "bm25_score": 6.742970144670458
+        }
+      ]
+    },
+    {
+      "query_id": "old39_13",
+      "query": "HDPE pipe for carrying sewage",
+      "expected_standard": "IS 14333: 1996",
+      "product": null,
+      "description": null,
+      "family": "pipe_water_drainage",
+      "standard_kind": null,
+      "expected_rank": 4,
+      "top1_standard": "IS 12820: 2004",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 12820: 2004",
+          "title": "DIMENSIONAL REQUIREMENTS OF RUBBER",
+          "bm25_score": 14.70741556002136
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 13382: 2004",
+          "title": "CAST IRON SPECIALS FOR MECHANICAL AND",
+          "bm25_score": 13.57631232106591
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 8008 (Part 6): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 9.520100905479529
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 14333: 1996",
+          "title": "HIGH DENSITY POLYETHYELENE PIPES",
+          "bm25_score": 8.854423559867096
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 7181: 1986",
+          "title": "HORIZONTALLY CAST IRON DOUBLE FLANGED",
+          "bm25_score": 8.340585863440603
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 8360 (Part 1): 1977",
+          "title": "FABRICATED HIGH DENSITY",
+          "bm25_score": 8.148057541221338
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 8008 (Part 4): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 8.124743121651992
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 8008 (Part 3): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 8.065656132679427
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1536: 2001",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON PRESSURE",
+          "bm25_score": 7.9596063914738515
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 8360 (Part 3): 1977",
+          "title": "FABRICATED HIGH  DENSITY POLYETHYLENE",
+          "bm25_score": 7.918297845409536
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 1537: 1976",
+          "title": "VERTICALLY CAST IRON PRESSURE PIPES",
+          "bm25_score": 7.913580572943065
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 8008 (Part 5): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 7.889075397501518
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 5531: 1988",
+          "title": "CAST IRON SPECIALS FOR  ASBESTOS CEMENT",
+          "bm25_score": 7.885576022102331
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 8360 (Part 2): 1977",
+          "title": "FABRICATED HIGH DENSITY",
+          "bm25_score": 7.820768546228335
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 6163: 1978",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON LOW",
+          "bm25_score": 7.793789107771981
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 3589: 2001",
+          "title": "SEAMLESS OR ELECTRICALLY WELDED STEEL",
+          "bm25_score": 7.5414126155958385
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 1538: 1993",
+          "title": "CAST IRON FITTINGS FOR PRESSURE PIPES",
+          "bm25_score": 6.9572211205439185
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 9523: 2000",
+          "title": "DUCTILE IRON FITTINGS FOR PRESSURE PIPES",
+          "bm25_score": 6.865646118695296
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 8008 (Part 2): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 6.789861449077798
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 8329: 2000",
+          "title": "CENTRIFUGALLY CAST (SPUN) DUCTILE IRON",
+          "bm25_score": 6.662484326225352
+        }
+      ]
+    },
+    {
+      "query_id": "old39_14",
+      "query": "GRP pressure pipe for potable drinking water",
+      "expected_standard": "IS 12709: 1994",
+      "product": null,
+      "description": null,
+      "family": "pipe_water_drainage",
+      "standard_kind": null,
+      "expected_rank": 2,
+      "top1_standard": "IS 1700: 1973",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1700: 1973",
+          "title": "DRINKING FOUNTAINS",
+          "bm25_score": 15.141010436638071
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 12709: 1994",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 14.423551965794001
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 14402: 1996",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 14.309103814677034
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 14182: 1994",
+          "title": "SOLVENT CEMENT FOR USE WITH UNPLASTICIZED",
+          "bm25_score": 12.393872765070979
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 8008 (Part 6): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 11.264586797771162
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 6163: 1978",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON LOW",
+          "bm25_score": 11.183940565444946
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 12987: 1991",
+          "title": "CAST IRON DETACHABLE JOINTS FOR USE WITH",
+          "bm25_score": 10.391882436463277
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 10124 (Part 2): 1988",
+          "title": "FABRICATED PVC FITTINGS FOR",
+          "bm25_score": 10.232401423470124
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 10124 (Part 7): 1988",
+          "title": "FABRICATED  PVC FITTINGS",
+          "bm25_score": 10.225776386953
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 10124 (Part 10): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.110539590430907
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 10124 (Part 11): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.110539590430907
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 10124 (Part 8): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.110539590430907
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 10124 (Part 9): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.110539590430907
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 3076: 1985",
+          "title": "LOW DENSITY POLYETHYLENE PIPES FOR",
+          "bm25_score": 10.105362677930415
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 10124 (Part 12): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.088584489587578
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 10124 (Part 13): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.088584489587578
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 10124 (Part 4): 1988",
+          "title": "FABRICATED PVC FITTINGS FOR",
+          "bm25_score": 9.966042054296341
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 8008 (Part 4): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 9.928241696858374
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 8360 (Part 3): 1977",
+          "title": "FABRICATED HIGH  DENSITY POLYETHYLENE",
+          "bm25_score": 9.814311948296389
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 8360 (Part 2): 1977",
+          "title": "FABRICATED HIGH DENSITY",
+          "bm25_score": 9.60694058279274
+        }
+      ]
+    },
+    {
+      "query_id": "old39_15",
+      "query": "GRP pipe for industrial wastewater and non potable water",
+      "expected_standard": "IS 14402: 1996",
+      "product": null,
+      "description": null,
+      "family": "pipe_water_drainage",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 14402: 1996",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 14402: 1996",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 17.692811548305812
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 12709: 1994",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 12.423890519742425
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 8008 (Part 6): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 11.588989133770642
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 14182: 1994",
+          "title": "SOLVENT CEMENT FOR USE WITH UNPLASTICIZED",
+          "bm25_score": 11.578438566042134
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 14856: 2000",
+          "title": "GLASS FIBRE REINFORCED PLASTIC (GRP)",
+          "bm25_score": 11.57648444755868
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 10124 (Part 2): 1988",
+          "title": "FABRICATED PVC FITTINGS FOR",
+          "bm25_score": 10.48778575558303
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 10124 (Part 7): 1988",
+          "title": "FABRICATED  PVC FITTINGS",
+          "bm25_score": 10.469919650210365
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 10124 (Part 10): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.361792347292315
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 10124 (Part 11): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.361792347292315
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 10124 (Part 8): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.361792347292315
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 10124 (Part 9): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.361792347292315
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 10124 (Part 12): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.339026921285992
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 10124 (Part 13): 1988",
+          "title": "FABRICATED PVC FITTING",
+          "bm25_score": 10.339026921285992
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 8008 (Part 4): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 10.262416316242566
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 10124 (Part 4): 1988",
+          "title": "FABRICATED PVC FITTINGS FOR",
+          "bm25_score": 10.129660091464292
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 8360 (Part 3): 1977",
+          "title": "FABRICATED HIGH  DENSITY POLYETHYLENE",
+          "bm25_score": 10.12832124759081
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 3076: 1985",
+          "title": "LOW DENSITY POLYETHYLENE PIPES FOR",
+          "bm25_score": 10.105362677930415
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 8360 (Part 2): 1977",
+          "title": "FABRICATED HIGH DENSITY",
+          "bm25_score": 9.920891031545686
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 10124 (Part 6): 1988",
+          "title": "FABRICATED  PVC FITTINGS FOR",
+          "bm25_score": 9.676556006090838
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 8008 (Part 5): 2003",
+          "title": "INJECTION MOULDED HIGH DENSITY",
+          "bm25_score": 9.641157163056132
+        }
+      ]
+    },
+    {
+      "query_id": "old39_16",
+      "query": "large diameter welded steel pipe for water and sewage",
+      "expected_standard": "IS 3589: 2001",
+      "product": null,
+      "description": null,
+      "family": "pipe_water_drainage",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 3589: 2001",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3589: 2001",
+          "title": "SEAMLESS OR ELECTRICALLY WELDED STEEL",
+          "bm25_score": 24.06159238333999
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 6286: 1971",
+          "title": "SEAMLESS AND WELDED STEEL PIPE FOR",
+          "bm25_score": 13.882152527791343
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 4270: 2001",
+          "title": "STEEL TUBES USED FOR WATER WELLS",
+          "bm25_score": 13.45208031631738
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1538: 1993",
+          "title": "CAST IRON FITTINGS FOR PRESSURE PIPES",
+          "bm25_score": 12.834340373298097
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1161: 1998",
+          "title": "STEEL  TUBES FOR STRUCTURAL PURPOSES.",
+          "bm25_score": 12.558949820386559
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 9523: 2000",
+          "title": "DUCTILE IRON FITTINGS FOR PRESSURE PIPES",
+          "bm25_score": 12.543973610161691
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 5504: 1997",
+          "title": "SPIRAL WELDED PIPES",
+          "bm25_score": 12.509355567114577
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 7181: 1986",
+          "title": "HORIZONTALLY CAST IRON DOUBLE FLANGED",
+          "bm25_score": 11.335143036919748
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 13382: 2004",
+          "title": "CAST IRON SPECIALS FOR MECHANICAL AND",
+          "bm25_score": 11.324667531525453
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1239 (Part 1): 2004",
+          "title": "STEEL TUBES, TUBULARS ANDOTHER",
+          "bm25_score": 11.162677389218885
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 1537: 1976",
+          "title": "VERTICALLY CAST IRON PRESSURE PIPES",
+          "bm25_score": 10.765433096045482
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 5531: 1988",
+          "title": "CAST IRON SPECIALS FOR  ASBESTOS CEMENT",
+          "bm25_score": 10.721833055753075
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 1536: 2001",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON PRESSURE",
+          "bm25_score": 10.643076843665837
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 6163: 1978",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON LOW",
+          "bm25_score": 10.636616519756746
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 12820: 2004",
+          "title": "DIMENSIONAL REQUIREMENTS OF RUBBER",
+          "bm25_score": 10.631202868296326
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 4948: 2002",
+          "title": "WELDED STEEL WIRE FABRIC",
+          "bm25_score": 10.173090256269246
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 6649: 1985",
+          "title": "HARDENED AND TEMPERED WASHERS FOR HIGH",
+          "bm25_score": 9.229976842177031
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 14402: 1996",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 9.04544211580123
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 8329: 2000",
+          "title": "CENTRIFUGALLY CAST (SPUN) DUCTILE IRON",
+          "bm25_score": 8.863082942015808
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1626 (Part 1): 1994",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 8.75794707800742
+        }
+      ]
+    },
+    {
+      "query_id": "old39_17",
+      "query": "calcium silicate insulation for equipment operating near 600 degrees C",
+      "expected_standard": "IS 8154: 1993",
+      "product": null,
+      "description": null,
+      "family": "thermal_insulation",
+      "standard_kind": null,
+      "expected_rank": 3,
+      "top1_standard": "IS 9428: 1993",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 9428: 1993",
+          "title": "PREFORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 24.80603755586177
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 11128: 1984",
+          "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+          "bm25_score": 22.68085813243642
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 8154: 1993",
+          "title": "PREORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 22.381291548205784
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 4139: 1989",
+          "title": "CALCIUM SILICATE BRICKS",
+          "bm25_score": 15.572222780411051
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 11307: 1985",
+          "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+          "bm25_score": 10.86058338063272
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 2185 (Part 3): 1984",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 10.752353256209815
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 14862: 2000",
+          "title": "FIBRE CEMENT FLAT SHEETS",
+          "bm25_score": 9.449209437794833
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 7509: 1993",
+          "title": "THERMAL INSULATING CEMENT",
+          "bm25_score": 8.305240998426775
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 9968 (Part 1): 1998",
+          "title": "ELASTOMER INSULATED CABLES,",
+          "bm25_score": 8.235233258437727
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 11308: 1985",
+          "title": "HYDRAULIC SETTING THERMAL INSULATING",
+          "bm25_score": 7.894244577434321
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 4671: 1984",
+          "title": "EXPANDED POLYSTYRENE FOR THERMAL",
+          "bm25_score": 7.792556989630346
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 4832 (Part 1): 1969",
+          "title": "CHEMICAL RESISTANT MORTARS",
+          "bm25_score": 7.718196024190471
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 1554 (Part 1): 1988",
+          "title": "PVC INSULATED (HEAVY DUTY)",
+          "bm25_score": 7.55444699695285
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 13204: 1991",
+          "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+          "bm25_score": 7.205566044710693
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 10292: 1988",
+          "title": "DIMENSIONAL REQUIREMENTS FOR RUBBER",
+          "bm25_score": 7.130412049572738
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 12709: 1994",
+          "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+          "bm25_score": 6.782994592699667
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 3419: 1989",
+          "title": "FITTINGS FOR RIGID NON-METALLIC CONDUITS",
+          "bm25_score": 6.686930100198496
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 9537 (Part 1): 1980",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 6.423424465984896
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 12406: 2003",
+          "title": "MEDIUM DENSITY FIBRE BOARDS FOR",
+          "bm25_score": 6.0689223447342195
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 9742: 1993",
+          "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+          "bm25_score": 5.876201928830934
+        }
+      ]
+    },
+    {
+      "query_id": "old39_18",
+      "query": "calcium silicate insulation required for a surface near 900 degrees C",
+      "expected_standard": "IS 9428: 1993",
+      "product": null,
+      "description": null,
+      "family": "thermal_insulation",
+      "standard_kind": null,
+      "expected_rank": 2,
+      "top1_standard": "IS 8154: 1993",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 8154: 1993",
+          "title": "PREORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 25.93340084449807
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 9428: 1993",
+          "title": "PREFORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 24.80603755586177
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 11128: 1984",
+          "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+          "bm25_score": 22.68085813243642
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 4139: 1989",
+          "title": "CALCIUM SILICATE BRICKS",
+          "bm25_score": 17.314064945518105
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 14862: 2000",
+          "title": "FIBRE CEMENT FLAT SHEETS",
+          "bm25_score": 13.821138420621653
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 2185 (Part 3): 1984",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 10.752353256209815
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 9743: 1990",
+          "title": "THERMAL INSULATION FINISHING CEMENTS",
+          "bm25_score": 10.385264232421925
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 9968 (Part 1): 1998",
+          "title": "ELASTOMER INSULATED CABLES,",
+          "bm25_score": 9.993764490610378
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 4615: 1968",
+          "title": "SWITCH SOCKET-OUTLETS",
+          "bm25_score": 9.491704697479008
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1554 (Part 1): 1988",
+          "title": "PVC INSULATED (HEAVY DUTY)",
+          "bm25_score": 9.310208138090895
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 7509: 1993",
+          "title": "THERMAL INSULATING CEMENT",
+          "bm25_score": 8.305240998426775
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 7834 (Part 3): 1987",
+          "title": "\u2013 INJECTION MOULDED PVC SOCKET",
+          "bm25_score": 8.023954561220588
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 11308: 1985",
+          "title": "HYDRAULIC SETTING THERMAL INSULATING",
+          "bm25_score": 7.894244577434321
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 4671: 1984",
+          "title": "EXPANDED POLYSTYRENE FOR THERMAL",
+          "bm25_score": 7.792556989630346
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 4832 (Part 1): 1969",
+          "title": "CHEMICAL RESISTANT MORTARS",
+          "bm25_score": 7.718196024190471
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 1195: 2002",
+          "title": "BITUMEN MASTIC FOR FLOORING",
+          "bm25_score": 7.601079966145868
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 9537 (Part 5): 2000",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 7.354182088796389
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 13204: 1991",
+          "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+          "bm25_score": 7.205566044710693
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 1658: 1977",
+          "title": "FIBRE HARD BOARDS",
+          "bm25_score": 7.082029380278728
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3854: 1997",
+          "title": "SWITCHES FOR DOMESTIC AND SIMILAR",
+          "bm25_score": 7.077187650665675
+        }
+      ]
+    },
+    {
+      "query_id": "old39_19",
+      "query": "bonded mineral wool insulation slabs",
+      "expected_standard": "IS 8183: 1993",
+      "product": null,
+      "description": null,
+      "family": "thermal_insulation",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 8183: 1993",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 8183: 1993",
+          "title": "BONDED MINERAL WOOL",
+          "bm25_score": 34.00255983266548
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 9742: 1993",
+          "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+          "bm25_score": 25.219536778063585
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 3308: 1981",
+          "title": "WOOD WOOL BUILDING SLABS",
+          "bm25_score": 21.269754324476622
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 3677: 1985",
+          "title": "UNBONDED ROCK AND SLAG WOOL FOR",
+          "bm25_score": 14.634961177716603
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 3348: 1965",
+          "title": "FIBRE INSULATION BOARD",
+          "bm25_score": 11.160061541364442
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 14276: 1995",
+          "title": "CEMENT BONDED PARTICLE BOARDS",
+          "bm25_score": 9.496210108288944
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 1130: 1969",
+          "title": "MARBLE  (BLOCKS, SLABS AND TILES)",
+          "bm25_score": 8.799567032842587
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 12436: 1988",
+          "title": "PREFORMED RIGID POLYURETHANE (PUR) AND",
+          "bm25_score": 8.411014960782637
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 3622: 1977",
+          "title": "SANDSTONE (SLABS AND TILES)",
+          "bm25_score": 8.396160158615334
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 6072: 1971",
+          "title": "AUTOCLAVED REINFORCED CELLULAR",
+          "bm25_score": 8.393494754562427
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 2036: 1995",
+          "title": "PHENOLIC LAMINATED SHEETS",
+          "bm25_score": 8.151074521004308
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 6073: 1971",
+          "title": "AUTOCLAVED REINFORCED CELLULAR",
+          "bm25_score": 7.515754802101229
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 2046: 1995",
+          "title": "DECORATIVE THERMOSETTING SYNTHETIC",
+          "bm25_score": 7.31429850527438
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 13620: 1993",
+          "title": "FUSION BONDED  EPOXY COATED",
+          "bm25_score": 7.301339467638286
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 1128: 1974",
+          "title": "LIMESTONE (SLAB AND  TILES)",
+          "bm25_score": 6.923076044006453
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 4832 (Part 2): 1969",
+          "title": "CHEMICAL RESISTANT MORTARS",
+          "bm25_score": 6.409218578088824
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 8154: 1993",
+          "title": "PREORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 5.538940555295103
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 9428: 1993",
+          "title": "PREFORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 5.5248802484934645
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 11128: 1984",
+          "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+          "bm25_score": 5.462941939506621
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 11307: 1985",
+          "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+          "bm25_score": 5.357053546220387
+        }
+      ]
+    },
+    {
+      "query_id": "old39_20",
+      "query": "loose unbonded rock wool for thermal insulation",
+      "expected_standard": "IS 3677: 1985",
+      "product": null,
+      "description": null,
+      "family": "thermal_insulation",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 3677: 1985",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3677: 1985",
+          "title": "UNBONDED ROCK AND SLAG WOOL FOR",
+          "bm25_score": 43.796564156298565
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 9742: 1993",
+          "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+          "bm25_score": 21.04853915988741
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 8183: 1993",
+          "title": "BONDED MINERAL WOOL",
+          "bm25_score": 20.38355127784425
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 3308: 1981",
+          "title": "WOOD WOOL BUILDING SLABS",
+          "bm25_score": 16.2130105713467
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 11307: 1985",
+          "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+          "bm25_score": 11.297859069592851
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 11128: 1984",
+          "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+          "bm25_score": 11.286680388381221
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 4671: 1984",
+          "title": "EXPANDED POLYSTYRENE FOR THERMAL",
+          "bm25_score": 11.069299348618205
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 9743: 1990",
+          "title": "THERMAL INSULATION FINISHING CEMENTS",
+          "bm25_score": 11.023605336913445
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 13204: 1991",
+          "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+          "bm25_score": 10.94858604496843
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 6598: 1972",
+          "title": "CELLULAR CONCRETE FOR THERMAL INSULATION",
+          "bm25_score": 10.881866115427055
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 7509: 1993",
+          "title": "THERMAL INSULATING CEMENT",
+          "bm25_score": 10.612904704074412
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 12436: 1988",
+          "title": "PREFORMED RIGID POLYURETHANE (PUR) AND",
+          "bm25_score": 10.387901328342968
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 9842: 1994",
+          "title": "PREFORMED FIBROUS PIPE INSULATION",
+          "bm25_score": 10.138835919025645
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 11308: 1985",
+          "title": "HYDRAULIC SETTING THERMAL INSULATING",
+          "bm25_score": 10.017630437385787
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 8154: 1993",
+          "title": "PREORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.853823584454842
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 9428: 1993",
+          "title": "PREFORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.812795136734465
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 3348: 1965",
+          "title": "FIBRE INSULATION BOARD",
+          "bm25_score": 8.149826094835579
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 9537 (Part 3): 1983",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 7.971477568932335
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 9537 (Part 4): 1983",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 7.943302558403
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3419: 1989",
+          "title": "FITTINGS FOR RIGID NON-METALLIC CONDUITS",
+          "bm25_score": 7.199980296209906
+        }
+      ]
+    },
+    {
+      "query_id": "old39_21",
+      "query": "sprayed mineral wool thermal insulation",
+      "expected_standard": "IS 9742: 1993",
+      "product": null,
+      "description": null,
+      "family": "thermal_insulation",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 9742: 1993",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 9742: 1993",
+          "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+          "bm25_score": 43.00774603227286
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 8183: 1993",
+          "title": "BONDED MINERAL WOOL",
+          "bm25_score": 30.449986478667125
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 3677: 1985",
+          "title": "UNBONDED ROCK AND SLAG WOOL FOR",
+          "bm25_score": 20.3908105405595
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 3308: 1981",
+          "title": "WOOD WOOL BUILDING SLABS",
+          "bm25_score": 16.023959581419078
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 11128: 1984",
+          "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+          "bm25_score": 11.08605840324141
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 11307: 1985",
+          "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+          "bm25_score": 11.081421121892628
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 4671: 1984",
+          "title": "EXPANDED POLYSTYRENE FOR THERMAL",
+          "bm25_score": 10.840265633721863
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 9743: 1990",
+          "title": "THERMAL INSULATION FINISHING CEMENTS",
+          "bm25_score": 10.801389048653531
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 13204: 1991",
+          "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+          "bm25_score": 10.702816739137402
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 6598: 1972",
+          "title": "CELLULAR CONCRETE FOR THERMAL INSULATION",
+          "bm25_score": 10.647935854895247
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 7509: 1993",
+          "title": "THERMAL INSULATING CEMENT",
+          "bm25_score": 10.400283600127189
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 12436: 1988",
+          "title": "PREFORMED RIGID POLYURETHANE (PUR) AND",
+          "bm25_score": 10.166556822447474
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 9842: 1994",
+          "title": "PREFORMED FIBROUS PIPE INSULATION",
+          "bm25_score": 9.921447446031433
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 11308: 1985",
+          "title": "HYDRAULIC SETTING THERMAL INSULATING",
+          "bm25_score": 9.783844697420449
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 8154: 1993",
+          "title": "PREORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.64120248050762
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 9428: 1993",
+          "title": "PREFORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.601018451245189
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 3348: 1965",
+          "title": "FIBRE INSULATION BOARD",
+          "bm25_score": 8.020417834337914
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 9537 (Part 3): 1983",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 7.764227857168736
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 9537 (Part 4): 1983",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 7.71674953452384
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3419: 1989",
+          "title": "FITTINGS FOR RIGID NON-METALLIC CONDUITS",
+          "bm25_score": 6.970787092046005
+        }
+      ]
+    },
+    {
+      "query_id": "old39_22",
+      "query": "expanded polystyrene material for thermal insulation",
+      "expected_standard": "IS 4671: 1984",
+      "product": null,
+      "description": null,
+      "family": "thermal_insulation",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 4671: 1984",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 4671: 1984",
+          "title": "EXPANDED POLYSTYRENE FOR THERMAL",
+          "bm25_score": 32.53160222651016
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 9742: 1993",
+          "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+          "bm25_score": 11.744180734696442
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 3677: 1985",
+          "title": "UNBONDED ROCK AND SLAG WOOL FOR",
+          "bm25_score": 11.694088966124982
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 11128: 1984",
+          "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+          "bm25_score": 11.388757207277795
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 11307: 1985",
+          "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+          "bm25_score": 11.297859069592851
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 412: 1975",
+          "title": "EXPANDED METAL STEEL SHEETS FOR",
+          "bm25_score": 11.29178642073333
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 9743: 1990",
+          "title": "THERMAL INSULATION FINISHING CEMENTS",
+          "bm25_score": 11.16152448569824
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 13204: 1991",
+          "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+          "bm25_score": 11.117272792324565
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 6598: 1972",
+          "title": "CELLULAR CONCRETE FOR THERMAL INSULATION",
+          "bm25_score": 11.028965503251978
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 8183: 1993",
+          "title": "BONDED MINERAL WOOL",
+          "bm25_score": 11.01550315504696
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 7509: 1993",
+          "title": "THERMAL INSULATING CEMENT",
+          "bm25_score": 10.774689570215443
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 12436: 1988",
+          "title": "PREFORMED RIGID POLYURETHANE (PUR) AND",
+          "bm25_score": 10.387901328342968
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 9842: 1994",
+          "title": "PREFORMED FIBROUS PIPE INSULATION",
+          "bm25_score": 10.261199426818829
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 11308: 1985",
+          "title": "HYDRAULIC SETTING THERMAL INSULATING",
+          "bm25_score": 10.017630437385787
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 8154: 1993",
+          "title": "PREORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.853823584454842
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 9428: 1993",
+          "title": "PREFORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.812795136734465
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 3348: 1965",
+          "title": "FIBRE INSULATION BOARD",
+          "bm25_score": 8.22938362269849
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 9537 (Part 3): 1983",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 7.971477568932335
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 9537 (Part 4): 1983",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 7.943302558403
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3419: 1989",
+          "title": "FITTINGS FOR RIGID NON-METALLIC CONDUITS",
+          "bm25_score": 7.199980296209906
+        }
+      ]
+    },
+    {
+      "query_id": "old39_23",
+      "query": "rigid polyurethane or polyisocyanurate foam thermal insulation",
+      "expected_standard": "IS 12436: 1988",
+      "product": null,
+      "description": null,
+      "family": "thermal_insulation",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 12436: 1988",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 12436: 1988",
+          "title": "PREFORMED RIGID POLYURETHANE (PUR) AND",
+          "bm25_score": 43.321993968395226
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 13204: 1991",
+          "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+          "bm25_score": 30.317410746605592
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 9537 (Part 3): 1983",
+          "title": "CONDUITS FOR ELECTRICAL",
+          "bm25_score": 15.473043432105952
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 3419: 1989",
+          "title": "FITTINGS FOR RIGID NON-METALLIC CONDUITS",
+          "bm25_score": 14.999640853106378
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 6598: 1972",
+          "title": "CELLULAR CONCRETE FOR THERMAL INSULATION",
+          "bm25_score": 13.25485078135805
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 3837: 1976",
+          "title": "ACCESSORIES FOR RIGID STEEL CONDUITS FOR",
+          "bm25_score": 12.741295641370831
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 9742: 1993",
+          "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+          "bm25_score": 11.568808181433388
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 3677: 1985",
+          "title": "UNBONDED ROCK AND SLAG WOOL FOR",
+          "bm25_score": 11.347743303604776
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 11308: 1985",
+          "title": "HYDRAULIC SETTING THERMAL INSULATING",
+          "bm25_score": 11.264605320890736
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 11128: 1984",
+          "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+          "bm25_score": 11.08605840324141
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 11307: 1985",
+          "title": "CELLULAR GLASS BLOCK AND PIPE THERMAL",
+          "bm25_score": 11.081421121892628
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 4671: 1984",
+          "title": "EXPANDED POLYSTYRENE FOR THERMAL",
+          "bm25_score": 10.840265633721863
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 9743: 1990",
+          "title": "THERMAL INSULATION FINISHING CEMENTS",
+          "bm25_score": 10.801389048653531
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 8183: 1993",
+          "title": "BONDED MINERAL WOOL",
+          "bm25_score": 10.797670662208612
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 6307: 1985",
+          "title": "RIGID PVC SHEETS",
+          "bm25_score": 10.542312040455256
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 7509: 1993",
+          "title": "THERMAL INSULATING CEMENT",
+          "bm25_score": 10.400283600127189
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 3348: 1965",
+          "title": "FIBRE INSULATION BOARD",
+          "bm25_score": 10.372035277269397
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 9842: 1994",
+          "title": "PREFORMED FIBROUS PIPE INSULATION",
+          "bm25_score": 9.921447446031433
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 8154: 1993",
+          "title": "PREORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.64120248050762
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 9428: 1993",
+          "title": "PREFORMED CALCIUM SILICATE INSULATION",
+          "bm25_score": 9.601018451245189
+        }
+      ]
+    },
+    {
+      "query_id": "old39_24",
+      "query": "ordinary Portland cement 43 grade",
+      "expected_standard": "IS 8112: 1989",
+      "product": null,
+      "description": null,
+      "family": "cement",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 8112: 1989",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 8112: 1989",
+          "title": "43 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 36.57956456452489
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 269: 1989",
+          "title": "ORDINARY PORTLAND CEMENT, 33 GRADE",
+          "bm25_score": 27.8390836325411
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 12269: 1987",
+          "title": "53 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 25.52478606860985
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 8043: 1991",
+          "title": "HYDROPHOBIC PORTLAND CEMENT",
+          "bm25_score": 22.93121488000677
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 12330: 1988",
+          "title": "SULPHATE RESISTING PORTLAND CEMENT",
+          "bm25_score": 16.147094132026748
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1489 (Part 1): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 12.20956155037317
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 8042: 1989",
+          "title": "WHITE  PORTLAND CEMENT",
+          "bm25_score": 12.208392471761924
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 8041: 1990",
+          "title": "RAPID HARDENING PORTLAND CEMENT",
+          "bm25_score": 12.025406523024495
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1489 (Part 2): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 11.990558997027449
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 455: 1989",
+          "title": "PORTLAND SLAG CEMENT",
+          "bm25_score": 11.961394656970526
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 5246: 2000",
+          "title": "CONIFEROUS LOGS",
+          "bm25_score": 6.410155429918855
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 6733: 1972",
+          "title": "WALL AND ROOFING NAILS",
+          "bm25_score": 6.175141685395385
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 11433 (Part 1): 1985",
+          "title": "ONE-PART GUN-GRADE POLYSULPHIDE-",
+          "bm25_score": 5.888414853714605
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 9510: 1980",
+          "title": "BITUMEN MASTIC, ACID \u2013 RESISTING GRADE",
+          "bm25_score": 5.6699381122101915
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 8374: 1977",
+          "title": "BITUMEN MASTIC, ANTI-STATIC AND",
+          "bm25_score": 5.648956909236698
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 1363 (Part 3): 2002",
+          "title": "ISO 4034 : 1999",
+          "bm25_score": 5.59310846240676
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 1363 (Part 2): 2002",
+          "title": "ISO 4018 : 1999",
+          "bm25_score": 5.528892661422008
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 1363 (Part 1): 2002",
+          "title": "ISO 4016 : 1999",
+          "bm25_score": 5.507813823733139
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 1364 (Part 4): 2003",
+          "title": "ISO 4035 : 1999",
+          "bm25_score": 5.384640554284143
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1364 (Part 2): 2002",
+          "title": "ISO 4017 : 1999",
+          "bm25_score": 5.308536074464182
+        }
+      ]
+    },
+    {
+      "query_id": "old39_25",
+      "query": "Portland slag cement",
+      "expected_standard": "IS 455: 1989",
+      "product": null,
+      "description": null,
+      "family": "cement",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 455: 1989",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 455: 1989",
+          "title": "PORTLAND SLAG CEMENT",
+          "bm25_score": 21.25687245055142
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 12330: 1988",
+          "title": "SULPHATE RESISTING PORTLAND CEMENT",
+          "bm25_score": 18.496086851409366
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 269: 1989",
+          "title": "ORDINARY PORTLAND CEMENT, 33 GRADE",
+          "bm25_score": 12.456073304893128
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 8112: 1989",
+          "title": "43 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 12.322106223859235
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1489 (Part 1): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 12.20956155037317
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 8042: 1989",
+          "title": "WHITE  PORTLAND CEMENT",
+          "bm25_score": 12.208392471761924
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 8041: 1990",
+          "title": "RAPID HARDENING PORTLAND CEMENT",
+          "bm25_score": 12.025406523024495
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1489 (Part 2): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 11.990558997027449
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 8043: 1991",
+          "title": "HYDROPHOBIC PORTLAND CEMENT",
+          "bm25_score": 11.844244785915706
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 12269: 1987",
+          "title": "53 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 11.608427901076317
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 3677: 1985",
+          "title": "UNBONDED ROCK AND SLAG WOOL FOR",
+          "bm25_score": 9.435735703070678
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 9142: 1979",
+          "title": "ARTIFICIAL LIGHTWEIGHT AGGREGATES FOR",
+          "bm25_score": 8.390836323418387
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 1237: 1980",
+          "title": "CEMENT CONCRETE FLOORING TILES",
+          "bm25_score": 4.630526419376416
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 6909: 1990",
+          "title": "SUPERSULPHATED CEMENT",
+          "bm25_score": 4.556854527752746
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 2098: 1997",
+          "title": "ASBESTOS CEMENT BUILDING BOARDS",
+          "bm25_score": 4.514380603410538
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 14276: 1995",
+          "title": "CEMENT BONDED PARTICLE BOARDS",
+          "bm25_score": 4.461512772547417
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 2645: 2003",
+          "title": "INTEGRAL CEMENT WATER-PROOFING",
+          "bm25_score": 4.457493964076051
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 2096: 1992",
+          "title": "ASBESTOS CEMENT FLAT SHEETS",
+          "bm25_score": 4.454991232173161
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 14862: 2000",
+          "title": "FIBRE CEMENT FLAT SHEETS",
+          "bm25_score": 4.408390438395208
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 8870: 1978",
+          "title": "ASBESTOS CEMENT CABLE CONDUITS",
+          "bm25_score": 4.39827885842928
+        }
+      ]
+    },
+    {
+      "query_id": "old39_26",
+      "query": "Portland pozzolana cement made using fly ash",
+      "expected_standard": "IS 1489 (Part 1): 1991",
+      "product": null,
+      "description": null,
+      "family": "cement",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 1489 (Part 1): 1991",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1489 (Part 1): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 46.262817848146426
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 1489 (Part 2): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 40.63783180992469
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 12330: 1988",
+          "title": "SULPHATE RESISTING PORTLAND CEMENT",
+          "bm25_score": 16.051533954091834
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1542: 1992",
+          "title": "SAND FOR  PLASTER",
+          "bm25_score": 15.118543297048648
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 12894: 2002",
+          "title": "PULVERIZED FUEL ASH-LIME BRICKS",
+          "bm25_score": 15.016305522598767
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 8042: 1989",
+          "title": "WHITE  PORTLAND CEMENT",
+          "bm25_score": 14.779244720406252
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 4832 (Part 1): 1969",
+          "title": "CHEMICAL RESISTANT MORTARS",
+          "bm25_score": 12.5190947682846
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 269: 1989",
+          "title": "ORDINARY PORTLAND CEMENT, 33 GRADE",
+          "bm25_score": 12.456073304893128
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 8112: 1989",
+          "title": "43 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 12.322106223859235
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 8041: 1990",
+          "title": "RAPID HARDENING PORTLAND CEMENT",
+          "bm25_score": 12.025406523024495
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 455: 1989",
+          "title": "PORTLAND SLAG CEMENT",
+          "bm25_score": 11.961394656970526
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 8043: 1991",
+          "title": "HYDROPHOBIC PORTLAND CEMENT",
+          "bm25_score": 11.844244785915706
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 13757: 1993",
+          "title": "BURNT CLAY FLY ASH BUILDING BRICKS",
+          "bm25_score": 11.755868367011397
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 12269: 1987",
+          "title": "53 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 11.608427901076317
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 4098: 1983",
+          "title": "LIME POZZOLANA MIXTURE",
+          "bm25_score": 11.355736210797039
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 10360: 1982",
+          "title": "LIME-POZZOLANA CONCRETE",
+          "bm25_score": 10.841840878337173
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 9142: 1979",
+          "title": "ARTIFICIAL LIGHTWEIGHT AGGREGATES FOR",
+          "bm25_score": 9.998230439901068
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 7834: 1987",
+          "title": "INJECTION MOULDED PVC SOCKET FITTINGS",
+          "bm25_score": 8.274568629352991
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 10772: 1983",
+          "title": "QUICK SETTING LIME POZZOLANA MIXTURE",
+          "bm25_score": 7.448280806347665
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 10388: 1982",
+          "title": "CORRUGATED COIR, WOODWOOL,",
+          "bm25_score": 6.854392471056624
+        }
+      ]
+    },
+    {
+      "query_id": "old39_27",
+      "query": "PPC manufactured using calcined clay pozzolana",
+      "expected_standard": "IS 1489 (Part 2): 1991",
+      "product": null,
+      "description": null,
+      "family": "cement",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 1489 (Part 2): 1991",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1489 (Part 2): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 32.57993681921064
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 1489 (Part 1): 1991",
+          "title": "PORTLAND POZZOLANA CEMENT",
+          "bm25_score": 15.783200434834512
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 1542: 1992",
+          "title": "SAND FOR  PLASTER",
+          "bm25_score": 13.66661524715587
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 10360: 1982",
+          "title": "LIME-POZZOLANA CONCRETE",
+          "bm25_score": 11.452216494880394
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 4098: 1983",
+          "title": "LIME POZZOLANA MIXTURE",
+          "bm25_score": 8.538448775490425
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 10772: 1983",
+          "title": "QUICK SETTING LIME POZZOLANA MIXTURE",
+          "bm25_score": 7.448280806347665
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 8272: 1984",
+          "title": "GYPSUM PLASTER FOR USE IN THE",
+          "bm25_score": 6.945391850857233
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 7316: 1974",
+          "title": "DECORATIVE PLYWOOD USING PLURALITY",
+          "bm25_score": 6.420225904073532
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 653: 1992",
+          "title": "LINOLEUM SHEET  AND TILES",
+          "bm25_score": 5.922146790563023
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 7556: 1988",
+          "title": "BURNT CLAY  JALLIES",
+          "bm25_score": 5.634717681425126
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 771 (Part 5): 1979",
+          "title": "GLAZED FIRE  CLAY APPLIANCES,",
+          "bm25_score": 5.500706075288767
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 2690 (Part 1): 1993",
+          "title": "BURNT CLAY\u2013FLAT TERRACING TILES",
+          "bm25_score": 5.49372908021761
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 2690 (Part 2): 1992",
+          "title": "BURNT CLAY FLAT TERRACING TILES",
+          "bm25_score": 5.49372908021761
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 1077: 1992",
+          "title": "COMMON BURNT CLAY BUILDING BRICKS",
+          "bm25_score": 5.4869694772523
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 654: 1992",
+          "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+          "bm25_score": 5.484130626490062
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 1038: 1983",
+          "title": "STEEL DOOR, WINDOWS AND VENTILATORS",
+          "bm25_score": 5.472223320579973
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 2691: 1988",
+          "title": "BURNT CLAY FACING BRICKS",
+          "bm25_score": 5.465033989179168
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 2180: 1988",
+          "title": "HEAVY DUTY BURNT CLAY BUILDING BRICKS",
+          "bm25_score": 5.43663710350278
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 5779: 1986",
+          "title": "BURNT CLAY SOLING BRICKS",
+          "bm25_score": 5.43663710350278
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 6165: 1992",
+          "title": "DIMENSIONS FOR SPECIAL SHAPES OF CLAY",
+          "bm25_score": 5.425606177813274
+        }
+      ]
+    },
+    {
+      "query_id": "old39_28",
+      "query": "cement for masonry mortar and not structural concrete",
+      "expected_standard": "IS 3466: 1988",
+      "product": null,
+      "description": null,
+      "family": "cement",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 3466: 1988",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3466: 1988",
+          "title": "MASONRY CEMENT",
+          "bm25_score": 20.80812370952733
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 6452: 1989",
+          "title": "HIGH ALUMINA CEMENT FOR STRUCTURAL USE",
+          "bm25_score": 13.352357750689421
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 2185 (Part 3): 1984",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 12.701235692231503
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 12330: 1988",
+          "title": "SULPHATE RESISTING PORTLAND CEMENT",
+          "bm25_score": 11.678483339509656
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1237: 1980",
+          "title": "CEMENT CONCRETE FLOORING TILES",
+          "bm25_score": 11.671797044789871
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 2185 (Part 1): 1979",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 11.30694676807552
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 2185 (Part 2): 1983",
+          "title": "CONCRETE MASONRY UNITS",
+          "bm25_score": 11.092371874835838
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 3182: 1986",
+          "title": "BROKEN BRICK (BURNT CLAY)",
+          "bm25_score": 10.77231492648097
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 12440: 1988",
+          "title": "PRECAST CONCRETE STONE MASONRY BLOCKS",
+          "bm25_score": 10.384768824369553
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 9142: 1979",
+          "title": "ARTIFICIAL LIGHTWEIGHT AGGREGATES FOR",
+          "bm25_score": 10.314677019160538
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 12269: 1987",
+          "title": "53 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 9.897738187719892
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 459: 1992",
+          "title": "CORRUGATED AND SEMI-CORRUGATED ASBESTOS",
+          "bm25_score": 9.405266642026728
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 3709: 1966",
+          "title": "MASTIC CEMENT FOR BEDDING OF",
+          "bm25_score": 9.26012106146159
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 3384: 1986",
+          "title": "BITUMEN PRIMER FOR USE IN",
+          "bm25_score": 8.745077489463764
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 2645: 2003",
+          "title": "INTEGRAL CEMENT WATER-PROOFING",
+          "bm25_score": 8.694145374014795
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 8042: 1989",
+          "title": "WHITE  PORTLAND CEMENT",
+          "bm25_score": 8.489464620297989
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 7319: 1974",
+          "title": "PERFORATED CONCRETE PIPES",
+          "bm25_score": 8.037524163143102
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 4832 (Part 1): 1969",
+          "title": "CHEMICAL RESISTANT MORTARS",
+          "bm25_score": 8.019304199024365
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 8112: 1989",
+          "title": "43 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 7.999501739373036
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 458: 2003",
+          "title": "PRECAST CONCRETE PIPES (WITH AND",
+          "bm25_score": 7.823484074823559
+        }
+      ]
+    },
+    {
+      "query_id": "old39_29",
+      "query": "white cement for architectural decorative use",
+      "expected_standard": "IS 8042: 1989",
+      "product": null,
+      "description": null,
+      "family": "cement",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 8042: 1989",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 8042: 1989",
+          "title": "WHITE  PORTLAND CEMENT",
+          "bm25_score": 31.680920247390237
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 7316: 1974",
+          "title": "DECORATIVE PLYWOOD USING PLURALITY",
+          "bm25_score": 12.286809294512906
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 2046: 1995",
+          "title": "DECORATIVE THERMOSETTING SYNTHETIC",
+          "bm25_score": 8.692295975436783
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1328: 1996",
+          "title": "VENEERED DECORATIVE PLYWOOD",
+          "bm25_score": 8.492889034541156
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 459: 1992",
+          "title": "CORRUGATED AND SEMI-CORRUGATED ASBESTOS",
+          "bm25_score": 8.428225959195172
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1659: 2004",
+          "title": "BLOCK BOARDS",
+          "bm25_score": 7.460004943316728
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 6452: 1989",
+          "title": "HIGH ALUMINA CEMENT FOR STRUCTURAL USE",
+          "bm25_score": 7.041633364276274
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 8794: 1988",
+          "title": "CAST IRON DETACHABLE JOINTS  FOR USE WITH",
+          "bm25_score": 6.275529415308236
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 6908: 1991",
+          "title": "ASBESTOS CEMENT PIPES AND FITTINGS FOR",
+          "bm25_score": 6.159940428835549
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1592: 2003",
+          "title": "ASBESTOS CEMENT PRESSURE PIPES",
+          "bm25_score": 6.118469180767822
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 3466: 1988",
+          "title": "MASONRY CEMENT",
+          "bm25_score": 6.053047854075576
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 12987: 1991",
+          "title": "CAST IRON DETACHABLE JOINTS FOR USE WITH",
+          "bm25_score": 5.9825774080746115
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 7509: 1993",
+          "title": "THERMAL INSULATING CEMENT",
+          "bm25_score": 5.9406533127701575
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 12330: 1988",
+          "title": "SULPHATE RESISTING PORTLAND CEMENT",
+          "bm25_score": 5.849913011488485
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 5531: 1988",
+          "title": "CAST IRON SPECIALS FOR  ASBESTOS CEMENT",
+          "bm25_score": 5.681408698862403
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 8870: 1978",
+          "title": "ASBESTOS CEMENT CABLE CONDUITS",
+          "bm25_score": 5.639614084100091
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 14182: 1994",
+          "title": "SOLVENT CEMENT FOR USE WITH UNPLASTICIZED",
+          "bm25_score": 5.5527245100435625
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 14862: 2000",
+          "title": "FIBRE CEMENT FLAT SHEETS",
+          "bm25_score": 5.502615752351975
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 4098: 1983",
+          "title": "LIME POZZOLANA MIXTURE",
+          "bm25_score": 5.260084111828641
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3316: 1974",
+          "title": "STRUCTURAL GRANITE",
+          "bm25_score": 5.073909535101378
+        }
+      ]
+    },
+    {
+      "query_id": "old39_30",
+      "query": "product grade C hexagon head bolt M12",
+      "expected_standard": "IS 1363 (Part 1): 2002",
+      "product": null,
+      "description": null,
+      "family": "fastener",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 1363 (Part 1): 2002",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1363 (Part 1): 2002",
+          "title": "ISO 4016 : 1999",
+          "bm25_score": 25.850714888943298
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 1363 (Part 2): 2002",
+          "title": "ISO 4018 : 1999",
+          "bm25_score": 22.880721895014673
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 1363 (Part 3): 2002",
+          "title": "ISO 4034 : 1999",
+          "bm25_score": 21.44525091443506
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 12427: 2001",
+          "title": "FASTENERS \u2013 THREADED STEEL",
+          "bm25_score": 19.972510027983855
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1364 (Part 1): 2002",
+          "title": "ISO 4014 : 1999",
+          "bm25_score": 18.652490926718546
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1364 (Part 2): 2002",
+          "title": "ISO 4017 : 1999",
+          "bm25_score": 17.88063247279436
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 1364 (Part 4): 2003",
+          "title": "ISO 4035 : 1999",
+          "bm25_score": 16.551610203051233
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1364 (Part 3): 2002",
+          "title": "ISO 4032 : 1999",
+          "bm25_score": 16.191272143785916
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1364 (Part 5): 2002",
+          "title": "ISO 4036 : 1999",
+          "bm25_score": 14.756866898749237
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 6639: 1972",
+          "title": "HEXAGON BOLTS FOR STEEL STRUCTURES",
+          "bm25_score": 10.980751798737584
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 1366: 2002",
+          "title": "ISO 1207 - 1992 SLOTTED",
+          "bm25_score": 10.611370670716864
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 1120: 1975",
+          "title": "COACH SCREW",
+          "bm25_score": 10.110021318180642
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 10238: 2001",
+          "title": "FASTENERS \u2013 THREADED STEEL",
+          "bm25_score": 9.866773060485718
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 2016: 1967",
+          "title": "PLAIN WASHERS",
+          "bm25_score": 9.746195433494586
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 8412: 1977",
+          "title": "SLOTTED COUNTERSUNK HEAD BOLTS FOR",
+          "bm25_score": 9.453982692449706
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 6113: 1970",
+          "title": "ALUMINIUM FASTENERS FOR BUILDING",
+          "bm25_score": 9.092461186958019
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 6649: 1985",
+          "title": "HARDENED AND TEMPERED WASHERS FOR HIGH",
+          "bm25_score": 8.411650393626422
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 725: 1961",
+          "title": "COPPER WIRE NAILS",
+          "bm25_score": 7.91304271065065
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 3097: 1980",
+          "title": "VENEERED PARTICLE BOARDS",
+          "bm25_score": 7.275180160277841
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3757: 1985",
+          "title": "HIGH STRENGTH STRUCTURAL BOLTS",
+          "bm25_score": 6.946033313728299
+        }
+      ]
+    },
+    {
+      "query_id": "old39_31",
+      "query": "product grade C hexagon head screw",
+      "expected_standard": "IS 1363 (Part 2): 2002",
+      "product": null,
+      "description": null,
+      "family": "fastener",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 1363 (Part 2): 2002",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1363 (Part 2): 2002",
+          "title": "ISO 4018 : 1999",
+          "bm25_score": 26.38295257291542
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 1363 (Part 1): 2002",
+          "title": "ISO 4016 : 1999",
+          "bm25_score": 22.806808650288357
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 1363 (Part 3): 2002",
+          "title": "ISO 4034 : 1999",
+          "bm25_score": 21.44525091443506
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1364 (Part 2): 2002",
+          "title": "ISO 4017 : 1999",
+          "bm25_score": 20.650568664921707
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1120: 1975",
+          "title": "COACH SCREW",
+          "bm25_score": 16.80553900142657
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1364 (Part 4): 2003",
+          "title": "ISO 4035 : 1999",
+          "bm25_score": 16.551610203051233
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 1364 (Part 1): 2002",
+          "title": "ISO 4014 : 1999",
+          "bm25_score": 16.295253219423344
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1364 (Part 3): 2002",
+          "title": "ISO 4032 : 1999",
+          "bm25_score": 16.191272143785916
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1364 (Part 5): 2002",
+          "title": "ISO 4036 : 1999",
+          "bm25_score": 14.756866898749237
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1366: 2002",
+          "title": "ISO 1207 - 1992 SLOTTED",
+          "bm25_score": 14.65684531493297
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 12427: 2001",
+          "title": "FASTENERS \u2013 THREADED STEEL",
+          "bm25_score": 12.309476585222328
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 6736: 1972",
+          "title": "SLOTTED RAISED COUNTERSUNK HEAD",
+          "bm25_score": 10.407750462853107
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 6739: 1972",
+          "title": "SLOTTED ROUND HEAD WOOD SCREWS",
+          "bm25_score": 10.391802283400366
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 1365: 1978",
+          "title": "SLOTTED COUNTERSUNK HEAD SCREWS",
+          "bm25_score": 10.258368141939966
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 6760: 1972",
+          "title": "SLOTTED COUNTERSUNK HEAD WOOD SCREWS",
+          "bm25_score": 10.235961868681622
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 2016: 1967",
+          "title": "PLAIN WASHERS",
+          "bm25_score": 9.746195433494586
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 9338: 1984",
+          "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+          "bm25_score": 8.20662389954513
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 725: 1961",
+          "title": "COPPER WIRE NAILS",
+          "bm25_score": 7.91304271065065
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 2687: 1991",
+          "title": "CAP NUTS",
+          "bm25_score": 7.744673338940917
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3097: 1980",
+          "title": "VENEERED PARTICLE BOARDS",
+          "bm25_score": 7.275180160277841
+        }
+      ]
+    },
+    {
+      "query_id": "old39_32",
+      "query": "product grade C hexagon nut",
+      "expected_standard": "IS 1363 (Part 3): 2002",
+      "product": null,
+      "description": null,
+      "family": "fastener",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 1363 (Part 3): 2002",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1363 (Part 3): 2002",
+          "title": "ISO 4034 : 1999",
+          "bm25_score": 21.237153657879126
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 1363 (Part 2): 2002",
+          "title": "ISO 4018 : 1999",
+          "bm25_score": 17.008693257090723
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 1363 (Part 1): 2002",
+          "title": "ISO 4016 : 1999",
+          "bm25_score": 16.951225520011633
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1364 (Part 4): 2003",
+          "title": "ISO 4035 : 1999",
+          "bm25_score": 16.267766232153054
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 1364 (Part 3): 2002",
+          "title": "ISO 4032 : 1999",
+          "bm25_score": 15.872191224737804
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1364 (Part 5): 2002",
+          "title": "ISO 4036 : 1999",
+          "bm25_score": 13.730078359639915
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 1364 (Part 2): 2002",
+          "title": "ISO 4017 : 1999",
+          "bm25_score": 12.272389547964037
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 1364 (Part 1): 2002",
+          "title": "ISO 4014 : 1999",
+          "bm25_score": 10.962410350735556
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 3468: 1991",
+          "title": "PIPE NUTS",
+          "bm25_score": 8.3071098222222
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 2687: 1991",
+          "title": "CAP NUTS",
+          "bm25_score": 8.129436208514235
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 3097: 1980",
+          "title": "VENEERED PARTICLE BOARDS",
+          "bm25_score": 7.275180160277841
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 6639: 1972",
+          "title": "HEXAGON BOLTS FOR STEEL STRUCTURES",
+          "bm25_score": 7.1967349191430445
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 2016: 1967",
+          "title": "PLAIN WASHERS",
+          "bm25_score": 7.048052812661503
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 12427: 2001",
+          "title": "FASTENERS \u2013 THREADED STEEL",
+          "bm25_score": 6.790154730233501
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 6623: 2004",
+          "title": "HIGH STRENGTH STRUCTURAL NUTS",
+          "bm25_score": 6.785774270161151
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 5246: 2000",
+          "title": "CONIFEROUS LOGS",
+          "bm25_score": 6.489231937872737
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 269: 1989",
+          "title": "ORDINARY PORTLAND CEMENT, 33 GRADE",
+          "bm25_score": 6.44999853381503
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 8112: 1989",
+          "title": "43 GRADE ORDINARY PORTLAND CEMENT",
+          "bm25_score": 6.172167522356478
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 11433 (Part 1): 1985",
+          "title": "ONE-PART GUN-GRADE POLYSULPHIDE-",
+          "bm25_score": 5.98564331913645
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 3063: 1994",
+          "title": "FASTENERS-SINGLE COIL RECTANGULAR",
+          "bm25_score": 5.785340715680889
+        }
+      ]
+    },
+    {
+      "query_id": "old39_33",
+      "query": "slotted countersunk head screw",
+      "expected_standard": "IS 1365: 1978",
+      "product": null,
+      "description": null,
+      "family": "fastener",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 1365: 1978",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 1365: 1978",
+          "title": "SLOTTED COUNTERSUNK HEAD SCREWS",
+          "bm25_score": 27.266949770414485
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 6760: 1972",
+          "title": "SLOTTED COUNTERSUNK HEAD WOOD SCREWS",
+          "bm25_score": 27.080624420941348
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 6736: 1972",
+          "title": "SLOTTED RAISED COUNTERSUNK HEAD",
+          "bm25_score": 27.07538113985233
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 8412: 1977",
+          "title": "SLOTTED COUNTERSUNK HEAD BOLTS FOR",
+          "bm25_score": 22.106465293051354
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 6739: 1972",
+          "title": "SLOTTED ROUND HEAD WOOD SCREWS",
+          "bm25_score": 18.984591916225956
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1366: 2002",
+          "title": "ISO 1207 - 1992 SLOTTED",
+          "bm25_score": 17.598933116227393
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 723: 1972",
+          "title": "STEEL COUNTER SUNK HEAD WIRE NAILS",
+          "bm25_score": 13.144425983575415
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 725: 1961",
+          "title": "COPPER WIRE NAILS",
+          "bm25_score": 11.731438764832603
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1120: 1975",
+          "title": "COACH SCREW",
+          "bm25_score": 11.205462065719889
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1929: 1982",
+          "title": "HOT FORGED STEEL RIVETS FOR HOT CLOSING",
+          "bm25_score": 9.564496248121092
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 1363 (Part 2): 2002",
+          "title": "ISO 4018 : 1999",
+          "bm25_score": 9.374259315824698
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 1364 (Part 2): 2002",
+          "title": "ISO 4017 : 1999",
+          "bm25_score": 8.378179116957668
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 8081: 1976",
+          "title": "SLOTTED SECTIONS",
+          "bm25_score": 7.431779330603623
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 724: 1964",
+          "title": "MILD STEEL AND BRASS CUP, RULER AND SQUARE",
+          "bm25_score": 6.836854603562781
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 2016: 1967",
+          "title": "PLAIN WASHERS",
+          "bm25_score": 6.43554815996319
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 2692: 1989",
+          "title": "FERRULES FOR WATER SERVICES",
+          "bm25_score": 6.079596098627287
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 9338: 1984",
+          "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+          "bm25_score": 6.063167324964633
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 1363 (Part 1): 2002",
+          "title": "ISO 4016 : 1999",
+          "bm25_score": 5.855583130276723
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 12427: 2001",
+          "title": "FASTENERS \u2013 THREADED STEEL",
+          "bm25_score": 5.519321854988827
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1626 (Part 1): 1994",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 5.427040061585767
+        }
+      ]
+    },
+    {
+      "query_id": "old39_34",
+      "query": "high strength structural bolts",
+      "expected_standard": "IS 3757: 1985",
+      "product": null,
+      "description": null,
+      "family": "fastener",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 3757: 1985",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 3757: 1985",
+          "title": "HIGH STRENGTH STRUCTURAL BOLTS",
+          "bm25_score": 20.219084899148104
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 6649: 1985",
+          "title": "HARDENED AND TEMPERED WASHERS FOR HIGH",
+          "bm25_score": 20.039456942336813
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 6623: 2004",
+          "title": "HIGH STRENGTH STRUCTURAL NUTS",
+          "bm25_score": 16.978509434275363
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 11587: 1986",
+          "title": "STRUCTURAL WEATHER RESISTANCE STEELS",
+          "bm25_score": 14.261156210774562
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 3316: 1974",
+          "title": "STRUCTURAL GRANITE",
+          "bm25_score": 11.688374073388506
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 1149: 1982",
+          "title": "HIGH  TENSILE STEEL RIVETS BARS",
+          "bm25_score": 10.421752397188392
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 6452: 1989",
+          "title": "HIGH ALUMINA CEMENT FOR STRUCTURAL USE",
+          "bm25_score": 9.522676287274049
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 8500: 1991",
+          "title": "STRUCTURAL  STEEL- MICRO ALLOYED",
+          "bm25_score": 9.350881339013483
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 7280: 1974",
+          "title": "BARE WIRE ELECTRODES FOR SUBMERGED ARC",
+          "bm25_score": 9.08291222452264
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1786: 1985",
+          "title": "PLAIN HIGH STRENGTH DEFORMED STEEL BARS",
+          "bm25_score": 8.835835086461891
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 3951 (Part 2): 1975",
+          "title": "HOLLOW CLAY TILES FOR",
+          "bm25_score": 8.823836365259563
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 1161: 1998",
+          "title": "STEEL  TUBES FOR STRUCTURAL PURPOSES.",
+          "bm25_score": 8.73663038332738
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 3629: 1986",
+          "title": "STRUCTURAL TIMBER IN BUILDINGS",
+          "bm25_score": 7.688509349178773
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 4621: 1975",
+          "title": "INDICATING BOLT FOR USE IN  PUBLIC BATHS",
+          "bm25_score": 7.6537221212994435
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 3478: 1966",
+          "title": "HIGH DENSITY WOOD PARTICLE BOARDS",
+          "bm25_score": 6.654931926450601
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 204 (Part 1): 1991",
+          "title": "TOWER BOLTS",
+          "bm25_score": 5.946548469930429
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 5187: 1972",
+          "title": "FLUSH BOLTS",
+          "bm25_score": 5.945172274536646
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 5624: 1993",
+          "title": "FOUNDATION BOLTS",
+          "bm25_score": 5.932375724265033
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 204 (Part 2): 1992",
+          "title": "TOWER BOLTS",
+          "bm25_score": 5.905773696457368
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 730: 1978",
+          "title": "HOOK BOLTS FOR CORRUGATED SHEET ROOFING",
+          "bm25_score": 5.856738506105283
+        }
+      ]
+    },
+    {
+      "query_id": "old39_35",
+      "query": "single door non return valve for a water pipeline",
+      "expected_standard": "IS 5312 (Part 1): 2004",
+      "product": null,
+      "description": null,
+      "family": "water_valve",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 5312 (Part 1): 2004",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 5312 (Part 1): 2004",
+          "title": "SWING  CHECK  TYPE  REFLUX",
+          "bm25_score": 25.12513559243188
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 8931: 1993",
+          "title": "COPPER ALLOY FANCY SINGLE TAPS",
+          "bm25_score": 15.274936388270202
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 13114: 1991",
+          "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
+          "bm25_score": 12.615328974493508
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 778: 1984",
+          "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
+          "bm25_score": 11.934473396139603
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 9739: 1981",
+          "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
+          "bm25_score": 10.749631348771727
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 2681: 1993",
+          "title": "NON-FERROUS METAL SLIDING DOOR BOLTS",
+          "bm25_score": 10.207382985760773
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 14846: 2000",
+          "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
+          "bm25_score": 10.180002378801902
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 9338: 1984",
+          "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+          "bm25_score": 9.764407309212833
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 9758: 1981",
+          "title": "FLUSH VALVES AND FITTINGS FOR WATER",
+          "bm25_score": 9.151919198415943
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1626 (Part 1): 1994",
+          "title": "ASBESTOS CEMENT BUILDING",
+          "bm25_score": 8.768799361893125
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 9131: 1979",
+          "title": "RIM LOCKS",
+          "bm25_score": 8.094134759941882
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 9763: 2000",
+          "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
+          "bm25_score": 8.079618960283383
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 694: 1990",
+          "title": "PVC INSULATED CABLE FOR WORKING VOLTAGES",
+          "bm25_score": 8.043827979175813
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 12234: 1988",
+          "title": "PLASTIC  EQUILIBRIUM  FLOAT  VALVES FOR",
+          "bm25_score": 7.93185537808435
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 851: 1978",
+          "title": "SYNTHETIC RESIN ADHESIVES FOR CONSTRUCTION",
+          "bm25_score": 7.730598187050497
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 7231: 1994",
+          "title": "PLASTIC FLUSHING CISTERNS FOR WATER",
+          "bm25_score": 7.706724749036763
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 781: 1984",
+          "title": "CASTCOPPER ALLOYSCREW DOWN BIB TAPS",
+          "bm25_score": 7.538384912102005
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 12701: 1996",
+          "title": "ROTATIONAL MOULDED POLYETHYLENE",
+          "bm25_score": 7.456218919279382
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 1003 (Part 1): 2003",
+          "title": "TIMBER PANELLED AND GLAZED",
+          "bm25_score": 7.374411333214613
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 4615: 1968",
+          "title": "SWITCH SOCKET-OUTLETS",
+          "bm25_score": 7.2854465215681445
+        }
+      ]
+    },
+    {
+      "query_id": "old39_36",
+      "query": "multi door reflux valve for water works",
+      "expected_standard": "IS 5312 (Part 2): 1986",
+      "product": null,
+      "description": null,
+      "family": "water_valve",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 5312 (Part 2): 1986",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 5312 (Part 2): 1986",
+          "title": "SWING  CHECK  TYPE  REFLUX",
+          "bm25_score": 29.76786906669296
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 5312 (Part 1): 2004",
+          "title": "SWING  CHECK  TYPE  REFLUX",
+          "bm25_score": 26.414646071970875
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 13114: 1991",
+          "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
+          "bm25_score": 14.779844978216294
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 9338: 1984",
+          "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+          "bm25_score": 14.556874925665047
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 778: 1984",
+          "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
+          "bm25_score": 14.037378077123632
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 14846: 2000",
+          "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
+          "bm25_score": 12.77011151552096
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 9758: 1981",
+          "title": "FLUSH VALVES AND FITTINGS FOR WATER",
+          "bm25_score": 9.151919198415943
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 9763: 2000",
+          "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
+          "bm25_score": 8.079618960283383
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 9739: 1981",
+          "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
+          "bm25_score": 7.775240718063356
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1703: 2000",
+          "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
+          "bm25_score": 7.259590604968609
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 14443: 1997",
+          "title": "POLYCARBONATE SHEETS",
+          "bm25_score": 6.743813762261214
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 3367: 1993",
+          "title": "BURNT CLAY TILES FOR USE IN LINING",
+          "bm25_score": 6.707377844614902
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 4098: 1983",
+          "title": "LIME POZZOLANA MIXTURE",
+          "bm25_score": 6.484715661412583
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 1726: 1991",
+          "title": "CAST IRON MANHOLE COVERS AND FRAMES",
+          "bm25_score": 6.248828998739861
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 5961: 1970",
+          "title": "CAST IRON GRATING FOR DRAINAGE PURPOSES",
+          "bm25_score": 5.698372229840555
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 8931: 1993",
+          "title": "COPPER ALLOY FANCY SINGLE TAPS",
+          "bm25_score": 5.668020744962526
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 9762: 1994",
+          "title": "POLYETHYLENE FLOATS (SPHERICAL)",
+          "bm25_score": 5.550417388957306
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 10772: 1983",
+          "title": "QUICK SETTING LIME POZZOLANA MIXTURE",
+          "bm25_score": 5.27789028069716
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 1823: 1980",
+          "title": "FLOOR DOOR STOPPERS",
+          "bm25_score": 5.226402394034341
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 4351: 2003",
+          "title": "STEEL DOOR FRAMES",
+          "bm25_score": 5.13434492734631
+        }
+      ]
+    },
+    {
+      "query_id": "old39_37",
+      "query": "pressure reducing valve for a domestic water supply system",
+      "expected_standard": "IS 9739: 1981",
+      "product": null,
+      "description": null,
+      "family": "water_valve",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 9739: 1981",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 9739: 1981",
+          "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
+          "bm25_score": 41.6217196120572
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 13114: 1991",
+          "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
+          "bm25_score": 14.73107107616947
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 778: 1984",
+          "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
+          "bm25_score": 13.863247945637648
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 779: 1994",
+          "title": "WATER METERS (DOMESTIC  TYPE)",
+          "bm25_score": 13.797775287727653
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 9338: 1984",
+          "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+          "bm25_score": 12.598267111768521
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 13592: 1992",
+          "title": "UNPLASTILIZED POLYVINYL CHLORIDE (UPVC)",
+          "bm25_score": 12.465878224199258
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 1701: 1960",
+          "title": "MIXING  VALVES FOR ABLUTIONARY AND",
+          "bm25_score": 12.427862389119209
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 3004: 1979",
+          "title": "PLUG COCKS FOR WATER SUPPLY PURPOSES",
+          "bm25_score": 11.615371538081666
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 13983: 1994",
+          "title": "STAINLESS STEELSINKS FOR",
+          "bm25_score": 11.173708487728952
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 1703: 2000",
+          "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
+          "bm25_score": 11.098260732667901
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 2104: 1981",
+          "title": ". WATER METER BOXES (DOMESTIC TYPE)",
+          "bm25_score": 10.71238949052479
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 14735: 1999",
+          "title": "UNPLASTICIZED POLYVINYL CHLORIDE (UPVC)",
+          "bm25_score": 10.710793099328207
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 14846: 2000",
+          "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
+          "bm25_score": 10.467064818044785
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 4984: 1995",
+          "title": "HIGH DENSITY POLYETHYLENE PIPES",
+          "bm25_score": 10.365649475323407
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 804: 1967",
+          "title": "RECTANGULAR PRESSED STEEL TANKS",
+          "bm25_score": 9.264850403127301
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 9758: 1981",
+          "title": "FLUSH VALVES AND FITTINGS FOR WATER",
+          "bm25_score": 9.151919198415943
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 6163: 1978",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON LOW",
+          "bm25_score": 9.06532538953296
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 5312 (Part 1): 2004",
+          "title": "SWING  CHECK  TYPE  REFLUX",
+          "bm25_score": 8.785813842845151
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 10342: 1982",
+          "title": "CURTAIN  RAIL SYSTEM",
+          "bm25_score": 8.71075282690037
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 5511: 1991",
+          "title": "COVERED ELECTRODES FOR MANUAL METAL",
+          "bm25_score": 8.67376235634545
+        }
+      ]
+    },
+    {
+      "query_id": "old39_38",
+      "query": "cast iron air relief valve for a water main",
+      "expected_standard": "IS 14845: 2000",
+      "product": null,
+      "description": null,
+      "family": "water_valve",
+      "standard_kind": null,
+      "expected_rank": null,
+      "top1_standard": "IS 9338: 1984",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 9338: 1984",
+          "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+          "bm25_score": 17.928889490954166
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 1537: 1976",
+          "title": "VERTICALLY CAST IRON PRESSURE PIPES",
+          "bm25_score": 17.17008093163568
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 6418: 1971",
+          "title": "CAST IRON AND MALLEABLE CAST IRON",
+          "bm25_score": 16.695647599189243
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 1536: 2001",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON PRESSURE",
+          "bm25_score": 16.246860600466896
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 7181: 1986",
+          "title": "HORIZONTALLY CAST IRON DOUBLE FLANGED",
+          "bm25_score": 16.157289999111413
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 13114: 1991",
+          "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
+          "bm25_score": 13.102837810084164
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 778: 1984",
+          "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
+          "bm25_score": 12.291320185647935
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 14846: 2000",
+          "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
+          "bm25_score": 12.098564110555275
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 773: 1988",
+          "title": "ENAMELLED CAST IRON WATER\u2013CLOSETS,",
+          "bm25_score": 12.071127266314058
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 5531: 1988",
+          "title": "CAST IRON SPECIALS FOR  ASBESTOS CEMENT",
+          "bm25_score": 11.883082109456126
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 9739: 1981",
+          "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
+          "bm25_score": 11.777511136510585
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 13382: 2004",
+          "title": "CAST IRON SPECIALS FOR MECHANICAL AND",
+          "bm25_score": 11.508212424313504
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 2104: 1981",
+          "title": ". WATER METER BOXES (DOMESTIC TYPE)",
+          "bm25_score": 11.442769561898793
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 6598: 1972",
+          "title": "CELLULAR CONCRETE FOR THERMAL INSULATION",
+          "bm25_score": 11.380067667596808
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 5511: 1991",
+          "title": "COVERED ELECTRODES FOR MANUAL METAL",
+          "bm25_score": 11.209583151833865
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 5312 (Part 1): 2004",
+          "title": "SWING  CHECK  TYPE  REFLUX",
+          "bm25_score": 11.171188708749536
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 1726: 1991",
+          "title": "CAST IRON MANHOLE COVERS AND FRAMES",
+          "bm25_score": 11.127014720006411
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 12820: 2004",
+          "title": "DIMENSIONAL REQUIREMENTS OF RUBBER",
+          "bm25_score": 10.849095211739384
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 6163: 1978",
+          "title": "CENTRIFUGALLY CAST (SPUN) IRON LOW",
+          "bm25_score": 10.750727273080436
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 1230: 1979",
+          "title": "CAST IRON RAINWATER PIPES AND FITTINGS",
+          "bm25_score": 10.739272857916554
+        }
+      ]
+    },
+    {
+      "query_id": "old39_39",
+      "query": "non rising stem sluice valve for water supply",
+      "expected_standard": "IS 14846: 2000",
+      "product": null,
+      "description": null,
+      "family": "water_valve",
+      "standard_kind": null,
+      "expected_rank": 1,
+      "top1_standard": "IS 14846: 2000",
+      "candidates": [
+        {
+          "rank": 1,
+          "standard_code": "IS 14846: 2000",
+          "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
+          "bm25_score": 35.34932652579415
+        },
+        {
+          "rank": 2,
+          "standard_code": "IS 8931: 1993",
+          "title": "COPPER ALLOY FANCY SINGLE TAPS",
+          "bm25_score": 16.381517667838313
+        },
+        {
+          "rank": 3,
+          "standard_code": "IS 13349: 1992",
+          "title": "SINGLE FACED CAST IRON THIMBLE",
+          "bm25_score": 14.940228736615412
+        },
+        {
+          "rank": 4,
+          "standard_code": "IS 13114: 1991",
+          "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
+          "bm25_score": 14.692478653139393
+        },
+        {
+          "rank": 5,
+          "standard_code": "IS 778: 1984",
+          "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
+          "bm25_score": 13.827192660900145
+        },
+        {
+          "rank": 6,
+          "standard_code": "IS 9338: 1984",
+          "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
+          "bm25_score": 12.598267111768521
+        },
+        {
+          "rank": 7,
+          "standard_code": "IS 9739: 1981",
+          "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
+          "bm25_score": 11.75747825802986
+        },
+        {
+          "rank": 8,
+          "standard_code": "IS 5312 (Part 1): 2004",
+          "title": "SWING  CHECK  TYPE  REFLUX",
+          "bm25_score": 11.630015046192408
+        },
+        {
+          "rank": 9,
+          "standard_code": "IS 1703: 2000",
+          "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
+          "bm25_score": 11.098260732667901
+        },
+        {
+          "rank": 10,
+          "standard_code": "IS 9106: 1979",
+          "title": "RISING BUTT HINGES",
+          "bm25_score": 10.281907990532442
+        },
+        {
+          "rank": 11,
+          "standard_code": "IS 9758: 1981",
+          "title": "FLUSH VALVES AND FITTINGS FOR WATER",
+          "bm25_score": 9.151919198415943
+        },
+        {
+          "rank": 12,
+          "standard_code": "IS 9763: 2000",
+          "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
+          "bm25_score": 8.079618960283383
+        },
+        {
+          "rank": 13,
+          "standard_code": "IS 851: 1978",
+          "title": "SYNTHETIC RESIN ADHESIVES FOR CONSTRUCTION",
+          "bm25_score": 7.730598187050497
+        },
+        {
+          "rank": 14,
+          "standard_code": "IS 1795: 1982",
+          "title": "PILLAR TAPS FOR WATER SUPPLY PURPOSES",
+          "bm25_score": 7.27335196042251
+        },
+        {
+          "rank": 15,
+          "standard_code": "IS 3004: 1979",
+          "title": "PLUG COCKS FOR WATER SUPPLY PURPOSES",
+          "bm25_score": 7.242331964557187
+        },
+        {
+          "rank": 16,
+          "standard_code": "IS 1711: 1984",
+          "title": "SELF\u2013CLOSING TAPS FOR",
+          "bm25_score": 7.049630927687329
+        },
+        {
+          "rank": 17,
+          "standard_code": "IS 782: 1978",
+          "title": "CAULKING LEAD",
+          "bm25_score": 6.904753716454165
+        },
+        {
+          "rank": 18,
+          "standard_code": "IS 4984: 1995",
+          "title": "HIGH DENSITY POLYETHYLENE PIPES",
+          "bm25_score": 6.7681087677574485
+        },
+        {
+          "rank": 19,
+          "standard_code": "IS 14182: 1994",
+          "title": "SOLVENT CEMENT FOR USE WITH UNPLASTICIZED",
+          "bm25_score": 6.4022357087297515
+        },
+        {
+          "rank": 20,
+          "standard_code": "IS 2692: 1989",
+          "title": "FERRULES FOR WATER SERVICES",
+          "bm25_score": 6.34906999743364
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "total_corpus": 558,
+  "original_null_products": 338,
+  "null_resolution": {
+    "resolved_product": 195,
+    "resolved_non_product": 20,
+    "review_required": 123
+  },
+  "product_coverage": {
+    "before": 220,
+    "after": 522
+  },
+  "confidence": {
+    "before": {
+      "low": 426,
+      "high": 126,
+      "medium": 6
+    },
+    "after": {
+      "high": 387,
+      "low": 133,
+      "medium": 38
+    }
+  },
+  "coverage": {
+    "primary_subject": 558,
+    "product_subtype": 57,
+    "function": 121,
+    "material": 478,
+    "application": 229,
+    "applies_to_product_families": 452,
+    "review_required": 162
+  },
+  "merged_artifact_review": {
+    "SAFE": 173,
+    "REVIEW_REQUIRED": 1
+  }
+}

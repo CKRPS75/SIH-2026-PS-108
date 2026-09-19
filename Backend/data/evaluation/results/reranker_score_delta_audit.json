@@ -1,0 +1,21 @@
+{
+  "head_only_minus_pretrained": {
+    "mean_absolute_score_difference": 0.6867839717306197,
+    "median_absolute_score_difference": 0.6588170528411865,
+    "maximum_absolute_score_difference": 1.2889280319213867,
+    "exactly_identical_score_count": 0
+  },
+  "partial_last4_minus_pretrained": {
+    "mean_absolute_score_difference": 0.35127498721703887,
+    "median_absolute_score_difference": 0.22357618808746338,
+    "maximum_absolute_score_difference": 1.2964115142822266,
+    "exactly_identical_score_count": 0
+  },
+  "partial_last4_minus_head_only": {
+    "mean_absolute_score_difference": 0.8814860360696912,
+    "median_absolute_score_difference": 0.8316253125667572,
+    "maximum_absolute_score_difference": 1.8540661334991455,
+    "exactly_identical_score_count": 0
+  },
+  "pair_count": 80
+}

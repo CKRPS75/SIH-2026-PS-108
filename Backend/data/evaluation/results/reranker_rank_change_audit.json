@@ -1,0 +1,249 @@
+{
+  "rank_change_audit": {
+    "compatible_scored_query_count": 285,
+    "head_only_top1_changed_vs_pretrained": 0,
+    "partial_last4_top1_changed_vs_pretrained": 0,
+    "partial_last4_top3_ordering_changed_vs_pretrained": 3,
+    "partial_last4_top5_ordering_changed_vs_pretrained": 7,
+    "partial_last4_any_k20_ordering_changed_vs_pretrained": 30,
+    "partial_last4_spearman_mean": 0.9975781559161061,
+    "head_only_spearman_mean": 0.9993932198918348,
+    "ranking_status": "RANKING_CHANGED",
+    "partial_last4_changed_query_keys": [
+      "natural_holdout:natural_holdout_02",
+      "natural_holdout:natural_holdout_03",
+      "natural_holdout:natural_holdout_05",
+      "unseen_holdout:unseen_holdout_02",
+      "unseen_holdout:unseen_holdout_03",
+      "unseen_holdout:unseen_holdout_05",
+      "full_200_frozen:fc_eval_0021",
+      "full_200_frozen:fc_eval_0022",
+      "full_200_frozen:fc_eval_0024",
+      "full_200_frozen:fc_eval_0040",
+      "full_200_frozen:fc_eval_0044",
+      "full_200_frozen:fc_eval_0047",
+      "full_200_frozen:fc_eval_0075",
+      "full_200_frozen:fc_eval_0090",
+      "full_200_frozen:fc_eval_0111",
+      "full_200_frozen:fc_eval_0120",
+      "full_200_frozen:fc_eval_0133",
+      "full_200_frozen:fc_eval_0140",
+      "full_200_frozen:fc_eval_0143",
+      "full_200_frozen:fc_eval_0169",
+      "full_200_frozen:fc_eval_0177",
+      "product_aware_holdout:pa_holdout_0006",
+      "product_aware_holdout:pa_holdout_0010",
+      "product_aware_holdout:pa_holdout_0019",
+      "product_aware_holdout:pa_holdout_0026",
+      "product_aware_holdout:pa_holdout_0038",
+      "product_aware_holdout:pa_holdout_0044",
+      "product_aware_holdout:pa_holdout_0053",
+      "product_aware_holdout:pa_holdout_0063",
+      "product_aware_holdout:pa_holdout_0068"
+    ]
+  },
+  "retrieval_misses": [
+    {
+      "suite": "natural_holdout",
+      "query_id": "natural_holdout_02",
+      "query": "I need insulation for hot pipes.",
+      "expected_standard": "IS 9842: 1994",
+      "semantic_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "candidate_cutoff_position": 20,
+      "retrieval_source": "file_bm25"
+    },
+    {
+      "suite": "natural_holdout",
+      "query_id": "natural_holdout_03",
+      "query": "I need cement that gains strength quickly.",
+      "expected_standard": "IS 8041: 1990",
+      "semantic_rank": null,
+      "bm25_rank": null,
+      "hybrid_rank": null,
+      "candidate_cutoff_position": 20,
+      "retrieval_source": "file_bm25"
+    }
+  ],
+  "current_error_audit": [
+    {
+      "label": "part_variant_8008",
+      "suite": "full_200_frozen",
+      "query_id": "fc_eval_0069",
+      "query": "Need pipe_fitting standard for Requirements for manufacture, dimensions and tolerances, and marking for injection moulded and machine moulded HDFE sandwich flanges Note \u2014 For general requirements regarding material, manufacture, methods of test, etc,",
+      "expected_standard": "IS 8008 (Part 7): 2003",
+      "candidate_rank_before_reranking": 1,
+      "pretrained_rank": 5,
+      "head_only_rank": 5,
+      "partial_last4_rank": 5,
+      "top1_partial_last4": "IS 8008 (Part 4): 2003",
+      "scores": {
+        "IS 8008 (Part 7): 2003": {
+          "pretrained_bge_large": 0.7755311727523804,
+          "old_head_only": 0.6143480539321899,
+          "partial_last4": 0.7851227521896362
+        },
+        "IS 8008 (Part 4): 2003": {
+          "pretrained_bge_large": 0.8658355474472046,
+          "old_head_only": 0.7650454044342041,
+          "partial_last4": 0.8762628436088562
+        }
+      },
+      "classification": "PART_VARIANT_CONFUSION"
+    },
+    {
+      "label": "function_12709_14402",
+      "suite": "full_200_frozen",
+      "query_id": "fc_eval_0063",
+      "query": "Need pipe standard for Requirements for materials, dimensions, classification, testing and type of joints of machine-made pipes with glass fibre reinforced thermosetting resin with or without aggregate filler having nominal diameter from 200 m",
+      "expected_standard": "IS 12709: 1994",
+      "candidate_rank_before_reranking": 2,
+      "pretrained_rank": 2,
+      "head_only_rank": 2,
+      "partial_last4_rank": 2,
+      "top1_partial_last4": "IS 14402: 1996",
+      "scores": {
+        "IS 12709: 1994": {
+          "pretrained_bge_large": 0.9976309537887573,
+          "old_head_only": 0.9974217414855957,
+          "partial_last4": 0.9972847700119019
+        },
+        "IS 14402: 1996": {
+          "pretrained_bge_large": 0.9993108510971069,
+          "old_head_only": 0.9993946552276611,
+          "partial_last4": 0.9997265934944153
+        }
+      },
+      "classification": "FUNCTION_CONFUSION"
+    },
+    {
+      "label": "material_6760_1365",
+      "suite": "full_200_frozen",
+      "query_id": "fc_eval_0152",
+      "query": "Need screw standard for Requirements for slotted countersunk head wood screws",
+      "expected_standard": "IS 6760: 1972",
+      "candidate_rank_before_reranking": 1,
+      "pretrained_rank": 2,
+      "head_only_rank": 2,
+      "partial_last4_rank": 2,
+      "top1_partial_last4": "IS 1365: 1978",
+      "scores": {
+        "IS 6760: 1972": {
+          "pretrained_bge_large": 0.9970792531967163,
+          "old_head_only": 0.9967092275619507,
+          "partial_last4": 0.9960961937904358
+        },
+        "IS 1365: 1978": {
+          "pretrained_bge_large": 0.9971381425857544,
+          "old_head_only": 0.9967864751815796,
+          "partial_last4": 0.9962018132209778
+        }
+      },
+      "classification": "MATERIAL_APPLICATION_CONFUSION"
+    },
+    {
+      "label": "product_aware_1626",
+      "suite": "product_aware_holdout",
+      "query_id": "pa_holdout_0042",
+      "query": "PRODUCT: cement\nWORK DESCRIPTION: Requirements of asbestos cement roofing fittings, to be used in conjunction with corrugated and semi-corugated asbestos cement sheets conforming to IS 459:1992* 1.1 The following roofing fittings are covered in this stan (asbestos cement building)",
+      "expected_standard": "IS 1626: 1984",
+      "candidate_rank_before_reranking": 1,
+      "pretrained_rank": 2,
+      "head_only_rank": 2,
+      "partial_last4_rank": 2,
+      "top1_partial_last4": "IS 459: 1992",
+      "scores": {
+        "IS 1626: 1984": {
+          "pretrained_bge_large": 0.7750008702278137,
+          "old_head_only": 0.6134359240531921,
+          "partial_last4": 0.7765191197395325
+        },
+        "IS 459: 1992": {
+          "pretrained_bge_large": 0.9642909169197083,
+          "old_head_only": 0.9434435963630676,
+          "partial_last4": 0.9606239199638367
+        }
+      },
+      "classification": "OTHER_RERANKER_ERROR"
+    },
+    {
+      "label": "product_aware_1703",
+      "suite": "product_aware_holdout",
+      "query_id": "pa_holdout_0044",
+      "query": "PRODUCT: pipe_fitting\nWORK DESCRIPTION: Requirements regarding sizes,materials, manufacture and workmanship, and testing of float valves (horizontal plunger type ) for water supply purposes (water fittings copper alloy float)",
+      "expected_standard": "IS 1703: 2000",
+      "candidate_rank_before_reranking": 1,
+      "pretrained_rank": 6,
+      "head_only_rank": 6,
+      "partial_last4_rank": 7,
+      "top1_partial_last4": "IS 2963: 1979",
+      "scores": {
+        "IS 1703: 2000": {
+          "pretrained_bge_large": 0.2965223491191864,
+          "old_head_only": 0.1278666853904724,
+          "partial_last4": 0.2890860438346863
+        },
+        "IS 2963: 1979": {
+          "pretrained_bge_large": 0.8154654502868652,
+          "old_head_only": 0.6785691380500793,
+          "partial_last4": 0.8264061808586121
+        }
+      },
+      "classification": "OTHER_RERANKER_ERROR"
+    }
+  ],
+  "benchmark_compatibility": {
+    "old_39_regression": {
+      "name": "old_39_regression",
+      "status": "INCOMPATIBLE_DATASET",
+      "query_count": 39,
+      "missing_standard_codes": [
+        "IS 14845: 2000"
+      ],
+      "missing_cases": [
+        {
+          "query_id": "old39_38",
+          "query": "cast iron air relief valve for a water main",
+          "expected_standard": "IS 14845: 2000",
+          "canonical_expected_standard": "IS 14845:2000"
+        }
+      ]
+    },
+    "natural_holdout": {
+      "name": "natural_holdout",
+      "status": "COMPATIBLE",
+      "query_count": 5,
+      "missing_standard_codes": [],
+      "missing_cases": []
+    },
+    "unseen_holdout": {
+      "name": "unseen_holdout",
+      "status": "COMPATIBLE",
+      "query_count": 5,
+      "missing_standard_codes": [],
+      "missing_cases": []
+    },
+    "full_200_frozen": {
+      "name": "full_200_frozen",
+      "status": "COMPATIBLE",
+      "query_count": 200,
+      "missing_standard_codes": [],
+      "missing_cases": []
+    },
+    "product_aware_holdout": {
+      "name": "product_aware_holdout",
+      "status": "COMPATIBLE",
+      "query_count": 77,
+      "missing_standard_codes": [],
+      "missing_cases": []
+    },
+    "ambiguous_product_diagnostics": {
+      "name": "ambiguous_product_diagnostics",
+      "status": "COMPATIBLE",
+      "query_count": 3,
+      "missing_standard_codes": [],
+      "missing_cases": []
+    }
+  }
+}

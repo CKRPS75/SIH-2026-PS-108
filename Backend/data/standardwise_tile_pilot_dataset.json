@@ -1,0 +1,597 @@
+{
+  "schema_version": "1.0",
+  "dataset_name": "standardwise_tile_pilot_dataset",
+  "purpose": "Small implementation-ready subset for testing generalized user input, hybrid retrieval, reranking, ambiguity detection, and dynamic clarification before scaling to the full standards corpus.",
+  "source": {
+    "file": "parsed_standards.json",
+    "source_corpus": "SP 21:2005 summaries parsed into structured JSON",
+    "important_note": "This pilot preserves source revision information but does not claim current BIS lifecycle or QCO status."
+  },
+  "recommended_pipeline_fields": {
+    "embed": "retrieval_text",
+    "bm25_index": [
+      "standard_code",
+      "title",
+      "source_scope",
+      "retrieval_text",
+      "full_text"
+    ],
+    "reranker_input": [
+      "original_user_query",
+      "retrieval_text"
+    ],
+    "display_after_selection": [
+      "standard_code",
+      "title",
+      "source_scope",
+      "full_text"
+    ],
+    "dynamic_candidate_comparison": "search_profile"
+  },
+  "family": "clay_tiles",
+  "record_count": 9,
+  "records": [
+    {
+      "record_id": "is654:1992",
+      "standard_code": "IS 654: 1992",
+      "title": "CLAY ROOFING TILES, MANGALORE PATTERN",
+      "source_revision": "Third Revision",
+      "source_page_start": 136,
+      "source_page_end": 136,
+      "source_scope": "Covers the machine-pressed clay interlocking roofing tiles of the ‘Mangalore Pattern.’",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "roofing tile",
+          "clay roofing tile"
+        ],
+        "applications": [
+          "roofing",
+          "roof covering"
+        ],
+        "materials": [
+          "clay"
+        ],
+        "functions": [
+          "roof covering"
+        ],
+        "properties": [
+          "interlocking"
+        ],
+        "environments": [
+          "building roof"
+        ],
+        "grades": [
+          "Class AA",
+          "Class A"
+        ],
+        "form_type": [
+          "Mangalore pattern",
+          "machine-pressed",
+          "interlocking roofing tile"
+        ],
+        "manufacturing_method": [
+          "machine-pressed"
+        ],
+        "operating_conditions": [],
+        "dimensions": [],
+        "exclusions": [],
+        "aliases": [
+          "Mangalore roof tile",
+          "interlocking clay roof tile",
+          "clay roof tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "pattern",
+          "interlocking form",
+          "manufacturing method"
+        ]
+      },
+      "retrieval_text": "Title: CLAY ROOFING TILES, MANGALORE PATTERN | Product: tile, roofing tile, clay roofing tile | Application: roofing, roof covering | Material: clay | Function: roof covering | Type/Form: Mangalore pattern, machine-pressed, interlocking roofing tile | Manufacturing: machine-pressed | Environment: building roof | Grade/Class: Class AA, Class A | Scope: Covers the machine-pressed clay interlocking roofing tiles of the ‘Mangalore Pattern.’",
+      "full_text": "4.14\nSP  21 : 2005\n1.\nScope —  Covers the machine-pressed clay\ninterlocking roofing tiles of the ‘Mangalore Pattern.’\n2.\nClassification —  Class AA and Class A with\ncharacteristics given in Table 1.\nTABLE 1 CLASSIFICATION OF ROOFING TILES\nSl.no.\nCharacteristic\n          Requirement\n                                                      Class AA\nClass A\ni)\nWater absorption percent, Max\n18\n20\nii) Breaking load, kN, Min\n                               a)Average\n1.0 (for 410 × 235 mm)\n                                          0.80(for 410 × 235 mm)\n1.10 (for 420 × 250 mm\n                                        0.90 (for 420 × 250 mm\nand 425 × 260 mm)\n                               and 425 × 260 mm)\n                   b) Individual   0.90 (for 410 × 235 mm)\n                                       0.68 (for 410 × 235 mm)\n1.00 (for 420 × 250 mm\n                                     0.78 (for 420 × 250 mm\nand 425 × 260 mm)\n                            and 425 × 260 mm)\n3.\nGeneral Quality.\n3.1. Shall be free from irregularities, such as twists,\nbends, cracks and laminations. The roofing tile shall be\nfree from impurities like particles of stone, lime or other\nforeign materials. When struck, the tile shall give a\ncharacteristic ringing soud and when broken the\nfracture shall be clean and sharp at the edges. The Class\nAA tile shall be of uniform colour.\n3.2. Shape —  Placed  on either face on a plane surface,\ngap at corners shall not exceed 6 mm.\n3.3. Lugs —   At least 2 batten lugs and 2 eave lugs of\nthickness not less than 15 mm at bottom and 10 mm at\ntop shall be provided. Projection shall be 7 to 12 mm for\nbatten lugs and not less than 10 mm for eave lugs.\n3.4. Tie-down hole — 1.6 to 2 mm diameter.\n4.\nDimensions\nOverall Length\nOverall Width\nmm\nmm\n410\n235\n420\n250\n425\n260\nMinimum overlap shall be 60 mm length wise and\n25 mm widthwise\nNote— For typical details of Manglaore tile see Fig 1of the\nstandard.\nSUMMARY OF\nIS  654 : 1992 CLAY ROOFING TILES, MANGALORE PATTERN\n(Third Revision)\n \n4.1. For measurement of variations in length/width  of\ntiles the difference between—\na)\nThe overall length/width of three tiles and\nb)\nThe length/width of a tile  is calculated\nand this value shall be within the limits\nmentioned below—\nFor Tile\nValue for\nValue for\nSizes\nLength\nWidth\nmm\nmm\nmm\n410 × 235\n630 to 650\n410 to 430\n420 × 250\n670 to 690\n420 to 440\n425 × 260\n690 to 710\n430 to 450\nNote — For tolerances, refer 6.2 of the standard.\n5.\nWeight —  Average of 6 tiles shall not be less\nthan 2 kg and not more than 3 kg\n6.\nStrength Requirement\n6.1. Water Absorption — See Table 1.\n6.2. Permealibility — Water shall not drip at the bottom\nwhen tested as per Annex B of the stanard.\n6.3. Breaking load test —  Shall conform to Table 1\nwhen tested as per annex C of the standard.\nNote — For the methods of tests, refer to Appendices A to B of the standard.\nFor detailed information, refer to IS 654:1992 Specification for clay roofing tiles, Mangalore\npattern (third revision)."
+    },
+    {
+      "record_id": "is1464:1992",
+      "standard_code": "IS 1464: 1992",
+      "title": "CLAY RIDGE AND  CEILING TILES",
+      "source_revision": "Second Revision",
+      "source_page_start": 137,
+      "source_page_end": 137,
+      "source_scope": "Covers machine pressed clay ridge and ceiling tiles. It does not cover tiles of irregular sizes, shapes and colour and those made to meet special requirements. Sl No. Characteristic Requirement for Class AA Class A (1) (2) (3) (4) i) Water absorption percent (for ridge 18 20 and ceilling tiles), Max ii) Breaking strength (for ridge 0.015 0 (1.5 kg) 0.011 0 (1.10 kg) tiles only) kN, Min 0.012 5 (1.25 kg) 0.009 5 (0.95 kg)",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "clay tile",
+          "ridge tile",
+          "ceiling tile"
+        ],
+        "applications": [
+          "roof ridge",
+          "ceiling"
+        ],
+        "materials": [
+          "clay"
+        ],
+        "functions": [
+          "ridge covering",
+          "ceiling use"
+        ],
+        "properties": [],
+        "environments": [
+          "building roof",
+          "building ceiling"
+        ],
+        "grades": [
+          "Class AA",
+          "Class A"
+        ],
+        "form_type": [
+          "ridge tile",
+          "ceiling tile",
+          "machine-pressed"
+        ],
+        "manufacturing_method": [
+          "machine-pressed"
+        ],
+        "operating_conditions": [],
+        "dimensions": [],
+        "exclusions": [
+          "irregular sizes",
+          "irregular shapes",
+          "irregular colours",
+          "special-requirement tiles"
+        ],
+        "aliases": [
+          "clay ridge tile",
+          "clay ceiling tile",
+          "roof ridge tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "tile type",
+          "manufacturing method"
+        ]
+      },
+      "retrieval_text": "Title: CLAY RIDGE AND  CEILING TILES | Product: tile, clay tile, ridge tile, ceiling tile | Application: roof ridge, ceiling | Material: clay | Function: ridge covering, ceiling use | Type/Form: ridge tile, ceiling tile, machine-pressed | Manufacturing: machine-pressed | Environment: building roof, building ceiling | Grade/Class: Class AA, Class A | Exclusions: irregular sizes, irregular shapes, irregular colours, special-requirement tiles | Scope: Covers machine pressed clay ridge and ceiling tiles. It does not cover tiles of irregular sizes, shapes and colour and those made to meet special requirements. Sl No. Characteristic Requirement for Class AA Class A (1) (2) (3) (4) i) Water absorption percent (for ridge 18 20 and ceilling tiles), Max ii) Breaking strength (for ridge 0.015 0 (1.5 kg) 0.011 0 (1.10 kg) tiles only) kN, Min 0.012 5 (1.25 kg) 0.009 5 (0.95 kg)",
+      "full_text": "4.15\nSP  21 : 2005\n1.\nScope —  Covers machine pressed clay ridge and\nceiling tiles. It does not cover tiles of irregular sizes,\nshapes and colour and those made to meet special\nrequirements.\nSl No.\n  Characteristic\n                  Requirement for\n              Class AA\nClass A\n(1)\n(2)\n    (3)\n(4)\ni)\nWater absorption percent (for ridge\n18\n20\nand ceilling tiles), Max\nii)\nBreaking strength (for ridge\n0.015 0 (1.5 kg)\n 0.011 0 (1.10 kg)\ntiles only) kN, Min\n0.012 5 (1.25 kg)\n0.009  5 (0.95 kg)\n2.\nClassification– Class AA and class A with\ncharacteristics given in Table 1.\nTABLE 1 CLASSIFICATION OF RIDGE AND CEILLING TILES\n3.\nShape – Common patterns of ridge and ceiling\ntiles are shown in Fig. 1 and 2 of the standard.  Gap at\ncorners of celing tiles, when placed on a plane surface\nin normal position, shall be not more than 6 mm. Ceiling\ntiles are of two types, namely double lug and single lug.\n4.\nGeneral Quality —  shall be uniform in shape\nand shall be free from irregularities, such as twists,\nbends, cracks and laminations. shall be free from\nimpurities like particles of stone, lime or other foreign\nmaterials. When struck, the tile shall give a ringing sound\nand when broken, the fracture shall be clen, dense and\nsharp at the edges.\n5.\nDimensions of Ridge Tiles\na)\nLength— 375, 400 and 435 mm.\nThe tolerance shall be ± 5 mm.\nb)\nWidth and Height — Shall have a base of  265\nmm and height of 100 mm with a tolerance of\n± 5 mm.\nc)     Thickness — shall be not less than 10 mm\n         throughtout excluding ornamentation, etc.\nd)     Rib — The rib at the rear end of the tile shall\n        be of such a height and shape as to prevent\n       effectively the tendency of the front face of\n        the tile interlocked to slide over it.\n6.\nDimension of Ceiling Tiles — The length of the\ndouble lug ceiling tile at the bottom shall be such that\nwhen a tile is placed between two battens the space\nbetween the face of the batten and that of end of tile\nshall be between 3 and 6 mm. The length of the single\nlug ceiling tile at the bottom shall be 30 mm less than the\nface to face spacing of battens. The length of the lug\nshall not be more than 20 mm. Thickness of the tile or\nlug shall be not less than 10 mm.\nNote — For methods of tests, refer to Appendices A and B of the standard.\nFor detailed information, refer to IS 1464:1992 Specification for clay ridge and ceiling tiles\n(second revision).\nSUMMARY OF\nIS 1464 : 1992 CLAY RIDGE AND  CEILING TILES\n(Second Revision)"
+    },
+    {
+      "record_id": "is1478:1992",
+      "standard_code": "IS 1478: 1992",
+      "title": "CLAY FLOORING  TILES",
+      "source_revision": "Second Revision",
+      "source_page_start": 138,
+      "source_page_end": 138,
+      "source_scope": "Requirements for dimensions, quality and strength for clay flooring tiles.",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "clay tile",
+          "flooring tile"
+        ],
+        "applications": [
+          "flooring",
+          "floor covering"
+        ],
+        "materials": [
+          "clay"
+        ],
+        "functions": [
+          "floor covering"
+        ],
+        "properties": [],
+        "environments": [
+          "building floor"
+        ],
+        "grades": [
+          "Class 1",
+          "Class 2",
+          "Class 3"
+        ],
+        "form_type": [
+          "clay flooring tile"
+        ],
+        "manufacturing_method": [],
+        "operating_conditions": [],
+        "dimensions": [
+          "150×150×15 mm",
+          "150×150×20 mm",
+          "200×200×20 mm",
+          "200×200×25 mm",
+          "250×250×30 mm"
+        ],
+        "exclusions": [],
+        "aliases": [
+          "clay floor tile",
+          "floor tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "grade/class",
+          "dimensions"
+        ]
+      },
+      "retrieval_text": "Title: CLAY FLOORING  TILES | Product: tile, clay tile, flooring tile | Application: flooring, floor covering | Material: clay | Function: floor covering | Type/Form: clay flooring tile | Environment: building floor | Grade/Class: Class 1, Class 2, Class 3 | Scope: Requirements for dimensions, quality and strength for clay flooring tiles.",
+      "full_text": "4.16\nSP  21 : 2005\n3.\nGeneral Quality — shall be free from\nirregularities, such as twists, bends, cracks, flaws,\nlaminations and imperfections. Faces of tiles shall be\nplain, grooved fluted or figured as specified and the\nedges shall be square.\n4.\n Dimensions\ni)        150 × 150 × 15 mm\nii)       150 × 150 × 20 mm\niii)      200 × 200 × 20 mm\niv)      200 × 200 × 25 mm\nv)        250 × 250 × 30 mm\nDepth of the grooves or frogging on the underside shall\nnot exceed 3 mm.\n5.\n Tolerances\na)    Length and breadth — Average +  5 mm,\nindividual + 2 mm.\nb)      Thickness — Average + 2 mm, individual\n+ 1 mm.\n6.\nWarpage —  Shall not exceed 2 percent along\nedges and 1.5 percent along diagonals.\nNote — For methods of tests, refer to Appendices A to C of the standard.\nFor details information, refer to IS 1478:1992 Specifications for clay flooring tiles\n(second revision).\n1.\nScope — Requirements for dimensions, quality\nand strength for clay flooring tiles.\n2.\nClassification — Class 1, class 2, and class 3\nwith characteristics given in Table 1.\nTABLE 1 CLASSIFICATION OF\nFLOORING TILES\nSI.No.\nCharacteristic\nRequirements for\n     Class 1 Class 2   Class 3\ni)\nWater absorption\n10\n19\n24\npercent, Max\nii)\nFlexural strength,\nkg/cm width, Min\n   a)   Average\n6\n3.5\n2.5\n   b)   Individual\n5\n3.0\n2.0\niii)\nImpact maximum\nheight in mm of\ndrop of steel ball:\n   a)    15 mm thick\n25\n20\n15\n   b)    20 mm thick\n60\n50\n40\n   c)    25 mm thick\n75\n65\n50\n   d)    30 mm thick\n80\n70\n60\nSUMMARY OF\nIS 1478 : 1992 CLAY FLOORING  TILES\n(Second Revision)"
+    },
+    {
+      "record_id": "is2690(part1):1993",
+      "standard_code": "IS 2690 (Part 1): 1993",
+      "title": "BURNT CLAY–FLAT TERRACING TILES",
+      "source_revision": "Second Revision",
+      "source_page_start": 139,
+      "source_page_end": 139,
+      "source_scope": "Requirements for machine-made burnt clay flat terracing tiles.",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "burnt clay tile",
+          "terracing tile"
+        ],
+        "applications": [
+          "terracing",
+          "terrace covering"
+        ],
+        "materials": [
+          "burnt clay"
+        ],
+        "functions": [
+          "terracing"
+        ],
+        "properties": [
+          "flat"
+        ],
+        "environments": [
+          "building terrace"
+        ],
+        "grades": [],
+        "form_type": [
+          "flat terracing tile",
+          "machine-made"
+        ],
+        "manufacturing_method": [
+          "machine-made",
+          "machine-pressed",
+          "machine-extruded"
+        ],
+        "operating_conditions": [],
+        "dimensions": [
+          "length 150–250 mm",
+          "width 100–200 mm",
+          "thickness 15 or 20 mm"
+        ],
+        "exclusions": [],
+        "aliases": [
+          "machine-made terracing tile",
+          "burnt clay terrace tile",
+          "flat terrace tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "manufacturing method",
+          "form"
+        ]
+      },
+      "retrieval_text": "Title: BURNT CLAY–FLAT TERRACING TILES | Product: tile, burnt clay tile, terracing tile | Application: terracing, terrace covering | Material: burnt clay | Function: terracing | Type/Form: flat terracing tile, machine-made | Manufacturing: machine-made, machine-pressed, machine-extruded | Environment: building terrace | Scope: Requirements for machine-made burnt clay flat terracing tiles.",
+      "full_text": "4.17\nSP  21 : 2005\n1.\nScope —  Requirements for  machine-made burnt\nclay flat terracing tiles.\n2.\nGeneral Quality — Shall be uniform in shape\nand sizes and shall be free from irregularities, such as\ntwists, bends, cracks and particles of stones.\n3.\nDimensions and Toleranes\n3.1 Length  —  250 to 150 mm in stages of 25 mm.\n3.2 Width —     200 to 100 mm in stages of 25 mm.\n3.3 Thickness —20 and 15 mm.\n3.4 Tolerances —  ± 2 percent on all dimensions in\ncase of machine pressed tiles and ± 3 percent in case of\nmachine exturded tiles.\n4.\nWarpage — Shall not exceed 1 percent in any\ndirection.\n5.\nWater Absorption — Average of 6 tiles shall\nnot exceed 15 percent.\n6.\nFlexural Strength — Shall not be less than\n2N/mm2.\nNote — For methods of tests, refer to Appendices A and B of the standard.\nFor detailed information, refer to IS 2690 (Part 1):1993 Specification for burnt clay flat terracing\ntiles: Part 1 Machine-made (second revision).\nSUMMARY OF\nIS  2690 (PART 1) : 1993 BURNT CLAY–FLAT TERRACING TILES\nPART 1 MACHINE-MADE\n(Second Revision)"
+    },
+    {
+      "record_id": "is2690(part2):1992",
+      "standard_code": "IS 2690 (Part 2): 1992",
+      "title": "BURNT CLAY FLAT TERRACING TILES",
+      "source_revision": "Second Revision",
+      "source_page_start": 140,
+      "source_page_end": 140,
+      "source_scope": "Requirements for hand-made burnt clay flat terracing tiles.",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "burnt clay tile",
+          "terracing tile"
+        ],
+        "applications": [
+          "terracing",
+          "terrace covering"
+        ],
+        "materials": [
+          "burnt clay"
+        ],
+        "functions": [
+          "terracing"
+        ],
+        "properties": [
+          "flat"
+        ],
+        "environments": [
+          "building terrace"
+        ],
+        "grades": [],
+        "form_type": [
+          "flat terracing tile",
+          "hand-made"
+        ],
+        "manufacturing_method": [
+          "hand-made"
+        ],
+        "operating_conditions": [],
+        "dimensions": [
+          "length 150–250 mm",
+          "width 75–200 mm",
+          "thickness 25–50 mm"
+        ],
+        "exclusions": [],
+        "aliases": [
+          "hand-made terracing tile",
+          "burnt clay terrace tile",
+          "flat terrace tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "manufacturing method",
+          "form"
+        ]
+      },
+      "retrieval_text": "Title: BURNT CLAY FLAT TERRACING TILES | Product: tile, burnt clay tile, terracing tile | Application: terracing, terrace covering | Material: burnt clay | Function: terracing | Type/Form: flat terracing tile, hand-made | Manufacturing: hand-made | Environment: building terrace | Scope: Requirements for hand-made burnt clay flat terracing tiles.",
+      "full_text": "4.18\nSP  21 : 2005\n1.\nScope — Requirements for hand-made burnt clay\nflat terracing tiles.\n2.\nGeneral Quality— Shall be uniform in shape\nand sizes and shall be free from irregularities, such as\ntwists, bends, cracks and particles of stones.\n3.\nDimensions and Tolerances\n3.1 Length — 250 to 150 mm in stages of 25 mm.\n3.2 Width —    200 to 75 mm in stages of 25 mm.\n3.3 Thickness— 25 to 50 mm in stages of 5 mm.\n3.4 Tolerances — Shall be ± 3 percent for all dimensions.\n4.\nWarpage— Shall not exceed 2 percent of the\ndimension in any direction.\n5.\nWater Absorption — Shall not exceed 20 percent\nby weight.\n6.\nFlexural Strength —  Shall not be less that\n1.5 N/mm2.\nSUMMARY OF\nIS 2690 (PART 2) : 1992 BURNT CLAY FLAT TERRACING TILES\nPART 2  HAND – MADE\n(Second Revision)\nNote — For  methods of test, refer to Annex B of the standard, and relevant parts of IS 3495 Methods of tests of burnt clay building\nbricks  (third revision).\nFor detailed information, refer to IS 2690 (Part 2):1992 Specification for burnt clay flat terracing\ntiles: Part 2 Hand-made (second revision)."
+    },
+    {
+      "record_id": "is3367:1993",
+      "standard_code": "IS 3367: 1993",
+      "title": "BURNT CLAY TILES FOR USE IN LINING",
+      "source_revision": "Second Revision",
+      "source_page_start": 141,
+      "source_page_end": 141,
+      "source_scope": "Covers machine-pressed, wire-cut, or hand-made rectangular burnt clay tiles used for lining irrigation canals and for drainage channels (other than sewage works).",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "burnt clay tile",
+          "lining tile"
+        ],
+        "applications": [
+          "irrigation canal lining",
+          "drainage channel lining"
+        ],
+        "materials": [
+          "burnt clay"
+        ],
+        "functions": [
+          "lining"
+        ],
+        "properties": [
+          "rectangular"
+        ],
+        "environments": [
+          "irrigation works",
+          "drainage works"
+        ],
+        "grades": [
+          "Class 105",
+          "Class 75"
+        ],
+        "form_type": [
+          "rectangular lining tile"
+        ],
+        "manufacturing_method": [
+          "machine-pressed",
+          "wire-cut",
+          "hand-made"
+        ],
+        "operating_conditions": [],
+        "dimensions": [
+          "300×150×50 mm"
+        ],
+        "exclusions": [
+          "sewage works"
+        ],
+        "aliases": [
+          "canal lining tile",
+          "drainage lining tile",
+          "irrigation tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "environment",
+          "exclusion",
+          "grade/class"
+        ]
+      },
+      "retrieval_text": "Title: BURNT CLAY TILES FOR USE IN LINING | Product: tile, burnt clay tile, lining tile | Application: irrigation canal lining, drainage channel lining | Material: burnt clay | Function: lining | Type/Form: rectangular lining tile | Manufacturing: machine-pressed, wire-cut, hand-made | Environment: irrigation works, drainage works | Grade/Class: Class 105, Class 75 | Exclusions: sewage works | Scope: Covers machine-pressed, wire-cut, or hand-made rectangular burnt clay tiles used for lining irrigation canals and for drainage channels (other than sewage works).",
+      "full_text": "4.19\nSP  21 : 2005\nTABLE 1  PHYSICAL PROPERTIES\nSl. No.\nCharacteristic\nRequirements\nClass 105\nClass 75\n(1)\n(2)\n(3)\n(4)\ni)\nCompressive strength, N/mn2 Min\n  10.5\n    7.5\nii)\nWater absorption percent, Max\n15.0\n     20.0\niii)\nTransverse strength N/mm2, Min\n1.5\n     1.2\niv)\nWarp, mm, Max\n   3.0\n   3.0\n1.\nScope — Covers machine-pressed, wire-cut, or\nhand-made rectangular burnt clay tiles used for lining\nirrigation canals and for drainage channels (other than\nsewage works).\n2.\nGeneral — Shall be uniform in size, shape and\nfree from irregulatities, such as cracks and laminations.\nShall be free from impurities like particles of stone, lime\nand other foreign materials.\n3.\nDimensions and Tolerances.\n3.1 Dimensions — 300 mm × 150 mm × 50 mm.\n3.2 Tolerances  —  ± 10 mm in length, ± 5 mm in width,\nand ± 1.5 mm in thickness.\n4.\nClassification — Class 105 and Class 75.\n5.\nPhysical Properties  See Table 1.\nNote — For methods of test, refer to  Appendices A and B of the standard and relevant parts of IS 3495 Methods of tests of burnt clay\nbuilding bricks (third revision).\nFor detailed information refer to IS 3367:1993 Specification for burnt clay tiles for use in lining\nirigation and drainage works (second revision).\nSUMMARY OF\nIS 3367 : 1993 BURNT CLAY TILES FOR USE IN LINING\nIRRIGATION AND   DRAINAGE WORKS\n(Second Revision)"
+    },
+    {
+      "record_id": "is3951(part1):1975",
+      "standard_code": "IS 3951 (Part 1): 1975",
+      "title": "HOLLOW CLAY TILES FOR",
+      "source_revision": "First Revision",
+      "source_page_start": 142,
+      "source_page_end": 142,
+      "source_scope": "Requirements for dimensions, quality and strength requirements of hollow clay filler tiles having perforations parallel to their length and intended for use in floors and roofs.",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "clay tile",
+          "hollow clay tile"
+        ],
+        "applications": [
+          "floors",
+          "roofs"
+        ],
+        "materials": [
+          "clay"
+        ],
+        "functions": [
+          "filler unit"
+        ],
+        "properties": [
+          "hollow",
+          "perforations parallel to length"
+        ],
+        "environments": [
+          "building floor",
+          "building roof"
+        ],
+        "grades": [],
+        "form_type": [
+          "filler type",
+          "hollow clay tile"
+        ],
+        "manufacturing_method": [],
+        "operating_conditions": [],
+        "dimensions": [],
+        "exclusions": [],
+        "aliases": [
+          "hollow clay filler tile",
+          "filler tile for floor",
+          "filler tile for roof"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "structural role",
+          "filler type",
+          "hollow/perforated form"
+        ]
+      },
+      "retrieval_text": "Title: HOLLOW CLAY TILES FOR | Product: tile, clay tile, hollow clay tile | Application: floors, roofs | Material: clay | Function: filler unit | Type/Form: filler type, hollow clay tile | Environment: building floor, building roof | Scope: Requirements for dimensions, quality and strength requirements of hollow clay filler tiles having perforations parallel to their length and intended for use in floors and roofs.",
+      "full_text": "4.20\nSP  21 : 2005\n1.\nScope —  Requirements for dimensions, quality\nand strength requirements of hollow clay filler tiles\nhaving perforations parallel to their length and intended\nfor use in floors and roofs.\n2.\nGeneral Requirements — Shall be free from\ncracks, flaws and nodules of free lime. Shall be of uniform\ncolour and shall have plane rectangular faces with\nparallel sides and straight right angled edges.\n2.1 Winding or Bowing —  Shall be not more than 5\nmm per 30 cm length or width.\n2.2 Concavity or Convexity — Shall be not more than\n5 mm per 30 cm  run at any point on either diagonal.\n2.3 Angles between Sides and  Joining  Edges — Shall\nbe not more than 5 mm per 30 cm run.\nNote — Tests for trueness of shape are illustrated in Fig 1 to\n3 on the standard.\n3.\nDimensions and Tolerances\n3.1 Dimensions\n          Length\nWidth\n   Height\n          mm\nmm\n   mm\n         340, 390, 440, 490\n350, 300     80,  90\n         540, 590, 640, 690\n250, 200     100, 110\n         740\n3.2 Tolerances —  ± 5 percent\n3.3 Thickness — Shall be not less than 11 mm for shell\nand not less than 8 mm for web.\n4.\nBreaking Strength —  Shall be not less than\n10 kgf/cm2 length.\n5.\nWater Absorption —  Shall not more than  20\npercent.\nNote 1 —  Typical shapes of hollow clay filter tiles are shown  in Fig. 4 of the standard.\nNote 2 —  For  methods of tests, refer to  Appendices A and B of the standard.\nFor detailed information, refer to IS 3951 (Part 1):1975 Specification for hollow clay tiles for\nfloors and roofs:Part 1 Filler type (first revision).\nSUMMARY OF\nIS 3951 (PART 1) : 1975 HOLLOW CLAY TILES FOR\nFLOORS AND ROOFS\nPART 1 FILLER TYPE\n(First Revision)"
+    },
+    {
+      "record_id": "is3951(part2):1975",
+      "standard_code": "IS 3951 (Part 2): 1975",
+      "title": "HOLLOW CLAY TILES FOR",
+      "source_revision": "First Revision",
+      "source_page_start": 143,
+      "source_page_end": 143,
+      "source_scope": "Requirements for quality, dimensions, bulk density, water absorption and strength requirements of structural hollow clay tiles suitable for floor/roof.",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "clay tile",
+          "hollow clay tile"
+        ],
+        "applications": [
+          "floors",
+          "roofs"
+        ],
+        "materials": [
+          "clay"
+        ],
+        "functions": [
+          "structural unit"
+        ],
+        "properties": [
+          "hollow",
+          "structural"
+        ],
+        "environments": [
+          "building floor",
+          "building roof"
+        ],
+        "grades": [],
+        "form_type": [
+          "structural type",
+          "hollow clay tile"
+        ],
+        "manufacturing_method": [],
+        "operating_conditions": [],
+        "dimensions": [
+          "length 290 or 390 mm",
+          "width 90–190 mm",
+          "height 125–200 mm"
+        ],
+        "exclusions": [],
+        "aliases": [
+          "structural hollow clay tile",
+          "structural floor tile",
+          "structural roof tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "structural role",
+          "structural type",
+          "hollow form"
+        ]
+      },
+      "retrieval_text": "Title: HOLLOW CLAY TILES FOR | Product: tile, clay tile, hollow clay tile | Application: floors, roofs | Material: clay | Function: structural unit | Type/Form: structural type, hollow clay tile | Environment: building floor, building roof | Scope: Requirements for quality, dimensions, bulk density, water absorption and strength requirements of structural hollow clay tiles suitable for floor/roof.",
+      "full_text": "4.21\nSP  21 : 2005\n1.\nScope —Requirements for quality, dimensions,\nbulk density, water absorption and strength\nrequirements of structural hollow clay tiles suitable for\nfloor/roof.\n2.\nGeneral Requirements— Shall be free from\ncracks, flaws or inclusion of any deleterious materials.\n2.1  Shall have at least one plane of symmetry in cross\nsection.\n2.2 Shall have serrations (not deeper than 3 mm and\nnot wider than 6 mm) on all faces designed to be\nconcreted or mortared or plastered.\n2.3 Winding or Bowing —  Shall not be more than5 mm\nper 30 cm length or width.\n2.4 Concavity or Convexity — Shall not be more than\n5 mm per 30 cm run at any point in either diagonal.\n2.5 Angle between Sides and Joining Edges—   Shall\nnot be more than 5 mm per 30 cm run\nNote — Tests for trueness of shape are illustrated  in Fig 1. to\n3. of the standard.\n3.\nDimensions and Tolerances\n3.1 Dimensions\n         Length— 290 and 390 mm\n          Width —  90 to 190 mm in stages of 50 mm\n          Height — 125 to 200 mm in stages of 25 mm\n3.2 Thickness  —Shall be not less than 12 mm for shell\nand not less than 10 mm for web.\n3.3 Tolerances — ± 5 percent on length and width.\n+ 5 percent on height.\nNote —Hollow tiles may be either with small  perforations or\nlarge holes or a combination of the two.\n4.\nBulk Density — Shall be not below 0.9g/cm3 and not\nmore than 1.2g/cm3.\n5.\nCompressive strength — Average not less\nthan 200 kgf/cm2. Individual not less than 150 kgf/cm2.\n6.\nWater Absorption — Shall not exceed 10 percent\nby weight.\nNote 1—Typical shapes of structure clay units for flooring and roofing are shown in Fig. 4 of the standard\nNote 2 — For methods of tests refer to 5.1.1 Appendices A and B of the standard.\nFor detailed information, refer to IS 3951 (Part 2) : 1975 Specification for hollow clay tiles for\nfloors and roofs: Part 2 Structural type (first revision).\nSUMMARY OF\nIS 3951 (PART 2) : 1975 HOLLOW CLAY TILES FOR\nFLOORS AND ROOFS\nPART 2  STRUCTURAL TYPE\n(First Revision)"
+    },
+    {
+      "record_id": "is13317:1992",
+      "standard_code": "IS 13317: 1992",
+      "title": "CLAY ROOFING COUNTRY TILES,",
+      "source_revision": null,
+      "source_page_start": 144,
+      "source_page_end": 146,
+      "source_scope": "",
+      "lifecycle_status": null,
+      "lifecycle_status_note": "Not verified in this pilot file. Source is the parsed SP 21:2005 summary corpus; current BIS lifecycle status must be checked separately.",
+      "search_profile": {
+        "product_family": [
+          "tile",
+          "clay tile",
+          "roofing tile",
+          "country tile"
+        ],
+        "applications": [
+          "roofing",
+          "roof covering"
+        ],
+        "materials": [
+          "clay"
+        ],
+        "functions": [
+          "roof covering"
+        ],
+        "properties": [],
+        "environments": [
+          "building roof"
+        ],
+        "grades": [
+          "Class AA",
+          "Class A"
+        ],
+        "form_type": [
+          "half-round country tile",
+          "flat country tile",
+          "hand-made"
+        ],
+        "manufacturing_method": [
+          "hand-made"
+        ],
+        "operating_conditions": [],
+        "dimensions": [],
+        "exclusions": [],
+        "aliases": [
+          "country roof tile",
+          "hand-made clay roof tile",
+          "half-round roofing tile",
+          "flat country roofing tile"
+        ],
+        "discriminating_attributes": [
+          "application",
+          "form",
+          "manufacturing method"
+        ]
+      },
+      "retrieval_text": "Title: CLAY ROOFING COUNTRY TILES, | Product: tile, clay tile, roofing tile, country tile | Application: roofing, roof covering | Material: clay | Function: roof covering | Type/Form: half-round country tile, flat country tile, hand-made | Manufacturing: hand-made | Environment: building roof | Grade/Class: Class AA, Class A",
+      "full_text": "4.22\nSP  21 : 2005\n1.\nSpecification — Covers the specifications\nof hand made half round and flat country tiles.\nSl No.\nCharacteristic\nRequirement\nClass AA           Class A       Class AA                           Class A\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\ni)\nWater absorption percent, Max\n19\n24\n19\n24\nii)\nBreaking load, kN, Min\na)  Average\n0.40 (40 kg)\n0.30 (30 kg)\n0.35 (35 kg)\n0.25 (25 kg)\nb) Individual\n0.35 (35 kg)\n0.25 (25 kg)\n0.30 (30 kg)\n0.20 (20 kg)\nTABLE 2  DIMENSIONS OF TILES\n                         Dimensions mm\nOverall length                    Overall width                                       Overall height\nWide end\nNarrow end\nWide end\nNarrow end\nHalf Round Tiles\n                    Size I\n250\n105\n85\n50\n40\n                    Size II\n250\n120\n95\n60\n45\nFlat Tile\n                    Size I\n200\n175\n145\n20\n20\n                    SIze II\n250\n200\n160\n25\n25\nTABLE 1  CLASSIFICATION  OF  CLAY  COUNTRY  ROOFING  TILES\n2.\nClassification — Class AA and Class A with\ncharacteristics given in Table 1.\n3.\nShape, Dimension and Tolerances –  For dimensions see Table 2\nWhen the half round or flat country tile is placed\non a plane surface, the gap at the corners shall be not\nmore than 8 mm. The cross-section of the half round\nand flat country tiles shall be such as to give the tile\nstructural rigidity. The overall minimum overlap in both\nthe type of tiles shall  be  60 mm length length wise.\nThere is no overlap width wise in these tiles. The\ntolerances in length and width shall  be  below\n± 5 percent.\n4.  General Quality —  Shall be free from irregularities,\nsuch as twists, bend, cracks and lamination.   Shall be\nfree from impurities like particles  of stone, lime or other\nforeign materials. Class AA tile shall be of uniform colour.\n5.  Weight —  Average of  6 tiles when dried to\nconstant weight at 110°ºC.\nHalf round tile 5 to 8 N, Max\nFlat tile 7 to 10 N,  Max\nNote 1 — For typical details of country roofing tiles see Fig. 1 of the standard.\nNote 2 — For methods of tests, refer to Appendices A and B of the standard.\nSUMMARY  OF\nIS 13317 : 1992 CLAY ROOFING COUNTRY TILES,\nHALF ROUND AND FLAT TILES\nFor detailed information, refer to IS 13317:1992  Specification for clay roofing country tiles,\nhalf round and flat tiles.\nHalf Round Tiles\nFlat Tiles\n \n\n2.1\nSECTION 5\nGYPSUM BUILDING\nMATERIALS\n \n\n5.2\nSP  21 : 2005\nCONTENTS\nTitle\nPage\nIS\n2095\nGypsum plaster boards\n(Part  I)  : 1996\nPlain gypsum plaster boards (second revision)\n5.3\n(Part  3) : 1996\nReinforced gypsum plaster boards (second revision)\n5.5\nIS\n2547\nGypsum building plaster\n(Part I)  :  1976\nExcluding premixed light weight plaster (first revision)\n5.7\n(Part 2)  : 1976\nPremixed light weight plaster (first revision)\n5.9\nIS\n2849 : 1983\nNon load bearing gypsum partition blocks\n5.10\n(Solid and hollow types)\nIS\n8272 : 1984\nGypsum plaster for use in the manufacture of fibrous\n5.11\nplaster boards (first revision)"
+    }
+  ]
+}

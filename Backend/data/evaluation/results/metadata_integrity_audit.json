@@ -1,0 +1,837 @@
+{
+  "source": "data\\canonical\\parsed_standards_canonical.json",
+  "total_records": 558,
+  "flagged_records": 50,
+  "repaired_records": 0,
+  "issue_counts": {
+    "PRODUCT_TITLE_CONFLICT": 24,
+    "PRODUCT_TITLE_SAME_FAMILY_MISMATCH": 1,
+    "WEAK_PRODUCT_TEXT_EVIDENCE": 27
+  },
+  "findings": [
+    {
+      "standard_code": "IS 1003 (Part 1): 2003",
+      "title": "TIMBER PANELLED AND GLAZED",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "board",
+        "title_product_confidence": "high",
+        "canonical_product": "door",
+        "family": "door_window",
+        "applies_to_product_families": [
+          "cement",
+          "door_window",
+          "glass",
+          "timber",
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 10238: 2001",
+      "title": "FASTENERS \u2013 THREADED STEEL",
+      "issues": [
+        "PRODUCT_TITLE_SAME_FAMILY_MISMATCH"
+      ],
+      "evidence": {
+        "title_product": "fastener",
+        "title_product_confidence": "high",
+        "canonical_product": "bolt",
+        "family": "fastener",
+        "applies_to_product_families": [
+          "fastener"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 10292: 1988",
+      "title": "DIMENSIONAL REQUIREMENTS FOR RUBBER",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "pipe",
+        "title_product_confidence": "low",
+        "canonical_product": "cement",
+        "family": "cement",
+        "applies_to_product_families": [
+          "cement",
+          "pipe_water_drainage"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 10342: 1982",
+      "title": "CURTAIN  RAIL SYSTEM",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "dimensions_testing_finish_rails",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 10889: 1984",
+      "title": "HIGH DENSITY POLYTHYLENE FILM",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "polyethylene_films_coloured_films",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 13204: 1991",
+      "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "pipe",
+        "title_product_confidence": "low",
+        "canonical_product": "thermal_insulation",
+        "family": "thermal_insulation",
+        "applies_to_product_families": [
+          "masonry_unit",
+          "pipe_water_drainage",
+          "thermal_insulation",
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 14587: 1998",
+      "title": "PRE-LAMINATED MEDIUM DENSITY FIBRE",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "thermal_insulation",
+        "title_product_confidence": "low",
+        "canonical_product": "board",
+        "family": "wood_board",
+        "applies_to_product_families": [
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 14862: 2000",
+      "title": "FIBRE CEMENT FLAT SHEETS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "board",
+        "title_product_confidence": "high",
+        "canonical_product": "cement",
+        "family": "cement",
+        "applies_to_product_families": [
+          "cement",
+          "thermal_insulation",
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 1730: 1989",
+      "title": "STEEL  PLATES SHEETS STRIPS AND FLATS, FOR",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "flats_structural_engineering_purposes",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 1863: 1979",
+      "title": "ROLLED  STEEL BULB FLATS",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "rolled_steel_bulb_flats",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2090: 1983",
+      "title": "HIGH TENSILE STEEL BARS USED IN",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "used_in_prestressed_concrete",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2095 (Part 3): 1996",
+      "title": "GYPSUM PLASTER BOARDS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "glass",
+        "title_product_confidence": "high",
+        "canonical_product": "board",
+        "family": "wood_board",
+        "applies_to_product_families": [
+          "door_window",
+          "glass",
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 212: 1983",
+      "title": "CRUDE COAL TAR FOR GENERAL USE",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT",
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": "timber",
+        "title_product_confidence": "high",
+        "canonical_product": "crude_coal_tar_use",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2185 (Part 3): 1984",
+      "title": "CONCRETE MASONRY UNITS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "thermal_insulation",
+        "title_product_confidence": "low",
+        "canonical_product": "block",
+        "family": "masonry_unit",
+        "applies_to_product_families": [
+          "cement",
+          "masonry_unit",
+          "thermal_insulation"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 218: 1983",
+      "title": "CREOSOTE OIL FOR USE AS WOOD",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT",
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": "timber",
+        "title_product_confidence": "high",
+        "canonical_product": "use_as_wood_preservatives",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2191 (Part 2): 1983",
+      "title": "WOODEN FLUSH DOOR SHUTTERS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "board",
+        "title_product_confidence": "low",
+        "canonical_product": "door",
+        "family": "door_window",
+        "applies_to_product_families": [
+          "door_window",
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2202 (Part 2): 1983",
+      "title": "WOODEN FLUSH DOOR SHUTTERS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "board",
+        "title_product_confidence": "low",
+        "canonical_product": "door",
+        "family": "door_window",
+        "applies_to_product_families": [
+          "door_window",
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2365: 1977",
+      "title": "STEEL WIRE SUSPENSION ROPES FOR LIFTS,",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "ropes_lifts_elevators_hoists",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2508: 1984",
+      "title": "LOW DENSITY POLYTHYLENE FILMS",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "low_density_polythylene_films",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2525: 1982",
+      "title": "DIMENSION FOR WROUGHT ALUMINIUM AND",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "aluminium_aluminium_alloys_wire",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2556 (Part 2): 1994",
+      "title": "VITREOUS SANITARY APPLIANCES",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "vitreous_sanitary_appliances",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2556 (Part 9): 1994",
+      "title": "VITREOUS  SANITARY APPLIANCES",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "vitreous_sanitary_appliances",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2645: 2003",
+      "title": "INTEGRAL CEMENT WATER-PROOFING",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "waterproofing_membrane",
+        "title_product_confidence": "high",
+        "canonical_product": "cement",
+        "family": "cement",
+        "applies_to_product_families": [
+          "cement",
+          "waterproofing"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2676: 1981",
+      "title": "DIMENSIONS FOR WROUGHT ALUMINIUM AND",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "aluminium_alloys_sheet_strip",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 2677: 1979",
+      "title": "DIMENSIONS FOR  WROUGHT ALUMINIUM AND",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "plates_hot_rolled_sheets",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 3311: 1979",
+      "title": "WASTE PLUG AND ITS ACCESSORIES FOR SINKS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "pipe_fitting",
+        "title_product_confidence": "low",
+        "canonical_product": "plug_socket",
+        "family": "electrical",
+        "applies_to_product_families": [
+          "electrical",
+          "fastener",
+          "pipe_water_drainage",
+          "sanitary_fixture"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 3348: 1965",
+      "title": "FIBRE INSULATION BOARD",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "thermal_insulation",
+        "title_product_confidence": "low",
+        "canonical_product": "board",
+        "family": "wood_board",
+        "applies_to_product_families": [
+          "thermal_insulation",
+          "wood_board"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 3443: 1980",
+      "title": "CRANE RAIL SECTION",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "crane_rail_section",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 363: 1993",
+      "title": "HASPS AND STAPLES",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "hasps_staples",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 3709: 1966",
+      "title": "MASTIC CEMENT FOR BEDDING OF",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "thermal_insulation",
+        "title_product_confidence": "low",
+        "canonical_product": "window",
+        "family": "door_window",
+        "applies_to_product_families": [
+          "cement",
+          "coating",
+          "door_window"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 3964: 1980",
+      "title": "LIGHT RAILS",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "light_rails",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 453: 1993",
+      "title": "DOUBLE-ACTING SPRING HINGES",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "door",
+        "title_product_confidence": "low",
+        "canonical_product": "hinge",
+        "family": "hardware",
+        "applies_to_product_families": [
+          "door_window",
+          "hardware"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 454: 1994",
+      "title": "CUTBACK  BITUMEN FROM WAXY CRUDE",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "bitumen_from_waxy_crude",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 4615: 1968",
+      "title": "SWITCH SOCKET-OUTLETS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "thermal_insulation",
+        "title_product_confidence": "low",
+        "canonical_product": "plug_socket",
+        "family": "electrical",
+        "applies_to_product_families": [
+          "electrical",
+          "pipe_water_drainage"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 4891: 1988",
+      "title": "PREFERRED CUT SIZES OF  STRUCTURAL TIMBER",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "window",
+        "title_product_confidence": "high",
+        "canonical_product": "timber",
+        "family": "timber",
+        "applies_to_product_families": [
+          "door_window",
+          "timber"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 4996: 1984",
+      "title": "REINFORCED CONCRETE FENCE POSTS",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "reinforced_concrete_fence_posts",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 5312 (Part 2): 1986",
+      "title": "SWING  CHECK  TYPE  REFLUX",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "valve",
+        "title_product_confidence": "low",
+        "canonical_product": "door",
+        "family": "door_window",
+        "applies_to_product_families": [
+          "door_window",
+          "water_valve"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 5820: 1970",
+      "title": "PRECAST CONCRETE CABLE COVERS",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "w_length_width_t",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 5930: 1970",
+      "title": "MORTICE LATCH",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "door",
+        "title_product_confidence": "low",
+        "canonical_product": "latch",
+        "family": "hardware",
+        "applies_to_product_families": [
+          "door_window",
+          "hardware"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 6006: 1983",
+      "title": "UNCOATED STRESS RELIEVED STRAND FOR",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "relieved_strand_prestressed_concrete",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 6307: 1985",
+      "title": "RIGID PVC SHEETS",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "rigid_pvc_sheets",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 702: 1988",
+      "title": "INDUSTRIAL BITUMEN",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "industrial_bitumen",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 712: 1984",
+      "title": "BUILDING LIMES",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "building_limes",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 7193: 1974",
+      "title": "GLASS FIBRE BASE BITUMEN FELTS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "waterproofing_membrane",
+        "title_product_confidence": "high",
+        "canonical_product": "glass",
+        "family": "glass",
+        "applies_to_product_families": [
+          "glass",
+          "waterproofing"
+        ]
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 73: 1992",
+      "title": "PAVING BITUMEN",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "paving_bitumen",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 7556: 1988",
+      "title": "BURNT CLAY  JALLIES",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "burnt_clay_jallies",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 771 (Part 5): 1979",
+      "title": "GLAZED FIRE  CLAY APPLIANCES,",
+      "issues": [
+        "WEAK_PRODUCT_TEXT_EVIDENCE"
+      ],
+      "evidence": {
+        "title_product": null,
+        "title_product_confidence": "low",
+        "canonical_product": "clay_appliances_shower_trays",
+        "family": null,
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 809: 1992",
+      "title": "RUBBER FLOORING MATERIALS",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "thermal_insulation",
+        "title_product_confidence": "high",
+        "canonical_product": "waterproofing_membrane",
+        "family": "waterproofing",
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 849: 1994",
+      "title": "COLD SETTING CASE IN GLUE FOR WOOD",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "timber",
+        "title_product_confidence": "low",
+        "canonical_product": "adhesive",
+        "family": "adhesive",
+        "applies_to_product_families": []
+      },
+      "recommended_action": "review"
+    },
+    {
+      "standard_code": "IS 9912: 1981",
+      "title": "COAL TAR BASED COATING MATERIALS AND",
+      "issues": [
+        "PRODUCT_TITLE_CONFLICT"
+      ],
+      "evidence": {
+        "title_product": "pipe",
+        "title_product_confidence": "low",
+        "canonical_product": "coating",
+        "family": "coating",
+        "applies_to_product_families": [
+          "coating",
+          "pipe_water_drainage"
+        ]
+      },
+      "recommended_action": "review"
+    }
+  ]
+}

@@ -46,3 +46,16 @@ class StandardValidationResponse(BaseModel):
     standard: StandardDetail | None = None
     replacement: StandardSummary | None = None
     warnings: list[str] = Field(default_factory=list)
+
+
+class AlliedStandardSummary(BaseModel):
+    standard_id: str
+    title: str | None = None
+    relation_type: str
+    evidence: str | None = None
+
+
+class AlliedStandardsResponse(BaseModel):
+    standard_id: str
+    allied_standards: list[AlliedStandardSummary] = Field(default_factory=list)
+    warnings: list[str] = Field(default_factory=list)

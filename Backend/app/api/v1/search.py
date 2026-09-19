@@ -169,6 +169,7 @@ async def product_aware_search(
     query_interpreter: GeminiQueryInterpreter = Depends(get_query_interpreter),
     settings: Settings = Depends(get_settings_from_app),
     x_query_interpreter_mode: str | None = Header(default=None),
+    x_debug_trace: str | None = Header(default=None),
 ) -> ProductAwareSearchResponse:
     interpreter_mode = x_query_interpreter_mode or settings.query_interpreter_mode
     if interpreter_mode not in {"disabled", "gemini"}:
@@ -218,7 +219,11 @@ async def product_aware_search(
         hybrid_service,
         reranker_service,
         rerank_k=settings.rerank_k,
-        return_k=settings.return_k,
+        return_k=(
+            max(settings.return_k, 10)
+            if _debug_trace_enabled(x_debug_trace)
+            else settings.return_k
+        ),
         reranker_timeout_s=settings.product_aware_reranker_timeout_s,
     )
     try:
@@ -226,9 +231,15 @@ async def product_aware_search(
             session=session,
             product=request.product,
             description=request.description,
-            limit=min(request.limit, settings.return_k),
+            limit=min(
+                request.limit,
+                max(settings.return_k, 10)
+                if _debug_trace_enabled(x_debug_trace)
+                else settings.return_k,
+            ),
             query_intent=interpretation,
             gemini_ms=interpreter_diagnostics.gemini_latency_ms,
+            include_debug_trace=_debug_trace_enabled(x_debug_trace),
         )
     except ValueError as exc:
         raise HTTPException(
@@ -306,7 +317,12 @@ async def product_aware_search(
             postprocess_ms=result.timings_ms.postprocess_ms,
             total_ms=result.timings_ms.total_ms,
         ),
+        debug_trace=result.debug_trace,
     )
+
+
+def _debug_trace_enabled(header_value: str | None) -> bool:
+    return str(header_value or "").casefold() in {"1", "true", "yes", "on"}
 
 
 @router.post("/reranked", response_model=RerankedSearchResponse)

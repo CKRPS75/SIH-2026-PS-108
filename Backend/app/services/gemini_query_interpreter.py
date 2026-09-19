@@ -373,6 +373,16 @@ def normalize_intent(
     if normalized_product == "valve" and not function and not subtype:
         ambiguity = True
         missing.append("valve function")
+    if normalized_product == "valve" and (function or subtype or subtype_family):
+        missing = [
+            item
+            for item in missing
+            if "valve" not in item.casefold()
+            and "subtype" not in item.casefold()
+            and "function" not in item.casefold()
+            and "mechanism" not in item.casefold()
+        ]
+        ambiguity = bool(missing) and ambiguity
     if normalized_product == "cement" and cement_type == "ppc":
         if subtype not in {"portland_pozzolana_fly_ash", "portland_pozzolana_calcined_clay"}:
             ambiguity = True
@@ -564,11 +574,14 @@ def _infer_grounded_terms(
         "come backward" in text
         or "flowing backwards" in text
         or "flow backwards" in text
+        or "flow only one way" in text
         or "flow one way" in text
         or "only flow one way" in text
+        or "one way flow" in text
         or "back flow" in text
         or "backflow" in text
         or "backward" in text
+        or "come back" in text
     ):
         inferred["function"].append("prevent_reverse_flow")
     for value, aliases in APPLICATION_PATTERNS:
@@ -739,6 +752,8 @@ def _extract_negatives(description: str, product: str | None) -> dict[str, list[
     )
     for phrase in negated_phrases:
         phrase = phrase.strip()
+        if product == "valve" and _is_reverse_flow_prevention_phrase(phrase):
+            continue
         material = _match_pattern_value(phrase, MATERIAL_PATTERNS)
         if material:
             result["material"].append(material)
@@ -761,6 +776,22 @@ def _extract_negatives(description: str, product: str | None) -> dict[str, list[
         result["application"].append("potable water supply")
         result["medium"].append("potable")
     return {key: _dedupe(values) for key, values in result.items()}
+
+
+def _is_reverse_flow_prevention_phrase(phrase: str) -> bool:
+    text = _space_key(phrase)
+    return any(
+        term in text
+        for term in [
+            "come back",
+            "flow back",
+            "flow backward",
+            "flow backwards",
+            "back flow",
+            "backflow",
+            "reverse flow",
+        ]
+    )
 
 
 def _sanitize_excluded_medium(values: list[str], description: str) -> list[str]:

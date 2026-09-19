@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T11:43:23.679392",
+  "generated_at": "2026-09-19T16:21:21.192804",
   "phase": "after",
   "base_url": "http://127.0.0.1:8000",
   "query_count": 28,
@@ -157,7 +157,7 @@
   "summary": {
     "completed_query_count": 28,
     "failed_query_count": 0,
-    "gemini_failure_count": 7,
+    "gemini_failure_count": 3,
     "top1_accuracy": {
       "hits": 28,
       "total": 28,
@@ -169,9 +169,9 @@
       "rate": 1.0
     },
     "passed_count": 28,
-    "mean_latency_ms": 2431.059,
-    "median_latency_ms": 2743.341,
-    "p95_latency_ms": 3168.747
+    "mean_latency_ms": 2348.405,
+    "median_latency_ms": 2712.801,
+    "p95_latency_ms": 3079.51
   },
   "group_metrics": {
     "grp_potable_water": {
@@ -215,9 +215,9 @@
     "ppc_calcined_clay": {
       "paraphrase_count": 3,
       "completed_count": 3,
-      "equivalent_normalized_intent_count": 1,
+      "equivalent_normalized_intent_count": 2,
       "expected_top1_count": 3,
-      "top3_consistency_count": 1,
+      "top3_consistency_count": 2,
       "top1_values": [
         "IS 1489 (Part 2): 1991",
         "IS 1489 (Part 2): 1991",
@@ -227,7 +227,7 @@
     "reverse_flow_valve": {
       "paraphrase_count": 5,
       "completed_count": 5,
-      "equivalent_normalized_intent_count": 3,
+      "equivalent_normalized_intent_count": 2,
       "expected_top1_count": 5,
       "top3_consistency_count": 2,
       "top1_values": [
@@ -241,7 +241,7 @@
     "pressure_reducing_valve": {
       "paraphrase_count": 3,
       "completed_count": 3,
-      "equivalent_normalized_intent_count": 2,
+      "equivalent_normalized_intent_count": 1,
       "expected_top1_count": 3,
       "top3_consistency_count": 1,
       "top1_values": [
@@ -253,7 +253,7 @@
     "hdpe_sewage": {
       "paraphrase_count": 3,
       "completed_count": 3,
-      "equivalent_normalized_intent_count": 2,
+      "equivalent_normalized_intent_count": 1,
       "expected_top1_count": 3,
       "top3_consistency_count": 2,
       "top1_values": [
@@ -290,8 +290,8 @@
       "group_id": "grp_potable_water",
       "product": "pipe",
       "raw_query": "GRP pipe for potable drinking water",
-      "started_at": "2026-09-19T11:42:15.605476",
-      "latency_ms": 3121.835,
+      "started_at": "2026-09-19T16:20:15.432786",
+      "latency_ms": 2967.343,
       "expected_standard_codes": [
         "IS 12709: 1994"
       ],
@@ -429,20 +429,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2213.603999989573,
+        "gemini_latency_ms": 2216.92289999919,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2213.603999989573,
-        "embedding_ms": 701.1983999982476,
-        "semantic_retrieval_ms": 12.519799987785518,
-        "semantic_ms": 720.1291000237688,
-        "bm25_ms": 127.70719995023683,
-        "rrf_ms": 9.162999980617315,
-        "hybrid_ms": 857.0085999672301,
-        "product_gate_ms": 4.7412000130862,
-        "constraint_ms": 20.53639997029677,
-        "reranker_ms": 0.09370001498609781,
+        "gemini_ms": 2216.92289999919,
+        "embedding_ms": 564.9440999841318,
+        "semantic_retrieval_ms": 10.493199981283396,
+        "semantic_ms": 579.5258999569342,
+        "bm25_ms": 114.1269999789074,
+        "rrf_ms": 8.413299976382405,
+        "hybrid_ms": 702.073099964764,
+        "product_gate_ms": 4.018499981611967,
+        "constraint_ms": 19.88340000389144,
+        "reranker_ms": 0.05370000144466758,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -450,8 +450,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.9134999602101743,
-        "total_ms": 884.3905000248924
+        "postprocess_ms": 2.337000041734427,
+        "total_ms": 728.421600011643
       },
       "candidates": [
         {
@@ -603,8 +603,8 @@
       "group_id": "grp_potable_water",
       "product": "pipe",
       "raw_query": "GFRP pipe for drinking water supply",
-      "started_at": "2026-09-19T11:42:18.727580",
-      "latency_ms": 2894.611,
+      "started_at": "2026-09-19T16:20:18.400543",
+      "latency_ms": 2651.625,
       "expected_standard_codes": [
         "IS 12709: 1994"
       ],
@@ -744,20 +744,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2038.9097000006586,
+        "gemini_latency_ms": 1877.885299967602,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2038.9097000006586,
-        "embedding_ms": 655.7804999756627,
-        "semantic_retrieval_ms": 10.54599997587502,
-        "semantic_ms": 672.1576999989338,
-        "bm25_ms": 115.5430999933742,
-        "rrf_ms": 9.83940000878647,
-        "hybrid_ms": 797.5495999562554,
-        "product_gate_ms": 5.885199992917478,
-        "constraint_ms": 17.73650001268834,
-        "reranker_ms": 0.04680000711232424,
+        "gemini_ms": 1877.885299967602,
+        "embedding_ms": 566.6546999709681,
+        "semantic_retrieval_ms": 9.390799968969077,
+        "semantic_ms": 580.7258000131696,
+        "bm25_ms": 127.60890001663938,
+        "rrf_ms": 9.550499962642789,
+        "hybrid_ms": 717.8917999844998,
+        "product_gate_ms": 4.406299965921789,
+        "constraint_ms": 18.535099981818348,
+        "reranker_ms": 0.07230002665892243,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -765,8 +765,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.6599000082351267,
-        "total_ms": 822.9393000365235
+        "postprocess_ms": 2.69950000802055,
+        "total_ms": 743.6541999923065
       },
       "candidates": [
         {
@@ -913,8 +913,8 @@
       "group_id": "grp_potable_water",
       "product": "pipe",
       "raw_query": "glass fibre reinforced plastic pipe for potable water",
-      "started_at": "2026-09-19T11:42:21.622642",
-      "latency_ms": 3069.114,
+      "started_at": "2026-09-19T16:20:21.052643",
+      "latency_ms": 2862.094,
       "expected_standard_codes": [
         "IS 12709: 1994"
       ],
@@ -926,8 +926,8 @@
       "top1": "IS 12709: 1994",
       "top3": [
         "IS 12709: 1994",
-        "IS 8008 (Part 6): 2003",
-        "IS 3076: 1985"
+        "IS 3076: 1985",
+        "IS 8008 (Part 6): 2003"
       ],
       "expected_rank": 1,
       "gemini_interpretation": {
@@ -956,7 +956,6 @@
         "form": null,
         "material": [
           "GRP",
-          "fibreglass",
           "fibrous",
           "plastic"
         ],
@@ -1016,7 +1015,6 @@
         "form": null,
         "material": [
           "GRP",
-          "fibreglass",
           "fibrous",
           "plastic"
         ],
@@ -1058,20 +1056,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2081.6488999989815,
+        "gemini_latency_ms": 1994.8361000278965,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2081.6488999989815,
-        "embedding_ms": 772.0527999917977,
-        "semantic_retrieval_ms": 11.274299991782755,
-        "semantic_ms": 788.1555000203662,
-        "bm25_ms": 131.31970004178584,
-        "rrf_ms": 11.559700011275709,
-        "hybrid_ms": 931.0449000331573,
-        "product_gate_ms": 7.492900011129677,
-        "constraint_ms": 27.542000054381788,
-        "reranker_ms": 0.044300046283751726,
+        "gemini_ms": 1994.8361000278965,
+        "embedding_ms": 679.8346000141464,
+        "semantic_retrieval_ms": 12.071599951013923,
+        "semantic_ms": 696.0607999935746,
+        "bm25_ms": 123.57060000067577,
+        "rrf_ms": 8.51620000321418,
+        "hybrid_ms": 828.153399983421,
+        "product_gate_ms": 6.268099998123944,
+        "constraint_ms": 22.144699993077666,
+        "reranker_ms": 0.0675999908708036,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -1079,15 +1077,15 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.3847000082023442,
-        "total_ms": 967.5649999990128
+        "postprocess_ms": 2.236899978015572,
+        "total_ms": 858.9200000278652
       },
       "candidates": [
         {
           "standard_code": "IS 12709: 1994",
           "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
           "semantic_rank": 2,
-          "semantic_score": 0.7791993,
+          "semantic_score": 0.7793692,
           "bm25_rank": 2,
           "bm25_score": 76.87831524495141,
           "rrf_rank": 2,
@@ -1112,13 +1110,41 @@
           "final_rank": 1
         },
         {
+          "standard_code": "IS 3076: 1985",
+          "title": "LOW DENSITY POLYETHYLENE PIPES FOR",
+          "semantic_rank": 8,
+          "semantic_score": 0.68210876,
+          "bm25_rank": 19,
+          "bm25_score": 48.49124826902769,
+          "rrf_rank": 8,
+          "rrf_score": 0.027364110201042444,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": "STRONG_COMPATIBLE",
+          "subtype_state": "UNKNOWN",
+          "function_state": "EXACT_MATCH",
+          "application_state": "EXACT_MATCH",
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "MATERIAL_STRONG_COMPATIBLE",
+            "FUNCTION_EXACT_MATCH",
+            "APPLICATION_EXACT_MATCH",
+            "SUBTYPE_UNKNOWN"
+          ],
+          "constraint_score": 19.0,
+          "final_score": 19.02736411020104,
+          "final_rank": 2
+        },
+        {
           "standard_code": "IS 8008 (Part 6): 2003",
           "title": "INJECTION MOULDED HIGH DENSITY",
           "semantic_rank": 12,
-          "semantic_score": 0.67096967,
+          "semantic_score": 0.6726327,
           "bm25_rank": 15,
           "bm25_score": 51.36816049162278,
-          "rrf_rank": 8,
+          "rrf_rank": 9,
           "rrf_score": 0.027222222222222224,
           "product_state": "EXACT_PRODUCT",
           "material_state": "STRONG_COMPATIBLE",
@@ -1137,34 +1163,6 @@
           ],
           "constraint_score": 19.0,
           "final_score": 19.02722222222222,
-          "final_rank": 2
-        },
-        {
-          "standard_code": "IS 3076: 1985",
-          "title": "LOW DENSITY POLYETHYLENE PIPES FOR",
-          "semantic_rank": 9,
-          "semantic_score": 0.679587,
-          "bm25_rank": 19,
-          "bm25_score": 48.49124826902769,
-          "rrf_rank": 9,
-          "rrf_score": 0.02715098147128967,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": "STRONG_COMPATIBLE",
-          "subtype_state": "UNKNOWN",
-          "function_state": "EXACT_MATCH",
-          "application_state": "EXACT_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "MATERIAL_STRONG_COMPATIBLE",
-            "FUNCTION_EXACT_MATCH",
-            "APPLICATION_EXACT_MATCH",
-            "SUBTYPE_UNKNOWN"
-          ],
-          "constraint_score": 19.0,
-          "final_score": 19.02715098147129,
           "final_rank": 3
         },
         {
@@ -1199,7 +1197,7 @@
           "standard_code": "IS 4985: 2000",
           "title": "UNPLASTICIZED PVC PIPES FOR POTABLE",
           "semantic_rank": 6,
-          "semantic_score": 0.69108087,
+          "semantic_score": 0.6919333,
           "bm25_rank": null,
           "bm25_score": null,
           "rrf_rank": 17,
@@ -1232,8 +1230,8 @@
       "group_id": "grp_potable_water",
       "product": "pipe",
       "raw_query": "glass reinforced plastic pipe carrying drinking water",
-      "started_at": "2026-09-19T11:42:24.691435",
-      "latency_ms": 3155.748,
+      "started_at": "2026-09-19T16:20:23.915159",
+      "latency_ms": 3092.74,
       "expected_standard_codes": [
         "IS 12709: 1994"
       ],
@@ -1375,20 +1373,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1824.686500011012,
+        "gemini_latency_ms": 1952.1544000017457,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1824.686500011012,
-        "embedding_ms": 715.2702999883331,
-        "semantic_retrieval_ms": 10.856299952138215,
-        "semantic_ms": 731.2608999782242,
-        "bm25_ms": 550.0577000202611,
-        "rrf_ms": 11.870500049553812,
-        "hybrid_ms": 1293.2000000146218,
-        "product_gate_ms": 5.4576999973505735,
-        "constraint_ms": 23.470999964047223,
-        "reranker_ms": 0.06320001557469368,
+        "gemini_ms": 1952.1544000017457,
+        "embedding_ms": 603.4730999963358,
+        "semantic_retrieval_ms": 10.291600017808378,
+        "semantic_ms": 617.923800018616,
+        "bm25_ms": 477.79269999591634,
+        "rrf_ms": 9.045000013429672,
+        "hybrid_ms": 1104.7695000306703,
+        "product_gate_ms": 5.053100001532584,
+        "constraint_ms": 21.375700016506016,
+        "reranker_ms": 0.06019999273121357,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -1396,8 +1394,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.23719998029992,
-        "total_ms": 1324.5272999629378
+        "postprocess_ms": 2.0819000201299787,
+        "total_ms": 1133.3899999735877
       },
       "candidates": [
         {
@@ -1544,8 +1542,8 @@
       "group_id": "grp_industrial_waste",
       "product": "pipe",
       "raw_query": "GRP pipe for industrial waste and non potable water",
-      "started_at": "2026-09-19T11:42:27.847162",
-      "latency_ms": 2867.204,
+      "started_at": "2026-09-19T16:20:27.008422",
+      "latency_ms": 2892.285,
       "expected_standard_codes": [
         "IS 14402: 1996"
       ],
@@ -1578,8 +1576,8 @@
           "pipes"
         ],
         "known_subtypes": [],
-        "query_subtype": null,
-        "subtype": null,
+        "query_subtype": "grp",
+        "subtype": "grp",
         "subtype_family": null,
         "cement_type": null,
         "pozzolana_source": null,
@@ -1640,8 +1638,8 @@
           "pipes"
         ],
         "known_subtypes": [],
-        "query_subtype": null,
-        "subtype": null,
+        "query_subtype": "grp",
+        "subtype": "grp",
         "subtype_family": null,
         "cement_type": null,
         "pozzolana_source": null,
@@ -1700,20 +1698,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1969.6332000312395,
+        "gemini_latency_ms": 2003.5206000320613,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1969.6332000312395,
-        "embedding_ms": 656.1477000359446,
-        "semantic_retrieval_ms": 12.961700034793466,
-        "semantic_ms": 673.5375999705866,
-        "bm25_ms": 144.72669997485355,
-        "rrf_ms": 11.589700006879866,
-        "hybrid_ms": 829.8630999634042,
-        "product_gate_ms": 5.815499986056238,
-        "constraint_ms": 21.906699985265732,
-        "reranker_ms": 0.0467000063508749,
+        "gemini_ms": 2003.5206000320613,
+        "embedding_ms": 672.3249000497162,
+        "semantic_retrieval_ms": 11.96700002765283,
+        "semantic_ms": 688.8169999583624,
+        "bm25_ms": 126.76509999437258,
+        "rrf_ms": 9.674199973233044,
+        "hybrid_ms": 825.265199993737,
+        "product_gate_ms": 5.156999977771193,
+        "constraint_ms": 24.448400014080107,
+        "reranker_ms": 0.0638000201433897,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -1721,22 +1719,22 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 3.221999970264733,
-        "total_ms": 860.9270000015385
+        "postprocess_ms": 2.1103000035509467,
+        "total_ms": 857.0843000197783
       },
       "candidates": [
         {
           "standard_code": "IS 14402: 1996",
           "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
           "semantic_rank": 1,
-          "semantic_score": 0.756536,
+          "semantic_score": 0.76007974,
           "bm25_rank": 1,
-          "bm25_score": 69.39136137230686,
+          "bm25_score": 74.94959477842369,
           "rrf_rank": 1,
           "rrf_score": 0.03278688524590164,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": null,
+          "subtype_state": "EXACT_MATCH",
           "function_state": "UNKNOWN",
           "application_state": "EXACT_MATCH",
           "grade_state": null,
@@ -1750,25 +1748,26 @@
             "MATERIAL_EXACT_MATCH",
             "FUNCTION_UNKNOWN",
             "APPLICATION_EXACT_MATCH",
+            "SUBTYPE_EXACT_MATCH",
             "EXCLUDED_APPLICATION_CLEAR",
             "EXCLUDED_MEDIUM_CLEAR"
           ],
-          "constraint_score": 16.0,
-          "final_score": 16.0327868852459,
+          "constraint_score": 20.0,
+          "final_score": 20.0327868852459,
           "final_rank": 1
         },
         {
           "standard_code": "IS 1795: 1982",
           "title": "PILLAR TAPS FOR WATER SUPPLY PURPOSES",
           "semantic_rank": 5,
-          "semantic_score": 0.68313587,
+          "semantic_score": 0.6958084,
           "bm25_rank": null,
           "bm25_score": null,
-          "rrf_rank": 16,
+          "rrf_rank": 15,
           "rrf_score": 0.015384615384615385,
           "product_state": "EXACT_PRODUCT",
           "material_state": "UNKNOWN",
-          "subtype_state": null,
+          "subtype_state": "UNKNOWN",
           "function_state": "UNKNOWN",
           "application_state": "UNKNOWN",
           "grade_state": null,
@@ -1782,6 +1781,7 @@
             "MATERIAL_UNKNOWN",
             "FUNCTION_UNKNOWN",
             "APPLICATION_UNKNOWN",
+            "SUBTYPE_UNKNOWN",
             "EXCLUDED_APPLICATION_CLEAR",
             "EXCLUDED_MEDIUM_CLEAR"
           ],
@@ -1793,14 +1793,14 @@
           "standard_code": "IS 12709: 1994",
           "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
           "semantic_rank": 2,
-          "semantic_score": 0.7210816,
-          "bm25_rank": 14,
-          "bm25_score": 36.80150842692874,
-          "rrf_rank": 4,
-          "rrf_score": 0.02964254577157803,
+          "semantic_score": 0.7210267,
+          "bm25_rank": 2,
+          "bm25_score": 42.719671255949436,
+          "rrf_rank": 2,
+          "rrf_score": 0.03225806451612903,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": null,
+          "subtype_state": "EXACT_MATCH",
           "function_state": "EXACT_MATCH",
           "application_state": "UNKNOWN",
           "grade_state": null,
@@ -1814,25 +1814,26 @@
             "MATERIAL_EXACT_MATCH",
             "FUNCTION_EXACT_MATCH",
             "APPLICATION_UNKNOWN",
+            "SUBTYPE_EXACT_MATCH",
             "EXCLUDED_APPLICATION_CONTRADICTION",
             "EXCLUDED_MEDIUM_CONTRADICTION"
           ],
-          "constraint_score": 0.0,
-          "final_score": 0.02964254577157803,
+          "constraint_score": 4.0,
+          "final_score": 4.032258064516129,
           "final_rank": 3
         },
         {
           "standard_code": "IS 7319: 1974",
           "title": "PERFORATED CONCRETE PIPES",
           "semantic_rank": 8,
-          "semantic_score": 0.6727348,
+          "semantic_score": 0.6781846,
           "bm25_rank": null,
           "bm25_score": null,
           "rrf_rank": 18,
           "rrf_score": 0.014705882352941176,
           "product_state": "EXACT_PRODUCT",
           "material_state": "CONTRADICTION",
-          "subtype_state": null,
+          "subtype_state": "UNKNOWN",
           "function_state": "UNKNOWN",
           "application_state": "UNKNOWN",
           "grade_state": null,
@@ -1846,6 +1847,7 @@
             "MATERIAL_CONTRADICTION",
             "FUNCTION_UNKNOWN",
             "APPLICATION_UNKNOWN",
+            "SUBTYPE_UNKNOWN",
             "EXCLUDED_APPLICATION_CLEAR",
             "EXCLUDED_MEDIUM_CLEAR"
           ],
@@ -1854,35 +1856,36 @@
           "final_rank": 4
         },
         {
-          "standard_code": "IS 3589: 2001",
-          "title": "SEAMLESS OR ELECTRICALLY WELDED STEEL",
-          "semantic_rank": 9,
-          "semantic_score": 0.6720154,
+          "standard_code": "IS 404 (Part 1): 1993",
+          "title": "LEAD PIPES \u2013 FOR OTHER THAN",
+          "semantic_rank": 3,
+          "semantic_score": 0.7170163,
           "bm25_rank": null,
           "bm25_score": null,
-          "rrf_rank": 19,
-          "rrf_score": 0.014492753623188406,
+          "rrf_rank": 11,
+          "rrf_score": 0.015873015873015872,
           "product_state": "EXACT_PRODUCT",
-          "material_state": "CONTRADICTION",
-          "subtype_state": null,
-          "function_state": "UNKNOWN",
+          "material_state": "UNKNOWN",
+          "subtype_state": "UNKNOWN",
+          "function_state": "EXACT_MATCH",
           "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_MEDIUM_CLEAR"
+            "EXCLUDED_APPLICATION_CONTRADICTION",
+            "EXCLUDED_MEDIUM_CONTRADICTION"
           ],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "MATERIAL_CONTRADICTION",
-            "FUNCTION_UNKNOWN",
+            "MATERIAL_UNKNOWN",
+            "FUNCTION_EXACT_MATCH",
             "APPLICATION_UNKNOWN",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_MEDIUM_CLEAR"
+            "SUBTYPE_UNKNOWN",
+            "EXCLUDED_APPLICATION_CONTRADICTION",
+            "EXCLUDED_MEDIUM_CONTRADICTION"
           ],
-          "constraint_score": 0.0,
-          "final_score": 0.014492753623188406,
+          "constraint_score": -4.0,
+          "final_score": -3.984126984126984,
           "final_rank": 5
         }
       ],
@@ -1894,8 +1897,8 @@
       "group_id": "grp_industrial_waste",
       "product": "pipe",
       "raw_query": "GFRP pipe for industrial effluent",
-      "started_at": "2026-09-19T11:42:30.715082",
-      "latency_ms": 2597.004,
+      "started_at": "2026-09-19T16:20:29.900028",
+      "latency_ms": 2472.766,
       "expected_standard_codes": [
         "IS 14402: 1996"
       ],
@@ -2027,20 +2030,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1885.6088999891654,
+        "gemini_latency_ms": 1868.132899980992,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1885.6088999891654,
-        "embedding_ms": 486.05109995696694,
-        "semantic_retrieval_ms": 11.24690001597628,
-        "semantic_ms": 501.9804000039585,
-        "bm25_ms": 133.2389999879524,
-        "rrf_ms": 13.115299982018769,
-        "hybrid_ms": 648.3424000325613,
-        "product_gate_ms": 11.841300001833588,
-        "constraint_ms": 20.800900005269796,
-        "reranker_ms": 0.06220000796020031,
+        "gemini_ms": 1868.132899980992,
+        "embedding_ms": 395.69269999628887,
+        "semantic_retrieval_ms": 11.329000000841916,
+        "semantic_ms": 411.58950002864003,
+        "bm25_ms": 123.37140005547553,
+        "rrf_ms": 13.794700033031404,
+        "hybrid_ms": 548.7615000456572,
+        "product_gate_ms": 9.314500028267503,
+        "constraint_ms": 21.444000012706965,
+        "reranker_ms": 0.06150000263005495,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -2048,8 +2051,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.6668000500649214,
-        "total_ms": 683.7893999763764
+        "postprocess_ms": 2.4874999653548002,
+        "total_ms": 582.1128999814391
       },
       "candidates": [
         {
@@ -2191,8 +2194,8 @@
       "group_id": "grp_industrial_waste",
       "product": "pipe",
       "raw_query": "glass fibre reinforced pipe for non-potable industrial waste",
-      "started_at": "2026-09-19T11:42:33.312508",
-      "latency_ms": 725.963,
+      "started_at": "2026-09-19T16:20:32.373627",
+      "latency_ms": 2883.677,
       "expected_standard_codes": [
         "IS 14402: 1996"
       ],
@@ -2252,6 +2255,7 @@
         ],
         "excluded_subtype": [],
         "excluded_medium": [
+          "potable water",
           "potable"
         ],
         "excluded_installation_context": [],
@@ -2313,6 +2317,7 @@
         ],
         "excluded_subtype": [],
         "excluded_medium": [
+          "potable water",
           "potable"
         ],
         "excluded_installation_context": [],
@@ -2336,6 +2341,7 @@
           "potable water supply"
         ],
         "excluded_medium": [
+          "potable water",
           "potable"
         ]
       },
@@ -2345,20 +2351,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 0.015400000847876072,
+        "gemini_latency_ms": 2095.4624000005424,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 0.015400000847876072,
-        "embedding_ms": 515.860200044699,
-        "semantic_retrieval_ms": 12.880900001619011,
-        "semantic_ms": 533.5959999938495,
-        "bm25_ms": 126.33489997824654,
-        "rrf_ms": 10.8157999929972,
-        "hybrid_ms": 670.7534999586642,
-        "product_gate_ms": 8.317200001329184,
-        "constraint_ms": 25.784800003748387,
-        "reranker_ms": 0.0782000133767724,
+        "gemini_ms": 2095.4624000005424,
+        "embedding_ms": 582.1260000229813,
+        "semantic_retrieval_ms": 9.669199993368238,
+        "semantic_ms": 596.7362000374123,
+        "bm25_ms": 133.83870001416653,
+        "rrf_ms": 9.875299991108477,
+        "hybrid_ms": 740.4589000507258,
+        "product_gate_ms": 10.871200007386506,
+        "constraint_ms": 26.453499973285943,
+        "reranker_ms": 0.06280001252889633,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -2366,8 +2372,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.580300031695515,
-        "total_ms": 707.5588000006974
+        "postprocess_ms": 3.766499983612448,
+        "total_ms": 781.6669999738224
       },
       "candidates": [
         {
@@ -2534,8 +2540,8 @@
       "group_id": "ppc_fly_ash",
       "product": "cement",
       "raw_query": "Portland pozzolana cement made using fly ash",
-      "started_at": "2026-09-19T11:42:34.038607",
-      "latency_ms": 2955.638,
+      "started_at": "2026-09-19T16:20:35.256361",
+      "latency_ms": 2887.331,
       "expected_standard_codes": [
         "IS 1489 (Part 1): 1991"
       ],
@@ -2676,20 +2682,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1996.7100000358187,
+        "gemini_latency_ms": 2007.747100025881,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1996.7100000358187,
-        "embedding_ms": 725.4637000150979,
-        "semantic_retrieval_ms": 12.196400028187782,
-        "semantic_ms": 742.3510999651626,
-        "bm25_ms": 129.1988999582827,
-        "rrf_ms": 11.771499994210899,
-        "hybrid_ms": 883.3309999899939,
-        "product_gate_ms": 9.144900017417967,
-        "constraint_ms": 41.845700005069375,
-        "reranker_ms": 0.06659998325631022,
+        "gemini_ms": 2007.747100025881,
+        "embedding_ms": 644.5523999864236,
+        "semantic_retrieval_ms": 16.23519998975098,
+        "semantic_ms": 665.507500001695,
+        "bm25_ms": 129.38840000424534,
+        "rrf_ms": 10.337899962905794,
+        "hybrid_ms": 805.2415999700315,
+        "product_gate_ms": 11.601299978792667,
+        "constraint_ms": 40.14389996882528,
+        "reranker_ms": 0.06390002090483904,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -2697,8 +2703,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 3.7450999952852726,
-        "total_ms": 938.1984999636188
+        "postprocess_ms": 2.9086999711580575,
+        "total_ms": 860.0077999872155
       },
       "candidates": [
         {
@@ -2850,8 +2856,8 @@
       "group_id": "ppc_fly_ash",
       "product": "cement",
       "raw_query": "PPC with fly ash",
-      "started_at": "2026-09-19T11:42:36.994294",
-      "latency_ms": 2659.186,
+      "started_at": "2026-09-19T16:20:38.144874",
+      "latency_ms": 2737.946,
       "expected_standard_codes": [
         "IS 1489 (Part 1): 1991"
       ],
@@ -2914,7 +2920,9 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [],
+        "explicit_constraints": [
+          "ppc with fly ash"
+        ],
         "context_only_terms": [],
         "attribute_evidence": [
           "subtype=fly ash",
@@ -2922,7 +2930,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 1.0
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "cement",
@@ -2971,7 +2979,9 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [],
+        "explicit_constraints": [
+          "ppc with fly ash"
+        ],
         "context_only_terms": [],
         "attribute_evidence": [
           "subtype=fly ash",
@@ -2979,7 +2989,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 1.0
+        "confidence": 0.95
       },
       "grounded_evidence": [
         "subtype=fly ash",
@@ -2992,20 +3002,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1890.815599996131,
+        "gemini_latency_ms": 2016.5651999996044,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1890.815599996131,
-        "embedding_ms": 526.7818000284024,
-        "semantic_retrieval_ms": 10.78760001109913,
-        "semantic_ms": 542.8679999895394,
-        "bm25_ms": 132.5724000344053,
-        "rrf_ms": 9.597100026439875,
-        "hybrid_ms": 685.0467000040226,
-        "product_gate_ms": 10.46309998491779,
-        "constraint_ms": 40.34269996918738,
-        "reranker_ms": 0.04140002420172095,
+        "gemini_ms": 2016.5651999996044,
+        "embedding_ms": 510.34530001925305,
+        "semantic_retrieval_ms": 10.215299960691482,
+        "semantic_ms": 525.8797999704257,
+        "bm25_ms": 125.28689997270703,
+        "rrf_ms": 8.08960001450032,
+        "hybrid_ms": 659.2656999710016,
+        "product_gate_ms": 9.317399992141873,
+        "constraint_ms": 41.17029998451471,
+        "reranker_ms": 0.06310001481324434,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -3013,8 +3023,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 4.3249999871477485,
-        "total_ms": 740.2871000231244
+        "postprocess_ms": 4.255599982570857,
+        "total_ms": 714.1226999810897
       },
       "candidates": [
         {
@@ -3161,8 +3171,8 @@
       "group_id": "ppc_fly_ash",
       "product": "cement",
       "raw_query": "fly ash based Portland pozzolana cement",
-      "started_at": "2026-09-19T11:42:39.652782",
-      "latency_ms": 2956.47,
+      "started_at": "2026-09-19T16:20:40.882813",
+      "latency_ms": 2726.923,
       "expected_standard_codes": [
         "IS 1489 (Part 1): 1991"
       ],
@@ -3299,20 +3309,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2056.5234000096098,
+        "gemini_latency_ms": 1889.7836999967694,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2056.5234000096098,
-        "embedding_ms": 683.4407999995165,
-        "semantic_retrieval_ms": 13.133900007233024,
-        "semantic_ms": 701.870399992913,
-        "bm25_ms": 128.56929999543354,
-        "rrf_ms": 9.300299978349358,
-        "hybrid_ms": 839.7499999846332,
-        "product_gate_ms": 8.50429997080937,
-        "constraint_ms": 40.81400000723079,
-        "reranker_ms": 0.04449998959898949,
+        "gemini_ms": 1889.7836999967694,
+        "embedding_ms": 619.507999974303,
+        "semantic_retrieval_ms": 10.851599974557757,
+        "semantic_ms": 634.4405999989249,
+        "bm25_ms": 131.02560001425445,
+        "rrf_ms": 6.758600007742643,
+        "hybrid_ms": 772.2330000251532,
+        "product_gate_ms": 11.416099965572357,
+        "constraint_ms": 43.05370000656694,
+        "reranker_ms": 0.06880000000819564,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -3320,8 +3330,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 3.4853999968618155,
-        "total_ms": 892.66009995481
+        "postprocess_ms": 2.5643999688327312,
+        "total_ms": 829.383299977053
       },
       "candidates": [
         {
@@ -3473,8 +3483,8 @@
       "group_id": "ppc_fly_ash",
       "product": "cement",
       "raw_query": "cement where the pozzolana source is fly ash",
-      "started_at": "2026-09-19T11:42:42.610557",
-      "latency_ms": 2829.869,
+      "started_at": "2026-09-19T16:20:43.610317",
+      "latency_ms": 2953.299,
       "expected_standard_codes": [
         "IS 1489 (Part 1): 1991"
       ],
@@ -3615,20 +3625,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1901.9448999897577,
+        "gemini_latency_ms": 2135.0879999808967,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1901.9448999897577,
-        "embedding_ms": 683.3822999615222,
-        "semantic_retrieval_ms": 11.50780002353713,
-        "semantic_ms": 699.1948999930173,
-        "bm25_ms": 152.62850001454353,
-        "rrf_ms": 9.424999996554106,
-        "hybrid_ms": 861.2560000037774,
-        "product_gate_ms": 10.02149999840185,
-        "constraint_ms": 37.71880001295358,
-        "reranker_ms": 0.047600013203918934,
+        "gemini_ms": 2135.0879999808967,
+        "embedding_ms": 598.6333999899216,
+        "semantic_retrieval_ms": 10.302899987436831,
+        "semantic_ms": 613.1353999953717,
+        "bm25_ms": 129.94409998646006,
+        "rrf_ms": 9.48519998928532,
+        "hybrid_ms": 752.5732999783941,
+        "product_gate_ms": 11.108200007583946,
+        "constraint_ms": 42.476899980101734,
+        "reranker_ms": 0.06120000034570694,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -3636,8 +3646,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.26529996143654,
-        "total_ms": 911.3613000372425
+        "postprocess_ms": 3.8083000108599663,
+        "total_ms": 810.0789999589324
       },
       "candidates": [
         {
@@ -3789,8 +3799,8 @@
       "group_id": "ppc_calcined_clay",
       "product": "cement",
       "raw_query": "Portland pozzolana cement made using calcined clay",
-      "started_at": "2026-09-19T11:42:45.440456",
-      "latency_ms": 2724.556,
+      "started_at": "2026-09-19T16:20:46.563671",
+      "latency_ms": 2698.679,
       "expected_standard_codes": [
         "IS 1489 (Part 2): 1991"
       ],
@@ -3931,20 +3941,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1838.5214000009,
+        "gemini_latency_ms": 1866.2698999978602,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1838.5214000009,
-        "embedding_ms": 655.2263000048697,
-        "semantic_retrieval_ms": 13.734699983615428,
-        "semantic_ms": 673.952899989672,
-        "bm25_ms": 129.63400001171976,
-        "rrf_ms": 10.25549997575581,
-        "hybrid_ms": 813.851099985186,
-        "product_gate_ms": 7.3583999765105546,
-        "constraint_ms": 34.962099976837635,
-        "reranker_ms": 0.06430002395063639,
+        "gemini_ms": 1866.2698999978602,
+        "embedding_ms": 612.1810000040568,
+        "semantic_retrieval_ms": 12.188199965748936,
+        "semantic_ms": 628.1335999956354,
+        "bm25_ms": 124.77460002992302,
+        "rrf_ms": 7.9135000123642385,
+        "hybrid_ms": 760.8278000261635,
+        "product_gate_ms": 7.485200010705739,
+        "constraint_ms": 36.840899963863194,
+        "reranker_ms": 0.05770003190264106,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -3952,8 +3962,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 3.937700006645173,
-        "total_ms": 860.2601999882609
+        "postprocess_ms": 3.7460000021383166,
+        "total_ms": 809.0137999970466
       },
       "candidates": [
         {
@@ -4105,8 +4115,8 @@
       "group_id": "ppc_calcined_clay",
       "product": "cement",
       "raw_query": "PPC with calcined clay",
-      "started_at": "2026-09-19T11:42:48.165338",
-      "latency_ms": 2834.142,
+      "started_at": "2026-09-19T16:20:49.262783",
+      "latency_ms": 2736.322,
       "expected_standard_codes": [
         "IS 1489 (Part 2): 1991"
       ],
@@ -4119,17 +4129,21 @@
       "top3": [
         "IS 1489 (Part 2): 1991",
         "IS 10360: 1982",
-        "IS 1542: 1992"
+        "IS 12330: 1988"
       ],
       "expected_rank": 1,
       "gemini_interpretation": {
         "normalized_product": "cement",
         "product_aliases": [
+          "ppc",
+          "portland pozzolana cement",
           "cement",
           "lime pozzolana mixture",
           "lime-pozzolana concrete"
         ],
         "true_product_aliases": [
+          "ppc",
+          "portland pozzolana cement",
           "cement",
           "lime pozzolana mixture",
           "lime-pozzolana concrete"
@@ -4141,16 +4155,14 @@
           "portland_pozzolana_calcined_clay",
           "portland_pozzolana_fly_ash"
         ],
-        "query_subtype": "ppc",
-        "subtype": "ppc",
+        "query_subtype": "portland_pozzolana_calcined_clay",
+        "subtype": "portland_pozzolana_calcined_clay",
         "subtype_family": null,
         "cement_type": "ppc",
         "pozzolana_source": "calcined_clay",
         "head_shape": null,
         "form": null,
-        "material": [
-          "clay"
-        ],
+        "material": [],
         "context_material": [],
         "excluded_material": [],
         "function": [],
@@ -4167,27 +4179,28 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [
-          "ppc with calcined clay"
-        ],
+        "explicit_constraints": [],
         "context_only_terms": [],
         "attribute_evidence": [
+          "subtype=calcined clay",
           "pozzolana_source=calcined clay"
         ],
-        "ambiguity": true,
-        "missing_information": [
-          "pozzolana type: fly ash or calcined clay"
-        ],
-        "confidence": 0.95
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 1.0
       },
       "normalized_intent": {
         "normalized_product": "cement",
         "product_aliases": [
+          "ppc",
+          "portland pozzolana cement",
           "cement",
           "lime pozzolana mixture",
           "lime-pozzolana concrete"
         ],
         "true_product_aliases": [
+          "ppc",
+          "portland pozzolana cement",
           "cement",
           "lime pozzolana mixture",
           "lime-pozzolana concrete"
@@ -4199,16 +4212,14 @@
           "portland_pozzolana_calcined_clay",
           "portland_pozzolana_fly_ash"
         ],
-        "query_subtype": "ppc",
-        "subtype": "ppc",
+        "query_subtype": "portland_pozzolana_calcined_clay",
+        "subtype": "portland_pozzolana_calcined_clay",
         "subtype_family": null,
         "cement_type": "ppc",
         "pozzolana_source": "calcined_clay",
         "head_shape": null,
         "form": null,
-        "material": [
-          "clay"
-        ],
+        "material": [],
         "context_material": [],
         "excluded_material": [],
         "function": [],
@@ -4225,45 +4236,41 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [
-          "ppc with calcined clay"
-        ],
+        "explicit_constraints": [],
         "context_only_terms": [],
         "attribute_evidence": [
+          "subtype=calcined clay",
           "pozzolana_source=calcined clay"
         ],
-        "ambiguity": true,
-        "missing_information": [
-          "pozzolana type: fly ash or calcined clay"
-        ],
-        "confidence": 0.95
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 1.0
       },
       "grounded_evidence": [
+        "subtype=calcined clay",
         "pozzolana_source=calcined clay"
       ],
       "negative_constraints": {},
-      "ambiguity": true,
-      "missing_information": [
-        "pozzolana type: fly ash or calcined clay"
-      ],
+      "ambiguity": false,
+      "missing_information": [],
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2054.2253000312485,
+        "gemini_latency_ms": 2080.047400027979,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2054.2253000312485,
-        "embedding_ms": 556.4789000200108,
-        "semantic_retrieval_ms": 13.665299979038537,
-        "semantic_ms": 574.6873000171036,
-        "bm25_ms": 129.56440000561997,
-        "rrf_ms": 9.764999966137111,
-        "hybrid_ms": 714.0237999847159,
-        "product_gate_ms": 11.910200002603233,
-        "constraint_ms": 32.97270002076402,
-        "reranker_ms": 0.04069996066391468,
+        "gemini_ms": 2080.047400027979,
+        "embedding_ms": 464.78229999775067,
+        "semantic_retrieval_ms": 18.26110004913062,
+        "semantic_ms": 487.2580000082962,
+        "bm25_ms": 110.92639999696985,
+        "rrf_ms": 10.148100031074136,
+        "hybrid_ms": 608.3394000306726,
+        "product_gate_ms": 7.56810000166297,
+        "constraint_ms": 31.232999986968935,
+        "reranker_ms": 0.040599959902465343,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -4271,22 +4278,22 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 3.3928999910131097,
-        "total_ms": 762.3915000003763
+        "postprocess_ms": 1.9272000063210726,
+        "total_ms": 649.15369998198
       },
       "candidates": [
         {
           "standard_code": "IS 1489 (Part 2): 1991",
           "title": "PORTLAND POZZOLANA CEMENT",
           "semantic_rank": 1,
-          "semantic_score": 0.73480994,
+          "semantic_score": 0.7681116,
           "bm25_rank": 1,
-          "bm25_score": 58.00597341831436,
+          "bm25_score": 84.49171184857263,
           "rrf_rank": 1,
           "rrf_score": 0.03278688524590164,
           "product_state": "EXACT_PRODUCT",
-          "material_state": "CONTRADICTION",
-          "subtype_state": "UNKNOWN",
+          "material_state": null,
+          "subtype_state": "EXACT_MATCH",
           "function_state": null,
           "application_state": null,
           "grade_state": null,
@@ -4294,26 +4301,25 @@
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "MATERIAL_CONTRADICTION",
             "CEMENT_TYPE_EXACT_MATCH",
             "POZZOLANA_SOURCE_EXACT_MATCH",
-            "SUBTYPE_UNKNOWN"
+            "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 8.0,
-          "final_score": 8.032786885245901,
+          "constraint_score": 20.0,
+          "final_score": 20.0327868852459,
           "final_rank": 1
         },
         {
           "standard_code": "IS 10360: 1982",
           "title": "LIME-POZZOLANA CONCRETE",
-          "semantic_rank": 2,
-          "semantic_score": 0.7116752,
-          "bm25_rank": 2,
-          "bm25_score": 23.264273203456742,
-          "rrf_rank": 2,
-          "rrf_score": 0.03225806451612903,
+          "semantic_rank": 3,
+          "semantic_score": 0.70799977,
+          "bm25_rank": 3,
+          "bm25_score": 31.389860497887867,
+          "rrf_rank": 3,
+          "rrf_score": 0.031746031746031744,
           "product_state": "EXACT_PRODUCT",
-          "material_state": "CONTRADICTION",
+          "material_state": null,
           "subtype_state": "UNKNOWN",
           "function_state": null,
           "application_state": null,
@@ -4322,26 +4328,25 @@
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "MATERIAL_CONTRADICTION",
             "CEMENT_TYPE_UNKNOWN",
             "POZZOLANA_SOURCE_UNKNOWN",
             "SUBTYPE_UNKNOWN"
           ],
-          "constraint_score": 0.0,
-          "final_score": 0.03225806451612903,
+          "constraint_score": 8.0,
+          "final_score": 8.031746031746032,
           "final_rank": 2
         },
         {
-          "standard_code": "IS 1542: 1992",
-          "title": "SAND FOR  PLASTER",
-          "semantic_rank": 9,
-          "semantic_score": 0.64871144,
-          "bm25_rank": 3,
-          "bm25_score": 22.304118745512138,
+          "standard_code": "IS 12330: 1988",
+          "title": "SULPHATE RESISTING PORTLAND CEMENT",
+          "semantic_rank": 4,
+          "semantic_score": 0.7041354,
+          "bm25_rank": 5,
+          "bm25_score": 23.993935589423643,
           "rrf_rank": 4,
-          "rrf_score": 0.03036576949620428,
+          "rrf_score": 0.031009615384615385,
           "product_state": "EXACT_PRODUCT",
-          "material_state": "CONTRADICTION",
+          "material_state": null,
           "subtype_state": "UNKNOWN",
           "function_state": null,
           "application_state": null,
@@ -4350,26 +4355,25 @@
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "MATERIAL_CONTRADICTION",
             "CEMENT_TYPE_UNKNOWN",
             "POZZOLANA_SOURCE_UNKNOWN",
             "SUBTYPE_UNKNOWN"
           ],
-          "constraint_score": 0.0,
-          "final_score": 0.03036576949620428,
+          "constraint_score": 8.0,
+          "final_score": 8.031009615384615,
           "final_rank": 3
         },
         {
           "standard_code": "IS 4098: 1983",
           "title": "LIME POZZOLANA MIXTURE",
-          "semantic_rank": 3,
-          "semantic_score": 0.69658947,
-          "bm25_rank": null,
-          "bm25_score": null,
-          "rrf_rank": 6,
-          "rrf_score": 0.015873015873015872,
+          "semantic_rank": 5,
+          "semantic_score": 0.69230795,
+          "bm25_rank": 6,
+          "bm25_score": 22.830140200327534,
+          "rrf_rank": 5,
+          "rrf_score": 0.030536130536130537,
           "product_state": "EXACT_PRODUCT",
-          "material_state": "CONTRADICTION",
+          "material_state": null,
           "subtype_state": "UNKNOWN",
           "function_state": null,
           "application_state": null,
@@ -4378,26 +4382,25 @@
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "MATERIAL_CONTRADICTION",
             "CEMENT_TYPE_UNKNOWN",
             "POZZOLANA_SOURCE_UNKNOWN",
             "SUBTYPE_UNKNOWN"
           ],
-          "constraint_score": 0.0,
-          "final_score": 0.015873015873015872,
+          "constraint_score": 8.0,
+          "final_score": 8.030536130536131,
           "final_rank": 4
         },
         {
-          "standard_code": "IS 12330: 1988",
-          "title": "SULPHATE RESISTING PORTLAND CEMENT",
-          "semantic_rank": 5,
-          "semantic_score": 0.6728184,
-          "bm25_rank": null,
-          "bm25_score": null,
-          "rrf_rank": 8,
-          "rrf_score": 0.015384615384615385,
+          "standard_code": "IS 1542: 1992",
+          "title": "SAND FOR  PLASTER",
+          "semantic_rank": 14,
+          "semantic_score": 0.64831126,
+          "bm25_rank": 4,
+          "bm25_score": 26.41889762722299,
+          "rrf_rank": 6,
+          "rrf_score": 0.029138513513513514,
           "product_state": "EXACT_PRODUCT",
-          "material_state": "CONTRADICTION",
+          "material_state": null,
           "subtype_state": "UNKNOWN",
           "function_state": null,
           "application_state": null,
@@ -4406,13 +4409,12 @@
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "MATERIAL_CONTRADICTION",
             "CEMENT_TYPE_UNKNOWN",
             "POZZOLANA_SOURCE_UNKNOWN",
             "SUBTYPE_UNKNOWN"
           ],
-          "constraint_score": 0.0,
-          "final_score": 0.015384615384615385,
+          "constraint_score": 8.0,
+          "final_score": 8.029138513513514,
           "final_rank": 5
         }
       ],
@@ -4424,8 +4426,8 @@
       "group_id": "ppc_calcined_clay",
       "product": "cement",
       "raw_query": "calcined clay based PPC",
-      "started_at": "2026-09-19T11:42:50.998776",
-      "latency_ms": 2762.127,
+      "started_at": "2026-09-19T16:20:51.999293",
+      "latency_ms": 3868.353,
       "expected_standard_codes": [
         "IS 1489 (Part 2): 1991"
       ],
@@ -4494,7 +4496,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 1.0
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "cement",
@@ -4549,7 +4551,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 1.0
+        "confidence": 0.95
       },
       "grounded_evidence": [
         "subtype=calcined clay",
@@ -4562,20 +4564,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2015.7755999825895,
+        "gemini_latency_ms": 3215.2072999742813,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2015.7755999825895,
-        "embedding_ms": 527.1899999934249,
-        "semantic_retrieval_ms": 11.35500002419576,
-        "semantic_ms": 542.5977999693714,
-        "bm25_ms": 124.23159996978939,
-        "rrf_ms": 10.827100020833313,
-        "hybrid_ms": 677.6662999764085,
-        "product_gate_ms": 10.759699973277748,
-        "constraint_ms": 35.840799973811954,
-        "reranker_ms": 0.04600000102072954,
+        "gemini_ms": 3215.2072999742813,
+        "embedding_ms": 467.57609996711835,
+        "semantic_retrieval_ms": 11.285000015050173,
+        "semantic_ms": 482.454199984204,
+        "bm25_ms": 110.33820000011474,
+        "rrf_ms": 9.163199982140213,
+        "hybrid_ms": 601.9627000205219,
+        "product_gate_ms": 10.105800000019372,
+        "constraint_ms": 31.272599997464567,
+        "reranker_ms": 0.060999998822808266,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -4583,8 +4585,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.0391999860294163,
-        "total_ms": 726.4024000032805
+        "postprocess_ms": 3.488199959974736,
+        "total_ms": 646.9424000242725
       },
       "candidates": [
         {
@@ -4731,8 +4733,8 @@
       "group_id": "reverse_flow_valve",
       "product": "valve",
       "raw_query": "valve that prevents water from flowing backwards",
-      "started_at": "2026-09-19T11:42:53.761569",
-      "latency_ms": 5380.409,
+      "started_at": "2026-09-19T16:20:55.867810",
+      "latency_ms": 1059.061,
       "expected_standard_codes": [
         "IS 5312 (Part 1): 2004",
         "IS 5312 (Part 2): 1986",
@@ -4777,7 +4779,6 @@
         "context_material": [],
         "excluded_material": [],
         "function": [
-          "prevents backflow",
           "prevent_reverse_flow"
         ],
         "application": [
@@ -4802,7 +4803,7 @@
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       "normalized_intent": {
         "normalized_product": "valve",
@@ -4831,7 +4832,6 @@
         "context_material": [],
         "excluded_material": [],
         "function": [
-          "prevents backflow",
           "prevent_reverse_flow"
         ],
         "application": [
@@ -4856,7 +4856,7 @@
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       "grounded_evidence": [],
       "negative_constraints": {},
@@ -4866,20 +4866,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 4044.8857999872416,
+        "gemini_latency_ms": 0.013299984857439995,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 4044.8857999872416,
-        "embedding_ms": 728.5310000297613,
-        "semantic_retrieval_ms": 11.920499964617193,
-        "semantic_ms": 744.641600002069,
-        "bm25_ms": 507.38249998539686,
-        "rrf_ms": 13.20239994674921,
-        "hybrid_ms": 1265.2336999890395,
-        "product_gate_ms": 10.149299982003868,
-        "constraint_ms": 28.27199996681884,
-        "reranker_ms": 0.04120002267882228,
+        "gemini_ms": 0.013299984857439995,
+        "embedding_ms": 565.9440000308678,
+        "semantic_retrieval_ms": 10.489199950825423,
+        "semantic_ms": 580.548900004942,
+        "bm25_ms": 431.7707000300288,
+        "rrf_ms": 7.732200028840452,
+        "hybrid_ms": 1020.0629999744706,
+        "product_gate_ms": 8.498899987898767,
+        "constraint_ms": 21.5885000070557,
+        "reranker_ms": 0.05949998740106821,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -4887,15 +4887,15 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.1912999907508492,
-        "total_ms": 1304.946899996139
+        "postprocess_ms": 3.051100007724017,
+        "total_ms": 1053.3043000032194
       },
       "candidates": [
         {
           "standard_code": "IS 9338: 1984",
           "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
           "semantic_rank": 1,
-          "semantic_score": 0.70722675,
+          "semantic_score": 0.70241356,
           "bm25_rank": 1,
           "bm25_score": 73.92395527198948,
           "rrf_rank": 1,
@@ -4923,7 +4923,7 @@
           "standard_code": "IS 13114: 1991",
           "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
           "semantic_rank": 4,
-          "semantic_score": 0.6919825,
+          "semantic_score": 0.69294155,
           "bm25_rank": 2,
           "bm25_score": 68.86359869508948,
           "rrf_rank": 2,
@@ -4951,7 +4951,7 @@
           "standard_code": "IS 5312 (Part 2): 1986",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 2,
-          "semantic_score": 0.70277584,
+          "semantic_score": 0.70174253,
           "bm25_rank": 5,
           "bm25_score": 45.58111316384774,
           "rrf_rank": 3,
@@ -4979,7 +4979,7 @@
           "standard_code": "IS 5312 (Part 1): 2004",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 3,
-          "semantic_score": 0.7012289,
+          "semantic_score": 0.70088935,
           "bm25_rank": 4,
           "bm25_score": 56.61664614406562,
           "rrf_rank": 4,
@@ -5007,7 +5007,7 @@
           "standard_code": "IS 778: 1984",
           "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
           "semantic_rank": 5,
-          "semantic_score": 0.6780113,
+          "semantic_score": 0.67441595,
           "bm25_rank": 3,
           "bm25_score": 64.21109656845915,
           "rrf_rank": 5,
@@ -5040,8 +5040,8 @@
       "group_id": "reverse_flow_valve",
       "product": "valve",
       "raw_query": "non-return valve for water line",
-      "started_at": "2026-09-19T11:42:59.141587",
-      "latency_ms": 3020.636,
+      "started_at": "2026-09-19T16:20:56.925973",
+      "latency_ms": 720.446,
       "expected_standard_codes": [
         "IS 5312 (Part 1): 2004",
         "IS 5312 (Part 2): 1986",
@@ -5062,12 +5062,10 @@
       "gemini_interpretation": {
         "normalized_product": "valve",
         "product_aliases": [
-          "non return valve",
           "valve",
           "valves"
         ],
         "true_product_aliases": [
-          "non return valve",
           "valve",
           "valves"
         ],
@@ -5088,7 +5086,6 @@
         "context_material": [],
         "excluded_material": [],
         "function": [
-          "prevent backflow",
           "prevent_reverse_flow"
         ],
         "application": [
@@ -5120,12 +5117,10 @@
       "normalized_intent": {
         "normalized_product": "valve",
         "product_aliases": [
-          "non return valve",
           "valve",
           "valves"
         ],
         "true_product_aliases": [
-          "non return valve",
           "valve",
           "valves"
         ],
@@ -5146,7 +5141,6 @@
         "context_material": [],
         "excluded_material": [],
         "function": [
-          "prevent backflow",
           "prevent_reverse_flow"
         ],
         "application": [
@@ -5185,20 +5179,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2112.003599992022,
+        "gemini_latency_ms": 0.007399998139590025,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2112.003599992022,
-        "embedding_ms": 701.5022000414319,
-        "semantic_retrieval_ms": 10.165500047151,
-        "semantic_ms": 716.7642000131309,
-        "bm25_ms": 121.85860000317916,
-        "rrf_ms": 8.246899989899248,
-        "hybrid_ms": 846.8770000035875,
-        "product_gate_ms": 7.899099960923195,
-        "constraint_ms": 24.13089998299256,
-        "reranker_ms": 0.03860000288113952,
+        "gemini_ms": 0.007399998139590025,
+        "embedding_ms": 539.4578999839723,
+        "semantic_retrieval_ms": 11.598499957472086,
+        "semantic_ms": 555.5600000079721,
+        "bm25_ms": 117.89230001159012,
+        "rrf_ms": 9.136099950410426,
+        "hybrid_ms": 682.5970999780111,
+        "product_gate_ms": 7.051800028420985,
+        "constraint_ms": 25.0452000182122,
+        "reranker_ms": 0.06160000339150429,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -5206,17 +5200,17 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.5054999967105687,
-        "total_ms": 880.5212000152096
+        "postprocess_ms": 1.384599949233234,
+        "total_ms": 716.1813999991864
       },
       "candidates": [
         {
           "standard_code": "IS 5312 (Part 1): 2004",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 1,
-          "semantic_score": 0.7145096,
+          "semantic_score": 0.7133336,
           "bm25_rank": 4,
-          "bm25_score": 70.4829576224248,
+          "bm25_score": 65.84029888052986,
           "rrf_rank": 1,
           "rrf_score": 0.032018442622950824,
           "product_state": "EXACT_PRODUCT",
@@ -5242,9 +5236,9 @@
           "standard_code": "IS 13114: 1991",
           "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
           "semantic_rank": 4,
-          "semantic_score": 0.70563287,
+          "semantic_score": 0.70678127,
           "bm25_rank": 1,
-          "bm25_score": 77.1681530345711,
+          "bm25_score": 72.88363646180119,
           "rrf_rank": 2,
           "rrf_score": 0.032018442622950824,
           "product_state": "EXACT_PRODUCT",
@@ -5270,9 +5264,9 @@
           "standard_code": "IS 9338: 1984",
           "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
           "semantic_rank": 3,
-          "semantic_score": 0.7130096,
+          "semantic_score": 0.7079121,
           "bm25_rank": 2,
-          "bm25_score": 75.03832785655516,
+          "bm25_score": 71.07559213902915,
           "rrf_rank": 3,
           "rrf_score": 0.03200204813108039,
           "product_state": "EXACT_PRODUCT",
@@ -5298,9 +5292,9 @@
           "standard_code": "IS 5312 (Part 2): 1986",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 2,
-          "semantic_score": 0.7133107,
+          "semantic_score": 0.7104418,
           "bm25_rank": 5,
-          "bm25_score": 47.13859270033209,
+          "bm25_score": 42.23717022055375,
           "rrf_rank": 4,
           "rrf_score": 0.0315136476426799,
           "product_state": "EXACT_PRODUCT",
@@ -5326,9 +5320,9 @@
           "standard_code": "IS 778: 1984",
           "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
           "semantic_rank": 5,
-          "semantic_score": 0.69224846,
+          "semantic_score": 0.68704337,
           "bm25_rank": 3,
-          "bm25_score": 71.87944782529122,
+          "bm25_score": 67.97535408528013,
           "rrf_rank": 5,
           "rrf_score": 0.03125763125763126,
           "product_state": "EXACT_PRODUCT",
@@ -5359,8 +5353,8 @@
       "group_id": "reverse_flow_valve",
       "product": "valve",
       "raw_query": "check valve for water pipeline",
-      "started_at": "2026-09-19T11:43:02.162928",
-      "latency_ms": 2705.254,
+      "started_at": "2026-09-19T16:20:57.646537",
+      "latency_ms": 734.329,
       "expected_standard_codes": [
         "IS 5312 (Part 1): 2004",
         "IS 5312 (Part 2): 1986",
@@ -5402,13 +5396,15 @@
         "head_shape": null,
         "form": null,
         "material": [],
-        "context_material": [],
+        "context_material": [
+          "water"
+        ],
         "excluded_material": [],
         "function": [
           "prevent_reverse_flow"
         ],
         "application": [
-          "water pipeline"
+          "pipeline"
         ],
         "medium": [
           "water"
@@ -5457,13 +5453,15 @@
         "head_shape": null,
         "form": null,
         "material": [],
-        "context_material": [],
+        "context_material": [
+          "water"
+        ],
         "excluded_material": [],
         "function": [
           "prevent_reverse_flow"
         ],
         "application": [
-          "water pipeline"
+          "pipeline"
         ],
         "medium": [
           "water"
@@ -5498,20 +5496,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 1856.0549999820068,
+        "gemini_latency_ms": 0.016300007700920105,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 1856.0549999820068,
-        "embedding_ms": 646.6620999854058,
-        "semantic_retrieval_ms": 12.097499973606318,
-        "semantic_ms": 663.577500032261,
-        "bm25_ms": 134.40610002726316,
-        "rrf_ms": 9.863299957942218,
-        "hybrid_ms": 807.8546000178903,
-        "product_gate_ms": 8.195500005967915,
-        "constraint_ms": 24.945100012701005,
-        "reranker_ms": 0.06500002928078175,
+        "gemini_ms": 0.016300007700920105,
+        "embedding_ms": 539.6481000352651,
+        "semantic_retrieval_ms": 15.5081000411883,
+        "semantic_ms": 559.8643000121228,
+        "bm25_ms": 126.353100000415,
+        "rrf_ms": 8.303400012664497,
+        "hybrid_ms": 694.5263000088744,
+        "product_gate_ms": 8.503800025209785,
+        "constraint_ms": 23.18720001494512,
+        "reranker_ms": 0.04529999569058418,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -5519,148 +5517,148 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.3232000055722892,
-        "total_ms": 842.4501999979839
+        "postprocess_ms": 1.6331999795511365,
+        "total_ms": 727.9421000275761
       },
       "candidates": [
         {
           "standard_code": "IS 9338: 1984",
           "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
           "semantic_rank": 3,
-          "semantic_score": 0.70991707,
+          "semantic_score": 0.7082222,
           "bm25_rank": 1,
-          "bm25_score": 79.63051600935681,
+          "bm25_score": 77.08663336002786,
           "rrf_rank": 1,
           "rrf_score": 0.032266458495966696,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.532266458495968,
+          "constraint_score": 20.0,
+          "final_score": 20.032266458495968,
           "final_rank": 1
         },
         {
           "standard_code": "IS 5312 (Part 1): 2004",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 1,
-          "semantic_score": 0.71403825,
+          "semantic_score": 0.7131828,
           "bm25_rank": 4,
-          "bm25_score": 65.52691557363852,
+          "bm25_score": 63.00673747593251,
           "rrf_rank": 2,
           "rrf_score": 0.032018442622950824,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.532018442622952,
+          "constraint_score": 20.0,
+          "final_score": 20.032018442622952,
           "final_rank": 2
         },
         {
           "standard_code": "IS 13114: 1991",
           "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
           "semantic_rank": 4,
-          "semantic_score": 0.69997084,
+          "semantic_score": 0.7012521,
           "bm25_rank": 2,
-          "bm25_score": 77.885153628406,
+          "bm25_score": 75.24538247616235,
           "rrf_rank": 3,
           "rrf_score": 0.031754032258064516,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.531754032258064,
+          "constraint_score": 20.0,
+          "final_score": 20.031754032258064,
           "final_rank": 3
         },
         {
           "standard_code": "IS 5312 (Part 2): 1986",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 2,
-          "semantic_score": 0.71287966,
+          "semantic_score": 0.7123513,
           "bm25_rank": 5,
-          "bm25_score": 50.68628915746453,
+          "bm25_score": 48.09140738218302,
           "rrf_rank": 4,
           "rrf_score": 0.0315136476426799,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.53151364764268,
+          "constraint_score": 20.0,
+          "final_score": 20.03151364764268,
           "final_rank": 4
         },
         {
           "standard_code": "IS 778: 1984",
           "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
           "semantic_rank": 5,
-          "semantic_score": 0.6880208,
+          "semantic_score": 0.68770874,
           "bm25_rank": 3,
-          "bm25_score": 72.55915308452201,
+          "bm25_score": 70.03361821939926,
           "rrf_rank": 5,
           "rrf_score": 0.03125763125763126,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.53125763125763,
+          "constraint_score": 20.0,
+          "final_score": 20.03125763125763,
           "final_rank": 5
         }
       ],
@@ -5672,8 +5670,8 @@
       "group_id": "reverse_flow_valve",
       "product": "valve",
       "raw_query": "reflux valve for water line",
-      "started_at": "2026-09-19T11:43:04.868443",
-      "latency_ms": 1276.937,
+      "started_at": "2026-09-19T16:20:58.381879",
+      "latency_ms": 714.83,
       "expected_standard_codes": [
         "IS 5312 (Part 1): 2004",
         "IS 5312 (Part 2): 1986",
@@ -5721,7 +5719,7 @@
           "prevent_reverse_flow"
         ],
         "application": [
-          "water pipeline"
+          "water line"
         ],
         "medium": [
           "water"
@@ -5744,7 +5742,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "valve",
@@ -5776,7 +5774,7 @@
           "prevent_reverse_flow"
         ],
         "application": [
-          "water pipeline"
+          "water line"
         ],
         "medium": [
           "water"
@@ -5799,7 +5797,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "grounded_evidence": [
         "subtype=reflux valve"
@@ -5810,20 +5808,20 @@
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": false,
-        "gemini_latency_ms": 407.8291999758221,
-        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+        "gemini_success": true,
+        "gemini_latency_ms": 0.014699995517730713,
+        "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 407.8291999758221,
-        "embedding_ms": 692.8213000064716,
-        "semantic_retrieval_ms": 11.523300025146455,
-        "semantic_ms": 708.918199990876,
-        "bm25_ms": 111.31909996038303,
-        "rrf_ms": 7.516500016208738,
-        "hybrid_ms": 827.7617000276223,
-        "product_gate_ms": 6.184400001075119,
-        "constraint_ms": 24.581599980592728,
+        "gemini_ms": 0.014699995517730713,
+        "embedding_ms": 536.8219999945723,
+        "semantic_retrieval_ms": 10.61130000744015,
+        "semantic_ms": 551.232700003311,
+        "bm25_ms": 115.73760001920164,
+        "rrf_ms": 7.724300026893616,
+        "hybrid_ms": 674.7004000353627,
+        "product_gate_ms": 8.786300022620708,
+        "constraint_ms": 24.118600005749613,
         "reranker_ms": 0.037699996028095484,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
@@ -5832,15 +5830,15 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.3023000210523605,
-        "total_ms": 859.9126000190154
+        "postprocess_ms": 1.1902999831363559,
+        "total_ms": 708.8721999898553
       },
       "candidates": [
         {
           "standard_code": "IS 5312 (Part 1): 2004",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 1,
-          "semantic_score": 0.7398968,
+          "semantic_score": 0.7400723,
           "bm25_rank": 3,
           "bm25_score": 67.39355801054218,
           "rrf_rank": 1,
@@ -5849,26 +5847,26 @@
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.532266458495968,
+          "constraint_score": 20.0,
+          "final_score": 20.032266458495968,
           "final_rank": 1
         },
         {
           "standard_code": "IS 9338: 1984",
           "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
           "semantic_rank": 3,
-          "semantic_score": 0.7040182,
+          "semantic_score": 0.7039584,
           "bm25_rank": 1,
           "bm25_score": 71.07559213902915,
           "rrf_rank": 2,
@@ -5877,26 +5875,26 @@
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.532266458495968,
+          "constraint_score": 20.0,
+          "final_score": 20.032266458495968,
           "final_rank": 2
         },
         {
           "standard_code": "IS 13114: 1991",
           "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
           "semantic_rank": 4,
-          "semantic_score": 0.6937989,
+          "semantic_score": 0.69467753,
           "bm25_rank": 2,
           "bm25_score": 69.09263240998582,
           "rrf_rank": 3,
@@ -5905,26 +5903,26 @@
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.531754032258064,
+          "constraint_score": 20.0,
+          "final_score": 20.031754032258064,
           "final_rank": 3
         },
         {
           "standard_code": "IS 5312 (Part 2): 1986",
           "title": "SWING  CHECK  TYPE  REFLUX",
           "semantic_rank": 2,
-          "semantic_score": 0.7386329,
+          "semantic_score": 0.7390877,
           "bm25_rank": 5,
           "bm25_score": 52.498727503124414,
           "rrf_rank": 4,
@@ -5933,26 +5931,26 @@
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.53151364764268,
+          "constraint_score": 20.0,
+          "final_score": 20.03151364764268,
           "final_rank": 4
         },
         {
           "standard_code": "IS 778: 1984",
           "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
           "semantic_rank": 6,
-          "semantic_score": 0.67487395,
+          "semantic_score": 0.6734878,
           "bm25_rank": 4,
           "bm25_score": 64.43357775206829,
           "rrf_rank": 5,
@@ -5961,19 +5959,19 @@
           "material_state": null,
           "subtype_state": "FAMILY_EXACT_MATCH",
           "function_state": "EXACT_MATCH",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_FAMILY_EXACT_MATCH",
             "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 21.5,
-          "final_score": 21.530776515151516,
+          "constraint_score": 20.0,
+          "final_score": 20.030776515151516,
           "final_rank": 5
         }
       ],
@@ -5985,8 +5983,8 @@
       "group_id": "reverse_flow_valve",
       "product": "valve",
       "raw_query": "water should only flow one way through the valve",
-      "started_at": "2026-09-19T11:43:06.145375",
-      "latency_ms": 1199.134,
+      "started_at": "2026-09-19T16:20:59.096693",
+      "latency_ms": 3048.152,
       "expected_standard_codes": [
         "IS 5312 (Part 1): 2004",
         "IS 5312 (Part 2): 1986",
@@ -6050,12 +6048,14 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [],
+        "explicit_constraints": [
+          "water should only flow one way through the valve"
+        ],
         "context_only_terms": [],
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "valve",
@@ -6103,12 +6103,14 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [],
+        "explicit_constraints": [
+          "water should only flow one way through the valve"
+        ],
         "context_only_terms": [],
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "grounded_evidence": [],
       "negative_constraints": {},
@@ -6117,21 +6119,21 @@
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": false,
-        "gemini_latency_ms": 363.57470002258196,
-        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+        "gemini_success": true,
+        "gemini_latency_ms": 2281.056299980264,
+        "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 363.57470002258196,
-        "embedding_ms": 633.0464000348002,
-        "semantic_retrieval_ms": 11.269199952948838,
-        "semantic_ms": 649.7605000040494,
-        "bm25_ms": 121.22400000225753,
-        "rrf_ms": 11.737000022549182,
-        "hybrid_ms": 782.7304999809712,
-        "product_gate_ms": 7.376599998679012,
-        "constraint_ms": 23.824599978979677,
-        "reranker_ms": 0.060399994254112244,
+        "gemini_ms": 2281.056299980264,
+        "embedding_ms": 565.2682000072673,
+        "semantic_retrieval_ms": 16.97319996310398,
+        "semantic_ms": 586.7241999949329,
+        "bm25_ms": 119.90250000962988,
+        "rrf_ms": 8.6631000158377,
+        "hybrid_ms": 715.2962999534793,
+        "product_gate_ms": 7.007599982898682,
+        "constraint_ms": 23.465899983420968,
+        "reranker_ms": 0.038700003642588854,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -6139,8 +6141,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.731799973640591,
-        "total_ms": 815.7873000018299
+        "postprocess_ms": 1.240900019183755,
+        "total_ms": 747.0864999922924
       },
       "candidates": [
         {
@@ -6292,8 +6294,8 @@
       "group_id": "pressure_reducing_valve",
       "product": "valve",
       "raw_query": "pressure reducing valve for water supply",
-      "started_at": "2026-09-19T11:43:07.344571",
-      "latency_ms": 1042.666,
+      "started_at": "2026-09-19T16:21:02.144476",
+      "latency_ms": 2618.272,
       "expected_standard_codes": [
         "IS 9739: 1981"
       ],
@@ -6339,8 +6341,7 @@
           "reduce_pressure"
         ],
         "application": [
-          "water supply",
-          "water pipeline"
+          "water supply"
         ],
         "medium": [
           "water"
@@ -6363,7 +6364,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "valve",
@@ -6395,8 +6396,7 @@
           "reduce_pressure"
         ],
         "application": [
-          "water supply",
-          "water pipeline"
+          "water supply"
         ],
         "medium": [
           "water"
@@ -6419,7 +6419,7 @@
         ],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "grounded_evidence": [
         "subtype=pressure reducing valve"
@@ -6430,21 +6430,21 @@
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": false,
-        "gemini_latency_ms": 326.1474000173621,
-        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+        "gemini_success": true,
+        "gemini_latency_ms": 1967.29860000778,
+        "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 326.1474000173621,
-        "embedding_ms": 502.2651000181213,
-        "semantic_retrieval_ms": 12.281600036658347,
-        "semantic_ms": 518.7078000162728,
-        "bm25_ms": 120.17720000585541,
-        "rrf_ms": 10.786500002723187,
-        "hybrid_ms": 649.679499969352,
-        "product_gate_ms": 10.443600011058152,
-        "constraint_ms": 21.74709999235347,
-        "reranker_ms": 0.03960001049563289,
+        "gemini_ms": 1967.29860000778,
+        "embedding_ms": 459.07629997236654,
+        "semantic_retrieval_ms": 8.957499987445772,
+        "semantic_ms": 473.04630000144243,
+        "bm25_ms": 128.0894000083208,
+        "rrf_ms": 8.794600027613342,
+        "hybrid_ms": 609.9388000438921,
+        "product_gate_ms": 9.786200011149049,
+        "constraint_ms": 21.971299953293055,
+        "reranker_ms": 0.06250001024454832,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -6452,17 +6452,17 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.169199986383319,
-        "total_ms": 684.1429999913089
+        "postprocess_ms": 3.0350000015459955,
+        "total_ms": 644.8395000188611
       },
       "candidates": [
         {
           "standard_code": "IS 9739: 1981",
           "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
           "semantic_rank": 1,
-          "semantic_score": 0.77116287,
+          "semantic_score": 0.7693504,
           "bm25_rank": 1,
-          "bm25_score": 78.11051999665824,
+          "bm25_score": 75.38492524783338,
           "rrf_rank": 1,
           "rrf_score": 0.03278688524590164,
           "product_state": "EXACT_PRODUCT",
@@ -6486,12 +6486,12 @@
         {
           "standard_code": "IS 1703: 2000",
           "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
-          "semantic_rank": 4,
-          "semantic_score": 0.68475103,
+          "semantic_rank": 2,
+          "semantic_score": 0.68362296,
           "bm25_rank": 5,
-          "bm25_score": 33.14154804638807,
-          "rrf_rank": 4,
-          "rrf_score": 0.031009615384615385,
+          "bm25_score": 30.170844040845154,
+          "rrf_rank": 2,
+          "rrf_score": 0.0315136476426799,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "UNKNOWN",
@@ -6507,18 +6507,18 @@
             "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.031009615384615,
+          "final_score": 12.03151364764268,
           "final_rank": 2
         },
         {
           "standard_code": "IS 14846: 2000",
           "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
-          "semantic_rank": 12,
-          "semantic_score": 0.65663755,
+          "semantic_rank": 9,
+          "semantic_score": 0.6586006,
           "bm25_rank": 6,
-          "bm25_score": 31.494613950231237,
-          "rrf_rank": 6,
-          "rrf_score": 0.02904040404040404,
+          "bm25_score": 28.67410638654933,
+          "rrf_rank": 5,
+          "rrf_score": 0.02964426877470356,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "UNKNOWN",
@@ -6534,61 +6534,61 @@
             "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.029040404040405,
+          "final_score": 12.029644268774703,
           "final_rank": 3
-        },
-        {
-          "standard_code": "IS 9763: 2000",
-          "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
-          "semantic_rank": 8,
-          "semantic_score": 0.6647515,
-          "bm25_rank": 13,
-          "bm25_score": 28.09534312837077,
-          "rrf_rank": 7,
-          "rrf_score": 0.028404512489927477,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": "UNKNOWN",
-          "function_state": "UNKNOWN",
-          "application_state": "PARTIAL_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "FUNCTION_UNKNOWN",
-            "APPLICATION_PARTIAL_MATCH",
-            "SUBTYPE_UNKNOWN"
-          ],
-          "constraint_score": 9.5,
-          "final_score": 9.528404512489928,
-          "final_rank": 4
         },
         {
           "standard_code": "IS 9758: 1981",
           "title": "FLUSH VALVES AND FITTINGS FOR WATER",
           "semantic_rank": 14,
-          "semantic_score": 0.64430344,
+          "semantic_score": 0.638404,
           "bm25_rank": 8,
-          "bm25_score": 29.82659503838484,
-          "rrf_rank": 9,
+          "bm25_score": 27.09944688765882,
+          "rrf_rank": 7,
           "rrf_score": 0.02821939586645469,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": "UNKNOWN",
           "function_state": "UNKNOWN",
-          "application_state": "PARTIAL_MATCH",
+          "application_state": "UNKNOWN",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "FUNCTION_UNKNOWN",
-            "APPLICATION_PARTIAL_MATCH",
+            "APPLICATION_UNKNOWN",
             "SUBTYPE_UNKNOWN"
           ],
-          "constraint_score": 9.5,
-          "final_score": 9.528219395866454,
+          "constraint_score": 8.0,
+          "final_score": 8.028219395866454,
+          "final_rank": 4
+        },
+        {
+          "standard_code": "IS 9763: 2000",
+          "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
+          "semantic_rank": 10,
+          "semantic_score": 0.65742254,
+          "bm25_rank": 13,
+          "bm25_score": 25.415161526947358,
+          "rrf_rank": 9,
+          "rrf_score": 0.027984344422700584,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": "UNKNOWN",
+          "function_state": "UNKNOWN",
+          "application_state": "UNKNOWN",
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
+            "APPLICATION_UNKNOWN",
+            "SUBTYPE_UNKNOWN"
+          ],
+          "constraint_score": 8.0,
+          "final_score": 8.0279843444227,
           "final_rank": 5
         }
       ],
@@ -6600,8 +6600,8 @@
       "group_id": "pressure_reducing_valve",
       "product": "valve",
       "raw_query": "valve to reduce downstream water pressure",
-      "started_at": "2026-09-19T11:43:08.387655",
-      "latency_ms": 1029.036,
+      "started_at": "2026-09-19T16:21:04.763051",
+      "latency_ms": 2688.29,
       "expected_standard_codes": [
         "IS 9739: 1981"
       ],
@@ -6643,7 +6643,9 @@
         "material": [],
         "context_material": [],
         "excluded_material": [],
-        "function": [],
+        "function": [
+          "reduce downstream water pressure"
+        ],
         "application": [
           "water pipeline"
         ],
@@ -6661,14 +6663,14 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [],
+        "explicit_constraints": [
+          "reduce downstream water pressure"
+        ],
         "context_only_terms": [],
         "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "valve function"
-        ],
-        "confidence": 0.0
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "valve",
@@ -6696,7 +6698,9 @@
         "material": [],
         "context_material": [],
         "excluded_material": [],
-        "function": [],
+        "function": [
+          "reduce downstream water pressure"
+        ],
         "application": [
           "water pipeline"
         ],
@@ -6714,39 +6718,37 @@
         "temperature_min_c": null,
         "temperature_max_c": null,
         "pressure": null,
-        "explicit_constraints": [],
+        "explicit_constraints": [
+          "reduce downstream water pressure"
+        ],
         "context_only_terms": [],
         "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "valve function"
-        ],
-        "confidence": 0.0
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.95
       },
       "grounded_evidence": [],
       "negative_constraints": {},
-      "ambiguity": true,
-      "missing_information": [
-        "valve function"
-      ],
+      "ambiguity": false,
+      "missing_information": [],
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": false,
-        "gemini_latency_ms": 408.28249999322,
-        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+        "gemini_success": true,
+        "gemini_latency_ms": 2097.6748999673873,
+        "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 408.28249999322,
-        "embedding_ms": 422.7810999727808,
-        "semantic_retrieval_ms": 12.580699985846877,
-        "semantic_ms": 439.5809000125155,
-        "bm25_ms": 125.81789999967441,
-        "rrf_ms": 9.158299944829196,
-        "hybrid_ms": 574.565899965819,
-        "product_gate_ms": 8.806500001810491,
-        "constraint_ms": 17.73330004652962,
-        "reranker_ms": 0.04250003257766366,
+        "gemini_ms": 2097.6748999673873,
+        "embedding_ms": 416.11019999254495,
+        "semantic_retrieval_ms": 10.645599977578968,
+        "semantic_ms": 431.0220000334084,
+        "bm25_ms": 114.1899999929592,
+        "rrf_ms": 9.705000033136457,
+        "hybrid_ms": 554.9239999963902,
+        "product_gate_ms": 9.155099978670478,
+        "constraint_ms": 17.76899996912107,
+        "reranker_ms": 0.05900004180148244,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -6754,29 +6756,30 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.382999984547496,
-        "total_ms": 603.6114000016823
+        "postprocess_ms": 2.4782000109553337,
+        "total_ms": 584.4357999740168
       },
       "candidates": [
         {
           "standard_code": "IS 9739: 1981",
           "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
           "semantic_rank": 1,
-          "semantic_score": 0.71419716,
+          "semantic_score": 0.72058654,
           "bm25_rank": 1,
-          "bm25_score": 30.31181162940649,
+          "bm25_score": 45.23325993242104,
           "rrf_rank": 1,
           "rrf_score": 0.03278688524590164,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": null,
-          "function_state": null,
+          "function_state": "UNKNOWN",
           "application_state": "PARTIAL_MATCH",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
             "APPLICATION_PARTIAL_MATCH"
           ],
           "constraint_score": 9.5,
@@ -6787,21 +6790,22 @@
           "standard_code": "IS 9338: 1984",
           "title": "CAST IRON SCREW-DOWN STOP VALVES AND",
           "semantic_rank": 2,
-          "semantic_score": 0.65301895,
+          "semantic_score": 0.65969574,
           "bm25_rank": 4,
-          "bm25_score": 23.909903987239183,
+          "bm25_score": 27.811576314661657,
           "rrf_rank": 2,
           "rrf_score": 0.031754032258064516,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": null,
-          "function_state": null,
+          "function_state": "UNKNOWN",
           "application_state": "PARTIAL_MATCH",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
             "APPLICATION_PARTIAL_MATCH"
           ],
           "constraint_score": 9.5,
@@ -6811,76 +6815,79 @@
         {
           "standard_code": "IS 13114: 1991",
           "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
-          "semantic_rank": 7,
-          "semantic_score": 0.630203,
+          "semantic_rank": 6,
+          "semantic_score": 0.632996,
           "bm25_rank": 2,
-          "bm25_score": 25.828293558001207,
+          "bm25_score": 33.76570568586251,
           "rrf_rank": 3,
-          "rrf_score": 0.031054405392392875,
+          "rrf_score": 0.03128054740957967,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": null,
-          "function_state": null,
+          "function_state": "UNKNOWN",
           "application_state": "PARTIAL_MATCH",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
             "APPLICATION_PARTIAL_MATCH"
           ],
           "constraint_score": 9.5,
-          "final_score": 9.531054405392393,
+          "final_score": 9.53128054740958,
           "final_rank": 3
-        },
-        {
-          "standard_code": "IS 1703: 2000",
-          "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
-          "semantic_rank": 3,
-          "semantic_score": 0.64022815,
-          "bm25_rank": 8,
-          "bm25_score": 18.204617186020872,
-          "rrf_rank": 4,
-          "rrf_score": 0.03057889822595705,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
-          "application_state": "PARTIAL_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_PARTIAL_MATCH"
-          ],
-          "constraint_score": 9.5,
-          "final_score": 9.530578898225958,
-          "final_rank": 4
         },
         {
           "standard_code": "IS 778: 1984",
           "title": "COPPER ALLOY  GATE, GLOBE AND CHECK VALVES",
-          "semantic_rank": 11,
-          "semantic_score": 0.62014985,
+          "semantic_rank": 12,
+          "semantic_score": 0.62140965,
           "bm25_rank": 3,
-          "bm25_score": 24.99262038763438,
-          "rrf_rank": 5,
-          "rrf_score": 0.029957522915269395,
+          "bm25_score": 32.43368349252563,
+          "rrf_rank": 4,
+          "rrf_score": 0.02976190476190476,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": null,
-          "function_state": null,
+          "function_state": "UNKNOWN",
           "application_state": "PARTIAL_MATCH",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
             "APPLICATION_PARTIAL_MATCH"
           ],
           "constraint_score": 9.5,
-          "final_score": 9.52995752291527,
+          "final_score": 9.529761904761905,
+          "final_rank": 4
+        },
+        {
+          "standard_code": "IS 9763: 2000",
+          "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
+          "semantic_rank": 8,
+          "semantic_score": 0.629963,
+          "bm25_rank": 8,
+          "bm25_score": 22.6959057695108,
+          "rrf_rank": 5,
+          "rrf_score": 0.029411764705882353,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": null,
+          "function_state": "UNKNOWN",
+          "application_state": "PARTIAL_MATCH",
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
+            "APPLICATION_PARTIAL_MATCH"
+          ],
+          "constraint_score": 9.5,
+          "final_score": 9.529411764705882,
           "final_rank": 5
         }
       ],
@@ -6892,8 +6899,8 @@
       "group_id": "pressure_reducing_valve",
       "product": "valve",
       "raw_query": "water pressure regulator valve",
-      "started_at": "2026-09-19T11:43:09.416000",
-      "latency_ms": 1030.533,
+      "started_at": "2026-09-19T16:21:07.451162",
+      "latency_ms": 2599.019,
       "expected_standard_codes": [
         "IS 9739: 1981"
       ],
@@ -6905,18 +6912,22 @@
       "top1": "IS 9739: 1981",
       "top3": [
         "IS 9739: 1981",
-        "IS 13114: 1991",
-        "IS 1703: 2000"
+        "IS 9763: 2000",
+        "IS 9758: 1981"
       ],
       "expected_rank": 1,
       "gemini_interpretation": {
         "normalized_product": "valve",
         "product_aliases": [
           "valve",
+          "regulator valve",
+          "pressure regulator valve",
           "valves"
         ],
         "true_product_aliases": [
           "valve",
+          "regulator valve",
+          "pressure regulator valve",
           "valves"
         ],
         "known_subtypes": [
@@ -6925,8 +6936,8 @@
           "pressure_reducing_valve",
           "sluice_valve"
         ],
-        "query_subtype": null,
-        "subtype": null,
+        "query_subtype": "pressure_reducing_valve",
+        "subtype": "pressure_reducing_valve",
         "subtype_family": null,
         "cement_type": null,
         "pozzolana_source": null,
@@ -6935,7 +6946,9 @@
         "material": [],
         "context_material": [],
         "excluded_material": [],
-        "function": [],
+        "function": [
+          "reduce_pressure"
+        ],
         "application": [
           "water pipeline"
         ],
@@ -6955,21 +6968,25 @@
         "pressure": null,
         "explicit_constraints": [],
         "context_only_terms": [],
-        "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "valve function"
+        "attribute_evidence": [
+          "subtype=pressure regulator"
         ],
-        "confidence": 0.0
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "valve",
         "product_aliases": [
           "valve",
+          "regulator valve",
+          "pressure regulator valve",
           "valves"
         ],
         "true_product_aliases": [
           "valve",
+          "regulator valve",
+          "pressure regulator valve",
           "valves"
         ],
         "known_subtypes": [
@@ -6978,8 +6995,8 @@
           "pressure_reducing_valve",
           "sluice_valve"
         ],
-        "query_subtype": null,
-        "subtype": null,
+        "query_subtype": "pressure_reducing_valve",
+        "subtype": "pressure_reducing_valve",
         "subtype_family": null,
         "cement_type": null,
         "pozzolana_source": null,
@@ -6988,7 +7005,9 @@
         "material": [],
         "context_material": [],
         "excluded_material": [],
-        "function": [],
+        "function": [
+          "reduce_pressure"
+        ],
         "application": [
           "water pipeline"
         ],
@@ -7008,37 +7027,37 @@
         "pressure": null,
         "explicit_constraints": [],
         "context_only_terms": [],
-        "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "valve function"
+        "attribute_evidence": [
+          "subtype=pressure regulator"
         ],
-        "confidence": 0.0
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.95
       },
-      "grounded_evidence": [],
-      "negative_constraints": {},
-      "ambiguity": true,
-      "missing_information": [
-        "valve function"
+      "grounded_evidence": [
+        "subtype=pressure regulator"
       ],
+      "negative_constraints": {},
+      "ambiguity": false,
+      "missing_information": [],
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": false,
-        "gemini_latency_ms": 398.69020000332966,
-        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+        "gemini_success": true,
+        "gemini_latency_ms": 2015.0749000022188,
+        "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 398.69020000332966,
-        "embedding_ms": 441.2460000021383,
-        "semantic_retrieval_ms": 11.012399976607412,
-        "semantic_ms": 456.6495000035502,
-        "bm25_ms": 114.23940001986921,
-        "rrf_ms": 11.294200026895851,
-        "hybrid_ms": 582.1898000431247,
-        "product_gate_ms": 9.830299997702241,
-        "constraint_ms": 19.92600003723055,
-        "reranker_ms": 0.06429996574297547,
+        "gemini_ms": 2015.0749000022188,
+        "embedding_ms": 413.46089995931834,
+        "semantic_retrieval_ms": 9.273200004827231,
+        "semantic_ms": 426.8432999961078,
+        "bm25_ms": 112.60110000148416,
+        "rrf_ms": 8.556700020562857,
+        "hybrid_ms": 548.0087000178173,
+        "product_gate_ms": 9.25109995296225,
+        "constraint_ms": 18.87989998795092,
+        "reranker_ms": 0.05800003418698907,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -7046,133 +7065,143 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.7097999807447195,
-        "total_ms": 613.7770999921486
+        "postprocess_ms": 2.3033999605104327,
+        "total_ms": 578.5410000244156
       },
       "candidates": [
         {
           "standard_code": "IS 9739: 1981",
           "title": "PRESSURE REDUCING VALVES FOR DOMESTIC",
           "semantic_rank": 1,
-          "semantic_score": 0.70331347,
-          "bm25_rank": 2,
-          "bm25_score": 24.187454896904818,
-          "rrf_rank": 1,
-          "rrf_score": 0.03252247488101534,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
-          "application_state": "PARTIAL_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_PARTIAL_MATCH"
-          ],
-          "constraint_score": 9.5,
-          "final_score": 9.532522474881015,
-          "final_rank": 1
-        },
-        {
-          "standard_code": "IS 13114: 1991",
-          "title": "FORGED  BRASS GATE, GLOBE AND CHECK",
-          "semantic_rank": 8,
-          "semantic_score": 0.63624465,
+          "semantic_score": 0.751668,
           "bm25_rank": 1,
-          "bm25_score": 24.597569641138392,
-          "rrf_rank": 2,
-          "rrf_score": 0.031099324975891997,
+          "bm25_score": 56.95734778713199,
+          "rrf_rank": 1,
+          "rrf_score": 0.03278688524590164,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
+          "subtype_state": "EXACT_MATCH",
+          "function_state": "EXACT_MATCH",
           "application_state": "PARTIAL_MATCH",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_PARTIAL_MATCH"
+            "FUNCTION_EXACT_MATCH",
+            "APPLICATION_PARTIAL_MATCH",
+            "SUBTYPE_EXACT_MATCH"
           ],
-          "constraint_score": 9.5,
-          "final_score": 9.531099324975893,
-          "final_rank": 2
-        },
-        {
-          "standard_code": "IS 1703: 2000",
-          "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
-          "semantic_rank": 2,
-          "semantic_score": 0.65560293,
-          "bm25_rank": 7,
-          "bm25_score": 18.204617186020876,
-          "rrf_rank": 3,
-          "rrf_score": 0.031054405392392875,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
-          "application_state": "PARTIAL_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_PARTIAL_MATCH"
-          ],
-          "constraint_score": 9.5,
-          "final_score": 9.531054405392393,
-          "final_rank": 3
-        },
-        {
-          "standard_code": "IS 14846: 2000",
-          "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
-          "semantic_rank": 3,
-          "semantic_score": 0.6410182,
-          "bm25_rank": 8,
-          "bm25_score": 17.695329474386618,
-          "rrf_rank": 4,
-          "rrf_score": 0.03057889822595705,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
-          "application_state": "PARTIAL_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_PARTIAL_MATCH"
-          ],
-          "constraint_score": 9.5,
-          "final_score": 9.530578898225958,
-          "final_rank": 4
+          "constraint_score": 17.5,
+          "final_score": 17.5327868852459,
+          "final_rank": 1
         },
         {
           "standard_code": "IS 9763: 2000",
           "title": "PLASTIC  BIB TAPS, PILLAR TAPS, ANGLE VALVES",
-          "semantic_rank": 5,
-          "semantic_score": 0.63903826,
-          "bm25_rank": 6,
-          "bm25_score": 18.498395813907077,
-          "rrf_rank": 5,
-          "rrf_score": 0.030536130536130537,
+          "semantic_rank": 7,
+          "semantic_score": 0.6608182,
+          "bm25_rank": 7,
+          "bm25_score": 25.211084459122088,
+          "rrf_rank": 4,
+          "rrf_score": 0.029850746268656716,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
+          "subtype_state": "UNKNOWN",
+          "function_state": "UNKNOWN",
           "application_state": "PARTIAL_MATCH",
           "grade_state": null,
           "temperature_state": null,
           "negative_constraint_states": [],
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_PARTIAL_MATCH"
+            "FUNCTION_UNKNOWN",
+            "APPLICATION_PARTIAL_MATCH",
+            "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 9.5,
-          "final_score": 9.530536130536131,
+          "final_score": 9.529850746268657,
+          "final_rank": 2
+        },
+        {
+          "standard_code": "IS 9758: 1981",
+          "title": "FLUSH VALVES AND FITTINGS FOR WATER",
+          "semantic_rank": 12,
+          "semantic_score": 0.6410779,
+          "bm25_rank": 5,
+          "bm25_score": 26.871927229947907,
+          "rrf_rank": 6,
+          "rrf_score": 0.029273504273504274,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": "UNKNOWN",
+          "function_state": "UNKNOWN",
+          "application_state": "PARTIAL_MATCH",
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
+            "APPLICATION_PARTIAL_MATCH",
+            "SUBTYPE_UNKNOWN"
+          ],
+          "constraint_score": 9.5,
+          "final_score": 9.529273504273505,
+          "final_rank": 3
+        },
+        {
+          "standard_code": "IS 1703: 2000",
+          "title": "WATER FITTINGS  COPPER ALLOY FLOAT",
+          "semantic_rank": 5,
+          "semantic_score": 0.66673315,
+          "bm25_rank": 14,
+          "bm25_score": 22.318706103310546,
+          "rrf_rank": 7,
+          "rrf_score": 0.0288981288981289,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": "UNKNOWN",
+          "function_state": "UNKNOWN",
+          "application_state": "PARTIAL_MATCH",
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
+            "APPLICATION_PARTIAL_MATCH",
+            "SUBTYPE_UNKNOWN"
+          ],
+          "constraint_score": 9.5,
+          "final_score": 9.52889812889813,
+          "final_rank": 4
+        },
+        {
+          "standard_code": "IS 14846: 2000",
+          "title": "SLUICE VALVES  FOR WATER WORKS  PURPOSES",
+          "semantic_rank": 13,
+          "semantic_score": 0.638327,
+          "bm25_rank": 16,
+          "bm25_score": 21.77066112822793,
+          "rrf_rank": 10,
+          "rrf_score": 0.026856524873828405,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": "UNKNOWN",
+          "function_state": "UNKNOWN",
+          "application_state": "PARTIAL_MATCH",
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "FUNCTION_UNKNOWN",
+            "APPLICATION_PARTIAL_MATCH",
+            "SUBTYPE_UNKNOWN"
+          ],
+          "constraint_score": 9.5,
+          "final_score": 9.526856524873828,
           "final_rank": 5
         }
       ],
@@ -7184,8 +7213,8 @@
       "group_id": "hdpe_sewage",
       "product": "pipe",
       "raw_query": "HDPE pipe for municipal sewage system",
-      "started_at": "2026-09-19T11:43:10.447214",
-      "latency_ms": 1057.238,
+      "started_at": "2026-09-19T16:21:10.050811",
+      "latency_ms": 2526.251,
       "expected_standard_codes": [
         "IS 14333: 1996"
       ],
@@ -7204,17 +7233,17 @@
       "gemini_interpretation": {
         "normalized_product": "pipe",
         "product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "true_product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "known_subtypes": [],
@@ -7255,22 +7284,22 @@
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "pipe",
         "product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "true_product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "known_subtypes": [],
@@ -7311,7 +7340,7 @@
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "grounded_evidence": [],
       "negative_constraints": {},
@@ -7320,21 +7349,21 @@
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": false,
-        "gemini_latency_ms": 391.78740000352263,
-        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+        "gemini_success": true,
+        "gemini_latency_ms": 1922.9291999945417,
+        "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 391.78740000352263,
-        "embedding_ms": 476.72969999257475,
-        "semantic_retrieval_ms": 17.3064999980852,
-        "semantic_ms": 498.13950003590435,
-        "bm25_ms": 121.58219999400899,
-        "rrf_ms": 8.787699975073338,
-        "hybrid_ms": 628.519200021401,
-        "product_gate_ms": 4.732400004286319,
-        "constraint_ms": 21.209899976383895,
-        "reranker_ms": 0.04349998198449612,
+        "gemini_ms": 1922.9291999945417,
+        "embedding_ms": 428.04440000327304,
+        "semantic_retrieval_ms": 10.246600024402142,
+        "semantic_ms": 442.41120002698153,
+        "bm25_ms": 115.68849999457598,
+        "rrf_ms": 8.49989999551326,
+        "hybrid_ms": 566.6071000159718,
+        "product_gate_ms": 5.678300047293305,
+        "constraint_ms": 21.61950001027435,
+        "reranker_ms": 0.060399994254112244,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -7342,8 +7371,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.8313999753445387,
-        "total_ms": 656.3931999844499
+        "postprocess_ms": 2.3231999948620796,
+        "total_ms": 596.3237999822013
       },
       "candidates": [
         {
@@ -7490,8 +7519,8 @@
       "group_id": "hdpe_sewage",
       "product": "pipe",
       "raw_query": "high density polyethylene sewage pipe",
-      "started_at": "2026-09-19T11:43:11.504809",
-      "latency_ms": 1047.312,
+      "started_at": "2026-09-19T16:21:12.577373",
+      "latency_ms": 2816.365,
       "expected_standard_codes": [
         "IS 14333: 1996"
       ],
@@ -7510,29 +7539,30 @@
       "gemini_interpretation": {
         "normalized_product": "pipe",
         "product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "true_product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "known_subtypes": [],
-        "query_subtype": null,
-        "subtype": null,
+        "query_subtype": "sewage_pipe",
+        "subtype": "sewage_pipe",
         "subtype_family": null,
         "cement_type": null,
         "pozzolana_source": null,
         "head_shape": null,
         "form": null,
         "material": [
-          "HDPE"
+          "HDPE",
+          "polyethylene"
         ],
         "context_material": [],
         "excluded_material": [],
@@ -7561,34 +7591,35 @@
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "normalized_intent": {
         "normalized_product": "pipe",
         "product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "true_product_aliases": [
+          "pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
-          "pipe",
           "pipes"
         ],
         "known_subtypes": [],
-        "query_subtype": null,
-        "subtype": null,
+        "query_subtype": "sewage_pipe",
+        "subtype": "sewage_pipe",
         "subtype_family": null,
         "cement_type": null,
         "pozzolana_source": null,
         "head_shape": null,
         "form": null,
         "material": [
-          "HDPE"
+          "HDPE",
+          "polyethylene"
         ],
         "context_material": [],
         "excluded_material": [],
@@ -7617,7 +7648,7 @@
         "attribute_evidence": [],
         "ambiguity": false,
         "missing_information": [],
-        "confidence": 0.0
+        "confidence": 0.95
       },
       "grounded_evidence": [],
       "negative_constraints": {},
@@ -7626,21 +7657,21 @@
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": false,
-        "gemini_latency_ms": 331.4943999866955,
-        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+        "gemini_success": true,
+        "gemini_latency_ms": 2050.987900001928,
+        "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 331.4943999866955,
-        "embedding_ms": 518.1502000195906,
-        "semantic_retrieval_ms": 9.74760000826791,
-        "semantic_ms": 532.5228999718092,
-        "bm25_ms": 122.09699995582923,
-        "rrf_ms": 8.580599969718605,
-        "hybrid_ms": 663.2122999872081,
-        "product_gate_ms": 5.20479999249801,
-        "constraint_ms": 22.340500028803945,
-        "reranker_ms": 0.06509997183457017,
+        "gemini_ms": 2050.987900001928,
+        "embedding_ms": 590.0792999891564,
+        "semantic_retrieval_ms": 9.436799969989806,
+        "semantic_ms": 604.0485000121407,
+        "bm25_ms": 115.56469998322427,
+        "rrf_ms": 7.634499983396381,
+        "hybrid_ms": 727.2538000252098,
+        "product_gate_ms": 5.084200005512685,
+        "constraint_ms": 24.595600028987974,
+        "reranker_ms": 0.06470002699643373,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -7648,22 +7679,22 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 5.412700003944337,
-        "total_ms": 696.3039999827743
+        "postprocess_ms": 3.0231999699026346,
+        "total_ms": 760.0664999918081
       },
       "candidates": [
         {
           "standard_code": "IS 14333: 1996",
           "title": "HIGH DENSITY POLYETHYELENE PIPES",
           "semantic_rank": 1,
-          "semantic_score": 0.7747872,
+          "semantic_score": 0.7807932,
           "bm25_rank": 1,
-          "bm25_score": 37.88140287296534,
+          "bm25_score": 45.747349159370444,
           "rrf_rank": 1,
           "rrf_score": 0.03278688524590164,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": null,
+          "subtype_state": "UNKNOWN",
           "function_state": "EXACT_MATCH",
           "application_state": "EXACT_MATCH",
           "grade_state": null,
@@ -7673,7 +7704,8 @@
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_EXACT_MATCH"
+            "APPLICATION_EXACT_MATCH",
+            "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 20.0,
           "final_score": 20.0327868852459,
@@ -7682,15 +7714,15 @@
         {
           "standard_code": "IS 9523: 2000",
           "title": "DUCTILE IRON FITTINGS FOR PRESSURE PIPES",
-          "semantic_rank": 17,
-          "semantic_score": 0.64316285,
-          "bm25_rank": 16,
-          "bm25_score": 25.068503325145937,
-          "rrf_rank": 9,
-          "rrf_score": 0.026144907723855092,
+          "semantic_rank": 18,
+          "semantic_score": 0.64673615,
+          "bm25_rank": 13,
+          "bm25_score": 33.43950931860633,
+          "rrf_rank": 10,
+          "rrf_score": 0.02651914295749912,
           "product_state": "APPLIES_TO_PRODUCT",
           "material_state": "UNKNOWN",
-          "subtype_state": null,
+          "subtype_state": "UNKNOWN",
           "function_state": "EXACT_MATCH",
           "application_state": "EXACT_MATCH",
           "grade_state": null,
@@ -7700,24 +7732,25 @@
             "PRODUCT_APPLIES_TO_PRODUCT",
             "MATERIAL_UNKNOWN",
             "FUNCTION_EXACT_MATCH",
-            "APPLICATION_EXACT_MATCH"
+            "APPLICATION_EXACT_MATCH",
+            "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 13.0,
-          "final_score": 13.026144907723856,
+          "final_score": 13.026519142957499,
           "final_rank": 2
         },
         {
           "standard_code": "IS 8008 (Part 6): 2003",
           "title": "INJECTION MOULDED HIGH DENSITY",
           "semantic_rank": 3,
-          "semantic_score": 0.71808255,
-          "bm25_rank": 3,
-          "bm25_score": 29.822744714013865,
+          "semantic_score": 0.71525455,
+          "bm25_rank": 4,
+          "bm25_score": 37.48599243218587,
           "rrf_rank": 2,
-          "rrf_score": 0.031746031746031744,
+          "rrf_score": 0.03149801587301587,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": null,
+          "subtype_state": "UNKNOWN",
           "function_state": "UNKNOWN",
           "application_state": "UNKNOWN",
           "grade_state": null,
@@ -7727,24 +7760,25 @@
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
             "FUNCTION_UNKNOWN",
-            "APPLICATION_UNKNOWN"
+            "APPLICATION_UNKNOWN",
+            "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.031746031746032,
+          "final_score": 12.031498015873016,
           "final_rank": 3
         },
         {
           "standard_code": "IS 4984: 1995",
           "title": "HIGH DENSITY POLYETHYLENE PIPES",
           "semantic_rank": 2,
-          "semantic_score": 0.74948305,
+          "semantic_score": 0.7647502,
           "bm25_rank": null,
           "bm25_score": null,
           "rrf_rank": 12,
           "rrf_score": 0.016129032258064516,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": null,
+          "subtype_state": "UNKNOWN",
           "function_state": "UNKNOWN",
           "application_state": "UNKNOWN",
           "grade_state": null,
@@ -7754,7 +7788,8 @@
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
             "FUNCTION_UNKNOWN",
-            "APPLICATION_UNKNOWN"
+            "APPLICATION_UNKNOWN",
+            "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 12.0,
           "final_score": 12.016129032258064,
@@ -7763,15 +7798,15 @@
         {
           "standard_code": "IS 3076: 1985",
           "title": "LOW DENSITY POLYETHYLENE PIPES FOR",
-          "semantic_rank": 6,
-          "semantic_score": 0.6959716,
+          "semantic_rank": 5,
+          "semantic_score": 0.7097695,
           "bm25_rank": null,
           "bm25_score": null,
-          "rrf_rank": 15,
-          "rrf_score": 0.015151515151515152,
+          "rrf_rank": 14,
+          "rrf_score": 0.015384615384615385,
           "product_state": "EXACT_PRODUCT",
           "material_state": "STRONG_COMPATIBLE",
-          "subtype_state": null,
+          "subtype_state": "UNKNOWN",
           "function_state": "UNKNOWN",
           "application_state": "UNKNOWN",
           "grade_state": null,
@@ -7781,10 +7816,11 @@
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_STRONG_COMPATIBLE",
             "FUNCTION_UNKNOWN",
-            "APPLICATION_UNKNOWN"
+            "APPLICATION_UNKNOWN",
+            "SUBTYPE_UNKNOWN"
           ],
           "constraint_score": 11.0,
-          "final_score": 11.015151515151516,
+          "final_score": 11.015384615384615,
           "final_rank": 5
         }
       ],
@@ -7796,8 +7832,8 @@
       "group_id": "hdpe_sewage",
       "product": "pipe",
       "raw_query": "municipal sewer pipe made from HDPE",
-      "started_at": "2026-09-19T11:43:12.552065",
-      "latency_ms": 3175.747,
+      "started_at": "2026-09-19T16:21:15.393016",
+      "latency_ms": 3054.941,
       "expected_standard_codes": [
         "IS 14333: 1996"
       ],
@@ -7817,7 +7853,6 @@
         "normalized_product": "pipe",
         "product_aliases": [
           "pipe",
-          "sewer pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
@@ -7825,7 +7860,6 @@
         ],
         "true_product_aliases": [
           "pipe",
-          "sewer pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
@@ -7873,7 +7907,6 @@
         "normalized_product": "pipe",
         "product_aliases": [
           "pipe",
-          "sewer pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
@@ -7881,7 +7914,6 @@
         ],
         "true_product_aliases": [
           "pipe",
-          "sewer pipe",
           "casing pipe",
           "grp pipe",
           "hdpe pipe",
@@ -7933,20 +7965,20 @@
         "mode": "gemini",
         "gemini_used": true,
         "gemini_success": true,
-        "gemini_latency_ms": 2160.4163000010885,
+        "gemini_latency_ms": 2104.8438999569044,
         "gemini_fallback_reason": null
       },
       "timings_ms": {
-        "gemini_ms": 2160.4163000010885,
-        "embedding_ms": 423.12700004549697,
-        "semantic_retrieval_ms": 11.795200000051409,
-        "semantic_ms": 440.28380000963807,
-        "bm25_ms": 502.51900003058836,
-        "rrf_ms": 11.295000032987446,
-        "hybrid_ms": 954.1047000093386,
-        "product_gate_ms": 6.257300032302737,
-        "constraint_ms": 22.563800041098148,
-        "reranker_ms": 0.09450002107769251,
+        "gemini_ms": 2104.8438999569044,
+        "embedding_ms": 416.9784999685362,
+        "semantic_retrieval_ms": 10.587199998553842,
+        "semantic_ms": 432.1616000379436,
+        "bm25_ms": 467.98640000633895,
+        "rrf_ms": 9.151899954304099,
+        "hybrid_ms": 909.3081000028178,
+        "product_gate_ms": 5.142299982253462,
+        "constraint_ms": 25.507999991532415,
+        "reranker_ms": 0.06400002166628838,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -7954,8 +7986,8 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 2.964499988593161,
-        "total_ms": 986.0411999979988
+        "postprocess_ms": 3.2680000294931233,
+        "total_ms": 943.3408000040799
       },
       "candidates": [
         {
@@ -8097,8 +8129,8 @@
       "group_id": "opc_ambiguity",
       "product": "cement",
       "raw_query": "ordinary Portland cement",
-      "started_at": "2026-09-19T11:43:15.727976",
-      "latency_ms": 2794.89,
+      "started_at": "2026-09-19T16:21:18.448811",
+      "latency_ms": 907.135,
       "expected_standard_codes": [
         "IS 269: 1989",
         "IS 8112: 1989",
@@ -8134,8 +8166,8 @@
           "portland_pozzolana_calcined_clay",
           "portland_pozzolana_fly_ash"
         ],
-        "query_subtype": "ordinary_portland_cement",
-        "subtype": "ordinary_portland_cement",
+        "query_subtype": null,
+        "subtype": null,
         "subtype_family": null,
         "cement_type": "opc",
         "pozzolana_source": null,
@@ -8167,7 +8199,7 @@
         "missing_information": [
           "cement grade"
         ],
-        "confidence": 0.9
+        "confidence": 0.0
       },
       "normalized_intent": {
         "normalized_product": "cement",
@@ -8188,8 +8220,8 @@
           "portland_pozzolana_calcined_clay",
           "portland_pozzolana_fly_ash"
         ],
-        "query_subtype": "ordinary_portland_cement",
-        "subtype": "ordinary_portland_cement",
+        "query_subtype": null,
+        "subtype": null,
         "subtype_family": null,
         "cement_type": "opc",
         "pozzolana_source": null,
@@ -8221,7 +8253,7 @@
         "missing_information": [
           "cement grade"
         ],
-        "confidence": 0.9
+        "confidence": 0.0
       },
       "grounded_evidence": [],
       "negative_constraints": {},
@@ -8232,21 +8264,21 @@
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": true,
-        "gemini_latency_ms": 1895.12860000832,
-        "gemini_fallback_reason": null
+        "gemini_success": false,
+        "gemini_latency_ms": 394.0143000218086,
+        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
       },
       "timings_ms": {
-        "gemini_ms": 1895.12860000832,
-        "embedding_ms": 596.8738999799825,
-        "semantic_retrieval_ms": 9.102999989409,
-        "semantic_ms": 610.8498999965377,
-        "bm25_ms": 113.92149998573586,
-        "rrf_ms": 9.17249999474734,
-        "hybrid_ms": 733.9527000440285,
-        "product_gate_ms": 21.669599984306842,
-        "constraint_ms": 109.06859999522567,
-        "reranker_ms": 0.06550003308802843,
+        "gemini_ms": 394.0143000218086,
+        "embedding_ms": 310.5794999864884,
+        "semantic_retrieval_ms": 10.936099977698177,
+        "semantic_ms": 325.35930001176894,
+        "bm25_ms": 119.75019995588809,
+        "rrf_ms": 7.994199986569583,
+        "hybrid_ms": 453.11290002427995,
+        "product_gate_ms": 6.486699974630028,
+        "constraint_ms": 27.097699989099056,
+        "reranker_ms": 0.07040001219138503,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -8254,22 +8286,22 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 6.521700008306652,
-        "total_ms": 871.3489000219852
+        "postprocess_ms": 3.679799963720143,
+        "total_ms": 490.4958999832161
       },
       "candidates": [
         {
           "standard_code": "IS 8112: 1989",
           "title": "43 GRADE ORDINARY PORTLAND CEMENT",
           "semantic_rank": 1,
-          "semantic_score": 0.7650544,
+          "semantic_score": 0.747713,
           "bm25_rank": 2,
-          "bm25_score": 58.1105386246676,
+          "bm25_score": 34.3435675143233,
           "rrf_rank": 1,
           "rrf_score": 0.03252247488101534,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": "EXACT_MATCH",
+          "subtype_state": null,
           "function_state": null,
           "application_state": null,
           "grade_state": null,
@@ -8278,25 +8310,24 @@
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
-            "CEMENT_TYPE_EXACT_MATCH",
-            "SUBTYPE_EXACT_MATCH"
+            "CEMENT_TYPE_EXACT_MATCH"
           ],
-          "constraint_score": 20.0,
-          "final_score": 20.032522474881016,
+          "constraint_score": 16.0,
+          "final_score": 16.032522474881016,
           "final_rank": 1
         },
         {
           "standard_code": "IS 269: 1989",
           "title": "ORDINARY PORTLAND CEMENT, 33 GRADE",
-          "semantic_rank": 2,
-          "semantic_score": 0.7463559,
+          "semantic_rank": 3,
+          "semantic_score": 0.72171223,
           "bm25_rank": 1,
-          "bm25_score": 58.76265272172075,
+          "bm25_score": 34.68420632990629,
           "rrf_rank": 2,
-          "rrf_score": 0.03252247488101534,
+          "rrf_score": 0.032266458495966696,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": "EXACT_MATCH",
+          "subtype_state": null,
           "function_state": null,
           "application_state": null,
           "grade_state": null,
@@ -8305,25 +8336,24 @@
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
-            "CEMENT_TYPE_EXACT_MATCH",
-            "SUBTYPE_EXACT_MATCH"
+            "CEMENT_TYPE_EXACT_MATCH"
           ],
-          "constraint_score": 20.0,
-          "final_score": 20.032522474881016,
+          "constraint_score": 16.0,
+          "final_score": 16.032266458495968,
           "final_rank": 2
         },
         {
           "standard_code": "IS 12269: 1987",
           "title": "53 GRADE ORDINARY PORTLAND CEMENT",
-          "semantic_rank": 4,
-          "semantic_score": 0.714185,
+          "semantic_rank": 5,
+          "semantic_score": 0.69893456,
           "bm25_rank": 3,
-          "bm25_score": 54.45008584856411,
+          "bm25_score": 32.500473426282376,
           "rrf_rank": 3,
-          "rrf_score": 0.03149801587301587,
+          "rrf_score": 0.03125763125763126,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": "EXACT_MATCH",
+          "subtype_state": null,
           "function_state": null,
           "application_state": null,
           "grade_state": null,
@@ -8332,25 +8362,24 @@
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
-            "CEMENT_TYPE_EXACT_MATCH",
-            "SUBTYPE_EXACT_MATCH"
+            "CEMENT_TYPE_EXACT_MATCH"
           ],
-          "constraint_score": 20.0,
-          "final_score": 20.031498015873016,
+          "constraint_score": 16.0,
+          "final_score": 16.03125763125763,
           "final_rank": 3
         },
         {
           "standard_code": "IS 8043: 1991",
           "title": "HYDROPHOBIC PORTLAND CEMENT",
-          "semantic_rank": 7,
-          "semantic_score": 0.701349,
+          "semantic_rank": 6,
+          "semantic_score": 0.69078374,
           "bm25_rank": 4,
-          "bm25_score": 52.361137962775295,
+          "bm25_score": 32.114059079097615,
           "rrf_rank": 5,
-          "rrf_score": 0.03055037313432836,
+          "rrf_score": 0.030776515151515152,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": "UNKNOWN",
+          "subtype_state": null,
           "function_state": null,
           "application_state": null,
           "grade_state": null,
@@ -8359,25 +8388,24 @@
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
-            "CEMENT_TYPE_EXACT_MATCH",
-            "SUBTYPE_UNKNOWN"
+            "CEMENT_TYPE_EXACT_MATCH"
           ],
           "constraint_score": 16.0,
-          "final_score": 16.03055037313433,
+          "final_score": 16.030776515151516,
           "final_rank": 4
         },
         {
           "standard_code": "IS 8042: 1989",
           "title": "WHITE  PORTLAND CEMENT",
-          "semantic_rank": 3,
-          "semantic_score": 0.72537076,
-          "bm25_rank": 8,
-          "bm25_score": 37.862432796334566,
+          "semantic_rank": 2,
+          "semantic_score": 0.7231971,
+          "bm25_rank": 7,
+          "bm25_score": 25.654040324572637,
           "rrf_rank": 4,
-          "rrf_score": 0.03057889822595705,
+          "rrf_score": 0.031054405392392875,
           "product_state": "EXACT_PRODUCT",
           "material_state": "EXACT_MATCH",
-          "subtype_state": "UNKNOWN",
+          "subtype_state": null,
           "function_state": null,
           "application_state": null,
           "grade_state": null,
@@ -8386,11 +8414,10 @@
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "MATERIAL_EXACT_MATCH",
-            "CEMENT_TYPE_UNKNOWN",
-            "SUBTYPE_UNKNOWN"
+            "CEMENT_TYPE_UNKNOWN"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.030578898225958,
+          "final_score": 12.031054405392393,
           "final_rank": 5
         }
       ],
@@ -8402,8 +8429,337 @@
       "group_id": "interior_flooring_negation",
       "product": "tile",
       "raw_query": "tile for interior flooring, not roofing",
-      "started_at": "2026-09-19T11:43:18.522862",
-      "latency_ms": 2571.45,
+      "started_at": "2026-09-19T16:21:19.355997",
+      "latency_ms": 774.796,
+      "expected_standard_codes": [
+        "IS 1478: 1992"
+      ],
+      "expected_behavior": null,
+      "expected_intent": {
+        "application": "flooring",
+        "excluded_application": "roofing"
+      },
+      "top1": "IS 1478: 1992",
+      "top3": [
+        "IS 1478: 1992",
+        "IS 653: 1992",
+        "IS 1128: 1974"
+      ],
+      "expected_rank": 1,
+      "gemini_interpretation": {
+        "normalized_product": "tile",
+        "product_aliases": [
+          "tile",
+          "tiles"
+        ],
+        "true_product_aliases": [
+          "tile",
+          "tiles"
+        ],
+        "known_subtypes": [
+          "flooring_tile",
+          "roofing_tile"
+        ],
+        "query_subtype": null,
+        "subtype": null,
+        "subtype_family": null,
+        "cement_type": null,
+        "pozzolana_source": null,
+        "head_shape": null,
+        "form": null,
+        "material": [],
+        "context_material": [],
+        "excluded_material": [],
+        "function": [],
+        "application": [],
+        "medium": [],
+        "installation_context": [],
+        "excluded_function": [
+          "roofing"
+        ],
+        "excluded_application": [
+          "roofing"
+        ],
+        "excluded_subtype": [
+          "roofing",
+          "roofing_tile"
+        ],
+        "excluded_medium": [],
+        "excluded_installation_context": [],
+        "grade": null,
+        "temperature_c": null,
+        "temperature_min_c": null,
+        "temperature_max_c": null,
+        "pressure": null,
+        "explicit_constraints": [],
+        "context_only_terms": [],
+        "attribute_evidence": [],
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.0
+      },
+      "normalized_intent": {
+        "normalized_product": "tile",
+        "product_aliases": [
+          "tile",
+          "tiles"
+        ],
+        "true_product_aliases": [
+          "tile",
+          "tiles"
+        ],
+        "known_subtypes": [
+          "flooring_tile",
+          "roofing_tile"
+        ],
+        "query_subtype": null,
+        "subtype": null,
+        "subtype_family": null,
+        "cement_type": null,
+        "pozzolana_source": null,
+        "head_shape": null,
+        "form": null,
+        "material": [],
+        "context_material": [],
+        "excluded_material": [],
+        "function": [],
+        "application": [],
+        "medium": [],
+        "installation_context": [],
+        "excluded_function": [
+          "roofing"
+        ],
+        "excluded_application": [
+          "roofing"
+        ],
+        "excluded_subtype": [
+          "roofing",
+          "roofing_tile"
+        ],
+        "excluded_medium": [],
+        "excluded_installation_context": [],
+        "grade": null,
+        "temperature_c": null,
+        "temperature_min_c": null,
+        "temperature_max_c": null,
+        "pressure": null,
+        "explicit_constraints": [],
+        "context_only_terms": [],
+        "attribute_evidence": [],
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.0
+      },
+      "grounded_evidence": [],
+      "negative_constraints": {
+        "excluded_application": [
+          "roofing"
+        ],
+        "excluded_function": [
+          "roofing"
+        ],
+        "excluded_subtype": [
+          "roofing",
+          "roofing_tile"
+        ]
+      },
+      "ambiguity": false,
+      "missing_information": [],
+      "query_interpreter": {
+        "mode": "gemini",
+        "gemini_used": true,
+        "gemini_success": false,
+        "gemini_latency_ms": 310.6593999546021,
+        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
+      },
+      "timings_ms": {
+        "gemini_ms": 310.6593999546021,
+        "embedding_ms": 283.5406999802217,
+        "semantic_retrieval_ms": 10.828199971001595,
+        "semantic_ms": 298.37099998258054,
+        "bm25_ms": 114.00160001358017,
+        "rrf_ms": 9.13870002841577,
+        "hybrid_ms": 421.5185000211932,
+        "product_gate_ms": 7.444799994118512,
+        "constraint_ms": 25.250500009860843,
+        "reranker_ms": 0.06310001481324434,
+        "reranker_device": "cpu",
+        "reranker_model_loaded": false,
+        "reranker_used": false,
+        "reranker_timeout": false,
+        "reranker_success": false,
+        "reranker_fallback_reason": "reranker_disabled",
+        "reranker_inference_ms": 0.0,
+        "postprocess_ms": 2.7484000311233103,
+        "total_ms": 457.0761000504717
+      },
+      "candidates": [
+        {
+          "standard_code": "IS 1478: 1992",
+          "title": "CLAY FLOORING  TILES",
+          "semantic_rank": 2,
+          "semantic_score": 0.6324825,
+          "bm25_rank": 2,
+          "bm25_score": 13.92599698817297,
+          "rrf_rank": 2,
+          "rrf_score": 0.03225806451612903,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": null,
+          "function_state": null,
+          "application_state": null,
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_score": 8.0,
+          "final_score": 8.03225806451613,
+          "final_rank": 1
+        },
+        {
+          "standard_code": "IS 653: 1992",
+          "title": "LINOLEUM SHEET  AND TILES",
+          "semantic_rank": 4,
+          "semantic_score": 0.6242614,
+          "bm25_rank": 8,
+          "bm25_score": 12.522433510427437,
+          "rrf_rank": 3,
+          "rrf_score": 0.030330882352941176,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": null,
+          "function_state": null,
+          "application_state": null,
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_score": 8.0,
+          "final_score": 8.030330882352942,
+          "final_rank": 2
+        },
+        {
+          "standard_code": "IS 1128: 1974",
+          "title": "LIMESTONE (SLAB AND  TILES)",
+          "semantic_rank": 5,
+          "semantic_score": 0.6226114,
+          "bm25_rank": 7,
+          "bm25_score": 13.168676930738727,
+          "rrf_rank": 5,
+          "rrf_score": 0.030309988518943745,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": null,
+          "function_state": null,
+          "application_state": null,
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_score": 8.0,
+          "final_score": 8.030309988518944,
+          "final_rank": 3
+        },
+        {
+          "standard_code": "IS 3461: 1980",
+          "title": "PVC ASBESTOS FLOOR TILES",
+          "semantic_rank": 19,
+          "semantic_score": 0.5717247,
+          "bm25_rank": 5,
+          "bm25_score": 13.495103819726241,
+          "rrf_rank": 8,
+          "rrf_score": 0.02804284323271665,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": null,
+          "function_state": null,
+          "application_state": null,
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_score": 8.0,
+          "final_score": 8.028042843232717,
+          "final_rank": 4
+        },
+        {
+          "standard_code": "IS 13754: 1993",
+          "title": "DUST \u2013 PRESSED CERAMIC TILES WITH",
+          "semantic_rank": 12,
+          "semantic_score": 0.58234644,
+          "bm25_rank": 11,
+          "bm25_score": 10.283493098472647,
+          "rrf_rank": 9,
+          "rrf_score": 0.02797339593114241,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": null,
+          "function_state": null,
+          "application_state": null,
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_score": 8.0,
+          "final_score": 8.027973395931143,
+          "final_rank": 5
+        }
+      ],
+      "failure_category": null,
+      "passed": true
+    },
+    {
+      "ok": true,
+      "group_id": "interior_flooring_negation",
+      "product": "tile",
+      "raw_query": "floor tile for indoor use and not roof application",
+      "started_at": "2026-09-19T16:21:20.131310",
+      "latency_ms": 1062.079,
       "expected_standard_codes": [
         "IS 1478: 1992"
       ],
@@ -8448,9 +8804,7 @@
           "flooring"
         ],
         "medium": [],
-        "installation_context": [
-          "interior"
-        ],
+        "installation_context": [],
         "excluded_function": [
           "roofing"
         ],
@@ -8458,7 +8812,7 @@
           "roofing"
         ],
         "excluded_subtype": [
-          "roofing",
+          "roof_application",
           "roofing_tile"
         ],
         "excluded_medium": [],
@@ -8471,12 +8825,9 @@
         "explicit_constraints": [],
         "context_only_terms": [],
         "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "tile material",
-          "tile type"
-        ],
-        "confidence": 0.95
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.0
       },
       "normalized_intent": {
         "normalized_product": "tile",
@@ -8507,9 +8858,7 @@
           "flooring"
         ],
         "medium": [],
-        "installation_context": [
-          "interior"
-        ],
+        "installation_context": [],
         "excluded_function": [
           "roofing"
         ],
@@ -8517,7 +8866,7 @@
           "roofing"
         ],
         "excluded_subtype": [
-          "roofing",
+          "roof_application",
           "roofing_tile"
         ],
         "excluded_medium": [],
@@ -8530,12 +8879,9 @@
         "explicit_constraints": [],
         "context_only_terms": [],
         "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "tile material",
-          "tile type"
-        ],
-        "confidence": 0.95
+        "ambiguity": false,
+        "missing_information": [],
+        "confidence": 0.0
       },
       "grounded_evidence": [],
       "negative_constraints": {
@@ -8546,33 +8892,30 @@
           "roofing"
         ],
         "excluded_subtype": [
-          "roofing",
+          "roof_application",
           "roofing_tile"
         ]
       },
-      "ambiguity": true,
-      "missing_information": [
-        "tile material",
-        "tile type"
-      ],
+      "ambiguity": false,
+      "missing_information": [],
       "query_interpreter": {
         "mode": "gemini",
         "gemini_used": true,
-        "gemini_success": true,
-        "gemini_latency_ms": 1963.3617000072263,
-        "gemini_fallback_reason": null
+        "gemini_success": false,
+        "gemini_latency_ms": 455.08059998974204,
+        "gemini_fallback_reason": "ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on"
       },
       "timings_ms": {
-        "gemini_ms": 1963.3617000072263,
-        "embedding_ms": 415.320000029169,
-        "semantic_retrieval_ms": 12.089200026821345,
-        "semantic_ms": 431.92069994984195,
-        "bm25_ms": 115.10569998063147,
-        "rrf_ms": 9.117499983403832,
-        "hybrid_ms": 556.1530999839306,
-        "product_gate_ms": 7.2342000203207135,
-        "constraint_ms": 20.19839995773509,
-        "reranker_ms": 0.043199979700148106,
+        "gemini_ms": 455.08059998974204,
+        "embedding_ms": 404.0586999617517,
+        "semantic_retrieval_ms": 10.571699996944517,
+        "semantic_ms": 418.72720001265407,
+        "bm25_ms": 127.34559999080375,
+        "rrf_ms": 9.15500003611669,
+        "hybrid_ms": 555.2355999825522,
+        "product_gate_ms": 8.583899994846433,
+        "constraint_ms": 19.70970002003014,
+        "reranker_ms": 0.05319999763742089,
         "reranker_device": "cpu",
         "reranker_model_loaded": false,
         "reranker_used": false,
@@ -8580,19 +8923,19 @@
         "reranker_success": false,
         "reranker_fallback_reason": "reranker_disabled",
         "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.899800030514598,
-        "total_ms": 585.5932999984361
+        "postprocess_ms": 1.4055999927222729,
+        "total_ms": 585.0284999469295
       },
       "candidates": [
         {
           "standard_code": "IS 1478: 1992",
           "title": "CLAY FLOORING  TILES",
           "semantic_rank": 1,
-          "semantic_score": 0.69801915,
-          "bm25_rank": 3,
-          "bm25_score": 20.494508535129086,
-          "rrf_rank": 2,
-          "rrf_score": 0.032266458495966696,
+          "semantic_score": 0.6699799,
+          "bm25_rank": 7,
+          "bm25_score": 16.395144741203314,
+          "rrf_rank": 1,
+          "rrf_score": 0.03131881575727918,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": null,
@@ -8613,18 +8956,18 @@
             "EXCLUDED_SUBTYPE_CLEAR"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.032266458495966,
+          "final_score": 12.03131881575728,
           "final_rank": 1
         },
         {
           "standard_code": "IS 1128: 1974",
           "title": "LIMESTONE (SLAB AND  TILES)",
-          "semantic_rank": 3,
-          "semantic_score": 0.6830692,
-          "bm25_rank": 5,
-          "bm25_score": 19.339267690660563,
+          "semantic_rank": 4,
+          "semantic_score": 0.65397155,
+          "bm25_rank": 4,
+          "bm25_score": 17.700022679085738,
           "rrf_rank": 3,
-          "rrf_score": 0.03125763125763126,
+          "rrf_score": 0.03125,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": null,
@@ -8645,18 +8988,18 @@
             "EXCLUDED_SUBTYPE_CLEAR"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.031257631257631,
+          "final_score": 12.03125,
           "final_rank": 2
         },
         {
           "standard_code": "IS 653: 1992",
           "title": "LINOLEUM SHEET  AND TILES",
           "semantic_rank": 6,
-          "semantic_score": 0.6619818,
-          "bm25_rank": 7,
-          "bm25_score": 16.486511846497567,
-          "rrf_rank": 4,
-          "rrf_score": 0.03007688828584351,
+          "semantic_score": 0.64616543,
+          "bm25_rank": 3,
+          "bm25_score": 20.87511964238607,
+          "rrf_rank": 5,
+          "rrf_score": 0.031024531024531024,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
           "subtype_state": null,
@@ -8677,348 +9020,53 @@
             "EXCLUDED_SUBTYPE_CLEAR"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.030076888285844,
+          "final_score": 12.031024531024531,
           "final_rank": 3
+        },
+        {
+          "standard_code": "IS 3461: 1980",
+          "title": "PVC ASBESTOS FLOOR TILES",
+          "semantic_rank": 18,
+          "semantic_score": 0.5961397,
+          "bm25_rank": 1,
+          "bm25_score": 24.024689921722707,
+          "rrf_rank": 6,
+          "rrf_score": 0.02921395544346364,
+          "product_state": "EXACT_PRODUCT",
+          "material_state": null,
+          "subtype_state": null,
+          "function_state": null,
+          "application_state": "EXACT_MATCH",
+          "grade_state": null,
+          "temperature_state": null,
+          "negative_constraint_states": [
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_flags": [
+            "PRODUCT_EXACT_PRODUCT",
+            "APPLICATION_EXACT_MATCH",
+            "EXCLUDED_FUNCTION_CLEAR",
+            "EXCLUDED_APPLICATION_CLEAR",
+            "EXCLUDED_SUBTYPE_CLEAR"
+          ],
+          "constraint_score": 12.0,
+          "final_score": 12.029213955443463,
+          "final_rank": 4
         },
         {
           "standard_code": "IS 3462: 1986",
           "title": "UNBACKED FLEXIBLE PVC FLOORING",
           "semantic_rank": 16,
-          "semantic_score": 0.6184026,
-          "bm25_rank": 4,
-          "bm25_score": 20.09258165286851,
-          "rrf_rank": 8,
-          "rrf_score": 0.028782894736842105,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
-          "application_state": "EXACT_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_EXACT_MATCH",
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_score": 12.0,
-          "final_score": 12.028782894736842,
-          "final_rank": 4
-        },
-        {
-          "standard_code": "IS 3461: 1980",
-          "title": "PVC ASBESTOS FLOOR TILES",
-          "semantic_rank": null,
-          "semantic_score": null,
-          "bm25_rank": 6,
-          "bm25_score": 17.70028135914557,
-          "rrf_rank": 11,
-          "rrf_score": 0.015151515151515152,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": null,
-          "function_state": null,
-          "application_state": "EXACT_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_EXACT_MATCH",
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_score": 12.0,
-          "final_score": 12.015151515151516,
-          "final_rank": 5
-        }
-      ],
-      "failure_category": null,
-      "passed": true
-    },
-    {
-      "ok": true,
-      "group_id": "interior_flooring_negation",
-      "product": "tile",
-      "raw_query": "floor tile for indoor use and not roof application",
-      "started_at": "2026-09-19T11:43:21.094724",
-      "latency_ms": 2584.932,
-      "expected_standard_codes": [
-        "IS 1478: 1992"
-      ],
-      "expected_behavior": null,
-      "expected_intent": {
-        "application": "flooring",
-        "excluded_application": "roofing"
-      },
-      "top1": "IS 1478: 1992",
-      "top3": [
-        "IS 1478: 1992",
-        "IS 3461: 1980",
-        "IS 3462: 1986"
-      ],
-      "expected_rank": 1,
-      "gemini_interpretation": {
-        "normalized_product": "tile",
-        "product_aliases": [
-          "floor tile",
-          "tile",
-          "tiles"
-        ],
-        "true_product_aliases": [
-          "floor tile",
-          "tile",
-          "tiles"
-        ],
-        "known_subtypes": [
-          "flooring_tile",
-          "roofing_tile"
-        ],
-        "query_subtype": "floor",
-        "subtype": "floor",
-        "subtype_family": null,
-        "cement_type": null,
-        "pozzolana_source": null,
-        "head_shape": null,
-        "form": null,
-        "material": [],
-        "context_material": [],
-        "excluded_material": [],
-        "function": [],
-        "application": [
-          "flooring",
-          "indoor"
-        ],
-        "medium": [],
-        "installation_context": [
-          "indoor"
-        ],
-        "excluded_function": [
-          "roofing"
-        ],
-        "excluded_application": [
-          "roofing"
-        ],
-        "excluded_subtype": [
-          "roof_application",
-          "roofing_tile"
-        ],
-        "excluded_medium": [],
-        "excluded_installation_context": [],
-        "grade": null,
-        "temperature_c": null,
-        "temperature_min_c": null,
-        "temperature_max_c": null,
-        "pressure": null,
-        "explicit_constraints": [],
-        "context_only_terms": [],
-        "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "tile material",
-          "tile dimensions"
-        ],
-        "confidence": 0.95
-      },
-      "normalized_intent": {
-        "normalized_product": "tile",
-        "product_aliases": [
-          "floor tile",
-          "tile",
-          "tiles"
-        ],
-        "true_product_aliases": [
-          "floor tile",
-          "tile",
-          "tiles"
-        ],
-        "known_subtypes": [
-          "flooring_tile",
-          "roofing_tile"
-        ],
-        "query_subtype": "floor",
-        "subtype": "floor",
-        "subtype_family": null,
-        "cement_type": null,
-        "pozzolana_source": null,
-        "head_shape": null,
-        "form": null,
-        "material": [],
-        "context_material": [],
-        "excluded_material": [],
-        "function": [],
-        "application": [
-          "flooring",
-          "indoor"
-        ],
-        "medium": [],
-        "installation_context": [
-          "indoor"
-        ],
-        "excluded_function": [
-          "roofing"
-        ],
-        "excluded_application": [
-          "roofing"
-        ],
-        "excluded_subtype": [
-          "roof_application",
-          "roofing_tile"
-        ],
-        "excluded_medium": [],
-        "excluded_installation_context": [],
-        "grade": null,
-        "temperature_c": null,
-        "temperature_min_c": null,
-        "temperature_max_c": null,
-        "pressure": null,
-        "explicit_constraints": [],
-        "context_only_terms": [],
-        "attribute_evidence": [],
-        "ambiguity": true,
-        "missing_information": [
-          "tile material",
-          "tile dimensions"
-        ],
-        "confidence": 0.95
-      },
-      "grounded_evidence": [],
-      "negative_constraints": {
-        "excluded_application": [
-          "roofing"
-        ],
-        "excluded_function": [
-          "roofing"
-        ],
-        "excluded_subtype": [
-          "roof_application",
-          "roofing_tile"
-        ]
-      },
-      "ambiguity": true,
-      "missing_information": [
-        "tile material",
-        "tile dimensions"
-      ],
-      "query_interpreter": {
-        "mode": "gemini",
-        "gemini_used": true,
-        "gemini_success": true,
-        "gemini_latency_ms": 1879.0482999756932,
-        "gemini_fallback_reason": null
-      },
-      "timings_ms": {
-        "gemini_ms": 1879.0482999756932,
-        "embedding_ms": 492.3344000126235,
-        "semantic_retrieval_ms": 10.244599950965494,
-        "semantic_ms": 507.41689995629713,
-        "bm25_ms": 124.31350001133978,
-        "rrf_ms": 9.951099986210465,
-        "hybrid_ms": 641.6911999695003,
-        "product_gate_ms": 8.137800032272935,
-        "constraint_ms": 23.971299990080297,
-        "reranker_ms": 0.06280001252889633,
-        "reranker_device": "cpu",
-        "reranker_model_loaded": false,
-        "reranker_used": false,
-        "reranker_timeout": false,
-        "reranker_success": false,
-        "reranker_fallback_reason": "reranker_disabled",
-        "reranker_inference_ms": 0.0,
-        "postprocess_ms": 1.6441000043414533,
-        "total_ms": 675.5570999812335
-      },
-      "candidates": [
-        {
-          "standard_code": "IS 1478: 1992",
-          "title": "CLAY FLOORING  TILES",
-          "semantic_rank": 1,
-          "semantic_score": 0.7278018,
-          "bm25_rank": 13,
-          "bm25_score": 16.395144741203314,
-          "rrf_rank": 3,
-          "rrf_score": 0.03009207275993712,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": "EXACT_MATCH",
-          "function_state": null,
-          "application_state": "EXACT_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_EXACT_MATCH",
-            "SUBTYPE_EXACT_MATCH",
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_score": 16.0,
-          "final_score": 16.03009207275994,
-          "final_rank": 1
-        },
-        {
-          "standard_code": "IS 3461: 1980",
-          "title": "PVC ASBESTOS FLOOR TILES",
-          "semantic_rank": 14,
-          "semantic_score": 0.6373012,
-          "bm25_rank": 1,
-          "bm25_score": 32.250737073417646,
-          "rrf_rank": 5,
-          "rrf_score": 0.029906956136464335,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": "EXACT_MATCH",
-          "function_state": null,
-          "application_state": "EXACT_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_EXACT_MATCH",
-            "SUBTYPE_EXACT_MATCH",
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_score": 16.0,
-          "final_score": 16.029906956136465,
-          "final_rank": 2
-        },
-        {
-          "standard_code": "IS 3462: 1986",
-          "title": "UNBACKED FLEXIBLE PVC FLOORING",
-          "semantic_rank": 15,
-          "semantic_score": 0.63712716,
-          "bm25_rank": 14,
+          "semantic_score": 0.5999722,
+          "bm25_rank": 10,
           "bm25_score": 15.37782833246393,
           "rrf_rank": 9,
-          "rrf_score": 0.02684684684684685,
+          "rrf_score": 0.027443609022556388,
           "product_state": "EXACT_PRODUCT",
           "material_state": null,
-          "subtype_state": "EXACT_MATCH",
+          "subtype_state": null,
           "function_state": null,
           "application_state": "EXACT_MATCH",
           "grade_state": null,
@@ -9031,79 +9079,12 @@
           "constraint_flags": [
             "PRODUCT_EXACT_PRODUCT",
             "APPLICATION_EXACT_MATCH",
-            "SUBTYPE_EXACT_MATCH",
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_score": 16.0,
-          "final_score": 16.026846846846848,
-          "final_rank": 3
-        },
-        {
-          "standard_code": "IS 1237: 1980",
-          "title": "CEMENT CONCRETE FLOORING TILES",
-          "semantic_rank": 5,
-          "semantic_score": 0.6981112,
-          "bm25_rank": null,
-          "bm25_score": null,
-          "rrf_rank": 11,
-          "rrf_score": 0.015384615384615385,
-          "product_state": "APPLIES_TO_PRODUCT",
-          "material_state": null,
-          "subtype_state": "EXACT_MATCH",
-          "function_state": null,
-          "application_state": "EXACT_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_flags": [
-            "PRODUCT_APPLIES_TO_PRODUCT",
-            "APPLICATION_EXACT_MATCH",
-            "SUBTYPE_EXACT_MATCH",
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_score": 13.0,
-          "final_score": 13.015384615384615,
-          "final_rank": 4
-        },
-        {
-          "standard_code": "IS 653: 1992",
-          "title": "LINOLEUM SHEET  AND TILES",
-          "semantic_rank": 8,
-          "semantic_score": 0.6721449,
-          "bm25_rank": 3,
-          "bm25_score": 26.927198919378554,
-          "rrf_rank": 2,
-          "rrf_score": 0.03057889822595705,
-          "product_state": "EXACT_PRODUCT",
-          "material_state": null,
-          "subtype_state": "UNKNOWN",
-          "function_state": null,
-          "application_state": "EXACT_MATCH",
-          "grade_state": null,
-          "temperature_state": null,
-          "negative_constraint_states": [
-            "EXCLUDED_FUNCTION_CLEAR",
-            "EXCLUDED_APPLICATION_CLEAR",
-            "EXCLUDED_SUBTYPE_CLEAR"
-          ],
-          "constraint_flags": [
-            "PRODUCT_EXACT_PRODUCT",
-            "APPLICATION_EXACT_MATCH",
-            "SUBTYPE_UNKNOWN",
             "EXCLUDED_FUNCTION_CLEAR",
             "EXCLUDED_APPLICATION_CLEAR",
             "EXCLUDED_SUBTYPE_CLEAR"
           ],
           "constraint_score": 12.0,
-          "final_score": 12.030578898225958,
+          "final_score": 12.027443609022557,
           "final_rank": 5
         }
       ],

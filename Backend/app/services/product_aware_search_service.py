@@ -3,7 +3,7 @@ from __future__ import annotations
 import asyncio
 import re
 from collections.abc import Callable
-from dataclasses import dataclass, replace
+from dataclasses import asdict, dataclass, replace
 from time import perf_counter
 from uuid import UUID
 
@@ -79,6 +79,7 @@ class ProductAwareSearchResult:
     missing_information: list[str]
     candidates: list[ProductAwareCandidate]
     timings_ms: ProductAwareTimings
+    debug_trace: dict[str, object] | None = None
 
 
 @dataclass(frozen=True)
@@ -153,6 +154,7 @@ class ProductAwareSearchService:
         limit: int | None = None,
         query_intent: SemanticQueryIntent | None = None,
         gemini_ms: float | None = None,
+        include_debug_trace: bool = False,
     ) -> ProductAwareSearchResult:
         limit = self._return_k if limit is None else min(limit, self._return_k)
         if limit < 1:
@@ -168,7 +170,7 @@ class ProductAwareSearchService:
         hybrid_result = await self._hybrid_service.search(
             session,
             query,
-            limit=max(self._rerank_k, limit),
+            limit=40 if include_debug_trace else max(self._rerank_k, limit),
         )
 
         gate_started_at = perf_counter()
@@ -244,6 +246,11 @@ class ProductAwareSearchService:
             candidates = _final_constraint_order(candidates)
         postprocess_ms = (perf_counter() - postprocess_started_at) * 1000
         timings = hybrid_result.timings_ms
+        debug_trace = (
+            _debug_trace(hybrid_result, candidates, standards_by_id)
+            if include_debug_trace
+            else None
+        )
         return ProductAwareSearchResult(
             product=product,
             description=description,
@@ -279,6 +286,7 @@ class ProductAwareSearchService:
                 reranker_inference_ms=getattr(self._reranker_service, "last_inference_ms", None),
                 total_ms=(perf_counter() - started_at) * 1000,
             ),
+            debug_trace=debug_trace,
         )
 
 
@@ -1092,6 +1100,77 @@ def _fallback_score_source(fallback_reason: str) -> str:
     return "rrf_reranker_skipped"
 
 
+def _debug_trace(
+    hybrid_result,
+    candidates: list[ProductAwareCandidate],
+    standards_by_id: dict[str, Standard],
+) -> dict[str, object]:
+    return {
+        "semantic_top20": [
+            {
+                "rank": rank,
+                "standard_id": candidate.standard_id,
+                "standard_code": candidate.standard_code,
+                "title": candidate.title,
+                "semantic_score": candidate.score,
+            }
+            for rank, candidate in enumerate(hybrid_result.semantic_candidates, start=1)
+        ],
+        "bm25_top20": [
+            {
+                "rank": candidate.bm25_rank,
+                "standard_id": candidate.standard_id,
+                "standard_code": candidate.standard_code,
+                "title": candidate.title,
+                "bm25_score": candidate.bm25_score,
+            }
+            for candidate in hybrid_result.bm25_candidates
+        ],
+        "rrf_pool": [
+            {
+                **asdict(candidate),
+                "metadata": _debug_metadata(standards_by_id.get(candidate.standard_id)),
+            }
+            for candidate in hybrid_result.candidates
+        ],
+        "final_top10": [
+            {
+                **asdict(candidate),
+                "metadata": _debug_metadata(standards_by_id.get(candidate.standard_id)),
+            }
+            for candidate in candidates[:10]
+        ],
+    }
+
+
+def _debug_metadata(standard: Standard | None) -> dict[str, object | None] | None:
+    if standard is None:
+        return None
+    return {
+        "standard_code": standard.standard_id,
+        "title": standard.title,
+        "canonical_product": standard.canonical_product,
+        "effective_canonical_product": _effective_value(standard, "canonical_product"),
+        "product_subtype": standard.product_subtype,
+        "effective_product_subtype": _effective_value(standard, "product_subtype"),
+        "primary_subject": standard.primary_subject,
+        "effective_primary_subject": _effective_value(standard, "primary_subject"),
+        "product_aliases": standard.product_aliases,
+        "material": standard.material,
+        "effective_material": _effective_value(standard, "material"),
+        "application": standard.application,
+        "effective_application": _effective_value(standard, "application"),
+        "function": standard.function,
+        "effective_function": _effective_value(standard, "function"),
+        "applies_to_product_families": standard.applies_to_product_families,
+        "family": standard.family,
+        "effective_family": _effective_value(standard, "family"),
+        "metadata_confidence": standard.metadata_confidence,
+        "metadata_evidence": standard.metadata_evidence,
+        "retrieval_text": standard.retrieval_text,
+    }
+
+
 async def _standards_by_id(
     session: AsyncSession,
     standard_ids: set[str],
@@ -1123,9 +1202,27 @@ def _prioritize_function_matches(
 
 def _description_function(description: str) -> str | None:
     text = " ".join(description.casefold().split())
-    if "reverse flow" in text or "non return" in text or "non-return" in text:
+    if (
+        "reverse flow" in text
+        or "non return" in text
+        or "non-return" in text
+        or "backflow" in text
+        or "flowing backwards" in text
+        or "flow backwards" in text
+        or "flow only one way" in text
+        or "only flow one way" in text
+        or "one way flow" in text
+        or "come back" in text
+    ):
         return "prevent_reverse_flow"
-    if "reduce pressure" in text or "pressure reducing" in text:
+    if (
+        "reduce pressure" in text
+        or "pressure reducing" in text
+        or "pressure regulator" in text
+        or "pressure regulation" in text
+        or "downstream pressure control" in text
+        or "reduce downstream pressure" in text
+    ):
         return "reduce_pressure"
     if "release air" in text or "air relief" in text:
         return "release_air"

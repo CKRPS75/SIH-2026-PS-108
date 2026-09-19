@@ -228,3 +228,4 @@ class ProductAwareSearchResponse(BaseModel):
     missing_information: list[str] = Field(default_factory=list)
     candidates: list[ProductAwareSearchCandidate] = Field(default_factory=list)
     timings_ms: ProductAwareSearchTimings
+    debug_trace: dict[str, Any] | None = None

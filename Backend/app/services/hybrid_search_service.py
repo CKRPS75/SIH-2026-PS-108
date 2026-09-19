@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass
 from time import perf_counter
 from typing import Protocol
@@ -52,6 +53,8 @@ class HybridSearchResult:
     query: str
     candidates: list[HybridCandidate]
     timings_ms: HybridTimings
+    semantic_candidates: Sequence[SemanticCandidate] = ()
+    bm25_candidates: Sequence[Bm25Candidate] = ()
 
 
 class HybridSearchService:
@@ -120,6 +123,8 @@ class HybridSearchService:
                 embedding_ms=semantic_timings.get("embedding_ms"),
                 semantic_retrieval_ms=semantic_timings.get("semantic_retrieval_ms"),
             ),
+            semantic_candidates=semantic_candidates,
+            bm25_candidates=bm25_candidates,
         )
 
 

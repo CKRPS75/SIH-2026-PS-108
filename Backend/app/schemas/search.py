@@ -133,6 +133,11 @@ class SemanticQueryInterpretation(BaseModel):
     known_subtypes: list[str] = Field(default_factory=list)
     query_subtype: str | None = None
     subtype: str | None = None
+    subtype_family: str | None = None
+    cement_type: str | None = None
+    pozzolana_source: str | None = None
+    head_shape: str | None = None
+    form: str | None = None
     material: list[str] = Field(default_factory=list)
     context_material: list[str] = Field(default_factory=list)
     excluded_material: list[str] = Field(default_factory=list)
@@ -147,6 +152,8 @@ class SemanticQueryInterpretation(BaseModel):
     excluded_installation_context: list[str] = Field(default_factory=list)
     grade: str | None = None
     temperature_c: float | None = None
+    temperature_min_c: float | None = None
+    temperature_max_c: float | None = None
     pressure: str | None = None
     explicit_constraints: list[str] = Field(default_factory=list)
     context_only_terms: list[str] = Field(default_factory=list)

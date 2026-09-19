@@ -36,14 +36,15 @@ class Settings(BaseSettings):
     rrf_k: int = Field(default=60, ge=1)
     rerank_k: int = Field(default=10, ge=1)
     rerank_batch_size: int = Field(default=8, ge=1)
-    reranker_mode: Literal["auto", "enabled", "disabled"] = "auto"
+    reranker_mode: Literal["auto", "enabled", "disabled"] = "disabled"
     product_aware_reranker_timeout_s: float = Field(default=8.0, gt=0)
-    query_interpreter_mode: str = "disabled"
+    query_interpreter_mode: str = "gemini"
     query_interpreter_timeout_s: float = Field(default=5.0, gt=0)
     query_interpreter_cache_ttl_s: float = Field(default=300.0, gt=0)
     query_interpreter_cache_max_size: int = Field(default=128, ge=1)
     gemini_api_key: str | None = None
-    gemini_model: str = "gemini-2.5-flash-lite"
+    gemini_model: str = "gemini-3.5-flash-lite"
+    embedding_warmup_on_startup: bool = False
     return_k: int = Field(default=5, ge=1)
     upload_max_mb: int = Field(default=25, ge=1)
     log_level: str = "INFO"

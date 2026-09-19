@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 from collections.abc import Sequence
-from typing import Any
+from typing import Any, ClassVar
 
 
 class BgeM3EmbeddingService:
     """Lazy, reusable BGE-M3 embedding service."""
+
+    _model_cache: ClassVar[dict[str, Any]] = {}
 
     def __init__(
         self,
@@ -39,8 +41,16 @@ class BgeM3EmbeddingService:
             return int(dimension)
         return len(self.embed_query("standardwise embedding dimension probe"))
 
+    def warmup(self) -> int:
+        """Load BGE-M3 once and run a tiny embedding probe."""
+        return len(self.embed_query("standardwise warmup"))
+
     def _load_model(self) -> Any:
         if self._model is None:
+            cached_model = self._model_cache.get(self.model_name)
+            if cached_model is not None:
+                self._model = cached_model
+                return self._model
             try:
                 from sentence_transformers import SentenceTransformer
             except ModuleNotFoundError as exc:  # pragma: no cover - environment dependent
@@ -48,6 +58,7 @@ class BgeM3EmbeddingService:
                     "sentence-transformers is required for BAAI/bge-m3 embeddings"
                 ) from exc
             self._model = SentenceTransformer(self.model_name)
+            self._model_cache[self.model_name] = self._model
         return self._model
 
     def _encode(self, texts: Sequence[str]) -> list[list[float]]:

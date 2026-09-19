@@ -317,10 +317,22 @@ SUBTYPE_PATTERNS: list[tuple[str, str, list[str]]] = [
     (
         "valve",
         "check_valve",
-        ["check valve", "check valves", "reflux valve", "non return valve", "non-return valve"],
+        [
+            "check valve",
+            "check valves",
+            "reflux valve",
+            "non return valve",
+            "non-return valve",
+            "backflow prevention",
+            "one way valve",
+        ],
     ),
     ("valve", "sluice_valve", ["sluice valve"]),
-    ("valve", "pressure_reducing_valve", ["pressure reducing valve"]),
+    (
+        "valve",
+        "pressure_reducing_valve",
+        ["pressure reducing valve", "pressure regulator", "pressure regulator valve"],
+    ),
     ("valve", "air_relief_valve", ["air relief valve"]),
     ("pipe_fitting", "reducer", ["reducer", "reducers", "straight reducer"]),
     ("pipe_fitting", "tee", ["tee", "tees"]),
@@ -346,11 +358,22 @@ SUBTYPE_PATTERNS: list[tuple[str, str, list[str]]] = [
 ]
 
 MATERIAL_PATTERNS: list[tuple[str, list[str]]] = [
-    ("HDPE", ["high density polyethylene", "hdpe"]),
+    ("HDPE", ["high density polyethylene", "high-density polyethylene", "hdpe"]),
     ("UPVC", ["unplasticized polyvinyl chloride", "unplasticised polyvinyl chloride", "upvc"]),
     ("PVC", ["polyvinyl chloride", "pvc"]),
     ("calcium silicate", ["calcium silicate"]),
-    ("glass fibre reinforced plastic", ["glass fibre reinforced plastic", "grp", "gfrp"]),
+    (
+        "GRP",
+        [
+            "glass fibre reinforced plastic",
+            "glass fiber reinforced plastic",
+            "glass reinforced plastic",
+            "glass fibre reinforced",
+            "glass fiber reinforced",
+            "grp",
+            "gfrp",
+        ],
+    ),
     ("fibrous", ["fibrous", "fibre", "fiber"]),
     ("mineral wool", ["mineral wool"]),
     ("rock wool", ["rock wool"]),
@@ -376,7 +399,11 @@ MATERIAL_PATTERNS: list[tuple[str, list[str]]] = [
 ]
 
 APPLICATION_PATTERNS: list[tuple[str, list[str]]] = [
-    ("potable water supply", ["potable water", "portable water"]),
+    ("potable water supply", ["potable water", "portable water", "drinking water"]),
+    (
+        "industrial waste",
+        ["industrial waste", "industrial effluent", "non potable water", "non-potable water"],
+    ),
     ("water supply", ["water supply", "water works"]),
     ("sewerage", ["sewerage", "sewage", "drainage"]),
     ("roofing", ["roofing", "roof"]),

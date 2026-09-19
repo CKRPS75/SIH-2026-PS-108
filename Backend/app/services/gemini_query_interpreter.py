@@ -76,6 +76,11 @@ class SemanticQueryIntent(BaseModel):
     known_subtypes: list[str] = Field(default_factory=list)
     query_subtype: str | None = None
     subtype: str | None = None
+    subtype_family: str | None = None
+    cement_type: str | None = None
+    pozzolana_source: str | None = None
+    head_shape: str | None = None
+    form: str | None = None
 
     material: list[str] = Field(default_factory=list)
     context_material: list[str] = Field(default_factory=list)
@@ -93,6 +98,8 @@ class SemanticQueryIntent(BaseModel):
 
     grade: str | None = None
     temperature_c: float | None = None
+    temperature_min_c: float | None = None
+    temperature_max_c: float | None = None
     pressure: str | None = None
 
     explicit_constraints: list[str] = Field(default_factory=list)
@@ -300,6 +307,15 @@ def normalize_intent(
     function = _grounded_functions(function, description)
     application = _normalize_values(intent.application, APPLICATION_PATTERNS)
     subtype = _normalize_subtype(intent.query_subtype or intent.subtype, normalized_product)
+    subtype_family = _normalize_subtype_family(intent.subtype_family or subtype, normalized_product)
+    cement_type = _normalize_cement_type(intent.cement_type, description, subtype)
+    pozzolana_source = _normalize_pozzolana_source(
+        intent.pozzolana_source,
+        description,
+        subtype,
+    )
+    head_shape = _normalize_head_shape(intent.head_shape, description)
+    form = _normalize_form(intent.form, description)
     medium = _normalize_medium(intent.medium, text)
     installation = _normalize_installation(intent.installation_context, text)
     excluded_material = _normalize_values(intent.excluded_material, MATERIAL_PATTERNS)
@@ -320,6 +336,7 @@ def normalize_intent(
     excluded_subtype = _merge_unique(excluded_subtype, negatives["subtype"])
     excluded_medium = _merge_unique(excluded_medium, negatives["medium"])
     excluded_installation = _merge_unique(excluded_installation, negatives["installation_context"])
+    excluded_medium = _sanitize_excluded_medium(excluded_medium, description)
 
     inferred = _infer_grounded_terms(
         product=normalized_product,
@@ -338,6 +355,11 @@ def normalize_intent(
     installation = _merge_unique(installation, inferred["installation_context"])
     if inferred["subtype"] and subtype in {None, "portland_pozzolana_cement"}:
         subtype = inferred["subtype"]
+    subtype_family = subtype_family or inferred["subtype_family"]
+    cement_type = cement_type or inferred["cement_type"]
+    pozzolana_source = pozzolana_source or inferred["pozzolana_source"]
+    head_shape = head_shape or inferred["head_shape"]
+    form = form or inferred["form"]
     material = _without_excluded(material, excluded_material)
     function = _without_excluded(function, excluded_function)
     application = _without_excluded(application, excluded_application)
@@ -351,7 +373,7 @@ def normalize_intent(
     if normalized_product == "valve" and not function and not subtype:
         ambiguity = True
         missing.append("valve function")
-    if normalized_product == "cement" and _contains(description, "portland pozzolana"):
+    if normalized_product == "cement" and cement_type == "ppc":
         if subtype not in {"portland_pozzolana_fly_ash", "portland_pozzolana_calcined_clay"}:
             ambiguity = True
             missing.append("pozzolana type: fly ash or calcined clay")
@@ -369,10 +391,15 @@ def normalize_intent(
         "portland_pozzolana_calcined_clay",
     }:
         material = [
-            value
-            for value in material
-            if value not in {"clay", "fly ash", "calcined clay"}
+            value for value in material if value not in {"clay", "fly ash", "calcined clay"}
         ]
+    if (
+        normalized_product == "cement"
+        and cement_type == "opc"
+        and not _normalize_grade(None, description)
+    ):
+        ambiguity = True
+        missing.append("cement grade")
 
     product_aliases = _true_product_aliases(normalized_product, intent.product_aliases)
     known_subtypes = _known_subtypes(normalized_product)
@@ -383,6 +410,11 @@ def normalize_intent(
         known_subtypes=known_subtypes,
         query_subtype=subtype,
         subtype=subtype,
+        subtype_family=subtype_family,
+        cement_type=cement_type,
+        pozzolana_source=pozzolana_source,
+        head_shape=head_shape,
+        form=form,
         material=material,
         context_material=context_material,
         excluded_material=excluded_material,
@@ -397,6 +429,8 @@ def normalize_intent(
         excluded_installation_context=excluded_installation,
         grade=_normalize_grade(intent.grade, description),
         temperature_c=intent.temperature_c or _extract_temperature_c(description),
+        temperature_min_c=intent.temperature_min_c,
+        temperature_max_c=intent.temperature_max_c,
         pressure=_clean_optional(intent.pressure),
         explicit_constraints=_clean_list(intent.explicit_constraints),
         context_only_terms=context_only_terms,
@@ -417,6 +451,9 @@ def build_enriched_query(product: str, description: str, intent: SemanticQueryIn
         fields.append(f"normalized product: {intent.normalized_product.replace('_', ' ')}")
     for label, values in [
         ("subtype", [intent.subtype] if intent.subtype else []),
+        ("subtype family", [intent.subtype_family] if intent.subtype_family else []),
+        ("cement type", [intent.cement_type] if intent.cement_type else []),
+        ("pozzolana source", [intent.pozzolana_source] if intent.pozzolana_source else []),
         ("material", intent.material),
         ("function", intent.function),
         ("application", intent.application),
@@ -511,6 +548,11 @@ def _infer_grounded_terms(
         "medium": [],
         "installation_context": [],
         "subtype": None,
+        "subtype_family": None,
+        "cement_type": None,
+        "pozzolana_source": None,
+        "head_shape": None,
+        "form": None,
     }
     text = _space_key(description)
     for value, aliases in FUNCTION_PATTERNS:
@@ -518,7 +560,16 @@ def _infer_grounded_terms(
             continue
         if any(_contains(text, alias) for alias in aliases):
             inferred["function"].append(value)
-    if "come backward" in text or "back flow" in text or "backward" in text:
+    if (
+        "come backward" in text
+        or "flowing backwards" in text
+        or "flow backwards" in text
+        or "flow one way" in text
+        or "only flow one way" in text
+        or "back flow" in text
+        or "backflow" in text
+        or "backward" in text
+    ):
         inferred["function"].append("prevent_reverse_flow")
     for value, aliases in APPLICATION_PATTERNS:
         if any(_contains(text, alias) for alias in aliases):
@@ -532,6 +583,13 @@ def _infer_grounded_terms(
         inferred["medium"].append("water")
         if not application:
             inferred["application"].append("water pipeline")
+    if "drinking water" in text or "potable water" in text:
+        inferred["application"].append("potable water supply")
+        inferred["function"].append("carry_potable_water")
+    if "industrial waste" in text or "industrial effluent" in text:
+        inferred["application"].append("industrial waste")
+    if "non potable water" in text:
+        inferred["application"].append("industrial waste")
     if "sewage" in text or "sewerage" in text:
         inferred["medium"].append("sewage")
         inferred["application"].append("sewerage")
@@ -539,12 +597,26 @@ def _infer_grounded_terms(
         inferred["installation_context"].append("underground")
     if product == "valve" and "prevent_reverse_flow" in {*function, *inferred["function"]}:
         inferred["subtype"] = subtype or "check_valve"
+        inferred["subtype_family"] = "check_valve"
+    if product == "valve" and "reduce_pressure" in {*function, *inferred["function"]}:
+        inferred["subtype"] = subtype or "pressure_reducing_valve"
     if product == "cement" and "calcined clay" in text:
         inferred["subtype"] = "portland_pozzolana_calcined_clay"
+        inferred["cement_type"] = "ppc"
+        inferred["pozzolana_source"] = "calcined_clay"
     if product == "cement" and ("fly ash" in text or "flyash" in text):
         inferred["subtype"] = "portland_pozzolana_fly_ash"
+        inferred["cement_type"] = "ppc"
+        inferred["pozzolana_source"] = "fly_ash"
+    if product == "cement" and ("ordinary portland cement" in text or "opc" in text):
+        inferred["cement_type"] = "opc"
+    if product == "cement" and ("portland pozzolana" in text or "ppc" in text):
+        inferred["cement_type"] = "ppc"
     if product in {"bolt", "screw", "nut"} and ("hexagonal" in text or "hexagon" in text):
         inferred["subtype"] = subtype or f"hexagon_{product}"
+        inferred["head_shape"] = "hexagonal"
+    if "preformed" in text or "pre formed" in text:
+        inferred["form"] = "preformed"
     return inferred
 
 
@@ -588,6 +660,49 @@ def _normalize_grade(value: str | None, description: str) -> str | None:
     for grade in ["33", "43", "53"]:
         if _contains(source, f"{grade} grade") or _contains(source, f"grade {grade}"):
             return grade
+    return _clean_optional(value)
+
+
+def _normalize_subtype_family(value: str | None, product: str | None) -> str | None:
+    if product != "valve" or not value:
+        return None
+    subtype = _normalize_subtype(value, product)
+    return "check_valve" if subtype == "check_valve" else None
+
+
+def _normalize_cement_type(value: str | None, description: str, subtype: str | None) -> str | None:
+    text = _space_key(" ".join(item for item in [value, description, subtype] if item))
+    if "portland pozzolana" in text or "ppc" in text or "pozzolana" in text:
+        return "ppc"
+    if "ordinary portland" in text or "opc" in text:
+        return "opc"
+    return None
+
+
+def _normalize_pozzolana_source(
+    value: str | None,
+    description: str,
+    subtype: str | None,
+) -> str | None:
+    text = _space_key(" ".join(item for item in [value, description, subtype] if item))
+    if "fly ash" in text or "flyash" in text:
+        return "fly_ash"
+    if "calcined clay" in text:
+        return "calcined_clay"
+    return None
+
+
+def _normalize_head_shape(value: str | None, description: str) -> str | None:
+    text = _space_key(" ".join(item for item in [value, description] if item))
+    if "hexagonal" in text or "hexagon" in text:
+        return "hexagonal"
+    return _clean_optional(value)
+
+
+def _normalize_form(value: str | None, description: str) -> str | None:
+    text = _space_key(" ".join(item for item in [value, description] if item))
+    if "preformed" in text or "pre formed" in text:
+        return "preformed"
     return _clean_optional(value)
 
 
@@ -642,9 +757,24 @@ def _extract_negatives(description: str, product: str | None) -> dict[str, list[
             result["subtype"].append("roofing_tile")
         if "underground" in phrase:
             result["installation_context"].append("underground")
-        if "water" in phrase:
-            result["medium"].append("water")
+    if "non potable" in text:
+        result["application"].append("potable water supply")
+        result["medium"].append("potable")
     return {key: _dedupe(values) for key, values in result.items()}
+
+
+def _sanitize_excluded_medium(values: list[str], description: str) -> list[str]:
+    text = _space_key(description)
+    sanitized = []
+    for value in values:
+        normalized = _space_key(value)
+        if normalized == "water":
+            continue
+        if normalized == "potable" and "non potable" not in text:
+            sanitized.append("potable water")
+            continue
+        sanitized.append(normalized)
+    return _dedupe(sanitized)
 
 
 def _without_excluded(values: list[str], excluded: list[str]) -> list[str]:
@@ -689,6 +819,10 @@ def _attribute_evidence(description: str, product: str, *, subtype: str | None) 
                     if _contains(source, alias):
                         evidence.append(f"subtype={alias}")
                         break
+    if "fly ash" in _space_key(description):
+        evidence.append("pozzolana_source=fly ash")
+    if "calcined clay" in _space_key(description):
+        evidence.append("pozzolana_source=calcined clay")
     grade = _normalize_grade(None, description)
     if grade:
         evidence.append(f"grade=Grade {grade}")
@@ -731,12 +865,7 @@ def _contains(text: str, phrase: str) -> bool:
 
 def _space_key(value: str) -> str:
     return " ".join(
-        str(value)
-        .casefold()
-        .replace("_", " ")
-        .replace("-", " ")
-        .replace("/", " ")
-        .split()
+        str(value).casefold().replace("_", " ").replace("-", " ").replace("/", " ").split()
     )
 
 

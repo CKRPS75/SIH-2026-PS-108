@@ -114,8 +114,8 @@ MATERIAL_GROUPS = {
         "polypropylene",
         "polyethylene",
         "plastic",
-        "GRP",
     },
+    "composite": {"GRP"},
     "fibrous_insulation": {"fibrous", "mineral wool", "rock wool", "slag wool", "glass wool"},
     "cementitious": {"cement", "finishing cement", "concrete", "ferrocement"},
     "ceramic": {"clay", "sandstone"},
@@ -291,7 +291,7 @@ def _apply_product_gate(
     compatibility_by_id = {}
     for candidate in candidates:
         standard = standards_by_id.get(candidate.standard_id)
-        candidate_product = standard.canonical_product if standard else None
+        candidate_product = _effective_value(standard, "canonical_product") if standard else None
         compatibility_by_id[candidate.standard_id] = _metadata_aware_compatibility(
             canonical_product=canonical_product,
             candidate_product=candidate_product,
@@ -331,6 +331,124 @@ def _query_product(
     return canonicalize_product(product)
 
 
+def _effective_value(standard: Standard | None, field: str) -> str | None:
+    if standard is None:
+        return None
+    text = _standard_text(standard)
+    code = getattr(standard, "standard_id", "")
+
+    if field == "canonical_product":
+        if "glass fibre reinforced" in text and "pipe" in text and "insulation" not in text:
+            return "pipe"
+        if "reflux" in text and "valve" in text:
+            return "valve"
+        return standard.canonical_product
+    if field == "family":
+        if _effective_value(standard, "canonical_product") == "pipe":
+            return "pipe_water_drainage"
+        if _effective_value(standard, "canonical_product") == "valve":
+            return "water_valve"
+        return standard.family
+    if field == "product_subtype":
+        if "pressure reducing valve" in text:
+            return "pressure_reducing_valve"
+        if "reflux" in text or "check valve" in text or "non return" in text:
+            return "check_valve"
+        if "part 1 fly ash based" in text or code == "IS 1489 (Part 1): 1991":
+            return "portland_pozzolana_fly_ash"
+        if "part 2 calcined clay based" in text or code == "IS 1489 (Part 2): 1991":
+            return "portland_pozzolana_calcined_clay"
+        return standard.product_subtype
+    if field == "subtype_family":
+        return (
+            "check_valve"
+            if _effective_value(standard, "product_subtype") == "check_valve"
+            else None
+        )
+    if field == "cement_type":
+        subtype = _effective_value(standard, "product_subtype") or ""
+        if "portland_pozzolana" in subtype:
+            return "ppc"
+        if "ordinary_portland" in subtype:
+            return "opc"
+        return None
+    if field == "pozzolana_source":
+        subtype = _effective_value(standard, "product_subtype")
+        if subtype == "portland_pozzolana_fly_ash":
+            return "fly_ash"
+        if subtype == "portland_pozzolana_calcined_clay":
+            return "calcined_clay"
+        return None
+    if field == "material":
+        if "glass fibre reinforced" in text or "glass reinforced plastic" in text:
+            return "GRP"
+        if "high density polyethylene" in text or "hdpe" in text:
+            return "HDPE"
+        if "unplasticized polyvinyl chloride" in text or "unplasticised polyvinyl chloride" in text:
+            return "UPVC"
+        if "calcium silicate" in text:
+            return "calcium silicate"
+        if "preformed fibrous" in text or "fibrous pipe insulation" in text:
+            return "fibrous"
+        if "clay flooring" in text:
+            return "clay"
+        return standard.material
+    if field == "application":
+        if "potable water" in text or "drinking water" in text:
+            return "potable water supply"
+        if "industrial waste" in text or "other than potable" in text or "non potable" in text:
+            return "industrial waste"
+        if "sewerage" in text or "sewage" in text:
+            return "sewerage"
+        if "flooring" in text and "roofing" in text:
+            return "flooring roofing"
+        if "flooring" in text:
+            return "flooring"
+        if "roofing" in text:
+            return "roofing"
+        if "thermal insulation" in text or "insulation" in text:
+            return "thermal insulation"
+        return standard.application
+    if field == "function":
+        if _effective_value(standard, "product_subtype") == "pressure_reducing_valve":
+            return "reduce_pressure"
+        if _effective_value(standard, "product_subtype") == "check_valve":
+            return "prevent_reverse_flow"
+        if _effective_value(standard, "application") == "potable water supply":
+            return "carry_potable_water"
+        if _effective_value(standard, "application") in {"sewerage", "industrial waste"}:
+            return "carry_sewage"
+        if _effective_value(standard, "application") == "flooring":
+            return "flooring"
+        if _effective_value(standard, "application") == "roofing":
+            return "roofing"
+        return standard.function
+    if field == "primary_subject":
+        subtype = _effective_value(standard, "product_subtype")
+        if subtype:
+            return subtype.replace("_", " ")
+        return standard.primary_subject
+    if field == "form":
+        return "preformed" if "preformed" in text or "preormed" in text else None
+    return None
+
+
+def _standard_text(standard: Standard) -> str:
+    return _norm(
+        " ".join(
+            value
+            for value in [
+                getattr(standard, "standard_id", ""),
+                standard.title,
+                standard.scope_text,
+                standard.retrieval_text,
+                standard.primary_subject,
+            ]
+            if value
+        )
+    )
+
+
 def _metadata_aware_compatibility(
     *,
     canonical_product: str | None,
@@ -344,17 +462,17 @@ def _metadata_aware_compatibility(
     applies_to = set(standard.applies_to_product_families or [])
     if query_family and query_family in applies_to:
         return "applies_to_family"
-    if query_family and standard.family == query_family:
+    if query_family and _effective_value(standard, "family") == query_family:
         return "same_family"
     product_terms = [canonical_product, canonical_product.replace("_", " ")]
     source_text = " ".join(
         value
         for value in [
-            standard.primary_subject,
-            standard.product_subtype,
-            standard.material,
-            standard.application,
-            standard.function,
+            _effective_value(standard, "primary_subject"),
+            _effective_value(standard, "product_subtype"),
+            _effective_value(standard, "material"),
+            _effective_value(standard, "application"),
+            _effective_value(standard, "function"),
             standard.title,
         ]
         if value
@@ -411,9 +529,9 @@ def _score_candidate_constraints(
     score += _attribute_score(
         query_values=query_intent.material,
         candidate_values=[
-            standard.material,
-            standard.primary_subject,
-            standard.product_subtype,
+            _effective_value(standard, "material"),
+            _effective_value(standard, "primary_subject"),
+            _effective_value(standard, "product_subtype"),
             standard.title,
             standard.scope_text,
         ],
@@ -423,22 +541,84 @@ def _score_candidate_constraints(
     )
     score += _attribute_score(
         query_values=query_intent.function,
-        candidate_values=[standard.function, standard.product_subtype, standard.title],
+        candidate_values=[
+            _effective_value(standard, "function"),
+            _effective_value(standard, "product_subtype"),
+            standard.title,
+        ],
         field="FUNCTION",
         state_for=_function_state,
         flags=flags,
     )
     score += _attribute_score(
         query_values=query_intent.application,
-        candidate_values=[standard.application, standard.scope_text, standard.title],
+        candidate_values=[
+            _effective_value(standard, "application"),
+            standard.scope_text,
+            standard.title,
+        ],
         field="APPLICATION",
         state_for=_text_state,
         flags=flags,
     )
+    if query_intent.cement_type:
+        score += _attribute_score(
+            query_values=[query_intent.cement_type],
+            candidate_values=[
+                _effective_value(standard, "cement_type"),
+                _effective_value(standard, "product_subtype"),
+                standard.title,
+            ],
+            field="CEMENT_TYPE",
+            state_for=_text_state,
+            flags=flags,
+        )
+    if query_intent.pozzolana_source:
+        score += _attribute_score(
+            query_values=[query_intent.pozzolana_source],
+            candidate_values=[
+                _effective_value(standard, "pozzolana_source"),
+                _effective_value(standard, "product_subtype"),
+                standard.title,
+                standard.scope_text,
+            ],
+            field="POZZOLANA_SOURCE",
+            state_for=_pozzolana_state,
+            flags=flags,
+        )
+    if query_intent.subtype_family:
+        score += _attribute_score(
+            query_values=[query_intent.subtype_family],
+            candidate_values=[
+                _effective_value(standard, "subtype_family"),
+                _effective_value(standard, "product_subtype"),
+                standard.title,
+            ],
+            field="SUBTYPE_FAMILY",
+            state_for=_subtype_state,
+            flags=flags,
+        )
+    if query_intent.form:
+        score += _attribute_score(
+            query_values=[query_intent.form],
+            candidate_values=[
+                _effective_value(standard, "form"),
+                _effective_value(standard, "primary_subject"),
+                standard.title,
+                standard.scope_text,
+            ],
+            field="FORM",
+            state_for=_text_state,
+            flags=flags,
+        )
     if query_intent.subtype:
         score += _attribute_score(
             query_values=[query_intent.subtype],
-            candidate_values=[standard.product_subtype, standard.primary_subject, standard.title],
+            candidate_values=[
+                _effective_value(standard, "product_subtype"),
+                _effective_value(standard, "primary_subject"),
+                standard.title,
+            ],
             field="SUBTYPE",
             state_for=_subtype_state,
             flags=flags,
@@ -480,10 +660,10 @@ def _excluded_score(
     candidate_text = " ".join(
         value
         for value in [
-            standard.material,
-            standard.function,
-            standard.application,
-            standard.product_subtype,
+            _effective_value(standard, "material"),
+            _effective_value(standard, "function"),
+            _effective_value(standard, "application"),
+            _effective_value(standard, "product_subtype"),
             standard.title,
             standard.scope_text,
         ]
@@ -512,15 +692,15 @@ def _excluded_score(
 
 
 def _grade_score(grade: str, standard: Standard, flags: list[str]) -> float:
-    candidate_text = _norm(" ".join([standard.product_subtype or "", standard.title or ""]))
+    candidate_text = _norm(
+        " ".join([_effective_value(standard, "product_subtype") or "", standard.title or ""])
+    )
     grade_key = grade.lower()
     if f"{grade_key} grade" in candidate_text or f"grade {grade_key}" in candidate_text:
         flags.append("GRADE_MATCH")
         return STATE_SCORES["EXACT_MATCH"]
     known_grades = {"33", "43", "53"}
-    wrong_known_grade = any(
-        f"{other} grade" in candidate_text for other in known_grades - {grade}
-    )
+    wrong_known_grade = any(f"{other} grade" in candidate_text for other in known_grades - {grade})
     wrong_letter_grade = (
         grade.isalpha()
         and "grade " in candidate_text
@@ -596,7 +776,7 @@ def _final_constraint_order(candidates: list[ProductAwareCandidate]) -> list[Pro
 def _product_state(canonical_product: str | None, standard: Standard) -> str:
     if canonical_product is None:
         return "UNKNOWN"
-    candidate_product = standard.canonical_product
+    candidate_product = _effective_value(standard, "canonical_product")
     if candidate_product is None:
         return "UNKNOWN"
     if canonical_product == candidate_product:
@@ -629,6 +809,8 @@ def _material_state(query_value: str, candidate_text: str) -> str:
         return "EXACT_MATCH"
     if {query, candidate} in [{"clay", "sandstone"}]:
         return "CONTRADICTION"
+    if {query, candidate} == {"plastic", "GRP"}:
+        return "STRONG_COMPATIBLE"
     query_group = MATERIAL_GROUP_BY_VALUE.get(query)
     candidate_group = MATERIAL_GROUP_BY_VALUE.get(candidate)
     if query_group == candidate_group and query_group in {"metal", "plastic", "fibrous_insulation"}:
@@ -652,10 +834,16 @@ def _material_family(value: str) -> str:
         return "slag wool"
     if "glass wool" in text:
         return "glass wool"
+    if (
+        "grp" in text
+        or "gfrp" in text
+        or "glass fibre reinforced" in text
+        or "glass fiber reinforced" in text
+        or "glass reinforced plastic" in text
+    ):
+        return "GRP"
     if "fibrous" in text or "fibre" in text or "fiber" in text:
         return "fibrous"
-    if "grp" in text or "gfrp" in text or "glass fibre reinforced" in text:
-        return "GRP"
     if "upvc" in text or "unplasticized polyvinyl chloride" in text:
         return "UPVC"
     if "cpvc" in text or "chlorinated polyvinyl chloride" in text:
@@ -712,7 +900,14 @@ def _subtype_state(query_value: str, candidate_text: str) -> str:
     candidate = _norm(candidate_text)
     if query in candidate or candidate in query:
         return "EXACT_MATCH"
-    check_terms = {"check valve", "reflux", "non return", "non-return", "swing check"}
+    check_terms = {
+        "check valve",
+        "reflux",
+        "non return",
+        "non-return",
+        "swing check",
+        "prevent reverse flow",
+    }
     if query in {"prevent reverse flow", "prevent_reverse_flow", "check valve", "check_valve"}:
         if any(term in candidate for term in check_terms):
             return "STRONG_COMPATIBLE"
@@ -723,15 +918,49 @@ def _subtype_state(query_value: str, candidate_text: str) -> str:
     return _text_state(query_value, candidate_text)
 
 
+def _pozzolana_state(query_value: str, candidate_text: str) -> str:
+    query = _norm(query_value)
+    candidate = _norm(candidate_text)
+    if query == "fly ash":
+        if "fly ash" in candidate and "calcined clay" not in candidate:
+            return "EXACT_MATCH"
+        if "calcined clay" in candidate:
+            return "CONTRADICTION"
+    if query == "calcined clay":
+        if "calcined clay" in candidate:
+            return "EXACT_MATCH"
+        if "fly ash" in candidate:
+            return "CONTRADICTION"
+    return _text_state(query_value, candidate_text)
+
+
 def _text_state(query_value: str, candidate_text: str) -> str:
     query = _norm(query_value)
     candidate = _norm(candidate_text)
+    if query in {"potable", "potable water", "potable water supply"} and (
+        "other than potable" in candidate or "non potable" in candidate
+    ):
+        return "CONTRADICTION"
     if query in candidate or candidate in query:
         return "EXACT_MATCH"
     if query == "sewerage":
         return (
             "STRONG_COMPATIBLE"
-            if "sewage" in candidate or "drainage" in candidate
+            if "sewage" in candidate or "sewerage" in candidate or "drainage" in candidate
+            else "UNKNOWN"
+        )
+    if query == "industrial waste":
+        return (
+            "STRONG_COMPATIBLE"
+            if "industrial waste" in candidate
+            or "effluent" in candidate
+            or "other than potable" in candidate
+            else "UNKNOWN"
+        )
+    if query == "potable water supply":
+        return (
+            "STRONG_COMPATIBLE"
+            if "potable water" in candidate or "drinking water" in candidate
             else "UNKNOWN"
         )
     if query == "water pipeline":
@@ -779,10 +1008,10 @@ def _decorate_candidates(
                     candidate.standard_id,
                     "unknown_candidate_product",
                 ),
-                canonical_product=standard.canonical_product if standard else None,
+                canonical_product=_effective_value(standard, "canonical_product"),
                 standard_kind=standard.standard_kind if standard else None,
-                family=standard.family if standard else None,
-                function=standard.function if standard else None,
+                family=_effective_value(standard, "family"),
+                function=_effective_value(standard, "function"),
                 constraint_score=constraint.score,
                 constraint_flags=constraint.flags,
                 raw_cross_encoder_score=candidate.raw_cross_encoder_score,

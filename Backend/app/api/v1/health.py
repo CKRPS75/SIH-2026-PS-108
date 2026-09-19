@@ -15,7 +15,8 @@ async def health(request: Request) -> dict[str, str]:
 @router.get("/ready")
 async def ready(request: Request) -> JSONResponse:
     checks = await request.app.state.dependencies.check_all()
-    ready_to_serve = checks["postgres"] == "ready"
+    embedding_ready = bool(getattr(request.app.state, "embedding_ready", True))
+    ready_to_serve = checks["postgres"] == "ready" and embedding_ready
     return JSONResponse(
         status_code=status.HTTP_200_OK if ready_to_serve else status.HTTP_503_SERVICE_UNAVAILABLE,
         content={"status": "ready" if ready_to_serve else "not_ready", "dependencies": checks},

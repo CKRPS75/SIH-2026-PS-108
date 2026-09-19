@@ -1,3 +1,4 @@
+import asyncio
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 from uuid import uuid4
@@ -24,6 +25,10 @@ async def unavailable() -> bool:
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     try:
+        app.state.embedding_ready = not app.state.settings.embedding_warmup_on_startup
+        if app.state.settings.embedding_warmup_on_startup:
+            await asyncio.to_thread(app.state.embedding_service.warmup)
+            app.state.embedding_ready = True
         yield
     finally:
         await app.state.database.close()
@@ -44,6 +49,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     app.state.qdrant = QdrantClientService(resolved_settings)
     app.state.neo4j = Neo4jClientService(resolved_settings)
     app.state.embedding_service = BgeM3EmbeddingService(resolved_settings.embedding_model)
+    app.state.embedding_ready = False
     app.state.reranker_service = CrossEncoderRerankerService(
         resolved_settings.reranker_model,
         batch_size=resolved_settings.rerank_batch_size,

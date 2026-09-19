@@ -35,7 +35,9 @@ from app.services.bm25_service import Bm25LexicalSearchService
 from app.services.embedding_service import BgeM3EmbeddingService
 from app.services.gemini_query_interpreter import (
     GeminiQueryInterpreter,
+    SemanticQueryIntent,
     interpretation_to_dict,
+    normalize_intent,
 )
 from app.services.hybrid_search_service import HybridSearchService
 from app.services.parsed_standards_corpus import FULL_CORPUS_DATASET_NAME
@@ -192,6 +194,12 @@ async def product_aware_search(
             gemini_latency_ms=interpreted.gemini_latency_ms,
             gemini_fallback_reason=interpreted.fallback_reason,
         )
+        if interpretation is None:
+            interpretation = normalize_intent(
+                SemanticQueryIntent(normalized_product=request.product),
+                product=request.product,
+                description=request.description,
+            )
 
     semantic_index = StandardVectorIndex(
         qdrant_client=qdrant_client,

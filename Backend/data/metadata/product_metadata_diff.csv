@@ -1,0 +1,559 @@
+standard_code,old_product,new_product,old_confidence,new_confidence,changed,reason
+IS 10019: 1981,,fastener,low,high,True,title_scope_or_summary
+IS 1003 (Part 1): 2003,cement,door,low,high,True,title_scope_or_summary
+IS 1003 (Part 2): 1994,,window,low,high,True,title_scope_or_summary
+IS 10090: 1982,,screw,low,low,True,full_text_repeated_terms
+IS 10124 (Part 10): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 11): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 12): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 13): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 2): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 3): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 4): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 5): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 6): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 7): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 8): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 10124 (Part 9): 1988,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 1019: 1974,,latch,low,high,True,title_scope_or_summary
+IS 10238: 2001,bolt,bolt,low,high,True,title_scope_or_summary
+IS 10292: 1988,pipe,cement,low,high,True,title_scope_or_summary
+IS 10299: 1982,pipe,pipe,low,low,False,unchanged
+IS 10342: 1982,,dimensions_testing_finish_rails,low,medium,True,source_grounded_title_phrase
+IS 10360: 1982,,cement,low,low,True,full_text_repeated_terms
+IS 10388: 1982,cement,,low,high,True,non_product_family_link
+IS 1038: 1983,,window,low,high,True,title_scope_or_summary
+IS 10394: 1982,,timber,low,high,True,title_scope_or_summary
+IS 10451: 1983,,door,low,high,True,title_scope_or_summary
+IS 10521: 1983,,gate,low,high,True,title_scope_or_summary
+IS 10701: 1983,,board,low,high,True,title_scope_or_summary
+IS 10772: 1983,,,low,high,True,non_product_family_link
+IS 1077: 1992,,brick,low,high,True,title_scope_or_summary
+IS 1079: 1994,,steel_sheet,low,high,True,title_scope_or_summary
+IS 10889: 1984,,polyethylene_films_coloured_films,low,medium,True,source_grounded_title_phrase
+IS 110: 1983,,paint,low,high,True,title_scope_or_summary
+IS 11128: 1984,thermal_insulation,thermal_insulation,medium,high,True,title_scope_or_summary
+IS 1120: 1975,screw,screw,high,high,False,unchanged
+IS 11246: 1992,,glass,low,high,True,title_scope_or_summary
+IS 1127: 1970,,stone,low,high,True,title_scope_or_summary
+IS 1128: 1974,tile,tile,high,high,False,unchanged
+IS 11307: 1985,pipe,thermal_insulation,high,high,True,title_scope_or_summary
+IS 11308: 1985,,thermal_insulation,low,high,True,title_scope_or_summary
+IS 1130: 1969,tile,block,high,low,True,full_text_repeated_terms
+IS 11433 (Part 1): 1985,,sealant,low,high,True,title_scope_or_summary
+IS 1148: 1982,,rivet,low,high,True,title_scope_or_summary
+IS 1149: 1982,,rivet,low,high,True,title_scope_or_summary
+IS 11587: 1986,,valve,low,low,True,full_text_repeated_terms
+IS 1161: 1998,pipe,pipe,high,high,False,unchanged
+IS 1173: 1978,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 11925: 1986,pipe,,low,high,True,non_product_family_link
+IS 1195: 2002,,aggregate,low,high,True,title_scope_or_summary
+IS 12027: 1987,,cement,low,low,True,full_text_repeated_terms
+IS 12049: 1987,thermal_insulation,board,low,high,True,title_scope_or_summary
+IS 12118 (Part 1): 1987,,sealant,low,high,True,title_scope_or_summary
+IS 12234: 1988,valve,,high,high,True,non_product_family_link
+IS 12269: 1987,cement,cement,high,high,False,unchanged
+IS 1230: 1979,pipe,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 12313: 1988,,steel_sheet,low,high,True,title_scope_or_summary
+IS 12330: 1988,cement,cement,high,high,False,unchanged
+IS 1237: 1980,cement,cement,low,low,False,unchanged
+IS 1239 (Part 1): 2004,pipe,pipe,high,high,False,unchanged
+IS 12406: 2003,,board,low,high,True,title_scope_or_summary
+IS 12427: 2001,bolt,bolt,low,high,True,title_scope_or_summary
+IS 12436: 1988,thermal_insulation,thermal_insulation,low,high,True,title_scope_or_summary
+IS 12440: 1988,,block,low,high,True,title_scope_or_summary
+IS 1254: 1991,,roofing_sheet,low,low,True,full_text_repeated_terms
+IS 12583: 1988,,roofing_sheet,low,high,True,title_scope_or_summary
+IS 12592: 2002,cement,cement,low,high,True,title_scope_or_summary
+IS 12701: 1996,,water_tank,low,high,True,title_scope_or_summary
+IS 12709: 1994,pipe,glass,low,high,True,title_scope_or_summary
+IS 12778: 2004,,steel_section,low,high,True,title_scope_or_summary
+IS 1278: 1972,,rod,low,high,True,title_scope_or_summary
+IS 12817: 1997,,hinge,low,high,True,title_scope_or_summary
+IS 12818: 1992,pipe,pipe,low,high,True,title_scope_or_summary
+IS 12820: 2004,pipe,pipe,low,low,False,unchanged
+IS 12823: 1990,,board,low,high,True,title_scope_or_summary
+IS 12830: 1989,,,low,high,True,non_product_family_link
+IS 1285: 2002,pipe,pipe,low,high,True,title_scope_or_summary
+IS 12866: 1989,,glass,low,high,True,title_scope_or_summary
+IS 12867: 1989,,handrail,low,high,True,title_scope_or_summary
+IS 12894: 2002,,brick,low,high,True,title_scope_or_summary
+IS 12896: 1990,,door,low,high,True,title_scope_or_summary
+IS 1293: 1988,,plug_socket,low,high,True,title_scope_or_summary
+IS 12987: 1991,pipe,pipe,low,low,False,unchanged
+IS 12988: 1991,pipe,pipe,low,high,True,title_scope_or_summary
+IS 12994: 1990,,adhesive,low,high,True,title_scope_or_summary
+IS 13000: 1990,cement,,high,high,True,non_product_family_link
+IS 13008: 1990,cement,cement,low,high,True,title_scope_or_summary
+IS 13026: 1991,,aggregate,low,low,True,full_text_repeated_terms
+IS 13049: 1991,valve,,low,high,True,non_product_family_link
+IS 13114: 1991,valve,valve,low,high,True,title_scope_or_summary
+IS 13204: 1991,pipe,thermal_insulation,low,high,True,title_scope_or_summary
+IS 1322: 1993,,waterproofing_membrane,low,high,True,title_scope_or_summary
+IS 1326: 1992,,timber,low,high,True,title_scope_or_summary
+IS 1328: 1996,,board,low,high,True,title_scope_or_summary
+IS 13317: 1992,tile,tile,high,high,False,unchanged
+IS 13349: 1992,,gate,low,high,True,title_scope_or_summary
+IS 13356: 1992,,water_tank,low,high,True,title_scope_or_summary
+IS 13382: 2004,pipe,pipe,low,high,True,title_scope_or_summary
+IS 1341: 1992,,hinge,low,high,True,title_scope_or_summary
+IS 13592: 1992,pipe,pipe,low,high,True,title_scope_or_summary
+IS 1361: 1978,,window,low,high,True,title_scope_or_summary
+IS 13620: 1993,,coating,low,high,True,title_scope_or_summary
+IS 1363 (Part 1): 2002,,bolt,low,high,True,title_scope_or_summary
+IS 1363 (Part 2): 2002,screw,screw,low,high,True,title_scope_or_summary
+IS 1363 (Part 3): 2002,nut,nut,low,high,True,title_scope_or_summary
+IS 1364 (Part 1): 2002,bolt,bolt,low,high,True,title_scope_or_summary
+IS 1364 (Part 2): 2002,screw,screw,low,low,False,unchanged
+IS 1364 (Part 3): 2002,nut,nut,low,high,True,title_scope_or_summary
+IS 1364 (Part 4): 2003,nut,nut,low,high,True,title_scope_or_summary
+IS 1364 (Part 5): 2002,nut,nut,low,high,True,title_scope_or_summary
+IS 1365: 1978,screw,screw,high,high,False,unchanged
+IS 1366: 2002,screw,screw,low,high,True,title_scope_or_summary
+IS 13753: 1993,tile,tile,high,high,False,unchanged
+IS 13754: 1993,tile,tile,high,high,False,unchanged
+IS 13755: 1993,tile,tile,high,high,False,unchanged
+IS 13756: 1993,tile,tile,high,high,False,unchanged
+IS 13757: 1993,,brick,low,high,True,title_scope_or_summary
+IS 13957: 1994,,board,low,high,True,title_scope_or_summary
+IS 13958: 1994,,board,low,high,True,title_scope_or_summary
+IS 1395: 1982,,electrode,low,high,True,title_scope_or_summary
+IS 13983: 1994,,,low,high,True,non_product_family_link
+IS 13990: 1994,,waterproofing_membrane,low,low,True,full_text_repeated_terms
+IS 14143: 1994,,brick,low,high,True,title_scope_or_summary
+IS 14182: 1994,cement,pipe,low,high,True,title_scope_or_summary
+IS 14201: 1994,,channel,low,high,True,title_scope_or_summary
+IS 14223 (Part 1): 1995,,stone,low,high,True,title_scope_or_summary
+IS 14241: 1995,,channel,low,high,True,title_scope_or_summary
+IS 14268: 1995,,steel_sheet,low,low,True,full_text_repeated_terms
+IS 14276: 1995,cement,cement,high,low,True,full_text_repeated_terms
+IS 14333: 1996,pipe,pipe,high,high,False,unchanged
+IS 14402: 1996,pipe,glass,low,high,True,title_scope_or_summary
+IS 14443: 1997,,glass,low,high,True,title_scope_or_summary
+IS 14587: 1998,,board,low,high,True,title_scope_or_summary
+IS 14588: 1999,,board,low,low,True,full_text_repeated_terms
+IS 14616: 1999,,door,low,low,True,full_text_repeated_terms
+IS 14643: 1999,pipe,pipe,medium,high,True,title_scope_or_summary
+IS 1464: 1992,tile,tile,high,high,False,unchanged
+IS 14695: 1999,,,low,high,True,non_product_family_link
+IS 14735: 1999,pipe_fitting,pipe_fitting,low,high,True,title_scope_or_summary
+IS 14753: 1999,,adhesive,low,low,True,full_text_repeated_terms
+IS 14772: 2000,,,low,medium,True,non_product_family_link
+IS 1478: 1992,tile,tile,high,high,False,unchanged
+IS 14842: 2000,,board,low,high,True,title_scope_or_summary
+IS 14846: 2000,valve,valve,high,high,False,unchanged
+IS 14856: 2000,,glass,low,high,True,title_scope_or_summary
+IS 14862: 2000,cement,cement,high,high,False,unchanged
+IS 14871: 2000,pipe_fitting,pipe_fitting,low,low,False,unchanged
+IS 1489 (Part 1): 1991,cement,cement,high,high,False,unchanged
+IS 1489 (Part 2): 1991,cement,cement,high,high,False,unchanged
+IS 14912: 2001,,door,low,high,True,title_scope_or_summary
+IS 1536: 2001,pipe,pipe,medium,high,True,title_scope_or_summary
+IS 1537: 1976,pipe,pipe,high,high,False,unchanged
+IS 15380: 2003,,door,low,high,True,title_scope_or_summary
+IS 1538: 1993,pipe,pipe_fitting,low,high,True,title_scope_or_summary
+IS 1542: 1992,cement,cement,low,high,True,title_scope_or_summary
+IS 15476: 2004,,roofing_sheet,low,high,True,title_scope_or_summary
+IS 15491: 2004,,board,low,high,True,title_scope_or_summary
+IS 1554 (Part 1): 1988,thermal_insulation,thermal_insulation,low,high,True,title_scope_or_summary
+IS 1566: 1982,,wire_fabric,low,high,True,title_scope_or_summary
+IS 1580: 1991,,waterproofing_membrane,low,high,True,title_scope_or_summary
+IS 1592: 2003,pipe,pipe,low,high,True,title_scope_or_summary
+IS 1626 (Part 1): 1994,cement,pipe_fitting,high,high,True,title_scope_or_summary
+IS 1626 (Part 2): 1994,cement,pipe_fitting,high,high,True,title_scope_or_summary
+IS 1626: 1984,cement,pipe_fitting,high,high,True,title_scope_or_summary
+IS 1658: 1977,thermal_insulation,board,low,high,True,title_scope_or_summary
+IS 1659: 2004,,board,low,high,True,title_scope_or_summary
+IS 1700: 1973,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 1701: 1960,valve,valve,high,high,False,unchanged
+IS 1703: 2000,pipe_fitting,valve,high,high,True,title_scope_or_summary
+IS 1711: 1984,,washer,low,low,True,full_text_repeated_terms
+IS 1726: 1991,,coating,low,low,True,full_text_repeated_terms
+IS 1730: 1989,,flats_structural_engineering_purposes,low,medium,True,source_grounded_title_phrase
+IS 1732: 1989,,rivet,low,high,True,title_scope_or_summary
+IS 1785 (Part 2): 1983,pipe,pipe,low,high,True,title_scope_or_summary
+IS 1785 (Part I): 1983,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 1786: 1985,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 1795: 1982,,pipe,low,low,True,full_text_repeated_terms
+IS 1823: 1980,,door,low,high,True,title_scope_or_summary
+IS 1826: 1961,,window,low,high,True,title_scope_or_summary
+IS 1834: 1984,,sealant,low,low,True,full_text_repeated_terms
+IS 1838 (Part 2): 1984,,paint,low,low,True,full_text_repeated_terms
+IS 1863: 1979,,rolled_steel_bulb_flats,low,medium,True,source_grounded_title_phrase
+IS 1879: 1987,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 190: 1991,,timber,low,high,True,title_scope_or_summary
+IS 1929: 1982,,rivet,low,high,True,title_scope_or_summary
+IS 1948: 1961,pipe_fitting,window,low,high,True,title_scope_or_summary
+IS 1949: 1961,,window,low,high,True,title_scope_or_summary
+IS 1977: 1996,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 2002: 1979,pipe,pipe_fitting,low,high,True,title_scope_or_summary
+IS 2016: 1967,washer,washer,high,high,False,unchanged
+IS 2036: 1995,,thermal_insulation,low,low,True,full_text_repeated_terms
+IS 204 (Part 1): 1991,bolt,bolt,high,high,False,unchanged
+IS 204 (Part 2): 1992,bolt,bolt,high,high,False,unchanged
+IS 2046: 1995,,glass,low,low,True,full_text_repeated_terms
+IS 205: 1992,,hinge,low,high,True,title_scope_or_summary
+IS 2062: 1999,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 206: 1992,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 207: 1964,,door,low,high,True,title_scope_or_summary
+IS 2086: 1993,,thermal_insulation,low,low,True,full_text_repeated_terms
+IS 208: 1996,,door,low,high,True,title_scope_or_summary
+IS 2090: 1983,,used_in_prestressed_concrete,low,medium,True,source_grounded_title_phrase
+IS 2095 (Part 1): 1996,,board,low,high,True,title_scope_or_summary
+IS 2095 (Part 3): 1996,,board,low,low,True,full_text_repeated_terms
+IS 2096: 1992,cement,cement,high,high,False,unchanged
+IS 2098: 1997,cement,board,high,low,True,full_text_repeated_terms
+IS 2104: 1981,,pipe,low,low,True,full_text_repeated_terms
+IS 2116: 1980,,stone,low,high,True,title_scope_or_summary
+IS 212: 1983,,crude_coal_tar_use,low,medium,True,source_grounded_title_phrase
+IS 2140: 1978,,aggregate,low,low,True,full_text_repeated_terms
+IS 2155: 1982,,rivet,low,high,True,title_scope_or_summary
+IS 215: 1995,,waterproofing_membrane,low,low,True,full_text_repeated_terms
+IS 216: 1961,,timber,low,low,True,full_text_repeated_terms
+IS 2180: 1988,,brick,low,high,True,title_scope_or_summary
+IS 2185 (Part 1): 1979,,block,low,high,True,title_scope_or_summary
+IS 2185 (Part 2): 1983,,block,low,high,True,title_scope_or_summary
+IS 2185 (Part 3): 1984,thermal_insulation,block,low,high,True,title_scope_or_summary
+IS 218: 1983,,use_as_wood_preservatives,low,medium,True,source_grounded_title_phrase
+IS 2191 (Part 1): 1983,,door,low,high,True,title_scope_or_summary
+IS 2191 (Part 2): 1983,,door,low,high,True,title_scope_or_summary
+IS 2202 (Part 1): 1999,,door,low,high,True,title_scope_or_summary
+IS 2202 (Part 2): 1983,,door,low,high,True,title_scope_or_summary
+IS 2209: 1976,,bolt,low,low,True,full_text_repeated_terms
+IS 2222: 1991,,brick,low,high,True,title_scope_or_summary
+IS 2314: 1986,,steel_sheet,low,high,True,title_scope_or_summary
+IS 2326: 1987,,pipe,low,low,True,full_text_repeated_terms
+IS 2365: 1977,,ropes_lifts_elevators_hoists,low,medium,True,source_grounded_title_phrase
+IS 2372: 2004,,timber,low,high,True,title_scope_or_summary
+IS 2373: 1981,,latch,low,low,True,full_text_repeated_terms
+IS 2412: 1975,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 2501: 1995,pipe,pipe,high,high,False,unchanged
+IS 2508: 1984,,low_density_polythylene_films,low,medium,True,source_grounded_title_phrase
+IS 2525: 1982,,aluminium_aluminium_alloys_wire,low,medium,True,source_grounded_title_phrase
+IS 2547 (Part 1): 1976,,board,low,low,True,full_text_repeated_terms
+IS 2547 (Part 2): 1976,,aggregate,low,high,True,title_scope_or_summary
+IS 2548 (Part 1): 1996,,bolt,low,low,True,full_text_repeated_terms
+IS 2548 (Part 2): 1996,,bolt,low,low,True,full_text_repeated_terms
+IS 2556 (Part 1): 1994,,,low,medium,True,non_product_family_link
+IS 2556 (Part 14): 1994,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 2556 (Part 2): 1994,,vitreous_sanitary_appliances,low,medium,True,source_grounded_title_phrase
+IS 2556 (Part 4): 1994,,bolt,low,low,True,full_text_repeated_terms
+IS 2556 (Part 9): 1994,,vitreous_sanitary_appliances,low,medium,True,source_grounded_title_phrase
+IS 2585: 1968,bolt,nut,low,low,True,full_text_repeated_terms
+IS 2645: 2003,cement,cement,high,low,True,full_text_repeated_terms
+IS 2676: 1981,,aluminium_alloys_sheet_strip,low,medium,True,source_grounded_title_phrase
+IS 2677: 1979,,plates_hot_rolled_sheets,low,medium,True,source_grounded_title_phrase
+IS 2678: 1987,pipe,pipe,low,high,True,title_scope_or_summary
+IS 2681: 1993,bolt,door,high,high,True,title_scope_or_summary
+IS 2686: 1977,,aggregate,low,high,True,title_scope_or_summary
+IS 2687: 1991,nut,nut,high,high,False,unchanged
+IS 2690 (Part 1): 1993,tile,tile,high,high,False,unchanged
+IS 2690 (Part 2): 1992,tile,tile,high,high,False,unchanged
+IS 2691: 1988,,brick,low,high,True,title_scope_or_summary
+IS 2692: 1989,screw,screw,low,high,True,title_scope_or_summary
+IS 269: 1989,cement,cement,high,high,False,unchanged
+IS 2721: 1979,pipe_fitting,pipe_fitting,low,high,True,title_scope_or_summary
+IS 277: 2003,,steel_sheet,low,high,True,title_scope_or_summary
+IS 278: 1978,,coating,low,low,True,full_text_repeated_terms
+IS 280: 1978,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 281: 1991,bolt,door,high,high,True,title_scope_or_summary
+IS 2835: 1987,,glass,low,high,True,title_scope_or_summary
+IS 2849: 1983,,block,low,high,True,title_scope_or_summary
+IS 2907: 1998,,rivet,low,high,True,title_scope_or_summary
+IS 2963: 1979,pipe_fitting,pipe_fitting,high,low,True,full_text_repeated_terms
+IS 2998: 1982,,rivet,low,high,True,title_scope_or_summary
+IS 3004: 1979,,plug_socket,low,high,True,title_scope_or_summary
+IS 3006: 1979,pipe,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 3037: 1986,,waterproofing_membrane,low,high,True,title_scope_or_summary
+IS 3063: 1994,bolt,washer,low,low,True,full_text_repeated_terms
+IS 3068: 1986,,brick,low,low,True,full_text_repeated_terms
+IS 3076: 1985,pipe,pipe,high,high,False,unchanged
+IS 3087: 1985,,board,low,high,True,title_scope_or_summary
+IS 3097: 1980,,board,low,high,True,title_scope_or_summary
+IS 3115: 1992,,block,low,high,True,title_scope_or_summary
+IS 3117: 2004,,cement,low,low,True,full_text_repeated_terms
+IS 3121: 1981,screw,screw,high,high,False,unchanged
+IS 3129: 1985,,board,low,high,True,title_scope_or_summary
+IS 3182: 1986,,brick,low,low,True,full_text_repeated_terms
+IS 3308: 1981,,thermal_insulation,low,low,True,full_text_repeated_terms
+IS 3311: 1979,pipe_fitting,plug_socket,low,low,True,full_text_repeated_terms
+IS 3316: 1974,,stone,low,high,True,title_scope_or_summary
+IS 3337: 1978,,timber,low,low,True,full_text_repeated_terms
+IS 3348: 1965,thermal_insulation,board,high,high,True,title_scope_or_summary
+IS 3367: 1993,tile,tile,high,high,False,unchanged
+IS 3384: 1986,,waterproofing_membrane,low,high,True,title_scope_or_summary
+IS 3419: 1989,pipe_fitting,,high,high,True,non_product_family_link
+IS 3438: 1994,,glass,low,high,True,title_scope_or_summary
+IS 3443: 1980,,crane_rail_section,low,medium,True,source_grounded_title_phrase
+IS 3461: 1980,tile,tile,high,high,False,unchanged
+IS 3462: 1986,,tile,low,low,True,full_text_repeated_terms
+IS 3466: 1988,cement,cement,high,high,False,unchanged
+IS 3468: 1991,pipe,nut,low,low,True,full_text_repeated_terms
+IS 3478: 1966,,,low,high,True,non_product_family_link
+IS 3480: 1966,,,low,medium,True,non_product_family_link
+IS 3489: 1985,,steel_sheet,low,low,True,full_text_repeated_terms
+IS 3502: 1994,,pipe,low,low,True,full_text_repeated_terms
+IS 3564: 1995,,door,low,high,True,title_scope_or_summary
+IS 3583: 1988,,brick,low,high,True,title_scope_or_summary
+IS 3589: 2001,pipe,pipe,low,high,True,title_scope_or_summary
+IS 3620: 1979,,block,low,low,True,full_text_repeated_terms
+IS 3622: 1977,tile,tile,high,high,False,unchanged
+IS 3629: 1986,,timber,low,high,True,title_scope_or_summary
+IS 362: 1991,,hinge,low,high,True,title_scope_or_summary
+IS 363: 1993,,hasps_staples,low,medium,True,source_grounded_title_phrase
+IS 364: 1993,,window,low,low,True,full_text_repeated_terms
+IS 3677: 1985,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 3709: 1966,cement,window,high,high,True,title_scope_or_summary
+IS 3731: 1985,,timber,low,low,True,full_text_repeated_terms
+IS 3757: 1985,bolt,bolt,high,high,False,unchanged
+IS 3818: 1992,,hinge,low,high,True,title_scope_or_summary
+IS 3828: 1966,,window,low,high,True,title_scope_or_summary
+IS 3837: 1976,pipe,plug_socket,low,low,True,full_text_repeated_terms
+IS 383: 1970,,aggregate,low,high,True,title_scope_or_summary
+IS 3843: 1995,,hinge,low,high,True,title_scope_or_summary
+IS 3847: 1992,,latch,low,high,True,title_scope_or_summary
+IS 3854: 1997,,,low,medium,True,non_product_family_link
+IS 3908: 1986,,rod,low,low,True,full_text_repeated_terms
+IS 3909: 1986,,rod,low,low,True,full_text_repeated_terms
+IS 3921: 1985,,channel,low,high,True,title_scope_or_summary
+IS 3951 (Part 1): 1975,tile,tile,high,low,True,full_text_repeated_terms
+IS 3951 (Part 2): 1975,tile,tile,high,high,False,unchanged
+IS 3952: 1988,,brick,low,high,True,title_scope_or_summary
+IS 3954: 1991,,channel,low,high,True,title_scope_or_summary
+IS 3964: 1980,,light_rails,low,medium,True,source_grounded_title_phrase
+IS 3989: 1984,pipe,pipe_fitting,low,high,True,title_scope_or_summary
+IS 399: 1963,,timber,low,high,True,title_scope_or_summary
+IS 4021: 1995,,window,low,high,True,title_scope_or_summary
+IS 404 (Part 1): 1993,pipe,pipe,high,high,False,unchanged
+IS 407: 1981,pipe,pipe,high,high,False,unchanged
+IS 4098: 1983,,cement,low,high,True,title_scope_or_summary
+IS 412: 1975,,steel_sheet,low,high,True,title_scope_or_summary
+IS 4139: 1989,,brick,low,high,True,title_scope_or_summary
+IS 4160: 1967,,plug_socket,low,high,True,title_scope_or_summary
+IS 419: 1967,,,low,high,True,non_product_family_link
+IS 423: 1961,,,low,high,True,non_product_family_link
+IS 4270: 2001,pipe,pipe,high,high,False,unchanged
+IS 432 (Part 1): 1982,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 432 (Part II): 1982,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 4346: 1982,washer,washer,low,high,True,title_scope_or_summary
+IS 4350: 1967,pipe,pipe,high,high,False,unchanged
+IS 4351: 2003,,door,low,high,True,title_scope_or_summary
+IS 4457: 1982,,tile,low,high,True,title_scope_or_summary
+IS 452: 1973,,door,low,high,True,title_scope_or_summary
+IS 453: 1993,,hinge,low,high,True,title_scope_or_summary
+IS 454: 1994,,bitumen_from_waxy_crude,low,medium,True,source_grounded_title_phrase
+IS 455: 1989,cement,cement,high,high,False,unchanged
+IS 458: 2003,pipe,pipe,high,high,False,unchanged
+IS 459: 1992,cement,cement,low,high,True,title_scope_or_summary
+IS 4615: 1968,,plug_socket,low,low,True,full_text_repeated_terms
+IS 4621: 1975,bolt,bolt,high,high,False,unchanged
+IS 4649: 1968,pipe_fitting,,low,high,True,non_product_family_link
+IS 4671: 1984,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 4762: 1984,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 4832 (Part 1): 1969,,,low,low,False,unchanged
+IS 4832 (Part 2): 1969,tile,tile,low,low,False,unchanged
+IS 4832 (Part 3): 1968,tile,tile,low,low,False,unchanged
+IS 4860: 1968,,brick,low,high,True,title_scope_or_summary
+IS 4885: 1988,,brick,low,high,True,title_scope_or_summary
+IS 4891: 1988,,timber,low,high,True,title_scope_or_summary
+IS 4895: 1985,,timber,low,low,True,full_text_repeated_terms
+IS 4923: 1997,,steel_section,low,high,True,title_scope_or_summary
+IS 4948: 2002,,wire_fabric,low,high,True,title_scope_or_summary
+IS 4962: 1968,pipe_fitting,door,low,high,True,title_scope_or_summary
+IS 4972: 1968,,electrode,low,high,True,title_scope_or_summary
+IS 4984: 1995,pipe,pipe,high,high,False,unchanged
+IS 4985: 2000,pipe,pipe,high,high,False,unchanged
+IS 4990: 1993,,board,low,high,True,title_scope_or_summary
+IS 4992: 1975,,door,low,high,True,title_scope_or_summary
+IS 4996: 1984,,reinforced_concrete_fence_posts,low,medium,True,source_grounded_title_phrase
+IS 513: 1994,,steel_sheet,low,high,True,title_scope_or_summary
+IS 5187: 1972,bolt,bolt,high,high,False,unchanged
+IS 5219: 1969,,sink,low,low,True,full_text_repeated_terms
+IS 5246: 2000,,timber,low,high,True,title_scope_or_summary
+IS 5312 (Part 1): 2004,valve,valve,low,low,False,unchanged
+IS 5312 (Part 2): 1986,valve,door,low,low,True,full_text_repeated_terms
+IS 5317: 2002,,aggregate,low,low,True,full_text_repeated_terms
+IS 5369: 1975,washer,washer,high,high,False,unchanged
+IS 5372: 1975,washer,washer,high,low,True,full_text_repeated_terms
+IS 5373: 1969,washer,bolt,high,low,True,full_text_repeated_terms
+IS 5374: 1975,washer,washer,high,high,False,unchanged
+IS 5382: 1985,pipe,pipe,low,low,False,unchanged
+IS 5384: 1985,,rod,low,low,True,full_text_repeated_terms
+IS 5437: 1994,,glass,low,high,True,title_scope_or_summary
+IS 5455: 1969,,nut,low,low,True,full_text_repeated_terms
+IS 5504: 1997,pipe,pipe,high,high,False,unchanged
+IS 5509: 2000,,board,low,high,True,title_scope_or_summary
+IS 5511: 1991,,electrode,low,high,True,title_scope_or_summary
+IS 5531: 1988,cement,pipe,high,low,True,full_text_repeated_terms
+IS 5539: 1969,,board,low,high,True,title_scope_or_summary
+IS 5624: 1993,bolt,bolt,high,high,False,unchanged
+IS 5751: 1984,,block,low,high,True,title_scope_or_summary
+IS 5758: 1984,,channel,low,high,True,title_scope_or_summary
+IS 5779: 1986,,brick,low,high,True,title_scope_or_summary
+IS 5820: 1970,,w_length_width_t,low,medium,True,source_grounded_title_phrase
+IS 5871: 1987,,aggregate,low,low,True,full_text_repeated_terms
+IS 5897: 1985,,rod,low,high,True,title_scope_or_summary
+IS 5898: 1970,,rod,low,high,True,title_scope_or_summary
+IS 5899: 1970,,latch,low,high,True,title_scope_or_summary
+IS 5930: 1970,,latch,low,high,True,title_scope_or_summary
+IS 5961: 1970,,coating,low,low,True,full_text_repeated_terms
+IS 6003: 1983,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 6006: 1983,,relieved_strand_prestressed_concrete,low,medium,True,source_grounded_title_phrase
+IS 6056: 1970,,timber,low,high,True,title_scope_or_summary
+IS 6072: 1971,,cement,low,low,True,full_text_repeated_terms
+IS 6073: 1971,,cement,low,low,True,full_text_repeated_terms
+IS 6113: 1970,bolt,bolt,low,high,True,title_scope_or_summary
+IS 6163: 1978,pipe,pipe,medium,high,True,title_scope_or_summary
+IS 6165: 1992,,brick,low,high,True,title_scope_or_summary
+IS 6198: 1992,,door,low,high,True,title_scope_or_summary
+IS 6248: 1979,,door,low,high,True,title_scope_or_summary
+IS 6250: 1981,tile,,high,high,True,non_product_family_link
+IS 6286: 1971,pipe,pipe,high,high,False,unchanged
+IS 6307: 1985,,rigid_pvc_sheets,low,medium,True,source_grounded_title_phrase
+IS 6315: 1992,,door,low,high,True,title_scope_or_summary
+IS 6318: 1971,,fastener,low,high,True,title_scope_or_summary
+IS 6343: 1982,,door,low,high,True,title_scope_or_summary
+IS 638: 1979,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 6418: 1971,,bolt,low,low,True,full_text_repeated_terms
+IS 6445: 1985,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 6452: 1989,cement,cement,high,high,False,unchanged
+IS 651: 1992,pipe,pipe_fitting,low,high,True,title_scope_or_summary
+IS 6523: 1983,,door,low,low,True,full_text_repeated_terms
+IS 6538: 1971,,plug_socket,low,high,True,title_scope_or_summary
+IS 653: 1992,tile,tile,high,high,False,unchanged
+IS 654: 1992,tile,tile,high,high,False,unchanged
+IS 6560: 1996,,rod,low,high,True,title_scope_or_summary
+IS 6579: 1981,,aggregate,low,high,True,title_scope_or_summary
+IS 6598: 1972,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 6607: 1972,,door,low,high,True,title_scope_or_summary
+IS 6610: 1972,washer,washer,high,high,False,unchanged
+IS 6623: 2004,nut,nut,high,high,False,unchanged
+IS 6639: 1972,bolt,bolt,high,high,False,unchanged
+IS 6649: 1985,washer,bolt,high,low,True,full_text_repeated_terms
+IS 6733: 1972,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 6736: 1972,screw,screw,low,high,True,title_scope_or_summary
+IS 6739: 1972,screw,screw,high,high,False,unchanged
+IS 6760: 1972,screw,screw,high,high,False,unchanged
+IS 6908: 1991,pipe,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 6909: 1990,cement,cement,high,high,False,unchanged
+IS 694: 1990,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 702: 1988,,industrial_bitumen,low,medium,True,source_grounded_title_phrase
+IS 7098 (Part 1): 1988,,thermal_insulation,low,low,True,full_text_repeated_terms
+IS 712: 1984,,building_limes,low,medium,True,source_grounded_title_phrase
+IS 7181: 1986,pipe,pipe,low,high,True,title_scope_or_summary
+IS 7193: 1974,,glass,low,high,True,title_scope_or_summary
+IS 7196: 1974,,door,low,low,True,full_text_repeated_terms
+IS 7197: 1974,,door,low,high,True,title_scope_or_summary
+IS 7226: 1974,,steel_strip,low,high,True,title_scope_or_summary
+IS 7231: 1994,,pipe,low,low,True,full_text_repeated_terms
+IS 723: 1972,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 724: 1964,screw,screw,low,high,True,title_scope_or_summary
+IS 725: 1961,,coating,low,low,True,full_text_repeated_terms
+IS 7280: 1974,,paint,low,low,True,full_text_repeated_terms
+IS 7308: 1999,,timber,low,high,True,title_scope_or_summary
+IS 730: 1978,bolt,bolt,high,low,True,full_text_repeated_terms
+IS 7316: 1974,,board,low,high,True,title_scope_or_summary
+IS 7319: 1974,pipe,pipe,high,high,False,unchanged
+IS 7322: 1985,valve,,low,high,True,non_product_family_link
+IS 733: 1983,,rod,low,high,True,title_scope_or_summary
+IS 736: 1986,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 737: 1986,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 738: 1994,pipe,pipe,low,high,True,title_scope_or_summary
+IS 739: 1992,,rivet,low,low,True,full_text_repeated_terms
+IS 73: 1992,,paving_bitumen,low,medium,True,source_grounded_title_phrase
+IS 740: 1977,,rivet,low,high,True,title_scope_or_summary
+IS 7452: 1990,,window,low,high,True,title_scope_or_summary
+IS 7509: 1993,cement,thermal_insulation,high,high,True,title_scope_or_summary
+IS 7534: 1985,bolt,bolt,high,high,False,unchanged
+IS 7540: 1974,bolt,bolt,low,low,False,unchanged
+IS 7556: 1988,,burnt_clay_jallies,low,medium,True,source_grounded_title_phrase
+IS 771 (Part 1): 1979,,,low,medium,True,non_product_family_link
+IS 771 (Part 2): 1985,,sink,low,high,True,title_scope_or_summary
+IS 771 (Part 5): 1979,,clay_appliances_shower_trays,low,medium,True,source_grounded_title_phrase
+IS 771 (Part 7): 1981,,sink,low,high,True,title_scope_or_summary
+IS 772: 1973,,window,low,low,True,full_text_repeated_terms
+IS 773: 1988,,pipe,low,low,True,full_text_repeated_terms
+IS 774: 2004,pipe,pipe,low,high,True,title_scope_or_summary
+IS 775: 1970,,sink,low,high,True,title_scope_or_summary
+IS 778: 1984,valve,valve,high,high,False,unchanged
+IS 779: 1994,,,low,medium,True,non_product_family_link
+IS 781: 1984,valve,valve,low,low,False,unchanged
+IS 782: 1978,,,low,low,False,unchanged
+IS 7834 (Part 2): 1987,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 7834 (Part 3): 1987,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 7834 (Part 4): 1987,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 7834 (Part 5): 1987,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 7834 (Part 6): 1987,pipe_fitting,pipe_fitting,high,high,False,unchanged
+IS 7834 (Part 7): 1987,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 7834 (Part 8): 1987,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 7834: 1987,pipe_fitting,,high,high,True,non_product_family_link
+IS 784: 2001,pipe,pipe,high,high,False,unchanged
+IS 7887: 1992,,rod,low,high,True,title_scope_or_summary
+IS 8008 (Part 1): 2003,pipe,,low,high,True,non_product_family_link
+IS 8008 (Part 2): 2003,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 8008 (Part 3): 2003,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 8008 (Part 4): 2003,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 8008 (Part 5): 2003,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 8008 (Part 6): 2003,pipe,pipe,medium,high,True,title_scope_or_summary
+IS 8008 (Part 7): 2003,pipe_fitting,,low,high,True,non_product_family_link
+IS 8033: 1976,washer,washer,high,high,False,unchanged
+IS 8041: 1990,cement,cement,high,high,False,unchanged
+IS 8042: 1989,cement,cement,high,high,False,unchanged
+IS 8043: 1991,cement,cement,high,high,False,unchanged
+IS 804: 1967,,water_tank,low,high,True,title_scope_or_summary
+IS 8081: 1976,,steel_section,low,high,True,title_scope_or_summary
+IS 808: 1989,,channel,low,high,True,title_scope_or_summary
+IS 809: 1992,,waterproofing_membrane,low,low,True,full_text_repeated_terms
+IS 8112: 1989,cement,cement,high,high,False,unchanged
+IS 811: 1987,,steel_section,low,high,True,title_scope_or_summary
+IS 814: 2004,,electrode,low,high,True,title_scope_or_summary
+IS 8154: 1993,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 8183: 1993,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 8272: 1984,,board,low,high,True,title_scope_or_summary
+IS 8329: 2000,pipe,,low,high,True,non_product_family_link
+IS 8360 (Part 1): 1977,pipe,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 8360 (Part 2): 1977,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 8360 (Part 3): 1977,,pipe_fitting,low,high,True,title_scope_or_summary
+IS 8363: 1976,,electrode,low,high,True,title_scope_or_summary
+IS 8374: 1977,,aggregate,low,low,True,full_text_repeated_terms
+IS 8412: 1977,bolt,bolt,high,high,False,unchanged
+IS 849: 1994,,adhesive,low,low,True,full_text_repeated_terms
+IS 8500: 1991,,pipe_fitting,low,low,True,full_text_repeated_terms
+IS 851: 1978,,adhesive,low,high,True,title_scope_or_summary
+IS 852: 1994,,board,low,low,True,full_text_repeated_terms
+IS 8718: 1978,,sink,low,high,True,title_scope_or_summary
+IS 8727: 1978,,,low,medium,True,non_product_family_link
+IS 875 (Part 1): 1987,,,low,medium,True,non_product_family_link
+IS 8760: 1978,,door,low,high,True,title_scope_or_summary
+IS 876: 1992,,timber,low,high,True,title_scope_or_summary
+IS 8794: 1988,pipe,pipe,low,low,False,unchanged
+IS 8828: 1996,,,low,medium,True,non_product_family_link
+IS 8869: 1978,washer,washer,high,low,True,full_text_repeated_terms
+IS 8870: 1978,cement,pipe_fitting,high,high,True,title_scope_or_summary
+IS 8887: 2004,,cement,low,low,True,full_text_repeated_terms
+IS 8931: 1993,valve,valve,low,high,True,title_scope_or_summary
+IS 9106: 1979,,hinge,low,high,True,title_scope_or_summary
+IS 9131: 1979,,door,low,high,True,title_scope_or_summary
+IS 9142: 1979,,aggregate,low,high,True,title_scope_or_summary
+IS 9197: 1979,,aggregate,low,low,True,full_text_repeated_terms
+IS 9338: 1984,valve,valve,high,high,False,unchanged
+IS 9394: 1979,,stone,low,high,True,title_scope_or_summary
+IS 9428: 1993,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 9510: 1980,tile,aggregate,low,high,True,title_scope_or_summary
+IS 9523: 2000,pipe,pipe_fitting,low,high,True,title_scope_or_summary
+IS 9537 (Part 1): 1980,,,low,medium,True,non_product_family_link
+IS 9537 (Part 3): 1983,,,low,high,True,non_product_family_link
+IS 9537 (Part 4): 1983,,,low,low,False,unchanged
+IS 9537 (Part 5): 2000,,,low,medium,True,non_product_family_link
+IS 9537 (Part II): 1981,,,low,high,True,non_product_family_link
+IS 9627: 1980,pipe,pipe,low,low,False,unchanged
+IS 9739: 1981,valve,valve,high,high,False,unchanged
+IS 9742: 1993,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 9743: 1990,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 9758: 1981,valve,valve,low,high,True,title_scope_or_summary
+IS 9762: 1994,valve,valve,medium,high,True,title_scope_or_summary
+IS 9763: 2000,valve,valve,high,high,False,unchanged
+IS 9842: 1994,thermal_insulation,thermal_insulation,high,high,False,unchanged
+IS 9893: 1981,,block,low,high,True,title_scope_or_summary
+IS 9912: 1981,pipe,coating,low,high,True,title_scope_or_summary
+IS 9968 (Part 1): 1998,thermal_insulation,thermal_insulation,low,low,False,unchanged

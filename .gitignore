@@ -1,0 +1,16 @@
+
+# Local ML models / checkpoints
+Backend/models/
+*.safetensors
+*.pt
+*.pth
+
+# Pytest / evaluation temporary directories
+Backend/.pytest_tmp_*/
+Backend/codex_pytest_tmp*/
+Backend/.pytest_cache/
+
+# Python virtual environments
+Backend/.venv-gpu/
+Backend/.venv/
+.venv/

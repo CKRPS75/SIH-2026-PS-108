@@ -1,0 +1,413 @@
+{
+  "adhesive": {
+    "family": "adhesive",
+    "aliases": [
+      "adhesive",
+      "adhesives"
+    ]
+  },
+  "admixture": {
+    "family": "concrete_material",
+    "aliases": [
+      "accelerating admixture",
+      "admixture",
+      "admixtures"
+    ]
+  },
+  "aggregate": {
+    "family": "concrete_material",
+    "aliases": [
+      "aggregate",
+      "aggregates"
+    ]
+  },
+  "block": {
+    "family": "masonry_unit",
+    "aliases": [
+      "block",
+      "blocks",
+      "concrete block",
+      "masonry block",
+      "masonry blocks"
+    ]
+  },
+  "board": {
+    "family": "wood_board",
+    "aliases": [
+      "bamboo mat board",
+      "board",
+      "boards",
+      "coir board",
+      "fiber board",
+      "fibre board",
+      "fibre boards",
+      "particle board",
+      "plywood",
+      "veneered decorative plywood"
+    ]
+  },
+  "bolt": {
+    "family": "fastener",
+    "aliases": [
+      "bolt",
+      "bolts",
+      "hexagon head bolt",
+      "structural bolt"
+    ]
+  },
+  "brick": {
+    "family": "masonry_unit",
+    "aliases": [
+      "brick",
+      "bricks",
+      "building brick",
+      "building bricks",
+      "fly ash brick"
+    ]
+  },
+  "cement": {
+    "family": "cement",
+    "aliases": [
+      "cement",
+      "lime pozzolana mixture",
+      "lime-pozzolana concrete",
+      "masonry cement",
+      "ordinary portland cement",
+      "portland cement",
+      "pozzolana cement",
+      "slag cement",
+      "white cement"
+    ]
+  },
+  "channel": {
+    "family": "precast_concrete",
+    "aliases": [
+      "channel",
+      "channels",
+      "l-panel"
+    ]
+  },
+  "coating": {
+    "family": "coating",
+    "aliases": [
+      "coating",
+      "coatings",
+      "epoxy coating",
+      "water repellent"
+    ]
+  },
+  "door": {
+    "family": "door_window",
+    "aliases": [
+      "door",
+      "door frame",
+      "door frames",
+      "doors",
+      "shutter",
+      "shutters"
+    ]
+  },
+  "electrode": {
+    "family": "welding",
+    "aliases": [
+      "electrode",
+      "electrodes"
+    ]
+  },
+  "fastener": {
+    "family": "fastener",
+    "aliases": [
+      "fastener",
+      "fasteners",
+      "stay",
+      "stays"
+    ]
+  },
+  "gate": {
+    "family": "hardware",
+    "aliases": [
+      "collapsible gate",
+      "gate",
+      "gates"
+    ]
+  },
+  "glass": {
+    "family": "glass",
+    "aliases": [
+      "glass",
+      "glass fiber",
+      "glass fibre",
+      "glass fibre reinforced"
+    ]
+  },
+  "handrail": {
+    "family": "hardware",
+    "aliases": [
+      "hand rail",
+      "hand rail cover",
+      "handrail"
+    ]
+  },
+  "hinge": {
+    "family": "hardware",
+    "aliases": [
+      "butt hinge",
+      "butt hinges",
+      "hinge",
+      "hinges"
+    ]
+  },
+  "latch": {
+    "family": "hardware",
+    "aliases": [
+      "latch",
+      "latches",
+      "rim latch",
+      "rim latches"
+    ]
+  },
+  "nut": {
+    "family": "fastener",
+    "aliases": [
+      "hexagon nut",
+      "nut",
+      "nuts"
+    ]
+  },
+  "paint": {
+    "family": "coating",
+    "aliases": [
+      "filler",
+      "paint",
+      "paints"
+    ]
+  },
+  "pipe": {
+    "family": "pipe_water_drainage",
+    "aliases": [
+      "casing pipe",
+      "grp pipe",
+      "hdpe pipe",
+      "pipe",
+      "pipes",
+      "pvc pipe",
+      "steel tube",
+      "tube",
+      "tubes",
+      "water well tube"
+    ]
+  },
+  "pipe_fitting": {
+    "family": "pipe_water_drainage",
+    "aliases": [
+      "bend",
+      "bends",
+      "coupler",
+      "couplers",
+      "fitting",
+      "fittings",
+      "pipe fitting",
+      "pipe fittings",
+      "reducer",
+      "reducers",
+      "saddle piece",
+      "saddle pieces",
+      "socket",
+      "sockets",
+      "tee",
+      "tees"
+    ]
+  },
+  "plug_socket": {
+    "family": "electrical",
+    "aliases": [
+      "plug",
+      "plugs",
+      "socket",
+      "socket-outlet"
+    ]
+  },
+  "rivet": {
+    "family": "fastener",
+    "aliases": [
+      "rivet",
+      "rivet bar",
+      "rivet bars",
+      "rivets"
+    ]
+  },
+  "rod": {
+    "family": "welding",
+    "aliases": [
+      "filler rod",
+      "filler rods",
+      "rod",
+      "rods"
+    ]
+  },
+  "roofing_sheet": {
+    "family": "roofing",
+    "aliases": [
+      "corrugated sheet",
+      "corrugated sheets",
+      "roofing sheet",
+      "roofing sheets"
+    ]
+  },
+  "screw": {
+    "family": "fastener",
+    "aliases": [
+      "countersunk screw",
+      "hexagon head screw",
+      "screw",
+      "screws"
+    ]
+  },
+  "sealant": {
+    "family": "sealant",
+    "aliases": [
+      "polysulphide",
+      "sealant",
+      "sealants",
+      "sealing compound"
+    ]
+  },
+  "sink": {
+    "family": "sanitary_fixture",
+    "aliases": [
+      "sink",
+      "sinks"
+    ]
+  },
+  "steel_section": {
+    "family": "steel",
+    "aliases": [
+      "flange steel section",
+      "steel section",
+      "steel sections",
+      "tee bar",
+      "tee bars"
+    ]
+  },
+  "steel_sheet": {
+    "family": "steel",
+    "aliases": [
+      "carbon steel sheet",
+      "carbon steel sheets",
+      "steel sheet",
+      "steel sheets"
+    ]
+  },
+  "steel_strip": {
+    "family": "steel",
+    "aliases": [
+      "carbon steel strip",
+      "carbon steel strips",
+      "steel strip",
+      "steel strips"
+    ]
+  },
+  "stone": {
+    "family": "stone",
+    "aliases": [
+      "building stone",
+      "polished stone",
+      "stone",
+      "stones"
+    ]
+  },
+  "thermal_insulation": {
+    "family": "thermal_insulation",
+    "aliases": [
+      "calcium silicate insulation",
+      "expanded polystyrene",
+      "fibrous pipe insulation",
+      "insulation",
+      "mineral wool",
+      "rock wool",
+      "slag wool",
+      "thermal insulating",
+      "thermal insulation"
+    ]
+  },
+  "tile": {
+    "family": "tile",
+    "aliases": [
+      "clay roofing country tile",
+      "flooring tile",
+      "hollow clay tile",
+      "lining tile",
+      "ridge tile",
+      "roofing tile",
+      "terracing tile",
+      "tile",
+      "tiles"
+    ]
+  },
+  "timber": {
+    "family": "timber",
+    "aliases": [
+      "sawn timber",
+      "timber",
+      "timbers",
+      "wooden sleeper",
+      "wooden sleepers"
+    ]
+  },
+  "valve": {
+    "family": "water_valve",
+    "aliases": [
+      "air relief valve",
+      "check valve",
+      "non return valve",
+      "non-return valve",
+      "pressure reducing valve",
+      "reflux valve",
+      "sluice valve",
+      "stop valve",
+      "valve",
+      "valves"
+    ]
+  },
+  "washer": {
+    "family": "fastener",
+    "aliases": [
+      "plain washer",
+      "washer",
+      "washers"
+    ]
+  },
+  "water_tank": {
+    "family": "water_storage",
+    "aliases": [
+      "tank",
+      "water tank",
+      "water tanks"
+    ]
+  },
+  "waterproofing_membrane": {
+    "family": "waterproofing",
+    "aliases": [
+      "bitumen felt",
+      "bitumen felts",
+      "water-proofing",
+      "waterproofing"
+    ]
+  },
+  "window": {
+    "family": "door_window",
+    "aliases": [
+      "ventilator",
+      "ventilators",
+      "window",
+      "windows"
+    ]
+  },
+  "wire_fabric": {
+    "family": "reinforcement",
+    "aliases": [
+      "steel wire fabric",
+      "wire fabric"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "corpus_records": 558,
+  "safe_for_training": 362,
+  "review_required": 163,
+  "search_only": 33,
+  "positive_queries": 1639,
+  "train_queries": 1393,
+  "validation_queries": 246,
+  "train_pairs": 6965,
+  "validation_pairs": 1230,
+  "standards_with_queries": 359,
+  "standards_without_queries": 199,
+  "query_count_distribution_per_standard": {
+    "min": 1,
+    "median": 4,
+    "max": 11
+  },
+  "negative_category_counts": {
+    "same_product_or_family": 3376,
+    "close_variant": 1541,
+    "cross_product_lexical_trap": 1639
+  },
+  "negative_mining_source_counts": {
+    "metadata_similarity": 6556
+  },
+  "ambiguous_queries": 39,
+  "exact_frozen_leakage": 0,
+  "near_frozen_leakage": 0,
+  "train_validation_overlap": 0,
+  "unknown_standard_references": 0,
+  "positive_as_negative_violations": 0,
+  "non_safe_positive_violations": 0,
+  "ambiguous_supervised_violations": 0,
+  "eligibility_reason_counts": {
+    "grounded product/subject metadata supports supervised positive": 362,
+    "low_confidence_metadata": 133,
+    "source_grounded_fallback_requires_review": 27,
+    "non-product standard kept searchable but not used as procurement positive": 33,
+    "missing_scope_no_reliable_reconstruction": 2,
+    "unsafe quality flags: duplicate_source_records": 1
+  },
+  "rejected_exact_frozen_leakage_candidates": 2,
+  "rejected_near_frozen_leakage_candidates": 0
+}

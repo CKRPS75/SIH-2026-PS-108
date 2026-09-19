@@ -14,9 +14,12 @@ from sqlalchemy import (
     Uuid,
     func,
 )
+from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.db.base import Base
+
+json_storage_type = JSON().with_variant(JSONB, "postgresql")
 
 
 class Standard(Base):
@@ -39,6 +42,43 @@ class Standard(Base):
     keywords: Mapped[list[str]] = mapped_column(JSON, default=list)
     source_url: Mapped[str | None] = mapped_column(Text)
     last_verified_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    source_dataset: Mapped[str | None] = mapped_column(String(255), index=True)
+    source_record_id: Mapped[str | None] = mapped_column(String(255), index=True)
+    source_revision: Mapped[str | None] = mapped_column(String(255))
+    source_page_start: Mapped[int | None] = mapped_column(Integer)
+    source_page_end: Mapped[int | None] = mapped_column(Integer)
+    standard_code_norm: Mapped[str | None] = mapped_column(String(255), index=True)
+    page_start: Mapped[int | None] = mapped_column(Integer)
+    page_end: Mapped[int | None] = mapped_column(Integer)
+    scope: Mapped[str | None] = mapped_column(Text)
+    lifecycle_status: Mapped[str | None] = mapped_column(String(64))
+    lifecycle_status_note: Mapped[str | None] = mapped_column(Text)
+    retrieval_text: Mapped[str | None] = mapped_column(Text)
+    normalized_retrieval_text: Mapped[str | None] = mapped_column(Text)
+    full_text: Mapped[str | None] = mapped_column(Text)
+    standard_kind: Mapped[str | None] = mapped_column(String(64), index=True)
+    canonical_product: Mapped[str | None] = mapped_column(String(128), index=True)
+    product_subtype: Mapped[str | None] = mapped_column(String(128), index=True)
+    primary_subject: Mapped[str | None] = mapped_column(String(512), index=True)
+    product_aliases: Mapped[list[str]] = mapped_column(json_storage_type, default=list)
+    material: Mapped[str | None] = mapped_column(String(255), index=True)
+    application: Mapped[str | None] = mapped_column(String(255), index=True)
+    function: Mapped[str | None] = mapped_column(String(255), index=True)
+    applies_to_product_families: Mapped[list[str]] = mapped_column(json_storage_type, default=list)
+    product_confidence: Mapped[str | None] = mapped_column(String(32), index=True)
+    metadata_confidence: Mapped[str | None] = mapped_column(String(32), index=True)
+    metadata_evidence: Mapped[dict[str, Any]] = mapped_column(json_storage_type, default=dict)
+    metadata_derivation_method: Mapped[str | None] = mapped_column(String(128))
+    review_required: Mapped[bool] = mapped_column(default=False, index=True)
+    review_reason: Mapped[str | None] = mapped_column(Text)
+    raw_title: Mapped[str | None] = mapped_column(Text)
+    canonical_title_expanded: Mapped[str | None] = mapped_column(Text)
+    title_evidence: Mapped[list[str]] = mapped_column(json_storage_type, default=list)
+    scope_reconstructed: Mapped[str | None] = mapped_column(Text)
+    scope_source: Mapped[str | None] = mapped_column(String(128))
+    family: Mapped[str | None] = mapped_column(String(128), index=True)
+    source_provenance: Mapped[list[dict[str, Any]]] = mapped_column(json_storage_type, default=list)
+    search_profile: Mapped[dict[str, Any]] = mapped_column(json_storage_type, default=dict)
 
 
 class StandardAmendment(Base):

@@ -1,0 +1,1431 @@
+{
+  "total_records": 559,
+  "unique_normalized_standard_codes": 558,
+  "duplicate_codes": {
+    "IS2116:1980": 2
+  },
+  "missing_is_code": 0,
+  "missing_is_code_norm": 0,
+  "missing_title": 0,
+  "missing_scope": 2,
+  "missing_full_text": 0,
+  "empty_full_text": 0,
+  "suspiciously_short_records": 0,
+  "suspiciously_long_records": 0,
+  "possible_merged_record_artifacts": 174,
+  "duplicate_title_code_combinations": {
+    "IS2116:1980|sand for masonry mortars": 2
+  },
+  "page_range_anomalies": 0,
+  "known_duplicate_is_2116_records": 0,
+  "issues": [
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 3,
+      "is_code": "IS 9142: 1979",
+      "is_code_norm": "IS9142:1979",
+      "title": "ARTIFICIAL LIGHTWEIGHT AGGREGATES FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 5,
+      "is_code": "IS 455: 1989",
+      "is_code_norm": "IS455:1989",
+      "title": "PORTLAND SLAG CEMENT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 6,
+      "is_code": "IS 1489 (Part 1): 1991",
+      "is_code_norm": "IS1489(PART 1):1991",
+      "title": "PORTLAND POZZOLANA CEMENT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 7,
+      "is_code": "IS 1489 (Part 2): 1991",
+      "is_code_norm": "IS1489(PART 2):1991",
+      "title": "PORTLAND POZZOLANA CEMENT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 11,
+      "is_code": "IS 8041: 1990",
+      "is_code_norm": "IS8041:1990",
+      "title": "RAPID HARDENING PORTLAND CEMENT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 12,
+      "is_code": "IS 8042: 1989",
+      "is_code_norm": "IS8042:1989",
+      "title": "WHITE  PORTLAND CEMENT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 15,
+      "is_code": "IS 12269: 1987",
+      "is_code_norm": "IS12269:1987",
+      "title": "53 GRADE ORDINARY PORTLAND CEMENT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 32,
+      "is_code": "IS 13990: 1994",
+      "is_code_norm": "IS13990:1994",
+      "title": "PRECAST REINFORCED CONCRETE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 33,
+      "is_code": "IS 14143: 1994",
+      "is_code_norm": "IS14143:1994",
+      "title": "PREFABRICATED BRICK PANEL AND PARTIALLY",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 35,
+      "is_code": "IS 14241: 1995",
+      "is_code_norm": "IS14241:1995",
+      "title": "PRECAST REINFORCED CONCRETE  L\u2013PANEL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 37,
+      "is_code": "IS 1592: 2003",
+      "is_code_norm": "IS1592:2003",
+      "title": "ASBESTOS CEMENT PRESSURE PIPES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 40,
+      "is_code": "IS 1626: 1984",
+      "is_code_norm": "IS1626:1984",
+      "title": "ASBESTOS CEMENT BUILDING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 41,
+      "is_code": "IS 2096: 1992",
+      "is_code_norm": "IS2096:1992",
+      "title": "ASBESTOS CEMENT FLAT SHEETS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 45,
+      "is_code": "IS 9627: 1980",
+      "is_code_norm": "IS9627:1980",
+      "title": "ASBESTOS CEMENT PRESSURE PIPES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 49,
+      "is_code": "IS 784: 2001",
+      "is_code_norm": "IS784:2001",
+      "title": "PRESTRESSED CONCRETE PIPES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 52,
+      "is_code": "IS 7322: 1985",
+      "is_code_norm": "IS7322:1985",
+      "title": "SPECIALS FOR STEEL CYLINDER REINFORCED",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 53,
+      "is_code": "IS 1834: 1984",
+      "is_code_norm": "IS1834:1984",
+      "title": "HOT APPLIED SEALING COMPOUNDS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 56,
+      "is_code": "IS 12118 (Part 1): 1987",
+      "is_code_norm": "IS12118(PART 1):1987",
+      "title": "TWO-PARTS POLYSULPHIDE BASED",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 59,
+      "is_code": "IS 3068: 1986",
+      "is_code_norm": "IS3068:1986",
+      "title": "BROKEN BRICK (BURNT CLAY) COARSE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 61,
+      "is_code": "IS 3182: 1986",
+      "is_code_norm": "IS3182:1986",
+      "title": "BROKEN BRICK (BURNT CLAY)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 62,
+      "is_code": "IS 4098: 1983",
+      "is_code_norm": "IS4098:1983",
+      "title": "LIME POZZOLANA MIXTURE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 64,
+      "is_code": "IS 10360: 1982",
+      "is_code_norm": "IS10360:1982",
+      "title": "LIME-POZZOLANA CONCRETE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 65,
+      "is_code": "IS 10772: 1983",
+      "is_code_norm": "IS10772:1983",
+      "title": "QUICK SETTING LIME POZZOLANA MIXTURE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 66,
+      "is_code": "IS 12894: 2002",
+      "is_code_norm": "IS12894:2002",
+      "title": "PULVERIZED FUEL ASH-LIME BRICKS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 68,
+      "is_code": "IS 1128: 1974",
+      "is_code_norm": "IS1128:1974",
+      "title": "LIMESTONE (SLAB AND  TILES)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 70,
+      "is_code": "IS 3316: 1974",
+      "is_code_norm": "IS3316:1974",
+      "title": "STRUCTURAL GRANITE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 72,
+      "is_code": "IS 3622: 1977",
+      "is_code_norm": "IS3622:1977",
+      "title": "SANDSTONE (SLABS AND TILES)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 73,
+      "is_code": "IS 6250: 1981",
+      "is_code_norm": "IS6250:1981",
+      "title": "ROOFING SLATE TILES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 74,
+      "is_code": "IS 6579: 1981",
+      "is_code_norm": "IS6579:1981",
+      "title": "COARSE AGGREGATE FOR WATER BOUND",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 75,
+      "is_code": "IS 9394: 1979",
+      "is_code_norm": "IS9394:1979",
+      "title": "STONE LINTELS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 76,
+      "is_code": "IS 14223 (Part 1): 1995",
+      "is_code_norm": "IS14223(PART 1):1995",
+      "title": "POLISHED BUILDING STONES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 77,
+      "is_code": "IS 1077: 1992",
+      "is_code_norm": "IS1077:1992",
+      "title": "COMMON BURNT CLAY BUILDING BRICKS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 85,
+      "is_code": "IS 6165: 1992",
+      "is_code_norm": "IS6165:1992",
+      "title": "DIMENSIONS FOR SPECIAL SHAPES OF CLAY",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 86,
+      "is_code": "IS 13757: 1993",
+      "is_code_norm": "IS13757:1993",
+      "title": "BURNT CLAY FLY ASH BUILDING BRICKS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "missing_scope",
+      "source_index": 96,
+      "is_code": "IS 13317: 1992",
+      "is_code_norm": "IS13317:1992",
+      "title": "CLAY ROOFING COUNTRY TILES,",
+      "detail": "scope is missing"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 96,
+      "is_code": "IS 13317: 1992",
+      "is_code_norm": "IS13317:1992",
+      "title": "CLAY ROOFING COUNTRY TILES,",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 97,
+      "is_code": "IS 2095 (Part 1): 1996",
+      "is_code_norm": "IS2095(PART 1):1996",
+      "title": "GYPSUM PLASTER BOARDS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 98,
+      "is_code": "IS 2095 (Part 3): 1996",
+      "is_code_norm": "IS2095(PART 3):1996",
+      "title": "GYPSUM PLASTER BOARDS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 102,
+      "is_code": "IS 8272: 1984",
+      "is_code_norm": "IS8272:1984",
+      "title": "GYPSUM PLASTER FOR USE IN THE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 104,
+      "is_code": "IS 12896: 1990",
+      "is_code_norm": "IS12896:1990",
+      "title": "INDIAN TIMBERS FOR DOOR AND",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 107,
+      "is_code": "IS 1326: 1992",
+      "is_code_norm": "IS1326:1992",
+      "title": "NON-CONIFEROUS  SAWN TIMBER",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 110,
+      "is_code": "IS 3629: 1986",
+      "is_code_norm": "IS3629:1986",
+      "title": "STRUCTURAL TIMBER IN BUILDINGS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 117,
+      "is_code": "IS 10394: 1982",
+      "is_code_norm": "IS10394:1982",
+      "title": "WOODEN SLEEPERS FOR  RAILWAY TRACK",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 118,
+      "is_code": "IS 73: 1992",
+      "is_code_norm": "IS73:1992",
+      "title": "PAVING BITUMEN",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 119,
+      "is_code": "IS 212: 1983",
+      "is_code_norm": "IS212:1983",
+      "title": "CRUDE COAL TAR FOR GENERAL USE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 120,
+      "is_code": "IS 215: 1995",
+      "is_code_norm": "IS215:1995",
+      "title": "ROAD TAR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 121,
+      "is_code": "IS 216: 1961",
+      "is_code_norm": "IS216:1961",
+      "title": "COAL TAR PITCH",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 122,
+      "is_code": "IS 218: 1983",
+      "is_code_norm": "IS218:1983",
+      "title": "CREOSOTE OIL FOR USE AS WOOD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 123,
+      "is_code": "IS 454: 1994",
+      "is_code_norm": "IS454:1994",
+      "title": "CUTBACK  BITUMEN FROM WAXY CRUDE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 124,
+      "is_code": "IS 702: 1988",
+      "is_code_norm": "IS702:1988",
+      "title": "INDUSTRIAL BITUMEN",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 127,
+      "is_code": "IS 9912: 1981",
+      "is_code_norm": "IS9912:1981",
+      "title": "COAL TAR BASED COATING MATERIALS AND",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 129,
+      "is_code": "IS 1542: 1992",
+      "is_code_norm": "IS1542:1992",
+      "title": "SAND FOR  PLASTER",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 136,
+      "is_code": "IS 13753: 1993",
+      "is_code_norm": "IS13753:1993",
+      "title": "DUST\u2013 PRESSED CERAMIC TILES WITH WATER",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 137,
+      "is_code": "IS 13754: 1993",
+      "is_code_norm": "IS13754:1993",
+      "title": "DUST \u2013 PRESSED CERAMIC TILES WITH",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 138,
+      "is_code": "IS 13755: 1993",
+      "is_code_norm": "IS13755:1993",
+      "title": "DUST\u2013 PRESSED CERAMIC TILES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 139,
+      "is_code": "IS 13756: 1993",
+      "is_code_norm": "IS13756:1993",
+      "title": "DUST \u2013 PRESSED CERAMIC TILES WITH LOW",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 142,
+      "is_code": "IS 1195: 2002",
+      "is_code_norm": "IS1195:2002",
+      "title": "BITUMEN MASTIC FOR FLOORING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 143,
+      "is_code": "IS 5317: 2002",
+      "is_code_norm": "IS5317:2002",
+      "title": "BITUMEN MASTIC FOR  BRIDGE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 144,
+      "is_code": "IS 8374: 1977",
+      "is_code_norm": "IS8374:1977",
+      "title": "BITUMEN MASTIC, ANTI-STATIC AND",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 145,
+      "is_code": "IS 9510: 1980",
+      "is_code_norm": "IS9510:1980",
+      "title": "BITUMEN MASTIC, ACID \u2013 RESISTING GRADE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 147,
+      "is_code": "IS 13026: 1991",
+      "is_code_norm": "IS13026:1991",
+      "title": "BITUMEN MASTIC FOR FLOORING FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 148,
+      "is_code": "IS 653: 1992",
+      "is_code_norm": "IS653:1992",
+      "title": "LINOLEUM SHEET  AND TILES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 150,
+      "is_code": "IS 3462: 1986",
+      "is_code_norm": "IS3462:1986",
+      "title": "UNBACKED FLEXIBLE PVC FLOORING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 151,
+      "is_code": "IS 9197: 1979",
+      "is_code_norm": "IS9197:1979",
+      "title": "EPOXY RESIN, HARDENERS AND EPOXY",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 152,
+      "is_code": "IS 12866: 1989",
+      "is_code_norm": "IS12866:1989",
+      "title": "PLASTIC TRANSLUCENT SHEET MADE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 154,
+      "is_code": "IS 809: 1992",
+      "is_code_norm": "IS809:1992",
+      "title": "RUBBER FLOORING MATERIALS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 156,
+      "is_code": "IS 1580: 1991",
+      "is_code_norm": "IS1580:1991",
+      "title": "BITUMINOUS COMPOUNDS FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 158,
+      "is_code": "IS 3037: 1986",
+      "is_code_norm": "IS3037:1986",
+      "title": "BITUMEN MASTIC FOR USE IN",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 159,
+      "is_code": "IS 3384: 1986",
+      "is_code_norm": "IS3384:1986",
+      "title": "BITUMEN PRIMER FOR USE IN",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 160,
+      "is_code": "IS 5871: 1987",
+      "is_code_norm": "IS5871:1987",
+      "title": "BITUMEN MASTIC FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 163,
+      "is_code": "IS 14695: 1999",
+      "is_code_norm": "IS14695:1999",
+      "title": "GLASS FIBRE BASE COAL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 176,
+      "is_code": "IS 2501: 1995",
+      "is_code_norm": "IS2501:1995",
+      "title": "SOLID DRAWN COPPER TUBES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "missing_scope",
+      "source_index": 182,
+      "is_code": "IS 1879: 1987",
+      "is_code_norm": "IS1879:1987",
+      "title": "MALLEABLE CAST IRON PIPE FITTINGS",
+      "detail": "scope is missing"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 189,
+      "is_code": "IS 8329: 2000",
+      "is_code_norm": "IS8329:2000",
+      "title": "CENTRIFUGALLY CAST (SPUN) DUCTILE IRON",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 192,
+      "is_code": "IS 10292: 1988",
+      "is_code_norm": "IS10292:1988",
+      "title": "DIMENSIONAL REQUIREMENTS FOR RUBBER",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 195,
+      "is_code": "IS 12987: 1991",
+      "is_code_norm": "IS12987:1991",
+      "title": "CAST IRON DETACHABLE JOINTS FOR USE WITH",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 201,
+      "is_code": "IS 4984: 1995",
+      "is_code_norm": "IS4984:1995",
+      "title": "HIGH DENSITY POLYETHYLENE PIPES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 202,
+      "is_code": "IS 4985: 2000",
+      "is_code_norm": "IS4985:2000",
+      "title": "UNPLASTICIZED PVC PIPES FOR POTABLE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 210,
+      "is_code": "IS 7834 (Part 8): 1987",
+      "is_code_norm": "IS7834(PART 8):1987",
+      "title": "- INJECTION MOULDED PVC SOCKET",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 211,
+      "is_code": "IS 8008 (Part 1): 2003",
+      "is_code_norm": "IS8008(PART 1):2003",
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 217,
+      "is_code": "IS 8008 (Part 7): 2003",
+      "is_code_norm": "IS8008(PART 7):2003",
+      "title": "INJECTION MOULDED HIGH DENSITY",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 218,
+      "is_code": "IS 8360 (Part 1): 1977",
+      "is_code_norm": "IS8360(PART 1):1977",
+      "title": "FABRICATED HIGH DENSITY",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 220,
+      "is_code": "IS 8360 (Part 3): 1977",
+      "is_code_norm": "IS8360(PART 3):1977",
+      "title": "FABRICATED HIGH  DENSITY POLYETHYLENE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 222,
+      "is_code": "IS 10124 (Part 3): 1988",
+      "is_code_norm": "IS10124(PART 3):1988",
+      "title": "FABRICATED PVC FITTINGS FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 233,
+      "is_code": "IS 12709: 1994",
+      "is_code_norm": "IS12709:1994",
+      "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 234,
+      "is_code": "IS 12818: 1992",
+      "is_code_norm": "IS12818:1992",
+      "title": "UNPLASTICISED   PVC SCREEN AND CASING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 235,
+      "is_code": "IS 13592: 1992",
+      "is_code_norm": "IS13592:1992",
+      "title": "UNPLASTILIZED POLYVINYL CHLORIDE (UPVC)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 237,
+      "is_code": "IS 14402: 1996",
+      "is_code_norm": "IS14402:1996",
+      "title": "GLASS FIBRE REINFORCED PLASTICS (GRP)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 238,
+      "is_code": "IS 14735: 1999",
+      "is_code_norm": "IS14735:1999",
+      "title": "UNPLASTICIZED POLYVINYL CHLORIDE (UPVC)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 239,
+      "is_code": "IS 1239 (Part 1): 2004",
+      "is_code_norm": "IS1239(PART 1):2004",
+      "title": "STEEL TUBES, TUBULARS ANDOTHER",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 240,
+      "is_code": "IS 3589: 2001",
+      "is_code_norm": "IS3589:2001",
+      "title": "SEAMLESS OR ELECTRICALLY WELDED STEEL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 242,
+      "is_code": "IS 5504: 1997",
+      "is_code_norm": "IS5504:1997",
+      "title": "SPIRAL WELDED PIPES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 247,
+      "is_code": "IS 771 (Part 2): 1985",
+      "is_code_norm": "IS771(PART 2):1985",
+      "title": "GLAZED FIRE \u2013 CLAY SANITARY",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 274,
+      "is_code": "IS 3311: 1979",
+      "is_code_norm": "IS3311:1979",
+      "title": "WASTE PLUG AND ITS ACCESSORIES FOR SINKS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 291,
+      "is_code": "IS 2373: 1981",
+      "is_code_norm": "IS2373:1981",
+      "title": "WATER METERS (BULK TYPE)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 335,
+      "is_code": "IS 14912: 2001",
+      "is_code_norm": "IS14912:2001",
+      "title": "DOOR CLOSERS - CONCEALED TYPE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 339,
+      "is_code": "IS 852: 1994",
+      "is_code_norm": "IS852:1994",
+      "title": "ANIMAL GLUE FOR GENERAL WOOD-WORKING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 340,
+      "is_code": "IS 1328: 1996",
+      "is_code_norm": "IS1328:1996",
+      "title": "VENEERED DECORATIVE PLYWOOD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 341,
+      "is_code": "IS 4990: 1993",
+      "is_code_norm": "IS4990:1993",
+      "title": "PLYWOOD FOR CONCRETE SHUTTERING WORK",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 342,
+      "is_code": "IS 5509: 2000",
+      "is_code_norm": "IS5509:2000",
+      "title": "FIRE RETARDANT PLYWOOD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 343,
+      "is_code": "IS 5539: 1969",
+      "is_code_norm": "IS5539:1969",
+      "title": "PRESERVATIVE TREATED PLYWOOD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 345,
+      "is_code": "IS 10701: 1983",
+      "is_code_norm": "IS10701:1983",
+      "title": "STRUCTURAL PLYWOOD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 346,
+      "is_code": "IS 13957: 1994",
+      "is_code_norm": "IS13957:1994",
+      "title": "METAL FACED PLYWOOD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 348,
+      "is_code": "IS 1659: 2004",
+      "is_code_norm": "IS1659:2004",
+      "title": "BLOCK BOARDS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 356,
+      "is_code": "IS 12823: 1990",
+      "is_code_norm": "IS12823:1990",
+      "title": "WOOD PRODUCTS-PRELAMINATED",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 357,
+      "is_code": "IS 14276: 1995",
+      "is_code_norm": "IS14276:1995",
+      "title": "CEMENT BONDED PARTICLE BOARDS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 358,
+      "is_code": "IS 14587: 1998",
+      "is_code_norm": "IS14587:1998",
+      "title": "PRE-LAMINATED MEDIUM DENSITY FIBRE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 359,
+      "is_code": "IS 14616: 1999",
+      "is_code_norm": "IS14616:1999",
+      "title": "LAMINATED  VENEER LUMBER",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 361,
+      "is_code": "IS 14588: 1999",
+      "is_code_norm": "IS14588:1999",
+      "title": "BAMBOO MAT-VEENER COMPOSITE FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 362,
+      "is_code": "IS 14842: 2000",
+      "is_code_norm": "IS14842:2000",
+      "title": "COIR VENEER BOARD FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 364,
+      "is_code": "IS 15491: 2004",
+      "is_code_norm": "IS15491:2004",
+      "title": "MEDIUM DENSITY COIRBOARDS FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 365,
+      "is_code": "IS 1003 (Part 1): 2003",
+      "is_code_norm": "IS1003(PART 1):2003",
+      "title": "TIMBER PANELLED AND GLAZED",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 369,
+      "is_code": "IS 2191 (Part 2): 1983",
+      "is_code_norm": "IS2191(PART 2):1983",
+      "title": "WOODEN FLUSH DOOR SHUTTERS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 372,
+      "is_code": "IS 4021: 1995",
+      "is_code_norm": "IS4021:1995",
+      "title": "TIMBER DOOR, WINDOW AND VENTILATOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 376,
+      "is_code": "IS 1038: 1983",
+      "is_code_norm": "IS1038:1983",
+      "title": "STEEL DOOR, WINDOWS AND VENTILATORS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 385,
+      "is_code": "IS 14856: 2000",
+      "is_code_norm": "IS14856:2000",
+      "title": "GLASS FIBRE REINFORCED PLASTIC (GRP)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 387,
+      "is_code": "IS 432 (Part 1): 1982",
+      "is_code_norm": "IS432(PART 1):1982",
+      "title": "MILD STEEL AND MEDIUM  TENSILE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 389,
+      "is_code": "IS 1566: 1982",
+      "is_code_norm": "IS1566:1982",
+      "title": "HARD - DRAWN  STEEL WIRE FABRIC FOR CON-",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 398,
+      "is_code": "IS 14268: 1995",
+      "is_code_norm": "IS14268:1995",
+      "title": "UNCOATED STRESS RELIEVED  LOW",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 399,
+      "is_code": "IS 1977: 1996",
+      "is_code_norm": "IS1977:1996",
+      "title": "LOW TENSILE STRUCTURAL  STEEL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 400,
+      "is_code": "IS 2062: 1999",
+      "is_code_norm": "IS2062:1999",
+      "title": "STEEL FOR GENERAL STRUCTURAL PURPOSES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 402,
+      "is_code": "IS 11587: 1986",
+      "is_code_norm": "IS11587:1986",
+      "title": "STRUCTURAL WEATHER RESISTANCE STEELS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 403,
+      "is_code": "IS 277: 2003",
+      "is_code_norm": "IS277:2003",
+      "title": "GALVANIZED STEEL SHEETS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 405,
+      "is_code": "IS 513: 1994",
+      "is_code_norm": "IS513:1994",
+      "title": "COLD ROLLED LOW CARBON STEEL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 406,
+      "is_code": "IS 1079: 1994",
+      "is_code_norm": "IS1079:1994",
+      "title": "HOT ROLLED CARBON STEEL SHEETS AND STRIPS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 407,
+      "is_code": "IS 3502: 1994",
+      "is_code_norm": "IS3502:1994",
+      "title": "STEEL CHEQUERED PLATES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 411,
+      "is_code": "IS 1149: 1982",
+      "is_code_norm": "IS1149:1982",
+      "title": "HIGH  TENSILE STEEL RIVETS BARS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 412,
+      "is_code": "IS 1161: 1998",
+      "is_code_norm": "IS1161:1998",
+      "title": "STEEL  TUBES FOR STRUCTURAL PURPOSES.",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 413,
+      "is_code": "IS 4923: 1997",
+      "is_code_norm": "IS4923:1997",
+      "title": "HOLLOW STEEL SECTIONS  FOR STRUCTURAL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 425,
+      "is_code": "IS 2678: 1987",
+      "is_code_norm": "IS2678:1987",
+      "title": "DIMENSIONS AND  TOLERANCE FOR WROUGHT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 432,
+      "is_code": "IS 811: 1987",
+      "is_code_norm": "IS811:1987",
+      "title": "COLD FORMED LIGHT GAUGE STRUCTURAL STEEL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 436,
+      "is_code": "IS 1863: 1979",
+      "is_code_norm": "IS1863:1979",
+      "title": "ROLLED  STEEL BULB FLATS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 442,
+      "is_code": "IS 12778: 2004",
+      "is_code_norm": "IS12778:2004",
+      "title": "HOT ROLLED PARALLEL FLANGE STEEL SECTION",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 443,
+      "is_code": "IS 814: 2004",
+      "is_code_norm": "IS814:2004",
+      "title": "COVERED ELECTRODES FOR MANUAL METAL ARC",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 451,
+      "is_code": "IS 7280: 1974",
+      "is_code_norm": "IS7280:1974",
+      "title": "BARE WIRE ELECTRODES FOR SUBMERGED ARC",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 452,
+      "is_code": "IS 8363: 1976",
+      "is_code_norm": "IS8363:1976",
+      "title": "BARE WIRE ELECTRODES FOR ELECTROSLAG",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 457,
+      "is_code": "IS 730: 1978",
+      "is_code_norm": "IS730:1978",
+      "title": "HOOK BOLTS FOR CORRUGATED SHEET ROOFING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 472,
+      "is_code": "IS 2585: 1968",
+      "is_code_norm": "IS2585:1968",
+      "title": "BLACK SQUARE BOLTS AND NUTS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 473,
+      "is_code": "IS 2687: 1991",
+      "is_code_norm": "IS2687:1991",
+      "title": "CAP NUTS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 474,
+      "is_code": "IS 2907: 1998",
+      "is_code_norm": "IS2907:1998",
+      "title": "NON-FERROUS RIVETS (1.6 TO 10 mm)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 475,
+      "is_code": "IS 2998: 1982",
+      "is_code_norm": "IS2998:1982",
+      "title": "COLD FORGED STEEL RIVETS FOR COLD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 476,
+      "is_code": "IS 3063: 1994",
+      "is_code_norm": "IS3063:1994",
+      "title": "FASTENERS-SINGLE COIL RECTANGULAR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 477,
+      "is_code": "IS 3121: 1981",
+      "is_code_norm": "IS3121:1981",
+      "title": "RIGGING SCREWS AND STRETCHING SCREWS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 478,
+      "is_code": "IS 3468: 1991",
+      "is_code_norm": "IS3468:1991",
+      "title": "PIPE NUTS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 479,
+      "is_code": "IS 3757: 1985",
+      "is_code_norm": "IS3757:1985",
+      "title": "HIGH STRENGTH STRUCTURAL BOLTS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 485,
+      "is_code": "IS 5624: 1993",
+      "is_code_norm": "IS5624:1993",
+      "title": "FOUNDATION BOLTS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 488,
+      "is_code": "IS 6623: 2004",
+      "is_code_norm": "IS6623:2004",
+      "title": "HIGH STRENGTH STRUCTURAL NUTS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 489,
+      "is_code": "IS 6639: 1972",
+      "is_code_norm": "IS6639:1972",
+      "title": "HEXAGON BOLTS FOR STEEL STRUCTURES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 490,
+      "is_code": "IS 6649: 1985",
+      "is_code_norm": "IS6649:1985",
+      "title": "HARDENED AND TEMPERED WASHERS FOR HIGH",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 495,
+      "is_code": "IS 8033: 1976",
+      "is_code_norm": "IS8033:1976",
+      "title": "WASHERS WITH SQUARE HOLE FOR WOOD",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 498,
+      "is_code": "IS 10238: 2001",
+      "is_code_norm": "IS10238:2001",
+      "title": "FASTENERS \u2013 THREADED STEEL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 499,
+      "is_code": "IS 12427: 2001",
+      "is_code_norm": "IS12427:2001",
+      "title": "FASTENERS \u2013 THREADED STEEL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 500,
+      "is_code": "IS 278: 1978",
+      "is_code_norm": "IS278:1978",
+      "title": "GALVANIZED STEEL BARBED WIRE FOR FENCING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 501,
+      "is_code": "IS 2140: 1978",
+      "is_code_norm": "IS2140:1978",
+      "title": "STRANDED GALVANIZED STEEL WIRE FOR",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 503,
+      "is_code": "IS 2721: 1979",
+      "is_code_norm": "IS2721:1979",
+      "title": "GALVANIZED STEEL CHAIN  LINK FENCE  FABRIC",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 506,
+      "is_code": "IS 5437: 1994",
+      "is_code_norm": "IS5437:1994",
+      "title": "FIGURED, ROLLED AND WIRED GLASS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 508,
+      "is_code": "IS 419: 1967",
+      "is_code_norm": "IS419:1967",
+      "title": "PUTTY, FOR USE ON WINDOW FRAMES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 510,
+      "is_code": "IS 3709: 1966",
+      "is_code_norm": "IS3709:1966",
+      "title": "MASTIC CEMENT FOR BEDDING OF",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 514,
+      "is_code": "IS 7509: 1993",
+      "is_code_norm": "IS7509:1993",
+      "title": "THERMAL INSULATING CEMENT",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 515,
+      "is_code": "IS 8154: 1993",
+      "is_code_norm": "IS8154:1993",
+      "title": "PREORMED CALCIUM SILICATE INSULATION",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 516,
+      "is_code": "IS 8183: 1993",
+      "is_code_norm": "IS8183:1993",
+      "title": "BONDED MINERAL WOOL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 517,
+      "is_code": "IS 9428: 1993",
+      "is_code_norm": "IS9428:1993",
+      "title": "PREFORMED CALCIUM SILICATE INSULATION",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 518,
+      "is_code": "IS 9742: 1993",
+      "is_code_norm": "IS9742:1993",
+      "title": "SPRAYED MINERAL WOOL THERMAL INSULATION",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 519,
+      "is_code": "IS 9743: 1990",
+      "is_code_norm": "IS9743:1990",
+      "title": "THERMAL INSULATION FINISHING CEMENTS",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 520,
+      "is_code": "IS 9842: 1994",
+      "is_code_norm": "IS9842:1994",
+      "title": "PREFORMED FIBROUS PIPE INSULATION",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 521,
+      "is_code": "IS 11128: 1984",
+      "is_code_norm": "IS11128:1984",
+      "title": "SPRAY \u2013 APPLIED HYDRATED CALCIUM SILICATE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 523,
+      "is_code": "IS 11308: 1985",
+      "is_code_norm": "IS11308:1985",
+      "title": "HYDRAULIC SETTING THERMAL INSULATING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 525,
+      "is_code": "IS 13204: 1991",
+      "is_code_norm": "IS13204:1991",
+      "title": "RIGID PHENOLIC FOAM FOR THERMAL",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 527,
+      "is_code": "IS 2046: 1995",
+      "is_code_norm": "IS2046:1995",
+      "title": "DECORATIVE THERMOSETTING SYNTHETIC",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 533,
+      "is_code": "IS 14182: 1994",
+      "is_code_norm": "IS14182:1994",
+      "title": "SOLVENT CEMENT FOR USE WITH UNPLASTICIZED",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 536,
+      "is_code": "IS 14753: 1999",
+      "is_code_norm": "IS14753:1999",
+      "title": "POLYMETHYL METHACRYLATE (PMMA)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 538,
+      "is_code": "IS 1554 (Part 1): 1988",
+      "is_code_norm": "IS1554(PART 1):1988",
+      "title": "PVC INSULATED (HEAVY DUTY)",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 539,
+      "is_code": "IS 7098 (Part 1): 1988",
+      "is_code_norm": "IS7098(PART 1):1988",
+      "title": "CROSSLINKED POLYETHYLENE",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 540,
+      "is_code": "IS 9968 (Part 1): 1998",
+      "is_code_norm": "IS9968(PART 1):1998",
+      "title": "ELASTOMER INSULATED CABLES,",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 543,
+      "is_code": "IS 2412: 1975",
+      "is_code_norm": "IS2412:1975",
+      "title": "LINK CLIPS FOR ELECTRICAL WIRING",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    },
+    {
+      "issue_type": "possible_merged_record_artifact",
+      "source_index": 558,
+      "is_code": "IS 14772: 2000",
+      "is_code_norm": "IS14772:2000",
+      "title": "GENERAL REQUIREMENTS FOR ENCLOSURES",
+      "detail": "text contains repeated IS-code-like references or parser merge markers"
+    }
+  ]
+}

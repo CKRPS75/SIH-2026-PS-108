@@ -8,6 +8,7 @@ from fastapi import FastAPI, Request
 from app.api.v1.health import router as health_router
 from app.api.v1.search import router as search_router
 from app.api.v1.standards import router as standards_router
+from app.api.v1.tenders import router as tenders_router
 from app.core.config import Settings, get_settings
 from app.db.session import Database
 from app.docs import register_docs_routes
@@ -15,6 +16,7 @@ from app.services.clients import Neo4jClientService, QdrantClientService
 from app.services.dependencies import DependencyHealthService
 from app.services.embedding_service import BgeM3EmbeddingService
 from app.services.gemini_query_interpreter import GeminiQueryInterpreter
+from app.services.gemini_tender_extractor import GeminiTenderExtractor
 from app.services.reranker_service import CrossEncoderRerankerService
 
 
@@ -62,6 +64,11 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         cache_ttl_s=resolved_settings.query_interpreter_cache_ttl_s,
         cache_max_size=resolved_settings.query_interpreter_cache_max_size,
     )
+    app.state.tender_extractor = GeminiTenderExtractor(
+        api_key=resolved_settings.gemini_api_key,
+        model_name=resolved_settings.gemini_model,
+        timeout_s=resolved_settings.query_interpreter_timeout_s,
+    )
     app.state.dependencies = DependencyHealthService(
         app.state.database.is_ready,
         app.state.qdrant.is_ready,
@@ -78,6 +85,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     app.include_router(health_router)
     app.include_router(standards_router)
     app.include_router(search_router)
+    app.include_router(tenders_router)
     register_docs_routes(app)
     return app
 

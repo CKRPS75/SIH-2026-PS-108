@@ -7,6 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.core.config import Settings
 from app.services.embedding_service import BgeM3EmbeddingService
 from app.services.gemini_query_interpreter import GeminiQueryInterpreter
+from app.services.gemini_tender_extractor import GeminiTenderExtractor
 from app.services.reranker_service import CrossEncoderRerankerService
 
 
@@ -29,6 +30,10 @@ def get_reranker_service(request: Request) -> CrossEncoderRerankerService:
 
 def get_query_interpreter(request: Request) -> GeminiQueryInterpreter:
     return request.app.state.query_interpreter
+
+
+def get_tender_extractor(request: Request) -> GeminiTenderExtractor:
+    return request.app.state.tender_extractor
 
 
 def get_settings_from_app(request: Request) -> Settings:

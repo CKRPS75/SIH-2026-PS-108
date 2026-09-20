@@ -1,0 +1,506 @@
+{
+  "task": "reranker_fit_audit",
+  "scope": "evaluation_only_no_production_pipeline_changes",
+  "inputs": {
+    "train_pairs": "data\\training\\full_corpus_train_pairs.jsonl",
+    "validation_pairs": "data\\training\\full_corpus_validation_pairs.jsonl",
+    "training_report": "data\\training\\full_corpus_training_report.json",
+    "training_metrics": "models\\standardwise-reranker\\training_metrics.json",
+    "comparison_report": "data\\evaluation\\results\\post_training_partial4_comparison.json",
+    "integrity_report": "data\\evaluation\\results\\evaluation_integrity_audit.md"
+  },
+  "dataset_audit": {
+    "training_report": {
+      "corpus_records": 558,
+      "safe_for_training": 362,
+      "review_required": 163,
+      "search_only": 33,
+      "positive_queries": 1639,
+      "train_queries": 1393,
+      "validation_queries": 246,
+      "train_pairs": 6965,
+      "validation_pairs": 1230,
+      "standards_with_queries": 359,
+      "standards_without_queries": 199,
+      "query_count_distribution_per_standard": {
+        "min": 1,
+        "median": 4,
+        "max": 11
+      },
+      "negative_category_counts": {
+        "same_product_or_family": 3376,
+        "close_variant": 1541,
+        "cross_product_lexical_trap": 1639
+      },
+      "negative_mining_source_counts": {
+        "metadata_similarity": 6556
+      },
+      "ambiguous_queries": 39,
+      "exact_frozen_leakage": 0,
+      "near_frozen_leakage": 0,
+      "train_validation_overlap": 0,
+      "unknown_standard_references": 0,
+      "positive_as_negative_violations": 0,
+      "non_safe_positive_violations": 0,
+      "ambiguous_supervised_violations": 0,
+      "eligibility_reason_counts": {
+        "grounded product/subject metadata supports supervised positive": 362,
+        "low_confidence_metadata": 133,
+        "source_grounded_fallback_requires_review": 27,
+        "non-product standard kept searchable but not used as procurement positive": 33,
+        "missing_scope_no_reliable_reconstruction": 2,
+        "unsafe quality flags: duplicate_source_records": 1
+      },
+      "rejected_exact_frozen_leakage_candidates": 2,
+      "rejected_near_frozen_leakage_candidates": 0
+    },
+    "train_pairs": {
+      "pair_count": 6965,
+      "positive_pair_count": 1393,
+      "negative_pair_count": 5572,
+      "label_counts": {
+        "1": 1393,
+        "0": 5572
+      },
+      "unique_query_ids": 1393,
+      "unique_query_texts": 1393,
+      "unique_positive_standards": 352,
+      "unique_candidate_standards": 507,
+      "negative_category_counts": {
+        "same_product_or_family": 2876,
+        "close_variant": 1303,
+        "cross_product_lexical_trap": 1393
+      },
+      "negative_mining_source_counts": {
+        "metadata_similarity": 5572
+      },
+      "candidates_per_query": {
+        "min": 5,
+        "median": 5,
+        "max": 5
+      }
+    },
+    "validation_pairs": {
+      "pair_count": 1230,
+      "positive_pair_count": 246,
+      "negative_pair_count": 984,
+      "label_counts": {
+        "1": 246,
+        "0": 984
+      },
+      "unique_query_ids": 246,
+      "unique_query_texts": 246,
+      "unique_positive_standards": 165,
+      "unique_candidate_standards": 394,
+      "negative_category_counts": {
+        "same_product_or_family": 500,
+        "close_variant": 238,
+        "cross_product_lexical_trap": 246
+      },
+      "negative_mining_source_counts": {
+        "metadata_similarity": 984
+      },
+      "candidates_per_query": {
+        "min": 5,
+        "median": 5.0,
+        "max": 5
+      }
+    },
+    "evaluation_sets": {
+      "full_corpus_eval": {
+        "query_count": 200,
+        "labeled_query_count": 200,
+        "unique_expected_standards": 200,
+        "unique_products": 10,
+        "families": {
+          "cement": 12,
+          "fastener": 42,
+          "pipe_water_drainage": 51,
+          "thermal_insulation": 15,
+          "tile": 14,
+          "": 50,
+          "water_valve": 16
+        }
+      },
+      "product_aware_holdout": {
+        "query_count": 77,
+        "labeled_query_count": 75,
+        "unique_expected_standards": 75,
+        "unique_products": 10,
+        "families": {
+          "pipe_water_drainage": 28,
+          "thermal_insulation": 3,
+          "fastener": 10,
+          "tile": 15,
+          "water_valve": 5,
+          "cement": 16
+        }
+      },
+      "full_corpus_ambiguous_eval": {
+        "query_count": 3,
+        "labeled_query_count": 0,
+        "unique_expected_standards": 0,
+        "unique_products": 3,
+        "families": {
+          "": 3
+        }
+      }
+    }
+  },
+  "leakage_audit": {
+    "train_validation_query_id_overlap_count": 0,
+    "train_validation_normalized_query_overlap_count": 0,
+    "train_validation_pair_overlap_count": 0,
+    "train_validation_positive_standard_overlap_count": 158,
+    "train_positive_standard_count": 352,
+    "validation_positive_standard_count": 165,
+    "negative_positive_violations_count": 0,
+    "negative_positive_violation_examples": [],
+    "eval_set_leakage": {
+      "full_corpus_eval": {
+        "exact_normalized_query_overlap_with_train": 0,
+        "exact_normalized_query_overlap_examples": [],
+        "near_duplicate_query_count_ge_0_92": 0,
+        "near_duplicate_examples": [],
+        "expected_standard_overlap_with_train_count": 138,
+        "expected_standard_count": 200
+      },
+      "product_aware_holdout": {
+        "exact_normalized_query_overlap_with_train": 0,
+        "exact_normalized_query_overlap_examples": [],
+        "near_duplicate_query_count_ge_0_92": 0,
+        "near_duplicate_examples": [],
+        "expected_standard_overlap_with_train_count": 65,
+        "expected_standard_count": 75
+      },
+      "full_corpus_ambiguous_eval": {
+        "exact_normalized_query_overlap_with_train": 0,
+        "exact_normalized_query_overlap_examples": [],
+        "near_duplicate_query_count_ge_0_92": 0,
+        "near_duplicate_examples": [],
+        "expected_standard_overlap_with_train_count": 0,
+        "expected_standard_count": 0
+      }
+    },
+    "interpretation": "Exact query and pair overlap checks test leakage. Positive-standard overlap is reported as a generalization limitation, not as leakage, because validation appears query-held-out rather than standard-held-out."
+  },
+  "training_curve": {
+    "selection_metric": "validation_mrr, then validation_hit_at_1",
+    "best_epoch": 1,
+    "best_checkpoint_path": "C:\\Users\\barha\\OneDrive\\Documents\\SIH PS 108\\SIH-2026-PS-108\\Backend\\models\\standardwise-reranker\\epoch-1",
+    "best_model_path": "C:\\Users\\barha\\OneDrive\\Documents\\SIH PS 108\\SIH-2026-PS-108\\Backend\\models\\standardwise-reranker\\best",
+    "observed_epoch_count": 2,
+    "epochs": [
+      {
+        "epoch": 1,
+        "train_loss": 0.19434576868012446,
+        "validation_loss": 0.23179181621031206,
+        "validation_hit_at_1": 0.9666666666666667,
+        "validation_hit_at_3": 0.9888888888888889,
+        "validation_hit_at_5": 1.0,
+        "validation_mrr": 0.9805555555555555,
+        "checkpoint_path": "C:\\Users\\barha\\OneDrive\\Documents\\SIH PS 108\\SIH-2026-PS-108\\Backend\\models\\standardwise-reranker\\epoch-1",
+        "checkpoint_exists_in_current_workspace": true,
+        "is_selected_best": true
+      },
+      {
+        "epoch": 2,
+        "train_loss": 0.1958067506297258,
+        "validation_loss": 0.23332227759325272,
+        "validation_hit_at_1": 0.9666666666666667,
+        "validation_hit_at_3": 0.9888888888888889,
+        "validation_hit_at_5": 1.0,
+        "validation_mrr": 0.9805555555555555,
+        "checkpoint_path": "C:\\Users\\barha\\OneDrive\\Documents\\SIH PS 108\\SIH-2026-PS-108\\Backend\\models\\standardwise-reranker\\epoch-2",
+        "checkpoint_exists_in_current_workspace": true,
+        "is_selected_best": false
+      }
+    ],
+    "deltas_first_to_last": {
+      "train_loss_last_minus_first": 0.001460981949601342,
+      "validation_loss_last_minus_first": 0.0015304613829406621,
+      "validation_mrr_last_minus_first": 0.0
+    }
+  },
+  "pretrained_vs_fine_tuned_comparison": {
+    "device": "cuda",
+    "models": {
+      "pretrained_bge_large": {
+        "label": "pretrained BAAI/bge-reranker-large",
+        "path": "models/bge-reranker-large"
+      },
+      "old_head_only": {
+        "label": "old head-only checkpoint",
+        "path": "models/standardwise-reranker/best"
+      },
+      "partial_last4": {
+        "label": "new partial-last-4 checkpoint",
+        "path": "models/full-corpus-reranker-partial4/best"
+      }
+    },
+    "suite_statuses": {
+      "old_39_regression": {
+        "name": "old_39_regression",
+        "status": "INCOMPATIBLE_DATASET",
+        "query_count": 39,
+        "missing_standard_codes": [
+          "IS 14845: 2000"
+        ],
+        "missing_cases": [
+          {
+            "query_id": "old39_38",
+            "query": "cast iron air relief valve for a water main",
+            "expected_standard": "IS 14845: 2000",
+            "canonical_expected_standard": "IS 14845:2000"
+          }
+        ]
+      },
+      "natural_holdout": {
+        "name": "natural_holdout",
+        "status": "COMPATIBLE",
+        "query_count": 5,
+        "missing_standard_codes": [],
+        "missing_cases": []
+      },
+      "unseen_holdout": {
+        "name": "unseen_holdout",
+        "status": "COMPATIBLE",
+        "query_count": 5,
+        "missing_standard_codes": [],
+        "missing_cases": []
+      },
+      "full_200_frozen": {
+        "name": "full_200_frozen",
+        "status": "COMPATIBLE",
+        "query_count": 200,
+        "missing_standard_codes": [],
+        "missing_cases": []
+      },
+      "product_aware_holdout": {
+        "name": "product_aware_holdout",
+        "status": "COMPATIBLE",
+        "query_count": 77,
+        "missing_standard_codes": [],
+        "missing_cases": []
+      },
+      "ambiguous_product_diagnostics": {
+        "name": "ambiguous_product_diagnostics",
+        "status": "COMPATIBLE",
+        "query_count": 3,
+        "missing_standard_codes": [],
+        "missing_cases": []
+      }
+    },
+    "suite_metric_comparison": [
+      {
+        "suite": "natural_holdout",
+        "status": "COMPATIBLE",
+        "scored": true,
+        "query_count": 5,
+        "labeled_query_count": 5,
+        "pretrained_hit_at_1": 2,
+        "fine_tuned_hit_at_1": 2,
+        "hit_at_1_delta": 0,
+        "pretrained_mrr": 0.4666666666666667,
+        "fine_tuned_mrr": 0.4666666666666667,
+        "mrr_delta": 0.0,
+        "candidate_recall_fine_tuned": {
+          "at_20_count": 3,
+          "at_20_rate": 0.6
+        },
+        "fine_tuned_error_counts": {
+          "PASS": 2,
+          "RETRIEVAL_MISS": 2,
+          "MATERIAL_APPLICATION_CONFUSION": 1
+        }
+      },
+      {
+        "suite": "unseen_holdout",
+        "status": "COMPATIBLE",
+        "scored": true,
+        "query_count": 5,
+        "labeled_query_count": 5,
+        "pretrained_hit_at_1": 2,
+        "fine_tuned_hit_at_1": 2,
+        "hit_at_1_delta": 0,
+        "pretrained_mrr": 0.7,
+        "fine_tuned_mrr": 0.7,
+        "mrr_delta": 0.0,
+        "candidate_recall_fine_tuned": {
+          "at_20_count": 5,
+          "at_20_rate": 1.0
+        },
+        "fine_tuned_error_counts": {
+          "FUNCTION_CONFUSION": 1,
+          "PASS": 2,
+          "RERANKER_ERROR": 2
+        }
+      },
+      {
+        "suite": "full_200_frozen",
+        "status": "COMPATIBLE",
+        "scored": true,
+        "query_count": 200,
+        "labeled_query_count": 200,
+        "pretrained_hit_at_1": 195,
+        "fine_tuned_hit_at_1": 195,
+        "hit_at_1_delta": 0,
+        "pretrained_mrr": 0.9851666666666666,
+        "fine_tuned_mrr": 0.9851666666666666,
+        "mrr_delta": 0.0,
+        "candidate_recall_fine_tuned": {
+          "at_20_count": 200,
+          "at_20_rate": 1.0
+        },
+        "fine_tuned_error_counts": {
+          "PASS": 195,
+          "FUNCTION_CONFUSION": 1,
+          "PART_OR_VARIANT_CONFUSION": 1,
+          "RERANKER_ERROR": 2,
+          "MATERIAL_APPLICATION_CONFUSION": 1
+        }
+      },
+      {
+        "suite": "product_aware_holdout",
+        "status": "COMPATIBLE",
+        "scored": true,
+        "query_count": 77,
+        "labeled_query_count": 75,
+        "pretrained_hit_at_1": 73,
+        "fine_tuned_hit_at_1": 73,
+        "hit_at_1_delta": 0,
+        "pretrained_mrr": 0.98,
+        "fine_tuned_mrr": 0.98,
+        "mrr_delta": 0.0,
+        "candidate_recall_fine_tuned": {
+          "at_20_count": 75,
+          "at_20_rate": 1.0
+        },
+        "fine_tuned_error_counts": {
+          "PASS": 73,
+          "RERANKER_ERROR": 2
+        }
+      },
+      {
+        "suite": "ambiguous_product_diagnostics",
+        "status": "COMPATIBLE",
+        "scored": false,
+        "query_count": 3,
+        "labeled_query_count": null,
+        "pretrained_hit_at_1": null,
+        "fine_tuned_hit_at_1": null,
+        "hit_at_1_delta": null,
+        "pretrained_mrr": null,
+        "fine_tuned_mrr": null,
+        "mrr_delta": null,
+        "candidate_recall_fine_tuned": null,
+        "fine_tuned_error_counts": null
+      }
+    ],
+    "score_distributions_returned_top5": {
+      "old_head_only": {
+        "count": 1450,
+        "min": 8.035521750571206e-05,
+        "max": 0.9999322891235352,
+        "mean": 0.5341633922883996,
+        "median": 0.5784608721733093,
+        "stdev": 0.4048676728682164
+      },
+      "partial_last4": {
+        "count": 1450,
+        "min": 8.873332262737677e-05,
+        "max": 0.9999352693557739,
+        "mean": 0.6200127465908409,
+        "median": 0.7606242895126343,
+        "stdev": 0.36446397699043426
+      },
+      "pretrained_bge_large": {
+        "count": 1450,
+        "min": 0.0001110024459194392,
+        "max": 0.9999150037765503,
+        "mean": 0.616807487127351,
+        "median": 0.752001941204071,
+        "stdev": 0.37031732759439234
+      }
+    },
+    "aggregate_delta": {
+      "scored_query_count": 285,
+      "fine_tuned_minus_pretrained_hit_at_1_count": 0,
+      "fine_tuned_minus_pretrained_weighted_mrr_delta": 0.0
+    }
+  },
+  "integrity_report_summary": {
+    "available": true,
+    "extracted": {
+      "final_conclusion": "MODEL_CHANGED_AND_RANKINGS_CHANGED",
+      "frozen_metrics_trustworthy": "True",
+      "compatible_scored_query_count": "285",
+      "partial_last4_top1_changed_vs_pretrained": "0",
+      "partial_last4_top3_ordering_changed_vs_pretrained": "3",
+      "partial_last4_top5_ordering_changed_vs_pretrained": "7",
+      "partial_last4_any_k20_ordering_changed_vs_pretrained": "30",
+      "partial_last4_spearman_mean": "0.9975781559161061",
+      "ranking_status": "RANKING_CHANGED"
+    }
+  },
+  "model_inventory": {
+    "local_models": {
+      "bge-reranker-large": {
+        "path": "models\\bge-reranker-large",
+        "children": [
+          ".cache",
+          ".gitattributes",
+          "README.md",
+          "config.json",
+          "model.safetensors",
+          "onnx",
+          "sentencepiece.bpe.model",
+          "special_tokens_map.json",
+          "tokenizer.json",
+          "tokenizer_config.json"
+        ]
+      },
+      "standardwise-reranker": {
+        "path": "models\\standardwise-reranker",
+        "children": [
+          "best",
+          "epoch-1",
+          "epoch-2",
+          "training_metrics.json"
+        ]
+      }
+    },
+    "models_referenced_by_post_training_comparison": {
+      "pretrained_bge_large": {
+        "label": "pretrained BAAI/bge-reranker-large",
+        "path": "models/bge-reranker-large",
+        "exists_in_current_windows_workspace": true
+      },
+      "old_head_only": {
+        "label": "old head-only checkpoint",
+        "path": "models/standardwise-reranker/best",
+        "exists_in_current_windows_workspace": true
+      },
+      "partial_last4": {
+        "label": "new partial-last-4 checkpoint",
+        "path": "models/full-corpus-reranker-partial4/best",
+        "exists_in_current_windows_workspace": false
+      }
+    }
+  },
+  "classification": {
+    "fit_classification": "INCONCLUSIVE",
+    "fit_confidence": "medium",
+    "production_value_decision": "DO_NOT_ENABLE_FINE_TUNED_RERANKER_IN_PRODUCTION",
+    "production_value_confidence": "high",
+    "rationale": "The preserved evidence does not show a useful production-quality improvement over the pretrained BGE reranker. It also does not cleanly prove classic overfitting or underfitting: validation metrics are high and stable, epoch 2 slightly worsens loss, and external suite metrics are unchanged versus pretrained. The best-supported classification is inconclusive fit with no demonstrated production value.",
+    "evidence": [
+      "Observed training metrics cover 2 epochs; best_epoch=1.",
+      "Fine-tuned minus pretrained Hit@1 delta across compatible scored suites: 0 over 285 scored queries.",
+      "Fine-tuned minus pretrained weighted MRR delta: 0.0.",
+      "Validation loss last-minus-first: 0.0015304613829406621.",
+      "Exact train/validation query or pair leakage count: 0.",
+      "Validation standards overlap training standards, so the validation split primarily tests query paraphrase generalization rather than standard-level OOD generalization."
+    ]
+  }
+}

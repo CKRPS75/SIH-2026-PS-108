@@ -1,0 +1,3 @@
+epoch,train_loss,validation_loss,validation_hit_at_1,validation_hit_at_3,validation_hit_at_5,validation_mrr,is_selected_best,checkpoint_exists_in_current_workspace,checkpoint_path
+1,0.19434576868012446,0.23179181621031206,0.9666666666666667,0.9888888888888889,1.0,0.9805555555555555,True,True,C:\Users\barha\OneDrive\Documents\SIH PS 108\SIH-2026-PS-108\Backend\models\standardwise-reranker\epoch-1
+2,0.1958067506297258,0.23332227759325272,0.9666666666666667,0.9888888888888889,1.0,0.9805555555555555,False,True,C:\Users\barha\OneDrive\Documents\SIH PS 108\SIH-2026-PS-108\Backend\models\standardwise-reranker\epoch-2

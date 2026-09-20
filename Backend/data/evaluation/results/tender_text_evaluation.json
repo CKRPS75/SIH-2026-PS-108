@@ -1,0 +1,212 @@
+{
+  "summary": {
+    "endpoint": "http://127.0.0.1:8000/api/v1/tenders/analyze-text",
+    "case_count": 8,
+    "completed": 8,
+    "failed": 0,
+    "mean_latency_ms": 3811.1275874980493,
+    "median_latency_ms": 3586.345399991842
+  },
+  "cases": [
+    {
+      "name": "UPVC drainage tender",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 1,
+      "expected_items": 1,
+      "expected_top1": "IS 13592",
+      "expected_top1_hit": true,
+      "top1": [
+        "IS 13592: 1992"
+      ],
+      "top3": [
+        [
+          "IS 13592: 1992",
+          "IS 14182: 1994",
+          "IS 12818: 1992"
+        ]
+      ],
+      "gemini_latency_ms": 3024.415699997917,
+      "total_latency_ms": 4144.896999991033,
+      "diagnostics_status": "ok",
+      "warnings": []
+    },
+    {
+      "name": "OPC 43 tender",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 1,
+      "expected_items": 1,
+      "expected_top1": "IS 8112",
+      "expected_top1_hit": true,
+      "top1": [
+        "IS 8112: 1989"
+      ],
+      "top3": [
+        [
+          "IS 8112: 1989",
+          "IS 269: 1989",
+          "IS 12269: 1987"
+        ]
+      ],
+      "gemini_latency_ms": 1874.6229999815114,
+      "total_latency_ms": 2556.2279999721795,
+      "diagnostics_status": "ok",
+      "warnings": []
+    },
+    {
+      "name": "PPC fly ash tender",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 1,
+      "expected_items": 1,
+      "expected_top1": "IS 1489 (Part 1)",
+      "expected_top1_hit": true,
+      "top1": [
+        "IS 1489 (Part 1): 1991"
+      ],
+      "top3": [
+        [
+          "IS 1489 (Part 1): 1991",
+          "IS 12330: 1988",
+          "IS 8112: 1989"
+        ]
+      ],
+      "gemini_latency_ms": 1524.56049999455,
+      "total_latency_ms": 5376.185000000987,
+      "diagnostics_status": "ok",
+      "warnings": []
+    },
+    {
+      "name": "HDPE sewage pipe tender",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 1,
+      "expected_items": 1,
+      "expected_top1": null,
+      "expected_top1_hit": null,
+      "top1": [
+        "IS 14333: 1996"
+      ],
+      "top3": [
+        [
+          "IS 14333: 1996",
+          "IS 8008 (Part 6): 2003",
+          "IS 4984: 1995"
+        ]
+      ],
+      "gemini_latency_ms": 1768.565500038676,
+      "total_latency_ms": 4555.760599963833,
+      "diagnostics_status": "ok",
+      "warnings": [
+        "Dimensions and pressure ratings are missing from the tender text."
+      ]
+    },
+    {
+      "name": "Grade C bolt tender",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 1,
+      "expected_items": 1,
+      "expected_top1": "IS 1363 (Part 1)",
+      "expected_top1_hit": true,
+      "top1": [
+        "IS 1363 (Part 1): 2002"
+      ],
+      "top3": [
+        [
+          "IS 1363 (Part 1): 2002",
+          "IS 1364 (Part 1): 2002",
+          "IS 10238: 2001"
+        ]
+      ],
+      "gemini_latency_ms": 1581.4657000009902,
+      "total_latency_ms": 2199.3770000408404,
+      "diagnostics_status": "ok",
+      "warnings": []
+    },
+    {
+      "name": "Pressure-reducing valve tender",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 1,
+      "expected_items": 1,
+      "expected_top1": null,
+      "expected_top1_hit": null,
+      "top1": [
+        "IS 9739: 1981"
+      ],
+      "top3": [
+        [
+          "IS 9739: 1981",
+          "IS 9763: 2000",
+          "IS 1703: 2000"
+        ]
+      ],
+      "gemini_latency_ms": 2241.61709996406,
+      "total_latency_ms": 3027.7937999926507,
+      "diagnostics_status": "ok",
+      "warnings": [
+        "Key technical specifications such as size, pressure rating, and material are missing from the tender text."
+      ]
+    },
+    {
+      "name": "Roofing flooring negative case",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 1,
+      "expected_items": 1,
+      "expected_top1": null,
+      "expected_top1_hit": null,
+      "top1": [
+        "IS 1478: 1992"
+      ],
+      "top3": [
+        [
+          "IS 1478: 1992",
+          "IS 1128: 1974",
+          "IS 13317: 1992"
+        ]
+      ],
+      "gemini_latency_ms": 2030.8499000384472,
+      "total_latency_ms": 2701.871700002812,
+      "diagnostics_status": "ok",
+      "warnings": []
+    },
+    {
+      "name": "Multi-item tender",
+      "status": "ok",
+      "extraction_success": true,
+      "item_count": 3,
+      "expected_items": 3,
+      "expected_top1": null,
+      "expected_top1_hit": null,
+      "top1": [
+        "IS 13592: 1992",
+        "IS 8112: 1989",
+        "IS 1363 (Part 1): 2002"
+      ],
+      "top3": [
+        [
+          "IS 13592: 1992",
+          "IS 14182: 1994",
+          "IS 12818: 1992"
+        ],
+        [
+          "IS 8112: 1989",
+          "IS 269: 1989",
+          "IS 12269: 1987"
+        ],
+        [
+          "IS 1363 (Part 1): 2002",
+          "IS 1364 (Part 1): 2002",
+          "IS 10238: 2001"
+        ]
+      ],
+      "gemini_latency_ms": 3193.0123000056483,
+      "total_latency_ms": 5926.907600020058,
+      "diagnostics_status": "ok",
+      "warnings": []
+    }
+  ]
+}
